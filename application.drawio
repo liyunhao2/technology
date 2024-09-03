@@ -31,14 +31,14 @@
             <mxPoint x="190" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="viJgDUvnnvHp10z5MApt-13" value="APP_Get_PocType_Req" style="html=1;verticalAlign=bottom;startArrow=circle;startFill=1;endArrow=open;startSize=6;endSize=8;curved=0;rounded=0;" edge="1" parent="1" target="viJgDUvnnvHp10z5MApt-4">
+        <mxCell id="viJgDUvnnvHp10z5MApt-13" value="APP_Get_PocType_Req&lt;br&gt;获取类型请求" style="html=1;verticalAlign=bottom;startArrow=circle;startFill=1;endArrow=open;startSize=6;endSize=8;curved=0;rounded=0;" edge="1" parent="1" target="viJgDUvnnvHp10z5MApt-4">
           <mxGeometry x="0.0005" width="80" relative="1" as="geometry">
             <mxPoint x="200" y="199.66" as="sourcePoint" />
             <mxPoint x="280" y="199.66" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="viJgDUvnnvHp10z5MApt-14" value="APP_Get_PocType_Rsp" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="viJgDUvnnvHp10z5MApt-4">
+        <mxCell id="viJgDUvnnvHp10z5MApt-14" value="APP_Get_PocType_Rsp&lt;br&gt;获取类型响应" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="viJgDUvnnvHp10z5MApt-4">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="405" y="235" as="sourcePoint" />
             <mxPoint x="205" y="235" as="targetPoint" />
@@ -47,15 +47,15 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="viJgDUvnnvHp10z5MApt-16" value="APP_A7_PowerOn_Ind" style="html=1;verticalAlign=bottom;startArrow=circle;startFill=1;endArrow=open;startSize=6;endSize=8;curved=0;rounded=0;" edge="1" parent="1" target="viJgDUvnnvHp10z5MApt-4">
+        <mxCell id="viJgDUvnnvHp10z5MApt-16" value="APP_A7_PowerOn_Ind&lt;br&gt;A7开机成功" style="html=1;verticalAlign=bottom;startArrow=circle;startFill=1;endArrow=open;startSize=6;endSize=8;curved=0;rounded=0;" edge="1" parent="1" target="viJgDUvnnvHp10z5MApt-4">
           <mxGeometry x="-0.0244" y="-2" width="80" relative="1" as="geometry">
             <mxPoint x="200" y="267.76" as="sourcePoint" />
             <mxPoint x="405" y="267.76" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="viJgDUvnnvHp10z5MApt-19" value="UPoc_ZZD_Param_Req（可以去掉）" style="html=1;verticalAlign=bottom;startArrow=circle;startFill=1;endArrow=open;startSize=6;endSize=8;curved=0;rounded=0;" edge="1" parent="1" target="viJgDUvnnvHp10z5MApt-4">
-          <mxGeometry x="-0.001" width="80" relative="1" as="geometry">
+        <mxCell id="viJgDUvnnvHp10z5MApt-19" value="UPoc_ZZD_Param_Req&lt;br&gt;卓智达音质参数同步（可以去掉）" style="html=1;verticalAlign=bottom;startArrow=circle;startFill=1;endArrow=open;startSize=6;endSize=8;curved=0;rounded=0;" edge="1" parent="1" target="viJgDUvnnvHp10z5MApt-4">
+          <mxGeometry x="-0.0033" width="80" relative="1" as="geometry">
             <mxPoint x="200" y="310" as="sourcePoint" />
             <mxPoint x="405" y="310" as="targetPoint" />
             <mxPoint as="offset" />
@@ -102,7 +102,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="viJgDUvnnvHp10z5MApt-34" value="+POC:login,结果,状态" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="viJgDUvnnvHp10z5MApt-24">
+        <mxCell id="viJgDUvnnvHp10z5MApt-34" value="+POC:login,&lt;font color=&quot;#009900&quot;&gt;结果,状态&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="viJgDUvnnvHp10z5MApt-24">
           <mxGeometry x="0.0004" relative="1" as="geometry">
             <mxPoint x="755" y="560" as="sourcePoint" />
             <mxPoint x="555" y="560" as="targetPoint" />
