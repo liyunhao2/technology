@@ -54,7 +54,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="viJgDUvnnvHp10z5MApt-19" value="UPoc_ZZD_Param_Req（）" style="html=1;verticalAlign=bottom;startArrow=circle;startFill=1;endArrow=open;startSize=6;endSize=8;curved=0;rounded=0;" edge="1" parent="1" target="viJgDUvnnvHp10z5MApt-4">
+        <mxCell id="viJgDUvnnvHp10z5MApt-19" value="UPoc_ZZD_Param_Req（可以去掉）" style="html=1;verticalAlign=bottom;startArrow=circle;startFill=1;endArrow=open;startSize=6;endSize=8;curved=0;rounded=0;" edge="1" parent="1" target="viJgDUvnnvHp10z5MApt-4">
           <mxGeometry x="-0.001" width="80" relative="1" as="geometry">
             <mxPoint x="200" y="310" as="sourcePoint" />
             <mxPoint x="405" y="310" as="targetPoint" />
