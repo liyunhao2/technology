@@ -20,7 +20,7 @@
           <mxGeometry x="45" y="80" width="10" height="120" as="geometry" />
         </mxCell>
         <mxCell id="viJgDUvnnvHp10z5MApt-26" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="viJgDUvnnvHp10z5MApt-4">
-          <mxGeometry x="45" y="310" width="10" height="180" as="geometry" />
+          <mxGeometry x="45" y="310" width="10" height="240" as="geometry" />
         </mxCell>
         <mxCell id="viJgDUvnnvHp10z5MApt-7" value="开机" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="90" y="190" width="50" height="20" as="geometry" />
@@ -68,7 +68,7 @@
           <mxGeometry x="45" y="80" width="10" height="140" as="geometry" />
         </mxCell>
         <mxCell id="viJgDUvnnvHp10z5MApt-27" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="viJgDUvnnvHp10z5MApt-24">
-          <mxGeometry x="45" y="310" width="10" height="190" as="geometry" />
+          <mxGeometry x="45" y="310" width="10" height="220" as="geometry" />
         </mxCell>
         <mxCell id="viJgDUvnnvHp10z5MApt-29" value="+POC:atready&lt;br&gt;POC系统准备就绪" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="viJgDUvnnvHp10z5MApt-24">
           <mxGeometry relative="1" as="geometry">
@@ -86,45 +86,46 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="viJgDUvnnvHp10z5MApt-32" value="AT+POC=login,&lt;font color=&quot;#009900&quot;&gt;模式,IP,端口,IP2,端口2,账号,密码,SN号&lt;/font&gt;" style="html=1;verticalAlign=bottom;startArrow=circle;startFill=1;endArrow=open;startSize=6;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="viJgDUvnnvHp10z5MApt-32" value="AT+POC=login,&lt;font color=&quot;#009900&quot;&gt;模式,IP,端口,IP2,端口2,账号,密码,SN号&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#330000&quot;&gt;登陆请求&lt;/font&gt;" style="html=1;verticalAlign=bottom;startArrow=circle;startFill=1;endArrow=open;startSize=6;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry x="0.0004" width="80" relative="1" as="geometry">
-            <mxPoint x="550" y="496" as="sourcePoint" />
-            <mxPoint x="966.5" y="496" as="targetPoint" />
+            <mxPoint x="550" y="502" as="sourcePoint" />
+            <mxPoint x="966.5" y="502" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="viJgDUvnnvHp10z5MApt-33" value="+POC:gpver,&lt;font color=&quot;#009900&quot;&gt;版本号&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="viJgDUvnnvHp10z5MApt-24">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="755" y="530" as="sourcePoint" />
-            <mxPoint x="555" y="530" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="730" y="530" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="viJgDUvnnvHp10z5MApt-34" value="+POC:login,&lt;font color=&quot;#009900&quot;&gt;结果,状态&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="viJgDUvnnvHp10z5MApt-24">
+        <mxCell id="viJgDUvnnvHp10z5MApt-33" value="+POC:gpver,&lt;font color=&quot;#009900&quot;&gt;版本号&lt;br&gt;获取版本响应响&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry x="0.0004" relative="1" as="geometry">
-            <mxPoint x="755" y="560" as="sourcePoint" />
-            <mxPoint x="555" y="560" as="targetPoint" />
+            <mxPoint x="966.5" y="539" as="sourcePoint" />
+            <mxPoint x="555" y="539" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="730" y="560" />
+              <mxPoint x="730" y="539" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="viJgDUvnnvHp10z5MApt-35" value="+POC:online,1,0,0,1,,,,,,,," style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="viJgDUvnnvHp10z5MApt-24">
+        <mxCell id="viJgDUvnnvHp10z5MApt-34" value="+POC:login,&lt;font color=&quot;#009900&quot;&gt;结果,状态&lt;br&gt;登陆请求响应&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0004" relative="1" as="geometry">
+            <mxPoint x="966.5" y="578" as="sourcePoint" />
+            <mxPoint x="555" y="578" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="730" y="578" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="viJgDUvnnvHp10z5MApt-35" value="+POC:online,1,0,0,1,,,,,,,,&lt;br&gt;在线状态响应" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry x="-0.0012" relative="1" as="geometry">
-            <mxPoint x="756" y="590" as="sourcePoint" />
-            <mxPoint x="556" y="590" as="targetPoint" />
+            <mxPoint x="966.5" y="620" as="sourcePoint" />
+            <mxPoint x="556" y="620" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="731" y="590" />
+              <mxPoint x="731" y="620" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="viJgDUvnnvHp10z5MApt-36" value="UPoc_Login_Response" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="viJgDUvnnvHp10z5MApt-4">
+        <mxCell id="viJgDUvnnvHp10z5MApt-36" value="UPoc_Login_Response" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="404" y="600" as="sourcePoint" />
+            <mxPoint x="550" y="600" as="sourcePoint" />
             <mxPoint x="204" y="600" as="targetPoint" />
             <Array as="points">
               <mxPoint x="379" y="600" />
