@@ -71,12 +71,13 @@
           <mxGeometry x="45" y="310" width="10" height="220" as="geometry" />
         </mxCell>
         <mxCell id="viJgDUvnnvHp10z5MApt-29" value="+POC:atready&lt;br&gt;POC系统准备就绪" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="viJgDUvnnvHp10z5MApt-24">
-          <mxGeometry relative="1" as="geometry">
+          <mxGeometry x="0.0004" relative="1" as="geometry">
             <mxPoint x="755" y="430" as="sourcePoint" />
             <mxPoint x="555" y="430" as="targetPoint" />
             <Array as="points">
               <mxPoint x="730" y="430" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="viJgDUvnnvHp10z5MApt-31" value="AT+POC=gpver&lt;br&gt;获取版本号" style="html=1;verticalAlign=bottom;startArrow=circle;startFill=1;endArrow=open;startSize=6;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
@@ -93,7 +94,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="viJgDUvnnvHp10z5MApt-33" value="+POC:gpver,&lt;font color=&quot;#009900&quot;&gt;版本号&lt;br&gt;获取版本响应响&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="viJgDUvnnvHp10z5MApt-33" value="+POC:gpver,&lt;font color=&quot;#009900&quot;&gt;版本号&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#330000&quot;&gt;获取版本响应响&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry x="0.0004" relative="1" as="geometry">
             <mxPoint x="966.5" y="539" as="sourcePoint" />
             <mxPoint x="555" y="539" as="targetPoint" />
@@ -103,7 +104,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="viJgDUvnnvHp10z5MApt-34" value="+POC:login,&lt;font color=&quot;#009900&quot;&gt;结果,状态&lt;br&gt;登陆请求响应&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="viJgDUvnnvHp10z5MApt-34" value="+POC:login,&lt;font color=&quot;#009900&quot;&gt;结果,状态&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#330000&quot;&gt;登陆请求响应&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry x="0.0004" relative="1" as="geometry">
             <mxPoint x="966.5" y="578" as="sourcePoint" />
             <mxPoint x="555" y="578" as="targetPoint" />
