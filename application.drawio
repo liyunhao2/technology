@@ -86,14 +86,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="viJgDUvnnvHp10z5MApt-32" value="&lt;div&gt;&lt;div&gt;AT+POC=login,模式,IP,端口,IP2,端口2,账号,密码,SN号&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;startArrow=circle;startFill=1;endArrow=open;startSize=6;endSize=8;curved=0;rounded=0;" edge="1" parent="1" target="viJgDUvnnvHp10z5MApt-24">
+        <mxCell id="viJgDUvnnvHp10z5MApt-32" value="AT+POC=login,&lt;font color=&quot;#009900&quot;&gt;模式,IP,端口,IP2,端口2,账号,密码,SN号&lt;/font&gt;" style="html=1;verticalAlign=bottom;startArrow=circle;startFill=1;endArrow=open;startSize=6;endSize=8;curved=0;rounded=0;" edge="1" parent="1" target="viJgDUvnnvHp10z5MApt-24">
           <mxGeometry x="0.0004" width="80" relative="1" as="geometry">
             <mxPoint x="550" y="490" as="sourcePoint" />
             <mxPoint x="755" y="490" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="viJgDUvnnvHp10z5MApt-33" value="+POC:gpver," style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="viJgDUvnnvHp10z5MApt-24">
+        <mxCell id="viJgDUvnnvHp10z5MApt-33" value="+POC:gpver,版本号" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="viJgDUvnnvHp10z5MApt-24">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="755" y="530" as="sourcePoint" />
             <mxPoint x="555" y="530" as="targetPoint" />
@@ -102,8 +102,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="viJgDUvnnvHp10z5MApt-34" value="+POC:login," style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="viJgDUvnnvHp10z5MApt-24">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="viJgDUvnnvHp10z5MApt-34" value="+POC:login,0,0" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="viJgDUvnnvHp10z5MApt-24">
+          <mxGeometry x="0.0004" relative="1" as="geometry">
             <mxPoint x="755" y="560" as="sourcePoint" />
             <mxPoint x="555" y="560" as="targetPoint" />
             <Array as="points">
@@ -112,8 +112,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="viJgDUvnnvHp10z5MApt-35" value="+POC:online," style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="viJgDUvnnvHp10z5MApt-24">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="viJgDUvnnvHp10z5MApt-35" value="+POC:online,1,0,0,1,,,,,,,," style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="viJgDUvnnvHp10z5MApt-24">
+          <mxGeometry x="-0.0012" relative="1" as="geometry">
             <mxPoint x="756" y="590" as="sourcePoint" />
             <mxPoint x="556" y="590" as="targetPoint" />
             <Array as="points">
