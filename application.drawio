@@ -93,7 +93,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="viJgDUvnnvHp10z5MApt-33" value="+POC:gpver,版本号" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="viJgDUvnnvHp10z5MApt-24">
+        <mxCell id="viJgDUvnnvHp10z5MApt-33" value="+POC:gpver,&lt;font color=&quot;#009900&quot;&gt;版本号&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="viJgDUvnnvHp10z5MApt-24">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="755" y="530" as="sourcePoint" />
             <mxPoint x="555" y="530" as="targetPoint" />
@@ -102,7 +102,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="viJgDUvnnvHp10z5MApt-34" value="+POC:login,0,0" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="viJgDUvnnvHp10z5MApt-24">
+        <mxCell id="viJgDUvnnvHp10z5MApt-34" value="+POC:login,结果,状态" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="viJgDUvnnvHp10z5MApt-24">
           <mxGeometry x="0.0004" relative="1" as="geometry">
             <mxPoint x="755" y="560" as="sourcePoint" />
             <mxPoint x="555" y="560" as="targetPoint" />
