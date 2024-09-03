@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" version="24.7.8">
   <diagram name="开机" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
-    <mxGraphModel dx="776" dy="426" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1132" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -38,7 +38,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="viJgDUvnnvHp10z5MApt-14" value="APP_Get_PocType_Rsp" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="viJgDUvnnvHp10z5MApt-14" value="APP_Get_PocType_Rsp" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="viJgDUvnnvHp10z5MApt-4">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="405" y="235" as="sourcePoint" />
             <mxPoint x="205" y="235" as="targetPoint" />
@@ -47,14 +47,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="viJgDUvnnvHp10z5MApt-16" value="APP_A7_PowerOn_Ind" style="html=1;verticalAlign=bottom;startArrow=circle;startFill=1;endArrow=open;startSize=6;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="viJgDUvnnvHp10z5MApt-16" value="APP_A7_PowerOn_Ind" style="html=1;verticalAlign=bottom;startArrow=circle;startFill=1;endArrow=open;startSize=6;endSize=8;curved=0;rounded=0;" edge="1" parent="1" target="viJgDUvnnvHp10z5MApt-4">
           <mxGeometry x="-0.0244" y="-2" width="80" relative="1" as="geometry">
             <mxPoint x="200" y="267.76" as="sourcePoint" />
             <mxPoint x="405" y="267.76" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="viJgDUvnnvHp10z5MApt-19" value="UPoc_ZZD_Param_Req" style="html=1;verticalAlign=bottom;startArrow=circle;startFill=1;endArrow=open;startSize=6;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="viJgDUvnnvHp10z5MApt-19" value="UPoc_ZZD_Param_Req" style="html=1;verticalAlign=bottom;startArrow=circle;startFill=1;endArrow=open;startSize=6;endSize=8;curved=0;rounded=0;" edge="1" parent="1" target="viJgDUvnnvHp10z5MApt-4">
           <mxGeometry x="-0.001" width="80" relative="1" as="geometry">
             <mxPoint x="200" y="310" as="sourcePoint" />
             <mxPoint x="405" y="310" as="targetPoint" />
@@ -86,8 +86,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="viJgDUvnnvHp10z5MApt-32" value="&lt;div&gt;&lt;div&gt;AT+POC=login,0,192.168.1.1,0,,0,0,1,&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;startArrow=circle;startFill=1;endArrow=open;startSize=6;endSize=8;curved=0;rounded=0;" edge="1" parent="1" target="viJgDUvnnvHp10z5MApt-24">
-          <mxGeometry x="-0.001" width="80" relative="1" as="geometry">
+        <mxCell id="viJgDUvnnvHp10z5MApt-32" value="&lt;div&gt;&lt;div&gt;AT+POC=login,模式,IP,端口,IP2,端口2,账号,密码,SN号&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;startArrow=circle;startFill=1;endArrow=open;startSize=6;endSize=8;curved=0;rounded=0;" edge="1" parent="1" target="viJgDUvnnvHp10z5MApt-24">
+          <mxGeometry x="0.0004" width="80" relative="1" as="geometry">
             <mxPoint x="550" y="490" as="sourcePoint" />
             <mxPoint x="755" y="490" as="targetPoint" />
             <mxPoint as="offset" />
@@ -122,7 +122,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="viJgDUvnnvHp10z5MApt-36" value="UPoc_Login_Response" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="viJgDUvnnvHp10z5MApt-36" value="UPoc_Login_Response" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="viJgDUvnnvHp10z5MApt-4">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="404" y="600" as="sourcePoint" />
             <mxPoint x="204" y="600" as="targetPoint" />
