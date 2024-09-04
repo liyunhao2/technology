@@ -210,8 +210,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NqiY4rsTpjdVKAAZXvE3-29" value="UPoc_Hytalk_StunState_Indication&lt;div&gt;状态=登录上&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="NqiY4rsTpjdVKAAZXvE3-24" edge="1">
-          <mxGeometry x="0.0003" relative="1" as="geometry">
+        <mxCell id="NqiY4rsTpjdVKAAZXvE3-29" value="UPoc_Hytalk_StunState_Indication&lt;div&gt;状态=登录成功&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="NqiY4rsTpjdVKAAZXvE3-24" edge="1">
+          <mxGeometry x="0.0004" relative="1" as="geometry">
             <mxPoint x="536" y="240" as="sourcePoint" />
             <mxPoint x="190" y="240" as="targetPoint" />
             <Array as="points">
@@ -227,14 +227,12 @@
           <mxGeometry x="-0.0002" relative="1" as="geometry">
             <mxPoint x="950.5" y="331" as="sourcePoint" />
             <mxPoint x="540" y="331" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="715" y="331" />
-            </Array>
+            <Array as="points" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="WH-9BigQxGfKmU1KrTXt-4" value="UPoc_Hytalk_StunState_Indication&lt;div&gt;状态=遥晕/遥毙&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="NqiY4rsTpjdVKAAZXvE3-24">
-          <mxGeometry x="0.0003" relative="1" as="geometry">
+          <mxGeometry x="0.0004" relative="1" as="geometry">
             <mxPoint x="536" y="371" as="sourcePoint" />
             <mxPoint x="190" y="371" as="targetPoint" />
             <Array as="points">
@@ -243,13 +241,11 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WH-9BigQxGfKmU1KrTXt-5" value="UPoc_Login_Response" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="NqiY4rsTpjdVKAAZXvE3-24">
-          <mxGeometry x="0.0003" relative="1" as="geometry">
+        <mxCell id="WH-9BigQxGfKmU1KrTXt-5" value="UPoc_Login_Response&lt;br&gt;（状态=&lt;font color=&quot;#ff0000&quot;&gt;登录成功&lt;/font&gt;/遥毙）：遥晕当作登录成功处理" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="NqiY4rsTpjdVKAAZXvE3-24">
+          <mxGeometry x="0.0004" relative="1" as="geometry">
             <mxPoint x="536" y="331" as="sourcePoint" />
             <mxPoint x="190" y="331" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="365" y="331" />
-            </Array>
+            <Array as="points" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
