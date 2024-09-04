@@ -154,6 +154,26 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="RmxEAIPaeQbhUFgqM5hA-39" value="UPoc_Login_Response" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="RmxEAIPaeQbhUFgqM5hA-20">
+          <mxGeometry x="0.0003" relative="1" as="geometry">
+            <mxPoint x="536" y="200" as="sourcePoint" />
+            <mxPoint x="190" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="365" y="200" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RmxEAIPaeQbhUFgqM5hA-40" value="UPoc_Hytalk_StunState_Indication&lt;div&gt;状态=登录上&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="RmxEAIPaeQbhUFgqM5hA-20">
+          <mxGeometry x="0.0003" relative="1" as="geometry">
+            <mxPoint x="536" y="240" as="sourcePoint" />
+            <mxPoint x="190" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="365" y="240" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="RmxEAIPaeQbhUFgqM5hA-30" value="+POC:login,&lt;font color=&quot;#009900&quot;&gt;结果,状态&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#330000&quot;&gt;登录请求响应&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry x="0.0004" relative="1" as="geometry">
             <mxPoint x="965.5" y="570" as="sourcePoint" />
