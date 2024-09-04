@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" version="24.7.10">
   <diagram name="开机" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
-    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" background="none" math="0" shadow="0">
+    <mxGraphModel dx="598" dy="311" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -31,13 +31,6 @@
             <mxPoint x="190" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="viJgDUvnnvHp10z5MApt-13" value="APP_Get_PocType_Req&lt;br&gt;获取类型请求" style="html=1;verticalAlign=bottom;startArrow=circle;startFill=1;endArrow=open;startSize=6;endSize=8;curved=0;rounded=0;" parent="1" target="viJgDUvnnvHp10z5MApt-4" edge="1">
-          <mxGeometry x="0.0005" width="80" relative="1" as="geometry">
-            <mxPoint x="200" y="199.66" as="sourcePoint" />
-            <mxPoint x="280" y="199.66" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="viJgDUvnnvHp10z5MApt-14" value="APP_Get_PocType_Rsp&lt;br&gt;获取类型响应" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" source="viJgDUvnnvHp10z5MApt-4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="405" y="235" as="sourcePoint" />
@@ -45,20 +38,6 @@
             <Array as="points">
               <mxPoint x="380" y="235" />
             </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="viJgDUvnnvHp10z5MApt-16" value="APP_A7_PowerOn_Ind&lt;br&gt;A7开机成功" style="html=1;verticalAlign=bottom;startArrow=circle;startFill=1;endArrow=open;startSize=6;endSize=8;curved=0;rounded=0;" parent="1" target="viJgDUvnnvHp10z5MApt-4" edge="1">
-          <mxGeometry x="-0.0244" y="-2" width="80" relative="1" as="geometry">
-            <mxPoint x="200" y="267.76" as="sourcePoint" />
-            <mxPoint x="405" y="267.76" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="viJgDUvnnvHp10z5MApt-19" value="UPoc_ZZD_Param_Req&lt;br&gt;卓智达音质参数同步（可以去掉）" style="html=1;verticalAlign=bottom;startArrow=circle;startFill=1;endArrow=open;startSize=6;endSize=8;curved=0;rounded=0;" parent="1" target="viJgDUvnnvHp10z5MApt-4" edge="1">
-          <mxGeometry x="-0.0033" width="80" relative="1" as="geometry">
-            <mxPoint x="200" y="310" as="sourcePoint" />
-            <mxPoint x="405" y="310" as="targetPoint" />
-            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="viJgDUvnnvHp10z5MApt-24" value="SDK" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
@@ -134,42 +113,37 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6p-KQreIyD2_Mwr0bqal-19" value="Message1 label" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="300" y="980" as="sourcePoint" />
-            <mxPoint x="460" y="980" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="RmxEAIPaeQbhUFgqM5hA-4" value="Interaction heading" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=170;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="480" width="290" height="250" as="geometry" />
         </mxCell>
-        <mxCell id="6p-KQreIyD2_Mwr0bqal-20" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="300" y="1020" as="sourcePoint" />
-            <mxPoint x="460" y="1020" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="6p-KQreIyD2_Mwr0bqal-21" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="290" y="1080" as="sourcePoint" />
-            <mxPoint x="450" y="1080" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="6p-KQreIyD2_Mwr0bqal-22" value="Ref" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=50;" vertex="1" parent="1">
-          <mxGeometry x="550" y="850" width="260" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="6p-KQreIyD2_Mwr0bqal-23" value="Interaction1" style="text;align=center;html=1;" vertex="1" parent="6p-KQreIyD2_Mwr0bqal-22">
-          <mxGeometry width="100" height="20" relative="1" as="geometry">
-            <mxPoint y="30" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="6p-KQreIyD2_Mwr0bqal-29" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;交接标题&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=170;" vertex="1" parent="1">
-          <mxGeometry x="580" y="1060" width="290" height="250" as="geometry" />
-        </mxCell>
-        <mxCell id="6p-KQreIyD2_Mwr0bqal-30" value="[constraint1]" style="text;html=1;" vertex="1" parent="6p-KQreIyD2_Mwr0bqal-29">
+        <mxCell id="RmxEAIPaeQbhUFgqM5hA-5" value="[constraint1]" style="text;html=1;" vertex="1" parent="RmxEAIPaeQbhUFgqM5hA-4">
           <mxGeometry width="100" height="20" relative="1" as="geometry">
             <mxPoint x="20" y="40" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6p-KQreIyD2_Mwr0bqal-31" value="[constraint2]" style="line;strokeWidth=1;dashed=1;labelPosition=center;verticalLabelPosition=bottom;align=left;verticalAlign=top;spacingLeft=20;spacingTop=15;html=1;whiteSpace=wrap;" vertex="1" parent="6p-KQreIyD2_Mwr0bqal-29">
+        <mxCell id="RmxEAIPaeQbhUFgqM5hA-6" value="[constraint2]" style="line;strokeWidth=1;dashed=1;labelPosition=center;verticalLabelPosition=bottom;align=left;verticalAlign=top;spacingLeft=20;spacingTop=15;html=1;whiteSpace=wrap;" vertex="1" parent="RmxEAIPaeQbhUFgqM5hA-4">
           <mxGeometry y="125" width="290" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="RmxEAIPaeQbhUFgqM5hA-7" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;APP_Get_PocType_Req&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;获取类型请求&lt;/span&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;exitX=1.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="viJgDUvnnvHp10z5MApt-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="205" y="200" as="sourcePoint" />
+            <mxPoint x="365" y="199.5" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RmxEAIPaeQbhUFgqM5hA-12" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;APP_A7_PowerOn_Ind&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;A7开机成功&lt;/span&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;exitX=1.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0019" width="160" relative="1" as="geometry">
+            <mxPoint x="204" y="270" as="sourcePoint" />
+            <mxPoint x="549" y="270" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RmxEAIPaeQbhUFgqM5hA-13" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;UPoc_ZZD_Param_Req&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;卓智达音质参数同步（卓智达）&lt;/span&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;exitX=1.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0024" width="160" relative="1" as="geometry">
+            <mxPoint x="204" y="317" as="sourcePoint" />
+            <mxPoint x="549" y="317" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
