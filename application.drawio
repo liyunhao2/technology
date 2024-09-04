@@ -103,14 +103,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RmxEAIPaeQbhUFgqM5hA-18" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;AT+POC=login,&lt;/span&gt;&lt;font color=&quot;#009900&quot;&gt;模式,IP,端口,IP2,端口2,账号,密码,SN号&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#330000&quot;&gt;登录请求&lt;/font&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;" edge="1" parent="1">
-          <mxGeometry x="-0.0038" width="160" relative="1" as="geometry">
+        <mxCell id="RmxEAIPaeQbhUFgqM5hA-18" value="&lt;font color=&quot;#330000&quot;&gt;登录请求&lt;/font&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0018" width="160" relative="1" as="geometry">
             <mxPoint x="550" y="502" as="sourcePoint" />
             <mxPoint x="965.5" y="502" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RmxEAIPaeQbhUFgqM5hA-43" value="具体看登录流程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="RmxEAIPaeQbhUFgqM5hA-43" value="登录请求，具体看登录流程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="680" y="560" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
