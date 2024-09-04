@@ -117,7 +117,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="azlCwML0RFL3LNcEhYYG" name="登录">
-    <mxGraphModel dx="1103" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+    <mxGraphModel dx="1912" dy="995" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -347,12 +347,6 @@
         <mxCell id="WH-9BigQxGfKmU1KrTXt-12" value="登录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1360" y="200" width="50" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="WH-9BigQxGfKmU1KrTXt-13" value="" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="WH-9BigQxGfKmU1KrTXt-12" target="WH-9BigQxGfKmU1KrTXt-8">
-          <mxGeometry width="60" relative="1" as="geometry">
-            <mxPoint x="1420" y="210" as="sourcePoint" />
-            <mxPoint x="1460" y="210" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="WH-9BigQxGfKmU1KrTXt-14" value="SDK" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="2187" y="130" width="100" height="850" as="geometry" />
         </mxCell>
@@ -547,6 +541,12 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="140" y="200" as="sourcePoint" />
             <mxPoint x="200" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6JZBfHjkBKXOJgyM7ulL-1" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1410" y="210" as="sourcePoint" />
+            <mxPoint x="1470" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
