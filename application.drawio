@@ -69,16 +69,6 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="viJgDUvnnvHp10z5MApt-34" value="+POC:login,&lt;font color=&quot;#009900&quot;&gt;结果,状态&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#330000&quot;&gt;登陆请求响应&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" edge="1">
-          <mxGeometry x="0.0004" relative="1" as="geometry">
-            <mxPoint x="966.5" y="578" as="sourcePoint" />
-            <mxPoint x="555" y="578" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="730" y="578" />
-            </Array>
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="viJgDUvnnvHp10z5MApt-35" value="+POC:online,状态,ID,注册类型,用户状态,用户名称,别名,,,,,,&lt;br&gt;在线状态响应" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry x="-0.0012" relative="1" as="geometry">
             <mxPoint x="966.5" y="620" as="sourcePoint" />
@@ -140,6 +130,27 @@
           <mxGeometry x="-0.0036" width="160" relative="1" as="geometry">
             <mxPoint x="550" y="502" as="sourcePoint" />
             <mxPoint x="965.5" y="502" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RmxEAIPaeQbhUFgqM5hA-20" value="Interaction heading" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=170;" vertex="1" parent="1">
+          <mxGeometry x="627" y="702" width="290" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="RmxEAIPaeQbhUFgqM5hA-21" value="[constraint1]" style="text;html=1;" vertex="1" parent="RmxEAIPaeQbhUFgqM5hA-20">
+          <mxGeometry width="100" height="20" relative="1" as="geometry">
+            <mxPoint x="20" y="40" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RmxEAIPaeQbhUFgqM5hA-22" value="[constraint2]" style="line;strokeWidth=1;dashed=1;labelPosition=center;verticalLabelPosition=bottom;align=left;verticalAlign=top;spacingLeft=20;spacingTop=15;html=1;whiteSpace=wrap;" vertex="1" parent="RmxEAIPaeQbhUFgqM5hA-20">
+          <mxGeometry y="125" width="290" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="RmxEAIPaeQbhUFgqM5hA-30" value="+POC:login,&lt;font color=&quot;#009900&quot;&gt;结果,状态&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#330000&quot;&gt;登陆请求响应&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0004" relative="1" as="geometry">
+            <mxPoint x="965.5" y="570" as="sourcePoint" />
+            <mxPoint x="554" y="570" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="729" y="570" />
+            </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
