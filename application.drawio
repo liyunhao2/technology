@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" version="24.7.10" pages="2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" version="24.7.10" pages="3">
   <diagram name="开机" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="2868" dy="1492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" background="none" math="0" shadow="0">
       <root>
@@ -117,7 +117,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="azlCwML0RFL3LNcEhYYG" name="登录">
-    <mxGraphModel dx="2391" dy="1066" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="2390" dy="1243" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -548,6 +548,71 @@
         </mxCell>
         <mxCell id="WH-9BigQxGfKmU1KrTXt-38" value="登录成功、遥晕遥毙后，走获取联系人流程。" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1520" y="860" width="250" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="RppzLfKGi5goHTpbu5a1" name="联系人">
+    <mxGraphModel dx="1195" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="XIR26lsrA7yk6R3cva5Y-3" value="获取联系人-POC 3K" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fontColor=#990000;" vertex="1" parent="1">
+          <mxGeometry x="100" y="40" width="380" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6UZGPsiP4XQQsJ-r9CUZ-1" value="A7" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="150" y="120" width="100" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="6UZGPsiP4XQQsJ-r9CUZ-2" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="6UZGPsiP4XQQsJ-r9CUZ-1">
+          <mxGeometry x="45" y="80" width="10" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="6UZGPsiP4XQQsJ-r9CUZ-3" value="CAT1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="500" y="120" width="100" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="6UZGPsiP4XQQsJ-r9CUZ-4" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="6UZGPsiP4XQQsJ-r9CUZ-3">
+          <mxGeometry x="45" y="80" width="10" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="6UZGPsiP4XQQsJ-r9CUZ-5" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="6UZGPsiP4XQQsJ-r9CUZ-3">
+          <mxGeometry x="45" y="310" width="10" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="6UZGPsiP4XQQsJ-r9CUZ-6" value="登录成功" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="190" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6UZGPsiP4XQQsJ-r9CUZ-8" value="APP_Get_PocType_Rsp&lt;br&gt;获取类型响应" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="6UZGPsiP4XQQsJ-r9CUZ-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="405" y="235" as="sourcePoint" />
+            <mxPoint x="205" y="235" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="235" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6UZGPsiP4XQQsJ-r9CUZ-9" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;APP_Get_PocType_Req&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;获取类型请求&lt;/span&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;exitX=1.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="6UZGPsiP4XQQsJ-r9CUZ-3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="205" y="200" as="sourcePoint" />
+            <mxPoint x="365" y="199.5" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6UZGPsiP4XQQsJ-r9CUZ-10" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;APP_A7_PowerOn_Ind&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;A7开机成功&lt;/span&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;exitX=1.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0019" width="160" relative="1" as="geometry">
+            <mxPoint x="204" y="270" as="sourcePoint" />
+            <mxPoint x="549" y="270" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6UZGPsiP4XQQsJ-r9CUZ-11" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;UPoc_ZZD_Param_Req&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;卓智达音质参数同步（卓智达）&lt;/span&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;exitX=1.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0024" width="160" relative="1" as="geometry">
+            <mxPoint x="204" y="317" as="sourcePoint" />
+            <mxPoint x="549" y="317" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vUbXXbYU5e9G_ROBWLbP-1" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="6UZGPsiP4XQQsJ-r9CUZ-6" target="6UZGPsiP4XQQsJ-r9CUZ-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="550" y="360" as="sourcePoint" />
+            <mxPoint x="710" y="360" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
