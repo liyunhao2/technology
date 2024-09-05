@@ -704,8 +704,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="esd0bKe4YRnzVb8diSCU-12" value="&lt;div&gt;UPoc_UpdateGroup_Notify&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;strokeColor=#000000;" edge="1" parent="1">
-          <mxGeometry x="-0.0022" relative="1" as="geometry">
+        <mxCell id="esd0bKe4YRnzVb8diSCU-12" value="&lt;div&gt;UPoc_UpdateGroup_Notify&lt;br&gt;&lt;/div&gt;&lt;div&gt;设置守候组回调&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;strokeColor=#000000;" edge="1" parent="1">
+          <mxGeometry x="-0.0038" relative="1" as="geometry">
             <mxPoint x="545" y="1942" as="sourcePoint" />
             <mxPoint x="200" y="1942" as="targetPoint" />
             <Array as="points" />
