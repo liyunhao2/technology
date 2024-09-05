@@ -117,7 +117,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="azlCwML0RFL3LNcEhYYG" name="登录">
-    <mxGraphModel dx="1103" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -179,7 +179,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NqiY4rsTpjdVKAAZXvE3-24" value="Interaction heading" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=170;" parent="1" vertex="1">
+        <mxCell id="NqiY4rsTpjdVKAAZXvE3-24" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=170;" parent="1" vertex="1">
           <mxGeometry x="10" y="399" width="1050" height="440" as="geometry" />
         </mxCell>
         <mxCell id="NqiY4rsTpjdVKAAZXvE3-25" value="[登录失败]" style="text;html=1;" parent="NqiY4rsTpjdVKAAZXvE3-24" vertex="1">
@@ -223,7 +223,7 @@
         <mxCell id="NqiY4rsTpjdVKAAZXvE3-30" value="[遥晕/遥毙]" style="line;strokeWidth=1;dashed=1;labelPosition=center;verticalLabelPosition=bottom;align=left;verticalAlign=top;spacingLeft=20;spacingTop=15;html=1;whiteSpace=wrap;" parent="NqiY4rsTpjdVKAAZXvE3-24" vertex="1">
           <mxGeometry y="270" width="1050" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="WH-9BigQxGfKmU1KrTXt-3" value="+POC:online,状态,ID,注册类型,用户状态,用户名称,别名,,,,,,&lt;br&gt;（状态=遥晕/遥毙）" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="NqiY4rsTpjdVKAAZXvE3-24">
+        <mxCell id="WH-9BigQxGfKmU1KrTXt-3" value="+POC:online,状态,ID,注册类型,用户状态,用户名称,别名,,,,,,&lt;br&gt;（状态=遥晕/遥毙）" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="NqiY4rsTpjdVKAAZXvE3-24" edge="1">
           <mxGeometry x="-0.0002" relative="1" as="geometry">
             <mxPoint x="950.5" y="331" as="sourcePoint" />
             <mxPoint x="540" y="331" as="targetPoint" />
@@ -231,7 +231,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WH-9BigQxGfKmU1KrTXt-4" value="UPoc_Hytalk_StunState_Indication&lt;div&gt;状态=遥晕/遥毙&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="NqiY4rsTpjdVKAAZXvE3-24">
+        <mxCell id="WH-9BigQxGfKmU1KrTXt-4" value="UPoc_Hytalk_StunState_Indication&lt;div&gt;状态=遥晕/遥毙&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="NqiY4rsTpjdVKAAZXvE3-24" edge="1">
           <mxGeometry x="0.0004" relative="1" as="geometry">
             <mxPoint x="536" y="371" as="sourcePoint" />
             <mxPoint x="190" y="371" as="targetPoint" />
@@ -241,7 +241,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WH-9BigQxGfKmU1KrTXt-5" value="UPoc_Login_Response&lt;br&gt;（状态=&lt;font color=&quot;#ff0000&quot;&gt;登录成功&lt;/font&gt;/遥毙）：遥晕当作登录成功处理" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="NqiY4rsTpjdVKAAZXvE3-24">
+        <mxCell id="WH-9BigQxGfKmU1KrTXt-5" value="UPoc_Login_Response&lt;br&gt;（状态=&lt;font color=&quot;#ff0000&quot;&gt;登录成功&lt;/font&gt;/遥毙）：遥晕当作登录成功处理" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="NqiY4rsTpjdVKAAZXvE3-24" edge="1">
           <mxGeometry x="0.0004" relative="1" as="geometry">
             <mxPoint x="536" y="331" as="sourcePoint" />
             <mxPoint x="190" y="331" as="targetPoint" />
@@ -319,37 +319,37 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WH-9BigQxGfKmU1KrTXt-1" value="登录-POC 3K&lt;br&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;注意：登录分成开机自动登录与手动登录，开机自动登录没有&lt;/font&gt;&lt;span style=&quot;font-size: 11px; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;UPoc_Login_Request&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fontColor=#990000;" vertex="1" parent="1">
+        <mxCell id="WH-9BigQxGfKmU1KrTXt-1" value="登录-POC 3K&lt;br&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;注意：登录分成开机自动登录与手动登录，开机自动登录没有&lt;/font&gt;&lt;span style=&quot;font-size: 11px; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;UPoc_Login_Request&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fontColor=#990000;" parent="1" vertex="1">
           <mxGeometry x="30" y="30" width="960" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WH-9BigQxGfKmU1KrTXt-6" value="登录成功、遥晕遥毙后，走获取联系人流程。" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="WH-9BigQxGfKmU1KrTXt-6" value="登录成功、遥晕遥毙后，走获取联系人流程。" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="620" y="950" width="250" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WH-9BigQxGfKmU1KrTXt-7" value="A7" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+        <mxCell id="WH-9BigQxGfKmU1KrTXt-7" value="A7" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="1420" y="130" width="100" height="860" as="geometry" />
         </mxCell>
-        <mxCell id="WH-9BigQxGfKmU1KrTXt-8" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="WH-9BigQxGfKmU1KrTXt-7">
+        <mxCell id="WH-9BigQxGfKmU1KrTXt-8" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="WH-9BigQxGfKmU1KrTXt-7" vertex="1">
           <mxGeometry x="45" y="80" width="10" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="WH-9BigQxGfKmU1KrTXt-9" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="WH-9BigQxGfKmU1KrTXt-7">
+        <mxCell id="WH-9BigQxGfKmU1KrTXt-9" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="WH-9BigQxGfKmU1KrTXt-7" vertex="1">
           <mxGeometry x="45" y="199" width="10" height="601" as="geometry" />
         </mxCell>
-        <mxCell id="WH-9BigQxGfKmU1KrTXt-10" value="CAT1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+        <mxCell id="WH-9BigQxGfKmU1KrTXt-10" value="CAT1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="1770" y="130" width="100" height="850" as="geometry" />
         </mxCell>
-        <mxCell id="WH-9BigQxGfKmU1KrTXt-11" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="WH-9BigQxGfKmU1KrTXt-10">
+        <mxCell id="WH-9BigQxGfKmU1KrTXt-11" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="WH-9BigQxGfKmU1KrTXt-10" vertex="1">
           <mxGeometry x="45" y="80" width="10" height="720" as="geometry" />
         </mxCell>
-        <mxCell id="WH-9BigQxGfKmU1KrTXt-12" value="登录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="WH-9BigQxGfKmU1KrTXt-12" value="登录" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1360" y="200" width="50" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="WH-9BigQxGfKmU1KrTXt-14" value="SDK" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+        <mxCell id="WH-9BigQxGfKmU1KrTXt-14" value="SDK" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="2187" y="130" width="100" height="850" as="geometry" />
         </mxCell>
-        <mxCell id="WH-9BigQxGfKmU1KrTXt-15" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="WH-9BigQxGfKmU1KrTXt-14">
+        <mxCell id="WH-9BigQxGfKmU1KrTXt-15" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="WH-9BigQxGfKmU1KrTXt-14" vertex="1">
           <mxGeometry x="45" y="80" width="10" height="720" as="geometry" />
         </mxCell>
-        <mxCell id="WH-9BigQxGfKmU1KrTXt-16" value="+POC:online,状态,ID,注册类型,用户状态,用户名称,别名,,,,,,&lt;br&gt;（状态=登录中）" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="WH-9BigQxGfKmU1KrTXt-16" value="+POC:online,状态,ID,注册类型,用户状态,用户名称,别名,,,,,,&lt;br&gt;（状态=登录中）" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry x="-0.0012" relative="1" as="geometry">
             <mxPoint x="2236.5" y="329" as="sourcePoint" />
             <mxPoint x="1826" y="329" as="targetPoint" />
@@ -359,7 +359,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WH-9BigQxGfKmU1KrTXt-17" value="UPoc_Login_Response" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="WH-9BigQxGfKmU1KrTXt-17" value="UPoc_Login_Response" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry x="0.0003" relative="1" as="geometry">
             <mxPoint x="1820" y="328" as="sourcePoint" />
             <mxPoint x="1474" y="328" as="targetPoint" />
@@ -369,32 +369,32 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WH-9BigQxGfKmU1KrTXt-18" value="UPoc_Login_Request&lt;br&gt;获取类型请求" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;exitX=1.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="WH-9BigQxGfKmU1KrTXt-10">
+        <mxCell id="WH-9BigQxGfKmU1KrTXt-18" value="UPoc_Login_Request&lt;br&gt;获取类型请求" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;exitX=1.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" target="WH-9BigQxGfKmU1KrTXt-10" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="1475" y="210" as="sourcePoint" />
             <mxPoint x="1635" y="209.5" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WH-9BigQxGfKmU1KrTXt-19" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;AT+POC=login,&lt;/span&gt;&lt;font color=&quot;#009900&quot;&gt;模式,IP,端口,IP2,端口2,账号,密码,SN号&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#330000&quot;&gt;登录请求&lt;/font&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="WH-9BigQxGfKmU1KrTXt-19" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;AT+POC=login,&lt;/span&gt;&lt;font color=&quot;#009900&quot;&gt;模式,IP,端口,IP2,端口2,账号,密码,SN号&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#330000&quot;&gt;登录请求&lt;/font&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;" parent="1" edge="1">
           <mxGeometry x="-0.0038" width="160" relative="1" as="geometry">
             <mxPoint x="1820" y="211" as="sourcePoint" />
             <mxPoint x="2235.5" y="211" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WH-9BigQxGfKmU1KrTXt-20" value="Interaction heading" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=170;" vertex="1" parent="1">
+        <mxCell id="WH-9BigQxGfKmU1KrTXt-20" value="Interaction heading" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=170;" parent="1" vertex="1">
           <mxGeometry x="1280" y="409" width="1050" height="440" as="geometry" />
         </mxCell>
-        <mxCell id="WH-9BigQxGfKmU1KrTXt-21" value="[登录失败]" style="text;html=1;" vertex="1" parent="WH-9BigQxGfKmU1KrTXt-20">
+        <mxCell id="WH-9BigQxGfKmU1KrTXt-21" value="[登录失败]" style="text;html=1;" parent="WH-9BigQxGfKmU1KrTXt-20" vertex="1">
           <mxGeometry width="100" height="20" relative="1" as="geometry">
             <mxPoint x="20" y="40" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WH-9BigQxGfKmU1KrTXt-22" value="[登录成功]" style="line;strokeWidth=1;dashed=1;labelPosition=center;verticalLabelPosition=bottom;align=left;verticalAlign=top;spacingLeft=20;spacingTop=15;html=1;whiteSpace=wrap;" vertex="1" parent="WH-9BigQxGfKmU1KrTXt-20">
+        <mxCell id="WH-9BigQxGfKmU1KrTXt-22" value="[登录成功]" style="line;strokeWidth=1;dashed=1;labelPosition=center;verticalLabelPosition=bottom;align=left;verticalAlign=top;spacingLeft=20;spacingTop=15;html=1;whiteSpace=wrap;" parent="WH-9BigQxGfKmU1KrTXt-20" vertex="1">
           <mxGeometry y="150" width="1050" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="WH-9BigQxGfKmU1KrTXt-23" value="+POC:online,状态,ID,注册类型,用户状态,用户名称,别名,,,,,,&lt;br&gt;（状态=登录成功）" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="WH-9BigQxGfKmU1KrTXt-20">
+        <mxCell id="WH-9BigQxGfKmU1KrTXt-23" value="+POC:online,状态,ID,注册类型,用户状态,用户名称,别名,,,,,,&lt;br&gt;（状态=登录成功）" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="WH-9BigQxGfKmU1KrTXt-20" edge="1">
           <mxGeometry x="-0.0002" relative="1" as="geometry">
             <mxPoint x="950.5" y="200" as="sourcePoint" />
             <mxPoint x="540" y="200" as="targetPoint" />
@@ -404,7 +404,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WH-9BigQxGfKmU1KrTXt-24" value="UPoc_Login_Response" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="WH-9BigQxGfKmU1KrTXt-20">
+        <mxCell id="WH-9BigQxGfKmU1KrTXt-24" value="UPoc_Login_Response" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="WH-9BigQxGfKmU1KrTXt-20" edge="1">
           <mxGeometry x="0.0003" relative="1" as="geometry">
             <mxPoint x="536" y="200" as="sourcePoint" />
             <mxPoint x="190" y="200" as="targetPoint" />
@@ -414,7 +414,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WH-9BigQxGfKmU1KrTXt-25" value="UPoc_Hytalk_StunState_Indication&lt;div&gt;状态=登录上&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="WH-9BigQxGfKmU1KrTXt-20">
+        <mxCell id="WH-9BigQxGfKmU1KrTXt-25" value="UPoc_Hytalk_StunState_Indication&lt;div&gt;状态=登录上&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="WH-9BigQxGfKmU1KrTXt-20" edge="1">
           <mxGeometry x="0.0003" relative="1" as="geometry">
             <mxPoint x="536" y="240" as="sourcePoint" />
             <mxPoint x="190" y="240" as="targetPoint" />
@@ -424,10 +424,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WH-9BigQxGfKmU1KrTXt-26" value="[遥晕/遥毙]" style="line;strokeWidth=1;dashed=1;labelPosition=center;verticalLabelPosition=bottom;align=left;verticalAlign=top;spacingLeft=20;spacingTop=15;html=1;whiteSpace=wrap;" vertex="1" parent="WH-9BigQxGfKmU1KrTXt-20">
+        <mxCell id="WH-9BigQxGfKmU1KrTXt-26" value="[遥晕/遥毙]" style="line;strokeWidth=1;dashed=1;labelPosition=center;verticalLabelPosition=bottom;align=left;verticalAlign=top;spacingLeft=20;spacingTop=15;html=1;whiteSpace=wrap;" parent="WH-9BigQxGfKmU1KrTXt-20" vertex="1">
           <mxGeometry y="270" width="1050" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="WH-9BigQxGfKmU1KrTXt-27" value="+POC:online,状态,ID,注册类型,用户状态,用户名称,别名,,,,,,&lt;br&gt;（状态=遥晕/遥毙）" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="WH-9BigQxGfKmU1KrTXt-20">
+        <mxCell id="WH-9BigQxGfKmU1KrTXt-27" value="+POC:online,状态,ID,注册类型,用户状态,用户名称,别名,,,,,,&lt;br&gt;（状态=遥晕/遥毙）" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="WH-9BigQxGfKmU1KrTXt-20" edge="1">
           <mxGeometry x="-0.0002" relative="1" as="geometry">
             <mxPoint x="950.5" y="331" as="sourcePoint" />
             <mxPoint x="540" y="331" as="targetPoint" />
@@ -437,7 +437,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WH-9BigQxGfKmU1KrTXt-28" value="UPoc_Hytalk_StunState_Indication&lt;div&gt;状态=遥晕/遥毙&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="WH-9BigQxGfKmU1KrTXt-20">
+        <mxCell id="WH-9BigQxGfKmU1KrTXt-28" value="UPoc_Hytalk_StunState_Indication&lt;div&gt;状态=遥晕/遥毙&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="WH-9BigQxGfKmU1KrTXt-20" edge="1">
           <mxGeometry x="0.0003" relative="1" as="geometry">
             <mxPoint x="536" y="371" as="sourcePoint" />
             <mxPoint x="190" y="371" as="targetPoint" />
@@ -447,7 +447,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WH-9BigQxGfKmU1KrTXt-29" value="UPoc_Login_Response" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="WH-9BigQxGfKmU1KrTXt-20">
+        <mxCell id="WH-9BigQxGfKmU1KrTXt-29" value="UPoc_Login_Response" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="WH-9BigQxGfKmU1KrTXt-20" edge="1">
           <mxGeometry x="0.0003" relative="1" as="geometry">
             <mxPoint x="536" y="331" as="sourcePoint" />
             <mxPoint x="190" y="331" as="targetPoint" />
@@ -457,7 +457,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WH-9BigQxGfKmU1KrTXt-30" value="+POC:login,&lt;font color=&quot;#009900&quot;&gt;结果,状态&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#330000&quot;&gt;登录请求响应&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="WH-9BigQxGfKmU1KrTXt-30" value="+POC:login,&lt;font color=&quot;#009900&quot;&gt;结果,状态&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#330000&quot;&gt;登录请求响应&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry x="0.0004" relative="1" as="geometry">
             <mxPoint x="2235.5" y="279" as="sourcePoint" />
             <mxPoint x="1824" y="279" as="targetPoint" />
@@ -467,7 +467,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WH-9BigQxGfKmU1KrTXt-31" value="+POC:online,状态,ID,注册类型,用户状态,用户名称,别名,,,,,,&lt;br&gt;（状态=登录中）" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="WH-9BigQxGfKmU1KrTXt-31" value="+POC:online,状态,ID,注册类型,用户状态,用户名称,别名,,,,,,&lt;br&gt;（状态=登录中）" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry x="-0.0002" relative="1" as="geometry">
             <mxPoint x="2230.5" y="389" as="sourcePoint" />
             <mxPoint x="1820" y="389" as="targetPoint" />
@@ -477,7 +477,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WH-9BigQxGfKmU1KrTXt-32" value="+POC:pocerrn,1,错误代码&lt;br&gt;（状态=登录中）" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="WH-9BigQxGfKmU1KrTXt-32" value="+POC:pocerrn,1,错误代码&lt;br&gt;（状态=登录中）" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry x="-0.0002" relative="1" as="geometry">
             <mxPoint x="2230.5" y="449" as="sourcePoint" />
             <mxPoint x="1820" y="449" as="targetPoint" />
@@ -487,7 +487,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WH-9BigQxGfKmU1KrTXt-33" value="+POC:online,状态,ID,注册类型,用户状态,用户名称,别名,,,,,,&lt;br&gt;（状态=离线）" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="WH-9BigQxGfKmU1KrTXt-33" value="+POC:online,状态,ID,注册类型,用户状态,用户名称,别名,,,,,,&lt;br&gt;（状态=离线）" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry x="-0.0002" relative="1" as="geometry">
             <mxPoint x="2230.5" y="509" as="sourcePoint" />
             <mxPoint x="1820" y="509" as="targetPoint" />
@@ -497,7 +497,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WH-9BigQxGfKmU1KrTXt-34" value="UPoc_Login_Response" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="WH-9BigQxGfKmU1KrTXt-34" value="UPoc_Login_Response" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry x="0.0003" relative="1" as="geometry">
             <mxPoint x="1816" y="389" as="sourcePoint" />
             <mxPoint x="1470" y="389" as="targetPoint" />
@@ -507,7 +507,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WH-9BigQxGfKmU1KrTXt-35" value="UPoc_Login_Response" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="WH-9BigQxGfKmU1KrTXt-35" value="UPoc_Login_Response" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry x="0.0003" relative="1" as="geometry">
             <mxPoint x="1816" y="449" as="sourcePoint" />
             <mxPoint x="1470" y="449" as="targetPoint" />
@@ -517,7 +517,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WH-9BigQxGfKmU1KrTXt-36" value="UPoc_Login_Response" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="WH-9BigQxGfKmU1KrTXt-36" value="UPoc_Login_Response" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry x="0.0003" relative="1" as="geometry">
             <mxPoint x="1816" y="509" as="sourcePoint" />
             <mxPoint x="1470" y="509" as="targetPoint" />
@@ -527,32 +527,32 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WH-9BigQxGfKmU1KrTXt-37" value="登录-POC 3K&lt;br&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;注意：登录分成开机自动登录与手动登录，开机自动登录没有&lt;/font&gt;&lt;span style=&quot;font-size: 11px; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;UPoc_Login_Request&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fontColor=#990000;" vertex="1" parent="1">
+        <mxCell id="WH-9BigQxGfKmU1KrTXt-37" value="登录-POC 3K&lt;br&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;注意：登录分成开机自动登录与手动登录，开机自动登录没有&lt;/font&gt;&lt;span style=&quot;font-size: 11px; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;UPoc_Login_Request&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fontColor=#990000;" parent="1" vertex="1">
           <mxGeometry x="1300" y="40" width="960" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WH-9BigQxGfKmU1KrTXt-38" value="登录成功、遥晕遥毙后，走获取联系人流程。" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="WH-9BigQxGfKmU1KrTXt-38" value="登录成功、遥晕遥毙后，走获取联系人流程。" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1520" y="860" width="250" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8HEiFmxdWdUa64vLmvF8-1" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+        <mxCell id="8HEiFmxdWdUa64vLmvF8-1" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="140" y="200" as="sourcePoint" />
             <mxPoint x="200" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6JZBfHjkBKXOJgyM7ulL-1" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+        <mxCell id="6JZBfHjkBKXOJgyM7ulL-1" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="1410" y="210" as="sourcePoint" />
             <mxPoint x="1470" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dGyYzTJBfmdaiwNZ6WYh-1" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;APP_Get_PocType_Req&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;获取类型请求&lt;/span&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;exitX=1.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+        <mxCell id="dGyYzTJBfmdaiwNZ6WYh-1" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;APP_Get_PocType_Req&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;获取类型请求&lt;/span&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;exitX=1.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="205" y="880" as="sourcePoint" />
             <mxPoint x="550" y="880" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7SOXWfOMXMJu7WRP67ED-1" value="APP_Get_PocType_Rsp&lt;br&gt;获取类型响应" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="7SOXWfOMXMJu7WRP67ED-1" value="APP_Get_PocType_Rsp&lt;br&gt;获取类型响应" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="550" y="910" as="sourcePoint" />
             <mxPoint x="205" y="910" as="targetPoint" />
@@ -561,17 +561,17 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="7SOXWfOMXMJu7WRP67ED-8" value="Ref" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=50;" vertex="1" parent="1">
+        <mxCell id="7SOXWfOMXMJu7WRP67ED-8" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=50;" parent="1" vertex="1">
           <mxGeometry x="10" y="850" width="620" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="7SOXWfOMXMJu7WRP67ED-9" value="[登录成功或遥晕/遥毙]" style="text;html=1;" vertex="1" parent="7SOXWfOMXMJu7WRP67ED-8">
+        <mxCell id="7SOXWfOMXMJu7WRP67ED-9" value="[登录成功或遥晕/遥毙]" style="text;html=1;" parent="7SOXWfOMXMJu7WRP67ED-8" vertex="1">
           <mxGeometry y="30.000000000000227" width="100" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="RppzLfKGi5goHTpbu5a1" name="联系人">
-    <mxGraphModel dx="989" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+    <mxGraphModel dx="1687" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -579,16 +579,16 @@
           <mxGeometry x="150" y="40" width="870" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6UZGPsiP4XQQsJ-r9CUZ-1" value="A7" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
-          <mxGeometry x="150" y="120" width="100" height="1450" as="geometry" />
+          <mxGeometry x="150" y="120" width="100" height="1640" as="geometry" />
         </mxCell>
         <mxCell id="6UZGPsiP4XQQsJ-r9CUZ-2" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="6UZGPsiP4XQQsJ-r9CUZ-1" vertex="1">
-          <mxGeometry x="45" y="360" width="10" height="1050" as="geometry" />
+          <mxGeometry x="45" y="360" width="10" height="1200" as="geometry" />
         </mxCell>
         <mxCell id="6UZGPsiP4XQQsJ-r9CUZ-3" value="CAT1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
-          <mxGeometry x="500" y="120" width="100" height="1450" as="geometry" />
+          <mxGeometry x="500" y="120" width="100" height="1630" as="geometry" />
         </mxCell>
         <mxCell id="6UZGPsiP4XQQsJ-r9CUZ-4" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="6UZGPsiP4XQQsJ-r9CUZ-3" vertex="1">
-          <mxGeometry x="45" y="80" width="10" height="1340" as="geometry" />
+          <mxGeometry x="45" y="80" width="10" height="1480" as="geometry" />
         </mxCell>
         <mxCell id="6UZGPsiP4XQQsJ-r9CUZ-6" value="登录成功/遥晕/遥毙" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="400" y="190" width="110" height="30" as="geometry" />
@@ -600,7 +600,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="usFReTREEg8XxeS_ICSF-1" value="SDK" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
-          <mxGeometry x="917" y="120" width="100" height="1450" as="geometry" />
+          <mxGeometry x="917" y="120" width="100" height="1630" as="geometry" />
         </mxCell>
         <mxCell id="usFReTREEg8XxeS_ICSF-2" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="usFReTREEg8XxeS_ICSF-1" vertex="1">
           <mxGeometry x="45" y="130" width="10" height="1240" as="geometry" />
@@ -647,126 +647,126 @@
         </mxCell>
         <mxCell id="bGm0_XlHTZfuuUktCRyZ-4" value="+POC:grpgetn,-1,5,,,0&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;索引=-1代表获取完毕&lt;/font&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry x="0.0004" relative="1" as="geometry">
-            <mxPoint x="964.5" y="469" as="sourcePoint" />
-            <mxPoint x="550" y="469" as="targetPoint" />
+            <mxPoint x="964.5" y="473" as="sourcePoint" />
+            <mxPoint x="550" y="473" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="795" y="469" />
+              <mxPoint x="795" y="473" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="sG_mYbfdIoDS_8McHKUl-1" value="&lt;div&gt;UPoc_Lite_Grp_Ready_Ind&lt;br&gt;&lt;/div&gt;组列表更新完毕（全部更新完才发）" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry x="0.0019" relative="1" as="geometry">
-            <mxPoint x="546" y="480" as="sourcePoint" />
-            <mxPoint x="200" y="480" as="targetPoint" />
+            <mxPoint x="546" y="586" as="sourcePoint" />
+            <mxPoint x="200" y="586" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="375" y="480" />
+              <mxPoint x="375" y="586" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="BR4Ddncq0KbIIfcRAgqN-1" value="UPoc_UpdateData_Notify&lt;div&gt;&lt;/div&gt;&lt;div&gt;更新组数据（&lt;font color=&quot;#ff0000&quot;&gt;CAT1的数据结构与A7的对不上&lt;/font&gt;）&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="546" y="526" as="sourcePoint" />
-            <mxPoint x="200" y="526" as="targetPoint" />
+            <mxPoint x="546" y="632" as="sourcePoint" />
+            <mxPoint x="200" y="632" as="targetPoint" />
             <Array as="points" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BR4Ddncq0KbIIfcRAgqN-2" value="UPoc_EnterGroup_Request&lt;div&gt;请求设置守候组&lt;/div&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;" edge="1" parent="1" target="6UZGPsiP4XQQsJ-r9CUZ-3">
+        <mxCell id="BR4Ddncq0KbIIfcRAgqN-2" value="UPoc_EnterGroup_Request&lt;div&gt;请求设置守候组&lt;/div&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;strokeColor=#3333FF;" edge="1" parent="1">
           <mxGeometry x="0.0024" width="160" relative="1" as="geometry">
-            <mxPoint x="200" y="580" as="sourcePoint" />
-            <mxPoint x="540" y="580" as="targetPoint" />
+            <mxPoint x="200" y="686" as="sourcePoint" />
+            <mxPoint x="549.5" y="686" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BR4Ddncq0KbIIfcRAgqN-3" value="AT+POC=grpset,组ID" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;" edge="1" parent="1" source="6UZGPsiP4XQQsJ-r9CUZ-4">
+        <mxCell id="BR4Ddncq0KbIIfcRAgqN-3" value="AT+POC=grpset,组ID" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;strokeColor=#3333FF;" edge="1" parent="1">
           <mxGeometry x="-0.0011" width="160" relative="1" as="geometry">
-            <mxPoint x="560" y="580" as="sourcePoint" />
-            <mxPoint x="961.5" y="580" as="targetPoint" />
+            <mxPoint x="555" y="686" as="sourcePoint" />
+            <mxPoint x="961.5" y="686" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BR4Ddncq0KbIIfcRAgqN-4" value="UPoc_GroupList_Request&lt;div&gt;请求获取组列表&lt;/div&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;entryX=0.5;entryY=0.905;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+        <mxCell id="BR4Ddncq0KbIIfcRAgqN-4" value="UPoc_GroupList_Request&lt;div&gt;请求获取组列表&lt;/div&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;entryX=0.5;entryY=0.905;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#33FF33;" edge="1" parent="1">
           <mxGeometry x="0.001" width="160" relative="1" as="geometry">
-            <mxPoint x="200" y="650" as="sourcePoint" />
-            <mxPoint x="550" y="650" as="targetPoint" />
+            <mxPoint x="200" y="756" as="sourcePoint" />
+            <mxPoint x="550" y="756" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BR4Ddncq0KbIIfcRAgqN-5" value="+POC:grpset,结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="BR4Ddncq0KbIIfcRAgqN-5" value="+POC:grpset,结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;strokeColor=#3333FF;" edge="1" parent="1">
           <mxGeometry x="0.0016" relative="1" as="geometry">
-            <mxPoint x="964.5" y="690" as="sourcePoint" />
-            <mxPoint x="550" y="690" as="targetPoint" />
+            <mxPoint x="964.5" y="796" as="sourcePoint" />
+            <mxPoint x="550" y="796" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="795" y="690" />
+              <mxPoint x="795" y="796" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BR4Ddncq0KbIIfcRAgqN-6" value="UPoc_EnterGroup_Response&lt;div&gt;&lt;/div&gt;&lt;div&gt;请求设置守候组响应&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="BR4Ddncq0KbIIfcRAgqN-6" value="UPoc_EnterGroup_Response&lt;div&gt;&lt;/div&gt;&lt;div&gt;请求设置守候组响应&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;strokeColor=#3333FF;" edge="1" parent="1">
           <mxGeometry x="0.0006" relative="1" as="geometry">
-            <mxPoint x="546" y="750" as="sourcePoint" />
-            <mxPoint x="200" y="750" as="targetPoint" />
+            <mxPoint x="546" y="856" as="sourcePoint" />
+            <mxPoint x="200" y="856" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="375" y="750" />
+              <mxPoint x="375" y="856" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BR4Ddncq0KbIIfcRAgqN-7" value="UPoc_GroupList_Response&lt;div&gt;&lt;/div&gt;&lt;div&gt;获取列列表响应&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="BR4Ddncq0KbIIfcRAgqN-7" value="UPoc_GroupList_Response&lt;div&gt;&lt;/div&gt;&lt;div&gt;获取列列表响应&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;strokeColor=#33FF33;" edge="1" parent="1">
           <mxGeometry x="0.0006" relative="1" as="geometry">
-            <mxPoint x="546" y="820" as="sourcePoint" />
-            <mxPoint x="200" y="820" as="targetPoint" />
+            <mxPoint x="546" y="926" as="sourcePoint" />
+            <mxPoint x="200" y="926" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="375" y="820" />
+              <mxPoint x="375" y="926" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BR4Ddncq0KbIIfcRAgqN-9" value="UPoc_UpdateGroup_Notify&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="BR4Ddncq0KbIIfcRAgqN-9" value="UPoc_UpdateGroup_Notify&lt;div&gt;&lt;/div&gt;&lt;div&gt;设置守候组回调&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;strokeColor=#3333FF;" edge="1" parent="1">
           <mxGeometry x="0.0006" relative="1" as="geometry">
-            <mxPoint x="546" y="880" as="sourcePoint" />
-            <mxPoint x="200" y="880" as="targetPoint" />
+            <mxPoint x="546" y="986" as="sourcePoint" />
+            <mxPoint x="200" y="986" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="375" y="880" />
+              <mxPoint x="375" y="986" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BR4Ddncq0KbIIfcRAgqN-11" value="&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;+POC:grpsetn,结果,组ID&lt;br&gt;设置守候组回调&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="BR4Ddncq0KbIIfcRAgqN-11" value="&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;+POC:grpsetn,结果,组ID&lt;br&gt;设置守候组回调&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;strokeColor=#3333FF;" edge="1" parent="1">
           <mxGeometry x="0.0016" relative="1" as="geometry">
-            <mxPoint x="964.5" y="880" as="sourcePoint" />
-            <mxPoint x="550" y="880" as="targetPoint" />
+            <mxPoint x="964.5" y="986" as="sourcePoint" />
+            <mxPoint x="550" y="986" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="795" y="880" />
+              <mxPoint x="795" y="986" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BR4Ddncq0KbIIfcRAgqN-12" value="&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;+POC:grpupgn,1,总个数&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;个呼联系人更新&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="BR4Ddncq0KbIIfcRAgqN-12" value="&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;+POC:grpupgn,1,总个数&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;个呼联系人更新&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;strokeColor=#3333FF;" edge="1" parent="1">
           <mxGeometry x="0.0004" relative="1" as="geometry">
-            <mxPoint x="964.5" y="980" as="sourcePoint" />
-            <mxPoint x="550" y="980" as="targetPoint" />
+            <mxPoint x="964.5" y="1062" as="sourcePoint" />
+            <mxPoint x="550" y="1062" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="795" y="980" />
+              <mxPoint x="795" y="1062" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BR4Ddncq0KbIIfcRAgqN-13" value="AT+POC=cmget,0,30" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="BR4Ddncq0KbIIfcRAgqN-13" value="AT+POC=cmget,索引,个数&lt;br&gt;获取常用联系人" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;" edge="1" parent="1">
           <mxGeometry x="-0.0011" width="160" relative="1" as="geometry">
-            <mxPoint x="556" y="1060" as="sourcePoint" />
-            <mxPoint x="962.5" y="1060" as="targetPoint" />
+            <mxPoint x="556" y="1142" as="sourcePoint" />
+            <mxPoint x="962.5" y="1142" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="BR4Ddncq0KbIIfcRAgqN-14" value="+POC:cmget,0,41" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry x="0.0004" relative="1" as="geometry">
-            <mxPoint x="964.5" y="1140" as="sourcePoint" />
-            <mxPoint x="550" y="1140" as="targetPoint" />
+            <mxPoint x="964.5" y="1196" as="sourcePoint" />
+            <mxPoint x="550" y="1196" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="795" y="1140" />
+              <mxPoint x="795" y="1196" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
@@ -783,54 +783,81 @@
         </mxCell>
         <mxCell id="BR4Ddncq0KbIIfcRAgqN-16" value="+POC:cmgetn,-1,41,," style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry x="0.0004" relative="1" as="geometry">
-            <mxPoint x="964.5" y="1340" as="sourcePoint" />
-            <mxPoint x="550" y="1340" as="targetPoint" />
+            <mxPoint x="964.5" y="1316" as="sourcePoint" />
+            <mxPoint x="550" y="1316" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="795" y="1340" />
+              <mxPoint x="795" y="1316" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BR4Ddncq0KbIIfcRAgqN-17" value="目前采取的策略是：&lt;div&gt;1、个呼联系人每次最大获取30个。&lt;/div&gt;&lt;div&gt;2、组呼联系人每次最大获取30个&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#CC0000;align=left;" vertex="1" parent="1">
-          <mxGeometry x="1020" y="1300" width="200" height="60" as="geometry" />
+        <mxCell id="BR4Ddncq0KbIIfcRAgqN-17" value="目前采取的策略是：&lt;div&gt;个呼联系人每次最大获取30个&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#CC0000;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="1210" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BR4Ddncq0KbIIfcRAgqN-18" value="UPoc_UpdateData_Notify&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry x="0.0019" relative="1" as="geometry">
-            <mxPoint x="546" y="1340" as="sourcePoint" />
-            <mxPoint x="200" y="1340" as="targetPoint" />
+            <mxPoint x="546" y="1531" as="sourcePoint" />
+            <mxPoint x="200" y="1531" as="targetPoint" />
             <Array as="points" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="BR4Ddncq0KbIIfcRAgqN-19" value="UPoc_HytalkMemList_Req&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;entryX=0.5;entryY=0.905;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="200" y="1420" as="sourcePoint" />
-            <mxPoint x="550" y="1420" as="targetPoint" />
+            <mxPoint x="200" y="1591" as="sourcePoint" />
+            <mxPoint x="550" y="1591" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="BR4Ddncq0KbIIfcRAgqN-20" value="UPoc_HytalkMemList_Rsp&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry x="0.0019" relative="1" as="geometry">
-            <mxPoint x="546" y="1490" as="sourcePoint" />
-            <mxPoint x="200" y="1490" as="targetPoint" />
+            <mxPoint x="546" y="1651" as="sourcePoint" />
+            <mxPoint x="200" y="1651" as="targetPoint" />
             <Array as="points" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="BR4Ddncq0KbIIfcRAgqN-22" value="触发：&lt;span style=&quot;font-size: 11px; text-align: center; text-wrap: nowrap;&quot;&gt;UPoc_EnterGroup_Request&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=default;align=left;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="10" y="470" width="180" height="30" as="geometry" />
+          <mxGeometry x="10" y="576" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BR4Ddncq0KbIIfcRAgqN-23" value="更新组列表" style="rounded=0;whiteSpace=wrap;html=1;fontColor=default;align=left;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="800" width="80" height="30" as="geometry" />
+          <mxGeometry x="100" y="906" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BR4Ddncq0KbIIfcRAgqN-24" value="遥毙不确定，后面确认一下" style="rounded=0;whiteSpace=wrap;html=1;fontColor=default;align=left;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="240" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BR4Ddncq0KbIIfcRAgqN-25" value="注意：设置结果通过通知接口（grpsetn）返回" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fontColor=#FF0000;" vertex="1" parent="1">
-          <mxGeometry x="635" y="700" width="270" height="40" as="geometry" />
+          <mxGeometry x="635" y="806" width="270" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BR4Ddncq0KbIIfcRAgqN-26" value="触发：&lt;span style=&quot;font-size: 11px; text-align: center; text-wrap: nowrap;&quot;&gt;UPoc_GroupList_Request&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=default;align=left;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="10" y="510" width="180" height="30" as="geometry" />
+          <mxGeometry x="10" y="616" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BR4Ddncq0KbIIfcRAgqN-27" value="更新守候组" style="rounded=0;whiteSpace=wrap;html=1;fontColor=default;align=left;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="966" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BR4Ddncq0KbIIfcRAgqN-28" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=50;" vertex="1" parent="1">
+          <mxGeometry x="400" y="270" width="620" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="zi8Jpzp-WScMJ63_BSbF-1" value="break" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=50;" vertex="1" parent="BR4Ddncq0KbIIfcRAgqN-28">
+          <mxGeometry x="235" y="220" width="300" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zi8Jpzp-WScMJ63_BSbF-2" value="[所有组联系人已经获取完毕]" style="text;html=1;" vertex="1" parent="zi8Jpzp-WScMJ63_BSbF-1">
+          <mxGeometry y="30.000000000000227" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zi8Jpzp-WScMJ63_BSbF-3" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=50;" vertex="1" parent="1">
+          <mxGeometry x="440" y="1090" width="560" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="zi8Jpzp-WScMJ63_BSbF-6" value="此处省略SDK反回的n个个呼联系人" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="zi8Jpzp-WScMJ63_BSbF-3">
+          <mxGeometry x="210" y="170" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zi8Jpzp-WScMJ63_BSbF-4" value="break" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=50;" vertex="1" parent="zi8Jpzp-WScMJ63_BSbF-3">
+          <mxGeometry x="195" y="280" width="300" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zi8Jpzp-WScMJ63_BSbF-5" value="[所有个呼联系人已经获取完毕]" style="text;html=1;" vertex="1" parent="zi8Jpzp-WScMJ63_BSbF-4">
+          <mxGeometry y="30.000000000000227" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zi8Jpzp-WScMJ63_BSbF-7" value="目前采取的策略是：&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;组呼联系人每次最大获取30个&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#CC0000;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="356" width="200" height="44" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
