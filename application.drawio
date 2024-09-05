@@ -802,15 +802,15 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BR4Ddncq0KbIIfcRAgqN-19" value="UPoc_HytalkMemList_Req&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;entryX=0.5;entryY=0.905;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
-          <mxGeometry width="160" relative="1" as="geometry">
+        <mxCell id="BR4Ddncq0KbIIfcRAgqN-19" value="UPoc_HytalkMemList_Req&lt;div&gt;请求获取成员列表&lt;/div&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;entryX=0.5;entryY=0.905;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#00FF00;" edge="1" parent="1">
+          <mxGeometry x="0.001" width="160" relative="1" as="geometry">
             <mxPoint x="200" y="1521" as="sourcePoint" />
             <mxPoint x="550" y="1521" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BR4Ddncq0KbIIfcRAgqN-20" value="UPoc_HytalkMemList_Rsp&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
-          <mxGeometry x="0.0019" relative="1" as="geometry">
+        <mxCell id="BR4Ddncq0KbIIfcRAgqN-20" value="UPoc_HytalkMemList_Rsp&lt;div&gt;&lt;/div&gt;&lt;div&gt;获取成员列表响应&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;strokeColor=#00FF00;" edge="1" parent="1">
+          <mxGeometry x="0.0006" relative="1" as="geometry">
             <mxPoint x="546" y="1581" as="sourcePoint" />
             <mxPoint x="200" y="1581" as="targetPoint" />
             <Array as="points" />
@@ -858,6 +858,9 @@
         </mxCell>
         <mxCell id="zi8Jpzp-WScMJ63_BSbF-7" value="目前采取的策略是：&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;组呼联系人每次最大获取30个&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#CC0000;align=left;" vertex="1" parent="1">
           <mxGeometry x="1030" y="356" width="200" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="zi8Jpzp-WScMJ63_BSbF-10" value="更新成员列表" style="rounded=0;whiteSpace=wrap;html=1;fontColor=default;align=left;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1570" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
