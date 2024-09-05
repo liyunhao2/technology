@@ -357,7 +357,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="RppzLfKGi5goHTpbu5a1" name="联系人">
-    <mxGraphModel dx="1062" dy="553" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1247" dy="649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -657,7 +657,7 @@
         <mxCell id="zi8Jpzp-WScMJ63_BSbF-10" value="更新成员列表" style="rounded=0;whiteSpace=wrap;html=1;fontColor=default;align=left;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="100" y="1570" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="esd0bKe4YRnzVb8diSCU-2" value="手动切换守候组" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="esd0bKe4YRnzVb8diSCU-2" value="切换守候组" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="1748" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="esd0bKe4YRnzVb8diSCU-3" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="esd0bKe4YRnzVb8diSCU-2" target="esd0bKe4YRnzVb8diSCU-1">
