@@ -793,8 +793,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BR4Ddncq0KbIIfcRAgqN-17" value="目前采取的策略是：&lt;div&gt;1、个呼联系人每次最大获取30个。&lt;/div&gt;&lt;div&gt;2、组呼联系人每次最大获取x个&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1020" y="1300" width="190" height="60" as="geometry" />
+        <mxCell id="BR4Ddncq0KbIIfcRAgqN-17" value="目前采取的策略是：&lt;div&gt;1、个呼联系人每次最大获取30个。&lt;/div&gt;&lt;div&gt;2、组呼联系人每次最大获取x个&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#CC0000;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="1300" width="200" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
