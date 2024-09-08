@@ -382,7 +382,7 @@
         <mxCell id="esd0bKe4YRnzVb8diSCU-4" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="6UZGPsiP4XQQsJ-r9CUZ-3">
           <mxGeometry x="45" y="1640" width="10" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="6UZGPsiP4XQQsJ-r9CUZ-6" value="登录成功/遥晕/遥毙" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="6UZGPsiP4XQQsJ-r9CUZ-6" value="登录成功/遥晕/遥毙" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#80FF00;" parent="1" vertex="1">
           <mxGeometry x="400" y="190" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vUbXXbYU5e9G_ROBWLbP-1" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="6UZGPsiP4XQQsJ-r9CUZ-6" target="6UZGPsiP4XQQsJ-r9CUZ-3" edge="1">
