@@ -719,7 +719,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="7O-j-J1sYUuLUexz8yVT" name="呼叫">
-    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="989" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -781,8 +781,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Yo0lDzDNoVVTjzR3EF1E-5" value="gcsn,1,0,0,9000001,&lt;div&gt;组呼状态通知&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
-          <mxGeometry x="-0.0012" relative="1" as="geometry">
+        <mxCell id="Yo0lDzDNoVVTjzR3EF1E-5" value="gcsn,1,呼叫类型,0,组ID,组名&lt;div&gt;组呼状态通知，状态=去电（没有组名）&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0021" relative="1" as="geometry">
             <mxPoint x="960.5" y="320" as="sourcePoint" />
             <mxPoint x="550" y="320" as="targetPoint" />
             <Array as="points" />
@@ -797,8 +797,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Yo0lDzDNoVVTjzR3EF1E-7" value="+POC:gcsn,4,0,0,9000001,&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
-          <mxGeometry x="-0.0012" relative="1" as="geometry">
+        <mxCell id="Yo0lDzDNoVVTjzR3EF1E-7" value="+POC:gcsn,4,呼叫类型,0,组ID,组名&lt;div&gt;组呼状态通知，状态=呼叫已接听（没有组名）&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0021" relative="1" as="geometry">
             <mxPoint x="960.5" y="389.65999999999997" as="sourcePoint" />
             <mxPoint x="550" y="389.65999999999997" as="targetPoint" />
             <Array as="points" />
