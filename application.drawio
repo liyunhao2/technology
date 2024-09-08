@@ -845,7 +845,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Yo0lDzDNoVVTjzR3EF1E-14" value="PTT发起呼叫" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#80FF00;" vertex="1" parent="1">
+        <mxCell id="Yo0lDzDNoVVTjzR3EF1E-14" value="PTT发起组呼呼叫" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#80FF00;" vertex="1" parent="1">
           <mxGeometry x="30" y="180" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Yo0lDzDNoVVTjzR3EF1E-15" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;exitX=1.009;exitY=0.635;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Yo0lDzDNoVVTjzR3EF1E-14" target="BXTUp7uXABwCou_ePHKN-23">
