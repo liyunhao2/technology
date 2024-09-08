@@ -813,7 +813,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Yo0lDzDNoVVTjzR3EF1E-9" value="+POC:flrctls,0,3,1,,&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="Yo0lDzDNoVVTjzR3EF1E-9" value="+POC:flrctls,0,3,状态,,&lt;div&gt;状态=话权授予&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry x="-0.0012" relative="1" as="geometry">
             <mxPoint x="960.5" y="460" as="sourcePoint" />
             <mxPoint x="550" y="460" as="targetPoint" />
@@ -829,8 +829,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Yo0lDzDNoVVTjzR3EF1E-11" value="+POC:gisn,0,0&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
-          <mxGeometry x="-0.0012" relative="1" as="geometry">
+        <mxCell id="Yo0lDzDNoVVTjzR3EF1E-11" value="+POC:gisn,开关,上报周期&lt;div&gt;GIS上报通知&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0021" relative="1" as="geometry">
             <mxPoint x="960.5" y="530" as="sourcePoint" />
             <mxPoint x="550" y="530" as="targetPoint" />
             <Array as="points" />
