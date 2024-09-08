@@ -719,12 +719,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="7O-j-J1sYUuLUexz8yVT" name="呼叫">
-    <mxGraphModel dx="1147" dy="597" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="BXTUp7uXABwCou_ePHKN-1" value="A7" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="150" y="120" width="100" height="1530" as="geometry" />
+          <mxGeometry x="150" y="120" width="100" height="2760" as="geometry" />
         </mxCell>
         <mxCell id="BXTUp7uXABwCou_ePHKN-23" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="BXTUp7uXABwCou_ePHKN-1">
           <mxGeometry x="45" y="80" width="10" height="350" as="geometry" />
@@ -733,7 +733,7 @@
           <mxGeometry x="45" y="600" width="10" height="280" as="geometry" />
         </mxCell>
         <mxCell id="BXTUp7uXABwCou_ePHKN-3" value="CAT1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="500" y="120" width="100" height="1530" as="geometry" />
+          <mxGeometry x="500" y="120" width="100" height="2760" as="geometry" />
         </mxCell>
         <mxCell id="BXTUp7uXABwCou_ePHKN-22" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="BXTUp7uXABwCou_ePHKN-3">
           <mxGeometry x="45" y="80" width="10" height="350" as="geometry" />
@@ -742,7 +742,7 @@
           <mxGeometry x="45" y="600" width="10" height="280" as="geometry" />
         </mxCell>
         <mxCell id="BXTUp7uXABwCou_ePHKN-8" value="SDK" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="917" y="120" width="100" height="1530" as="geometry" />
+          <mxGeometry x="917" y="120" width="100" height="2750" as="geometry" />
         </mxCell>
         <mxCell id="BXTUp7uXABwCou_ePHKN-9" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="BXTUp7uXABwCou_ePHKN-8">
           <mxGeometry x="45" y="80" width="10" height="350" as="geometry" />
@@ -983,6 +983,138 @@
           <mxGeometry x="-0.0022" relative="1" as="geometry">
             <mxPoint x="960.5" y="1187" as="sourcePoint" />
             <mxPoint x="550" y="1187" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="orqPaPSmxVb5Jjf-OPqs-40" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="195" y="1410" width="10" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="orqPaPSmxVb5Jjf-OPqs-41" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="545" y="1410" width="10" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="orqPaPSmxVb5Jjf-OPqs-42" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="962" y="1410" width="10" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="orqPaPSmxVb5Jjf-OPqs-43" value="接收呼叫" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#80FF00;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="1390" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="orqPaPSmxVb5Jjf-OPqs-44" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="orqPaPSmxVb5Jjf-OPqs-43" target="orqPaPSmxVb5Jjf-OPqs-42">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1017" y="1340" as="sourcePoint" />
+            <mxPoint x="1081" y="1340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="orqPaPSmxVb5Jjf-OPqs-47" value="&lt;div&gt;+POC:gcsn,2,0,0,9000001,&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0022" relative="1" as="geometry">
+            <mxPoint x="960.5" y="1412" as="sourcePoint" />
+            <mxPoint x="550" y="1412" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="orqPaPSmxVb5Jjf-OPqs-48" value="&lt;table style=&quot;border-collapse:&lt;br/&gt; collapse;width:208pt&quot; width=&quot;277&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; border=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;height:14.25pt&quot; height=&quot;19&quot;&gt;&lt;br/&gt;  &lt;td style=&quot;height:14.25pt;width:208pt&quot; width=&quot;277&quot; height=&quot;19&quot;&gt;UPoc_CallSetup_Indication&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;entryX=1.006;entryY=0.427;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0029" relative="1" as="geometry">
+            <mxPoint x="545" y="1412" as="sourcePoint" />
+            <mxPoint x="200" y="1412" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="orqPaPSmxVb5Jjf-OPqs-49" value="&lt;div&gt;+POC:gcsn,4,0,0,9000001,&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0022" relative="1" as="geometry">
+            <mxPoint x="960.5" y="1500" as="sourcePoint" />
+            <mxPoint x="550" y="1500" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="orqPaPSmxVb5Jjf-OPqs-50" value="&lt;table style=&quot;border-collapse:&lt;br/&gt; collapse;width:208pt&quot; width=&quot;277&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; border=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;height:14.25pt&quot; height=&quot;19&quot;&gt;&lt;br/&gt;  &lt;td style=&quot;height:14.25pt;width:208pt&quot; width=&quot;277&quot; height=&quot;19&quot;&gt;UPoc_CallSetup_Indication&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;entryX=1.006;entryY=0.427;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0029" relative="1" as="geometry">
+            <mxPoint x="545" y="1500" as="sourcePoint" />
+            <mxPoint x="200" y="1500" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="orqPaPSmxVb5Jjf-OPqs-51" value="&lt;div&gt;+POC:flrctls,0,3,5,,&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0022" relative="1" as="geometry">
+            <mxPoint x="962" y="1590" as="sourcePoint" />
+            <mxPoint x="551.5" y="1590" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="orqPaPSmxVb5Jjf-OPqs-52" value="&lt;table style=&quot;border-collapse:&lt;br/&gt; collapse;width:208pt&quot; width=&quot;277&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; border=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;height:14.25pt&quot; height=&quot;19&quot;&gt;&lt;br/&gt;  &lt;td style=&quot;height:14.25pt;width:208pt&quot; width=&quot;277&quot; height=&quot;19&quot;&gt;UPoc_CallGranted_Ind&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;entryX=1.006;entryY=0.427;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0029" relative="1" as="geometry">
+            <mxPoint x="545" y="1590" as="sourcePoint" />
+            <mxPoint x="200" y="1590" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="orqPaPSmxVb5Jjf-OPqs-53" value="&lt;div&gt;+POC:flrctls,0,3,2,8000504,PDC580_504&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0022" relative="1" as="geometry">
+            <mxPoint x="965.5" y="1680" as="sourcePoint" />
+            <mxPoint x="555" y="1680" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="orqPaPSmxVb5Jjf-OPqs-54" value="&lt;table style=&quot;border-collapse:&lt;br/&gt; collapse;width:208pt&quot; width=&quot;277&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; border=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;height:14.25pt&quot; height=&quot;19&quot;&gt;&lt;br/&gt;  &lt;td style=&quot;height:14.25pt;width:208pt&quot; width=&quot;277&quot; height=&quot;19&quot;&gt;UPoc_CallGranted_Ind&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;entryX=1.006;entryY=0.427;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0029" relative="1" as="geometry">
+            <mxPoint x="545" y="1680" as="sourcePoint" />
+            <mxPoint x="200" y="1680" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="orqPaPSmxVb5Jjf-OPqs-55" value="&lt;div&gt;+POC:flrctls,0,3,5,,&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0012" relative="1" as="geometry">
+            <mxPoint x="965.5" y="1780" as="sourcePoint" />
+            <mxPoint x="555" y="1780" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="orqPaPSmxVb5Jjf-OPqs-56" value="&lt;table style=&quot;border-collapse:&lt;br/&gt; collapse;width:208pt&quot; width=&quot;277&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; border=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;height:14.25pt&quot; height=&quot;19&quot;&gt;&lt;br/&gt;  &lt;td style=&quot;height:14.25pt;width:208pt&quot; width=&quot;277&quot; height=&quot;19&quot;&gt;UPoc_CallGranted_Ind&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;entryX=1.006;entryY=0.427;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0029" relative="1" as="geometry">
+            <mxPoint x="545" y="1780" as="sourcePoint" />
+            <mxPoint x="200" y="1780" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="orqPaPSmxVb5Jjf-OPqs-57" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="195" y="1883" width="10" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="orqPaPSmxVb5Jjf-OPqs-58" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="545" y="1883" width="10" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="orqPaPSmxVb5Jjf-OPqs-59" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="962" y="1883" width="10" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="orqPaPSmxVb5Jjf-OPqs-60" value="正常结束接收" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#80FF00;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="1863" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="orqPaPSmxVb5Jjf-OPqs-61" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="orqPaPSmxVb5Jjf-OPqs-60" target="orqPaPSmxVb5Jjf-OPqs-59">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1017" y="1813" as="sourcePoint" />
+            <mxPoint x="1081" y="1813" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="orqPaPSmxVb5Jjf-OPqs-62" value="&lt;div&gt;CAT1:+POC:gcsn,5,0,0,9000001,&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0022" relative="1" as="geometry">
+            <mxPoint x="960.5" y="1885" as="sourcePoint" />
+            <mxPoint x="550" y="1885" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="orqPaPSmxVb5Jjf-OPqs-63" value="&lt;table style=&quot;border-collapse:&lt;br/&gt; collapse;width:208pt&quot; width=&quot;277&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; border=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;height:14.25pt&quot; height=&quot;19&quot;&gt;&lt;br/&gt;  &lt;td style=&quot;height:14.25pt;width:208pt&quot; width=&quot;277&quot; height=&quot;19&quot;&gt;UPoc_CallRelease_Response&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;entryX=1.006;entryY=0.427;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0029" relative="1" as="geometry">
+            <mxPoint x="545" y="1885" as="sourcePoint" />
+            <mxPoint x="200" y="1885" as="targetPoint" />
             <Array as="points" />
             <mxPoint as="offset" />
           </mxGeometry>
