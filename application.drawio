@@ -759,7 +759,7 @@
             <mxPoint x="539.5" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Yo0lDzDNoVVTjzR3EF1E-2" value="+POC:gcs,0,0&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="Yo0lDzDNoVVTjzR3EF1E-2" value="+POC:gcs,结果,错误码&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry x="-0.0012" relative="1" as="geometry">
             <mxPoint x="960.5" y="260" as="sourcePoint" />
             <mxPoint x="550" y="260" as="targetPoint" />
@@ -781,7 +781,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Yo0lDzDNoVVTjzR3EF1E-5" value="gcsn,1,0,0,9000001,&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="Yo0lDzDNoVVTjzR3EF1E-5" value="gcsn,1,0,0,9000001,&lt;div&gt;组呼状态通知&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry x="-0.0012" relative="1" as="geometry">
             <mxPoint x="960.5" y="320" as="sourcePoint" />
             <mxPoint x="550" y="320" as="targetPoint" />
