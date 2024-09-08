@@ -19,7 +19,7 @@
         <mxCell id="viJgDUvnnvHp10z5MApt-26" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="viJgDUvnnvHp10z5MApt-4" vertex="1">
           <mxGeometry x="45" y="310" width="10" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="viJgDUvnnvHp10z5MApt-7" value="开机" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="viJgDUvnnvHp10z5MApt-7" value="开机" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#80FF00;" parent="1" vertex="1">
           <mxGeometry x="90" y="190" width="50" height="20" as="geometry" />
         </mxCell>
         <mxCell id="viJgDUvnnvHp10z5MApt-14" value="APP_Get_PocType_Rsp&lt;br&gt;获取类型响应" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" source="viJgDUvnnvHp10z5MApt-4" edge="1">
