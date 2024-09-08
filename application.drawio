@@ -1128,7 +1128,7 @@
         <mxCell id="louKpi5qw4Qu9uaETxNt-3" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="962" y="2070" width="10" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="louKpi5qw4Qu9uaETxNt-4" value="挂机键挂断接收" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#80FF00;" vertex="1" parent="1">
+        <mxCell id="louKpi5qw4Qu9uaETxNt-4" value="挂机键挂断接收&lt;br&gt;（与挂断发射相同）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#80FF00;" vertex="1" parent="1">
           <mxGeometry x="10" y="2050" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="louKpi5qw4Qu9uaETxNt-5" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;exitX=1.009;exitY=0.635;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
