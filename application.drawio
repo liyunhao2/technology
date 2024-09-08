@@ -767,7 +767,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Yo0lDzDNoVVTjzR3EF1E-3" value="AT+POC=gcs,9000001,0,0,1&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;entryX=-0.2;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BXTUp7uXABwCou_ePHKN-3" target="BXTUp7uXABwCou_ePHKN-9">
+        <mxCell id="Yo0lDzDNoVVTjzR3EF1E-3" value="AT+POC=gcs,组ID,是否紧急,接听模式,是否申请话权&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;entryX=-0.2;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BXTUp7uXABwCou_ePHKN-3" target="BXTUp7uXABwCou_ePHKN-9">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="620" y="200.0000000000001" as="sourcePoint" />
             <mxPoint x="960" y="200" as="targetPoint" />
