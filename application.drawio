@@ -22,7 +22,7 @@
         <mxCell id="viJgDUvnnvHp10z5MApt-7" value="开机" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#80FF00;" parent="1" vertex="1">
           <mxGeometry x="90" y="190" width="50" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="viJgDUvnnvHp10z5MApt-14" value="APP_Get_PocType_Rsp&lt;br&gt;获取类型响应（POC类型）" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" source="viJgDUvnnvHp10z5MApt-4" edge="1">
+        <mxCell id="viJgDUvnnvHp10z5MApt-14" value="APP_Get_PocType_Rsp:POC类型&lt;br&gt;获取类型响应" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" source="viJgDUvnnvHp10z5MApt-4" edge="1">
           <mxGeometry x="-0.0015" relative="1" as="geometry">
             <mxPoint x="405" y="235" as="sourcePoint" />
             <mxPoint x="205" y="235" as="targetPoint" />
@@ -68,7 +68,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RmxEAIPaeQbhUFgqM5hA-12" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;APP_A7_PowerOn_Ind&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;A7开机成功&lt;/span&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;exitX=1.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
+        <mxCell id="RmxEAIPaeQbhUFgqM5hA-12" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;APP_A7_PowerOn_Ind:语言,用户,密码,IP,端口号&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;A7开机成功&lt;/span&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;exitX=1.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
           <mxGeometry x="-0.0019" width="160" relative="1" as="geometry">
             <mxPoint x="204" y="270" as="sourcePoint" />
             <mxPoint x="549" y="270" as="targetPoint" />
