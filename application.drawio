@@ -75,7 +75,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RmxEAIPaeQbhUFgqM5hA-13" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;UPoc_ZZD_Param_Req&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;卓智达音质参数同步（卓智达）&lt;/span&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;exitX=1.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
+        <mxCell id="RmxEAIPaeQbhUFgqM5hA-13" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;UPoc_ZZD_Param_Req:8K编码,自适应&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;卓智达音质参数同步（卓智达）&lt;/span&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;exitX=1.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
           <mxGeometry x="-0.0024" width="160" relative="1" as="geometry">
             <mxPoint x="204" y="317" as="sourcePoint" />
             <mxPoint x="549" y="317" as="targetPoint" />
