@@ -146,7 +146,7 @@
         <mxCell id="NqiY4rsTpjdVKAAZXvE3-12" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="NqiY4rsTpjdVKAAZXvE3-10" vertex="1">
           <mxGeometry x="45" y="80" width="10" height="720" as="geometry" />
         </mxCell>
-        <mxCell id="NqiY4rsTpjdVKAAZXvE3-15" value="+POC:online,状态,ID,注册类型,用户状态,用户名称,别名,,,,,,&lt;br&gt;（状态=登录中）" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" edge="1">
+        <mxCell id="NqiY4rsTpjdVKAAZXvE3-15" value="+POC:online,登录中,0,注册类型,用户状态,用户名称,别名,,,,,,&lt;br&gt;在线状态" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry x="-0.0012" relative="1" as="geometry">
             <mxPoint x="966.5" y="319" as="sourcePoint" />
             <mxPoint x="556" y="319" as="targetPoint" />
@@ -250,7 +250,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NqiY4rsTpjdVKAAZXvE3-31" value="+POC:login,&lt;font color=&quot;#009900&quot;&gt;结果,状态&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#330000&quot;&gt;登录请求响应&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" edge="1">
+        <mxCell id="NqiY4rsTpjdVKAAZXvE3-31" value="+POC:login,&lt;font color=&quot;#009900&quot;&gt;结果,登录中&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#330000&quot;&gt;登录请求响应&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry x="0.0004" relative="1" as="geometry">
             <mxPoint x="965.5" y="269" as="sourcePoint" />
             <mxPoint x="554" y="269" as="targetPoint" />
@@ -260,8 +260,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NqiY4rsTpjdVKAAZXvE3-32" value="+POC:online,状态,ID,注册类型,用户状态,用户名称,别名,,,,,,&lt;br&gt;（状态=登录中）" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" edge="1">
-          <mxGeometry x="-0.0002" relative="1" as="geometry">
+        <mxCell id="NqiY4rsTpjdVKAAZXvE3-32" value="+POC:online,状态,0,注册类型,用户状态,用户名称,别名,,,,,,&lt;br&gt;（状态=登录中）" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry x="0.0013" relative="1" as="geometry">
             <mxPoint x="960.5" y="379" as="sourcePoint" />
             <mxPoint x="550" y="379" as="targetPoint" />
             <Array as="points">
