@@ -152,7 +152,7 @@
         <mxCell id="NqiY4rsTpjdVKAAZXvE3-12" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="NqiY4rsTpjdVKAAZXvE3-10" vertex="1">
           <mxGeometry x="45" y="80" width="10" height="720" as="geometry" />
         </mxCell>
-        <mxCell id="NqiY4rsTpjdVKAAZXvE3-15" value="+POC:online,登录中,0,注册类型,用户状态,用户名称,别名,,,,,,&lt;br&gt;在线状态&lt;br&gt;+POC:online,1,0,0,1,,,,,,,," style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" edge="1">
+        <mxCell id="NqiY4rsTpjdVKAAZXvE3-15" value="+POC:online,&lt;font color=&quot;#009900&quot;&gt;登录中&lt;/font&gt;,0,0,1,,,,,,,,&lt;br&gt;在线状态" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry x="-0.0021" relative="1" as="geometry">
             <mxPoint x="966.5" y="319" as="sourcePoint" />
             <mxPoint x="556" y="319" as="targetPoint" />
