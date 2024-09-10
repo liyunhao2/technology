@@ -197,7 +197,7 @@
         <mxCell id="NqiY4rsTpjdVKAAZXvE3-26" value="[登录成功]" style="line;strokeWidth=1;dashed=1;labelPosition=center;verticalLabelPosition=bottom;align=left;verticalAlign=top;spacingLeft=20;spacingTop=15;html=1;whiteSpace=wrap;" parent="NqiY4rsTpjdVKAAZXvE3-24" vertex="1">
           <mxGeometry y="150" width="1050" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="NqiY4rsTpjdVKAAZXvE3-27" value="+POC:online,&lt;font color=&quot;#009900&quot;&gt;登录成功&lt;/font&gt;,0,0,2,&lt;font color=&quot;#009900&quot;&gt;用户名&lt;/font&gt;,&lt;font color=&quot;#009900&quot;&gt;别名&lt;/font&gt;,,,,,,&lt;br&gt;在线状态" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="NqiY4rsTpjdVKAAZXvE3-24" edge="1">
+        <mxCell id="NqiY4rsTpjdVKAAZXvE3-27" value="+POC:online,&lt;font color=&quot;#009900&quot;&gt;登录成功&lt;/font&gt;,0,0,2,&lt;font color=&quot;#009900&quot;&gt;用户名&lt;/font&gt;,&lt;font color=&quot;#009900&quot;&gt;别名&lt;/font&gt;,,,,,,&lt;font color=&quot;#009900&quot;&gt;域名&lt;/font&gt;&lt;br&gt;在线状态（用户名与域名平台使用）" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="NqiY4rsTpjdVKAAZXvE3-24" edge="1">
           <mxGeometry x="-0.0005" relative="1" as="geometry">
             <mxPoint x="950.5" y="200" as="sourcePoint" />
             <mxPoint x="540" y="200" as="targetPoint" />
