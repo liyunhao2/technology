@@ -259,7 +259,7 @@
         <mxCell id="LBAC0WBPt8xWXdrW723B-1" value="[遥毙]" style="line;strokeWidth=1;dashed=1;labelPosition=center;verticalLabelPosition=bottom;align=left;verticalAlign=top;spacingLeft=20;spacingTop=15;html=1;whiteSpace=wrap;" vertex="1" parent="NqiY4rsTpjdVKAAZXvE3-24">
           <mxGeometry y="381" width="1050" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="LBAC0WBPt8xWXdrW723B-2" value="UPoc_Login_Response:0,&lt;font color=&quot;#009900&quot;&gt;遥毙&lt;/font&gt;,&lt;font color=&quot;#009900&quot;&gt;别名&lt;/font&gt;&lt;div&gt;在线状态&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="NqiY4rsTpjdVKAAZXvE3-24">
+        <mxCell id="LBAC0WBPt8xWXdrW723B-2" value="UPoc_Login_Response:0,&lt;font color=&quot;#009900&quot;&gt;遥毙&lt;/font&gt;,&lt;font color=&quot;#009900&quot;&gt;别名&lt;/font&gt;&lt;div&gt;在线状态（别名在A7也没有使用）&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="NqiY4rsTpjdVKAAZXvE3-24">
           <mxGeometry x="0.0019" relative="1" as="geometry">
             <mxPoint x="536" y="451" as="sourcePoint" />
             <mxPoint x="190" y="451" as="targetPoint" />
@@ -268,7 +268,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="LBAC0WBPt8xWXdrW723B-3" value="UPoc_Hytalk_StunState_Indication&lt;div&gt;状态=遥晕&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="NqiY4rsTpjdVKAAZXvE3-24">
-          <mxGeometry x="0.0004" relative="1" as="geometry">
+          <mxGeometry x="0.0019" relative="1" as="geometry">
             <mxPoint x="536" y="511" as="sourcePoint" />
             <mxPoint x="190" y="511" as="targetPoint" />
             <Array as="points">
