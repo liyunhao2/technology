@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" version="24.7.12" pages="4">
   <diagram name="开机" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
-    <mxGraphModel dx="989" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="819" dy="426" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -114,17 +114,17 @@
             <mxPoint x="200" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DqW32darjoosJ-GPymWo-1" value="携带登录信息" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+        <mxCell id="DqW32darjoosJ-GPymWo-1" value="携带登录信息" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="570" y="240" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DqW32darjoosJ-GPymWo-2" value="携带配置信息" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+        <mxCell id="DqW32darjoosJ-GPymWo-2" value="携带配置信息" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="570" y="290" width="190" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="azlCwML0RFL3LNcEhYYG" name="登录">
-    <mxGraphModel dx="819" dy="426" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="989" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -162,7 +162,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NqiY4rsTpjdVKAAZXvE3-16" value="UPoc_Login_Response(0,&lt;font color=&quot;#009900&quot;&gt;登录中&lt;/font&gt;,,)&lt;br&gt;在线状态" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" edge="1">
+        <mxCell id="NqiY4rsTpjdVKAAZXvE3-16" value="UPoc_Login_Response:0,&lt;font color=&quot;#009900&quot;&gt;登录中&lt;/font&gt;,,&lt;br&gt;在线状态" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry x="-0.0008" relative="1" as="geometry">
             <mxPoint x="550" y="318" as="sourcePoint" />
             <mxPoint x="204" y="318" as="targetPoint" />
@@ -197,8 +197,8 @@
         <mxCell id="NqiY4rsTpjdVKAAZXvE3-26" value="[登录成功]" style="line;strokeWidth=1;dashed=1;labelPosition=center;verticalLabelPosition=bottom;align=left;verticalAlign=top;spacingLeft=20;spacingTop=15;html=1;whiteSpace=wrap;" parent="NqiY4rsTpjdVKAAZXvE3-24" vertex="1">
           <mxGeometry y="150" width="1050" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="NqiY4rsTpjdVKAAZXvE3-27" value="+POC:online,状态,ID,注册类型,用户状态,用户名称,别名,,,,,,&lt;br&gt;（状态=登录成功）&lt;br&gt;+POC:online,2,0,0,2,8000503,PDC580_503,,,,,,testd.com" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="NqiY4rsTpjdVKAAZXvE3-24" edge="1">
-          <mxGeometry x="-0.0002" relative="1" as="geometry">
+        <mxCell id="NqiY4rsTpjdVKAAZXvE3-27" value="+POC:online,&lt;font color=&quot;#009900&quot;&gt;登录成功&lt;/font&gt;,0,0,2,&lt;font color=&quot;#009900&quot;&gt;用户名&lt;/font&gt;,&lt;font color=&quot;#009900&quot;&gt;别名&lt;/font&gt;,,,,,,&lt;br&gt;在线状态" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="NqiY4rsTpjdVKAAZXvE3-24" edge="1">
+          <mxGeometry x="-0.0005" relative="1" as="geometry">
             <mxPoint x="950.5" y="200" as="sourcePoint" />
             <mxPoint x="540" y="200" as="targetPoint" />
             <Array as="points">
@@ -207,7 +207,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NqiY4rsTpjdVKAAZXvE3-28" value="UPoc_Login_Response&lt;br&gt;（状态=登录成功）" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="NqiY4rsTpjdVKAAZXvE3-24" edge="1">
+        <mxCell id="NqiY4rsTpjdVKAAZXvE3-28" value="UPoc_Login_Response:0,&lt;font color=&quot;#009900&quot;&gt;登录成功&lt;/font&gt;,&lt;font color=&quot;#009900&quot;&gt;别名&lt;/font&gt;&lt;div&gt;在线状态（别名在A7也没有使用）&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="NqiY4rsTpjdVKAAZXvE3-24" edge="1">
           <mxGeometry x="0.0004" relative="1" as="geometry">
             <mxPoint x="536" y="200" as="sourcePoint" />
             <mxPoint x="190" y="200" as="targetPoint" />
@@ -286,8 +286,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NqiY4rsTpjdVKAAZXvE3-34" value="+POC:online,&lt;font color=&quot;#009900&quot;&gt;离线&lt;/font&gt;,0,0,0,,,,,,,," style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" edge="1">
-          <mxGeometry x="0.0007" relative="1" as="geometry">
+        <mxCell id="NqiY4rsTpjdVKAAZXvE3-34" value="+POC:online,&lt;font color=&quot;#009900&quot;&gt;离线&lt;/font&gt;,0,0,0,,,,,,,,&lt;div&gt;在线状态&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry x="-0.0005" relative="1" as="geometry">
             <mxPoint x="960.5" y="499" as="sourcePoint" />
             <mxPoint x="550" y="499" as="targetPoint" />
             <Array as="points">
@@ -296,7 +296,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NqiY4rsTpjdVKAAZXvE3-35" value="UPoc_Login_Response(0,&lt;font color=&quot;#009900&quot;&gt;登录中&lt;/font&gt;,,)&lt;br&gt;在线状态" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" edge="1">
+        <mxCell id="NqiY4rsTpjdVKAAZXvE3-35" value="UPoc_Login_Response:0,&lt;font color=&quot;#009900&quot;&gt;登录中&lt;/font&gt;,,&lt;br&gt;在线状态" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry x="0.0008" relative="1" as="geometry">
             <mxPoint x="546" y="379" as="sourcePoint" />
             <mxPoint x="200" y="379" as="targetPoint" />
@@ -316,7 +316,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NqiY4rsTpjdVKAAZXvE3-37" value="UPoc_Login_Response(0,&lt;font color=&quot;#009900&quot;&gt;离线&lt;/font&gt;,,)&lt;br&gt;在线状态" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" edge="1">
+        <mxCell id="NqiY4rsTpjdVKAAZXvE3-37" value="UPoc_Login_Response:0,&lt;font color=&quot;#009900&quot;&gt;离线&lt;/font&gt;,,&lt;br&gt;在线状态" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry x="0.0008" relative="1" as="geometry">
             <mxPoint x="546" y="499" as="sourcePoint" />
             <mxPoint x="200" y="499" as="targetPoint" />
