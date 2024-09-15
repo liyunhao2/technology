@@ -835,7 +835,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Yo0lDzDNoVVTjzR3EF1E-7" value="+POC:gcsn,&lt;font color=&quot;#009900&quot;&gt;状态(已接听)&lt;/font&gt;,&lt;font color=&quot;#009900&quot;&gt;呼叫类型&lt;/font&gt;,0,&lt;font color=&quot;#009900&quot;&gt;组ID&lt;/font&gt;,组名&lt;div&gt;组呼状态通知（没有组名）&lt;br&gt;+POC:gcsn,4,0,0,9000001,&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" edge="1">
-          <mxGeometry x="-0.0005" relative="1" as="geometry">
+          <mxGeometry x="-0.0021" relative="1" as="geometry">
             <mxPoint x="960.5" y="389.65999999999997" as="sourcePoint" />
             <mxPoint x="550" y="389.65999999999997" as="targetPoint" />
             <Array as="points" />
@@ -994,14 +994,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="orqPaPSmxVb5Jjf-OPqs-20" value="&lt;div&gt;AT+POC=gch,0&lt;br&gt;&lt;/div&gt;&lt;div&gt;结束组呼(呼叫ID为何是0)&lt;/div&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;entryX=-0.2;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+        <mxCell id="orqPaPSmxVb5Jjf-OPqs-20" value="&lt;div&gt;AT+POC=gch,0&lt;br&gt;&lt;/div&gt;&lt;div&gt;结束组呼(&lt;font color=&quot;#ff0000&quot;&gt;呼叫ID为何是0&lt;/font&gt;)&lt;/div&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;entryX=-0.2;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
           <mxGeometry x="-0.0008" width="160" relative="1" as="geometry">
             <mxPoint x="553" y="1079.72" as="sourcePoint" />
             <mxPoint x="963" y="1079.72" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="orqPaPSmxVb5Jjf-OPqs-21" value="+POC:gch,结果&lt;div&gt;结束组呼响应&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" edge="1">
+        <mxCell id="orqPaPSmxVb5Jjf-OPqs-21" value="+POC:gch,结果&lt;div&gt;结束组呼响应(&lt;font color=&quot;#ff0000&quot;&gt;结束失败没做特殊处理&lt;/font&gt;)&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry x="-0.0022" relative="1" as="geometry">
             <mxPoint x="960.5" y="1130" as="sourcePoint" />
             <mxPoint x="550" y="1130" as="targetPoint" />
@@ -1017,8 +1017,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="orqPaPSmxVb5Jjf-OPqs-23" value="+POC:gcsn,5,0,0,9000001,&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" edge="1">
-          <mxGeometry x="-0.0022" relative="1" as="geometry">
+        <mxCell id="orqPaPSmxVb5Jjf-OPqs-23" value="+POC:gcsn,5,0,0,9000001,&lt;div&gt;+POC:gcsn,&lt;font color=&quot;#009900&quot;&gt;状态(已接听)&lt;/font&gt;,&lt;font color=&quot;#009900&quot;&gt;呼叫类型&lt;/font&gt;,0,&lt;font color=&quot;#009900&quot;&gt;组ID&lt;/font&gt;,组名&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry x="-0.0021" relative="1" as="geometry">
             <mxPoint x="960.5" y="1187" as="sourcePoint" />
             <mxPoint x="550" y="1187" as="targetPoint" />
             <Array as="points" />
