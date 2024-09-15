@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" version="24.7.12" pages="4">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" version="24.7.14" pages="4">
   <diagram name="开机" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="819" dy="426" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -625,7 +625,7 @@
         <mxCell id="BR4Ddncq0KbIIfcRAgqN-17" value="目前采取的策略是：&lt;div&gt;个呼联系人每次最大获取30个&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#CC0000;align=left;" parent="1" vertex="1">
           <mxGeometry x="1020" y="1210" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="BR4Ddncq0KbIIfcRAgqN-18" value="UPoc_UpdateData_Notify&lt;div&gt;&lt;/div&gt;&lt;div&gt;更新联系人（个）&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" edge="1">
+        <mxCell id="BR4Ddncq0KbIIfcRAgqN-18" value="UPoc_UpdateData_Notify&lt;div&gt;&lt;/div&gt;&lt;div&gt;更新联系人（个）&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;strokeColor=#FF00FF;" parent="1" edge="1">
           <mxGeometry x="0.0019" relative="1" as="geometry">
             <mxPoint x="546" y="1461" as="sourcePoint" />
             <mxPoint x="200" y="1461" as="targetPoint" />
