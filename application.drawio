@@ -994,7 +994,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="orqPaPSmxVb5Jjf-OPqs-20" value="&lt;div&gt;AT+POC=gch,0&lt;br&gt;&lt;/div&gt;&lt;div&gt;结束组呼&lt;/div&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;entryX=-0.2;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+        <mxCell id="orqPaPSmxVb5Jjf-OPqs-20" value="&lt;div&gt;AT+POC=gch,0&lt;br&gt;&lt;/div&gt;&lt;div&gt;结束组呼(呼叫ID为何是0)&lt;/div&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;entryX=-0.2;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
           <mxGeometry x="-0.0008" width="160" relative="1" as="geometry">
             <mxPoint x="553" y="1079.72" as="sourcePoint" />
             <mxPoint x="963" y="1079.72" as="targetPoint" />
