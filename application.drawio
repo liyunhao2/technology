@@ -789,7 +789,7 @@
         <mxCell id="hYmMCNkdBhSCswWEtSvp-1" value="呼叫-POC 3K" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fontColor=#990000;" parent="1" vertex="1">
           <mxGeometry x="150" y="40" width="870" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Yo0lDzDNoVVTjzR3EF1E-1" value="UPoc_CallSetup_Request:&lt;font color=&quot;#009900&quot;&gt;组呼,组ID,普通呼叫,带话权&lt;/font&gt;&lt;div&gt;请求组呼&lt;/div&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;" parent="1" target="BXTUp7uXABwCou_ePHKN-22" edge="1">
+        <mxCell id="Yo0lDzDNoVVTjzR3EF1E-1" value="UPoc_CallSetup_Request:&lt;font color=&quot;#009900&quot;&gt;组呼,组ID,普通呼叫,&lt;/font&gt;0&lt;font color=&quot;#009900&quot;&gt;,带话权&lt;/font&gt;&lt;div&gt;请求组呼&lt;/div&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;" parent="1" target="BXTUp7uXABwCou_ePHKN-22" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="200" y="200" as="sourcePoint" />
             <mxPoint x="539.5" y="200" as="targetPoint" />
