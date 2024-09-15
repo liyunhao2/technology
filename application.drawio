@@ -795,15 +795,15 @@
             <mxPoint x="539.5" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Yo0lDzDNoVVTjzR3EF1E-2" value="+POC:gcs,结果,错误码&lt;div&gt;+POC:gcs,0,0&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" edge="1">
-          <mxGeometry x="-0.0012" relative="1" as="geometry">
+        <mxCell id="Yo0lDzDNoVVTjzR3EF1E-2" value="+POC:gcs,&lt;font color=&quot;#009900&quot;&gt;结果,错误码&lt;/font&gt;&lt;div&gt;+POC:gcs,0,0&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry x="-0.0005" relative="1" as="geometry">
             <mxPoint x="960.5" y="260" as="sourcePoint" />
             <mxPoint x="550" y="260" as="targetPoint" />
             <Array as="points" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Yo0lDzDNoVVTjzR3EF1E-3" value="AT+POC=gcs,&lt;font color=&quot;#009900&quot;&gt;组ID&lt;/font&gt;,是否紧急,接听模式,是否申请话权&lt;div&gt;AT+POC=gcs,000001,0,0,1&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;entryX=-0.2;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="BXTUp7uXABwCou_ePHKN-3" target="BXTUp7uXABwCou_ePHKN-9" edge="1">
+        <mxCell id="Yo0lDzDNoVVTjzR3EF1E-3" value="AT+POC=gcs,&lt;font color=&quot;#009900&quot;&gt;组ID,非紧急&lt;/font&gt;,0,&lt;font color=&quot;#009900&quot;&gt;带话权&lt;/font&gt;&lt;div&gt;AT+POC=gcs,000001,0,0,1&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;entryX=-0.2;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="BXTUp7uXABwCou_ePHKN-3" target="BXTUp7uXABwCou_ePHKN-9" edge="1">
           <mxGeometry x="0.0005" width="160" relative="1" as="geometry">
             <mxPoint x="620" y="200.0000000000001" as="sourcePoint" />
             <mxPoint x="960" y="200" as="targetPoint" />
@@ -818,8 +818,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Yo0lDzDNoVVTjzR3EF1E-5" value="gcsn,1,呼叫类型,0,组ID,组名&lt;div&gt;组呼状态通知，状态=去电（没有组名）&lt;br&gt;+POC:gcsn,1,0,0,9000001,&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" edge="1">
-          <mxGeometry x="-0.0012" relative="1" as="geometry">
+        <mxCell id="Yo0lDzDNoVVTjzR3EF1E-5" value="gcsn,&lt;font color=&quot;#009900&quot;&gt;状态(去电),呼叫类型&lt;/font&gt;,个ID,&lt;font color=&quot;#009900&quot;&gt;组ID,组名&lt;/font&gt;&lt;div&gt;组呼状态通知（没有组名）&lt;br&gt;+POC:gcsn,1,0,0,9000001,&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry x="-0.0005" relative="1" as="geometry">
             <mxPoint x="960.5" y="320" as="sourcePoint" />
             <mxPoint x="550" y="320" as="targetPoint" />
             <Array as="points" />
