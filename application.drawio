@@ -1059,8 +1059,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="orqPaPSmxVb5Jjf-OPqs-49" value="&lt;div&gt;+POC:gcsn,4,0,0,9000001,&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" edge="1">
-          <mxGeometry x="-0.0022" relative="1" as="geometry">
+        <mxCell id="orqPaPSmxVb5Jjf-OPqs-49" value="&lt;div&gt;+POC:gcsn,4,0,0,9000001,&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;+POC:gcsn,&lt;font color=&quot;#009900&quot;&gt;状态(已接听)&lt;/font&gt;,&lt;font color=&quot;#009900&quot;&gt;呼叫类型&lt;/font&gt;,0,&lt;font color=&quot;#009900&quot;&gt;组ID&lt;/font&gt;,&lt;font color=&quot;#ff0000&quot;&gt;组名&lt;/font&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;组呼状态通知&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry x="-0.0012" relative="1" as="geometry">
             <mxPoint x="960.5" y="1500" as="sourcePoint" />
             <mxPoint x="550" y="1500" as="targetPoint" />
             <Array as="points" />
