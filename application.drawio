@@ -755,7 +755,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="7O-j-J1sYUuLUexz8yVT" name="呼叫">
-    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="819" dy="426" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -789,7 +789,7 @@
         <mxCell id="hYmMCNkdBhSCswWEtSvp-1" value="呼叫-POC 3K" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fontColor=#990000;" parent="1" vertex="1">
           <mxGeometry x="150" y="40" width="870" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Yo0lDzDNoVVTjzR3EF1E-1" value="UPoc_CallSetup_Request&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;" parent="1" target="BXTUp7uXABwCou_ePHKN-22" edge="1">
+        <mxCell id="Yo0lDzDNoVVTjzR3EF1E-1" value="UPoc_CallSetup_Request:&lt;font color=&quot;#009900&quot;&gt;组呼,组ID,普通呼叫,带话权&lt;/font&gt;&lt;div&gt;请求组呼&lt;/div&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;" parent="1" target="BXTUp7uXABwCou_ePHKN-22" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="200" y="200" as="sourcePoint" />
             <mxPoint x="539.5" y="200" as="targetPoint" />
@@ -803,10 +803,11 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Yo0lDzDNoVVTjzR3EF1E-3" value="AT+POC=gcs,组ID,是否紧急,接听模式,是否申请话权&lt;div&gt;AT+POC=gcs,9000001,0,0,1&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;entryX=-0.2;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="BXTUp7uXABwCou_ePHKN-3" target="BXTUp7uXABwCou_ePHKN-9" edge="1">
-          <mxGeometry width="160" relative="1" as="geometry">
+        <mxCell id="Yo0lDzDNoVVTjzR3EF1E-3" value="AT+POC=gcs,&lt;font color=&quot;#009900&quot;&gt;组ID&lt;/font&gt;,是否紧急,接听模式,是否申请话权&lt;div&gt;AT+POC=gcs,000001,0,0,1&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;entryX=-0.2;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="BXTUp7uXABwCou_ePHKN-3" target="BXTUp7uXABwCou_ePHKN-9" edge="1">
+          <mxGeometry x="0.0005" width="160" relative="1" as="geometry">
             <mxPoint x="620" y="200.0000000000001" as="sourcePoint" />
             <mxPoint x="960" y="200" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Yo0lDzDNoVVTjzR3EF1E-4" value="UPoc_CallSetup_Rsp&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" edge="1">
