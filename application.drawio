@@ -133,7 +133,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="azlCwML0RFL3LNcEhYYG" name="登录">
-    <mxGraphModel dx="869" dy="452" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1147" dy="597" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -383,12 +383,12 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7SOXWfOMXMJu7WRP67ED-1" value="APP_Get_PocType_Rsp&lt;br&gt;获取类型响应" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" edge="1">
+        <mxCell id="7SOXWfOMXMJu7WRP67ED-1" value="APP_Get_PocType_Rsp:&lt;font color=&quot;#009900&quot;&gt;POC类型&lt;/font&gt;&lt;br&gt;获取类型响应" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="550" y="1104" as="sourcePoint" />
-            <mxPoint x="205" y="1104" as="targetPoint" />
+            <mxPoint x="550" y="1115" as="sourcePoint" />
+            <mxPoint x="205" y="1115" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="380" y="1104" />
+              <mxPoint x="380" y="1115" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -408,7 +408,7 @@
           <mxGeometry x="45" y="80" width="10" height="2280" as="geometry" />
         </mxCell>
         <mxCell id="7ssPVMNjG5Tj88UHe9z8-2" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="HqNxnuOvITuh2wQ9FKAz-1">
-          <mxGeometry x="45" y="2560" width="10" height="80" as="geometry" />
+          <mxGeometry x="45" y="2560" width="10" height="640" as="geometry" />
         </mxCell>
         <mxCell id="HqNxnuOvITuh2wQ9FKAz-3" value="CAT1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="1751" y="120" width="100" height="4230" as="geometry" />
@@ -417,7 +417,7 @@
           <mxGeometry x="45" y="80" width="10" height="2280" as="geometry" />
         </mxCell>
         <mxCell id="7ssPVMNjG5Tj88UHe9z8-3" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="HqNxnuOvITuh2wQ9FKAz-3">
-          <mxGeometry x="45" y="2560" width="10" height="80" as="geometry" />
+          <mxGeometry x="45" y="2560" width="10" height="710" as="geometry" />
         </mxCell>
         <mxCell id="HqNxnuOvITuh2wQ9FKAz-5" value="开机自动登录" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#80FF00;" vertex="1" parent="1">
           <mxGeometry x="1312" y="190" width="79" height="20" as="geometry" />
@@ -439,7 +439,7 @@
           <mxGeometry x="45" y="80" width="10" height="2280" as="geometry" />
         </mxCell>
         <mxCell id="7ssPVMNjG5Tj88UHe9z8-4" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="HqNxnuOvITuh2wQ9FKAz-7">
-          <mxGeometry x="45" y="2560" width="10" height="80" as="geometry" />
+          <mxGeometry x="45" y="2560" width="10" height="670" as="geometry" />
         </mxCell>
         <mxCell id="HqNxnuOvITuh2wQ9FKAz-9" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;APP_Get_PocType_Req&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;获取类型请求&lt;/span&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;exitX=1.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="HqNxnuOvITuh2wQ9FKAz-3">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -566,7 +566,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="HqNxnuOvITuh2wQ9FKAz-27" value="&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot; class=&quot;fontstyle0&quot;&gt;&lt;span style=&quot;font-size: 12px; text-align: left; text-wrap: wrap;&quot;&gt;&lt;font color=&quot;#009900&quot;&gt;82,00&lt;/font&gt;,ffffffff&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;text-align: center;&quot; class=&quot;fontstyle0&quot;&gt;ENotifyStatus&lt;/span&gt;&lt;span style=&quot;text-align: center; background-color: rgb(251, 251, 251);&quot; class=&quot;fontstyle0&quot;&gt;:&lt;font color=&quot;#009900&quot;&gt;82&lt;/font&gt;&lt;/span&gt;&lt;font style=&quot;text-align: center;&quot; color=&quot;#009900&quot;&gt;,离线&lt;/font&gt;&lt;span style=&quot;text-align: center;&quot;&gt;,用户ID,扩展信息&lt;/span&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span class=&quot;fontstyle0&quot;&gt;登陆状态通知&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;endFill=0;strokeColor=#3333FF;" edge="1" parent="1">
-          <mxGeometry x="-0.0014" relative="1" as="geometry">
+          <mxGeometry x="-0.0005" relative="1" as="geometry">
             <mxPoint x="2388.4999999999995" y="790.0000000000001" as="sourcePoint" />
             <mxPoint x="1801" y="790" as="targetPoint" />
             <Array as="points" />
@@ -795,7 +795,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7ssPVMNjG5Tj88UHe9z8-5" value="Message1 label" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;" edge="1" parent="1" target="HqNxnuOvITuh2wQ9FKAz-3">
+        <mxCell id="7ssPVMNjG5Tj88UHe9z8-5" value="10018" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;" edge="1" parent="1" target="HqNxnuOvITuh2wQ9FKAz-3">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="1450" y="2680" as="sourcePoint" />
             <mxPoint x="1610" y="2680" as="targetPoint" />
@@ -808,6 +808,94 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="1410" y="2679.57" as="sourcePoint" />
             <mxPoint x="1570" y="2679.57" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7ssPVMNjG5Tj88UHe9z8-8" value="&lt;div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px; text-wrap: wrap;&quot;&gt;82,01,ffffffff&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;fontstyle0&quot;&gt;ENotifyStatus:82,登录中,,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;fontstyle2&quot;&gt;登陆状态通知&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" target="HqNxnuOvITuh2wQ9FKAz-3">
+          <mxGeometry x="-0.0012" relative="1" as="geometry">
+            <mxPoint x="2380.5" y="2750" as="sourcePoint" />
+            <mxPoint x="1970" y="2750" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7ssPVMNjG5Tj88UHe9z8-9" value="030000" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;" edge="1" parent="1" target="HqNxnuOvITuh2wQ9FKAz-7">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1800" y="2679.47" as="sourcePoint" />
+            <mxPoint x="1960" y="2679.47" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7ssPVMNjG5Tj88UHe9z8-11" value="UPoc_Login_Response:0,&lt;font color=&quot;#009900&quot;&gt;登录中&lt;/font&gt;,,&lt;div&gt;登陆状态通知&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="HqNxnuOvITuh2wQ9FKAz-3">
+          <mxGeometry x="-0.0012" relative="1" as="geometry">
+            <mxPoint x="1780" y="2750" as="sourcePoint" />
+            <mxPoint x="1450" y="2750" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7ssPVMNjG5Tj88UHe9z8-12" value="03000000" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0012" relative="1" as="geometry">
+            <mxPoint x="2379.5" y="2830" as="sourcePoint" />
+            <mxPoint x="1800" y="2830" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7ssPVMNjG5Tj88UHe9z8-13" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px; text-wrap: wrap;&quot;&gt;82,02,8ef10002,3200f7530000&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span class=&quot;fontstyle0&quot;&gt;ENotifyStatus:82,登录成功,用户ID,用户名&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;fontstyle2&quot;&gt;登陆状态通知&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0012" relative="1" as="geometry">
+            <mxPoint x="2379.5" y="2900" as="sourcePoint" />
+            <mxPoint x="1800" y="2900" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7ssPVMNjG5Tj88UHe9z8-14" value="APP_Get_PocType_Req" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1450" y="2940" as="sourcePoint" />
+            <mxPoint x="1801" y="2940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7ssPVMNjG5Tj88UHe9z8-15" value="7C000000" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1800" y="2980.47" as="sourcePoint" />
+            <mxPoint x="2389" y="2980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7ssPVMNjG5Tj88UHe9z8-16" value="020000" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1800" y="3050.47" as="sourcePoint" />
+            <mxPoint x="2389" y="3050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7ssPVMNjG5Tj88UHe9z8-17" value="8900001e1886" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0012" relative="1" as="geometry">
+            <mxPoint x="2389.5" y="3130" as="sourcePoint" />
+            <mxPoint x="1810" y="3130" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7ssPVMNjG5Tj88UHe9z8-18" value="65592" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0012" relative="1" as="geometry">
+            <mxPoint x="1801" y="3160" as="sourcePoint" />
+            <mxPoint x="1450" y="3160" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7ssPVMNjG5Tj88UHe9z8-19" value="65564" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0012" relative="1" as="geometry">
+            <mxPoint x="1801" y="3210" as="sourcePoint" />
+            <mxPoint x="1450" y="3210" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7ssPVMNjG5Tj88UHe9z8-20" value="8501" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0012" relative="1" as="geometry">
+            <mxPoint x="2389.5" y="3250" as="sourcePoint" />
+            <mxPoint x="1810" y="3250" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
