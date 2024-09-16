@@ -539,7 +539,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="HqNxnuOvITuh2wQ9FKAz-25" value="UPoc_Login_Response:0,&lt;font color=&quot;#009900&quot;&gt;离线&lt;/font&gt;,,&lt;div&gt;登陆状态通知&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
-          <mxGeometry x="-0.0031" relative="1" as="geometry">
+          <mxGeometry x="-0.0019" relative="1" as="geometry">
             <mxPoint x="1796" y="787" as="sourcePoint" />
             <mxPoint x="1451" y="787" as="targetPoint" />
             <Array as="points">
@@ -706,10 +706,10 @@
         </mxCell>
         <mxCell id="HqNxnuOvITuh2wQ9FKAz-45" value="UPoc_GPSConfig_Notify:&lt;font color=&quot;#009900&quot;&gt;开关,间隔&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry x="-0.0048" relative="1" as="geometry">
-            <mxPoint x="1808.5" y="1784" as="sourcePoint" />
-            <mxPoint x="1463.5" y="1784" as="targetPoint" />
+            <mxPoint x="1801.5" y="1784" as="sourcePoint" />
+            <mxPoint x="1456.5" y="1784" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1638.5" y="1784" />
+              <mxPoint x="1631.5" y="1784" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
@@ -766,8 +766,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aDjU6AXiYn9Ule_2tRP1-6" value="UPoc_CallRelease_Response&lt;div&gt;话权释放&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;strokeColor=#3333FF;" edge="1" parent="aDjU6AXiYn9Ule_2tRP1-1">
-          <mxGeometry x="-0.0031" relative="1" as="geometry">
+        <mxCell id="aDjU6AXiYn9Ule_2tRP1-6" value="UPoc_CallRelease_Response:0&lt;div&gt;话权释放&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;strokeColor=#3333FF;" edge="1" parent="aDjU6AXiYn9Ule_2tRP1-1">
+          <mxGeometry x="-0.0019" relative="1" as="geometry">
             <mxPoint x="684" y="674" as="sourcePoint" />
             <mxPoint x="339" y="674" as="targetPoint" />
             <Array as="points">
@@ -776,8 +776,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aDjU6AXiYn9Ule_2tRP1-7" value="UPoc_Login_Response" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;strokeColor=#3333FF;" edge="1" parent="aDjU6AXiYn9Ule_2tRP1-1">
-          <mxGeometry x="-0.0048" relative="1" as="geometry">
+        <mxCell id="aDjU6AXiYn9Ule_2tRP1-7" value="UPoc_Login_Response:0,&lt;font color=&quot;#009900&quot;&gt;离线&lt;/font&gt;,,&lt;font color=&quot;#009900&quot;&gt;离线原因&lt;/font&gt;&lt;div&gt;登陆状态通知&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;strokeColor=#3333FF;" edge="1" parent="aDjU6AXiYn9Ule_2tRP1-1">
+          <mxGeometry x="-0.0069" relative="1" as="geometry">
             <mxPoint x="684" y="744" as="sourcePoint" />
             <mxPoint x="339" y="744" as="targetPoint" />
             <Array as="points">
