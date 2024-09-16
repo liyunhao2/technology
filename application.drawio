@@ -768,7 +768,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aDjU6AXiYn9Ule_2tRP1-6" value="65548" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;strokeColor=#3333FF;" edge="1" parent="aDjU6AXiYn9Ule_2tRP1-1">
+        <mxCell id="aDjU6AXiYn9Ule_2tRP1-6" value="UPoc_CallRelease_Response" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;strokeColor=#3333FF;" edge="1" parent="aDjU6AXiYn9Ule_2tRP1-1">
           <mxGeometry x="-0.0031" relative="1" as="geometry">
             <mxPoint x="684" y="674" as="sourcePoint" />
             <mxPoint x="339" y="674" as="targetPoint" />
@@ -778,7 +778,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aDjU6AXiYn9Ule_2tRP1-7" value="65561" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;strokeColor=#3333FF;" edge="1" parent="aDjU6AXiYn9Ule_2tRP1-1">
+        <mxCell id="aDjU6AXiYn9Ule_2tRP1-7" value="UPoc_Login_Response" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;strokeColor=#3333FF;" edge="1" parent="aDjU6AXiYn9Ule_2tRP1-1">
           <mxGeometry x="-0.0048" relative="1" as="geometry">
             <mxPoint x="684" y="744" as="sourcePoint" />
             <mxPoint x="339" y="744" as="targetPoint" />
