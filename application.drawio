@@ -950,7 +950,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="RppzLfKGi5goHTpbu5a1" name="联系人">
-    <mxGraphModel dx="2868" dy="1492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1195" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1307,6 +1307,27 @@
         </mxCell>
         <mxCell id="esd0bKe4YRnzVb8diSCU-13" value="注意：设置结果通过通知接口（grpsetn）返回" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="635" y="1830" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dAAG4Qb7cKRz4j8MIZN1-1" value="获取联系人-POC 3K" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fontColor=#990000;" vertex="1" parent="1">
+          <mxGeometry x="1510" y="40" width="870" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dAAG4Qb7cKRz4j8MIZN1-2" value="A7" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1510" y="120" width="100" height="1970" as="geometry" />
+        </mxCell>
+        <mxCell id="dAAG4Qb7cKRz4j8MIZN1-62" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="dAAG4Qb7cKRz4j8MIZN1-2">
+          <mxGeometry x="45" y="81" width="10" height="1400" as="geometry" />
+        </mxCell>
+        <mxCell id="dAAG4Qb7cKRz4j8MIZN1-5" value="CAT1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1860" y="120" width="100" height="1960" as="geometry" />
+        </mxCell>
+        <mxCell id="dAAG4Qb7cKRz4j8MIZN1-6" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="dAAG4Qb7cKRz4j8MIZN1-5">
+          <mxGeometry x="45" y="80" width="10" height="1400" as="geometry" />
+        </mxCell>
+        <mxCell id="dAAG4Qb7cKRz4j8MIZN1-10" value="SDK" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="2277" y="120" width="100" height="1960" as="geometry" />
+        </mxCell>
+        <mxCell id="dAAG4Qb7cKRz4j8MIZN1-11" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="dAAG4Qb7cKRz4j8MIZN1-10">
+          <mxGeometry x="45" y="81" width="10" height="1350" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
