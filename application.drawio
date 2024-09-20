@@ -1769,7 +1769,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="7O-j-J1sYUuLUexz8yVT" name="呼叫">
-    <mxGraphModel dx="1494" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="860" dy="452" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2237,6 +2237,12 @@
         <mxCell id="QnMCbFsFgc8L_1ajfPoq-93" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="QnMCbFsFgc8L_1ajfPoq-1">
           <mxGeometry x="45" y="379" width="10" height="270" as="geometry" />
         </mxCell>
+        <mxCell id="QnMCbFsFgc8L_1ajfPoq-133" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="QnMCbFsFgc8L_1ajfPoq-1">
+          <mxGeometry x="45" y="758" width="10" height="422" as="geometry" />
+        </mxCell>
+        <mxCell id="QnMCbFsFgc8L_1ajfPoq-154" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="QnMCbFsFgc8L_1ajfPoq-1">
+          <mxGeometry x="45" y="1280" width="10" height="170" as="geometry" />
+        </mxCell>
         <mxCell id="QnMCbFsFgc8L_1ajfPoq-4" value="CAT1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="1700" y="120" width="100" height="2760" as="geometry" />
         </mxCell>
@@ -2246,6 +2252,12 @@
         <mxCell id="QnMCbFsFgc8L_1ajfPoq-92" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="QnMCbFsFgc8L_1ajfPoq-4">
           <mxGeometry x="45" y="379" width="10" height="260" as="geometry" />
         </mxCell>
+        <mxCell id="QnMCbFsFgc8L_1ajfPoq-134" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="QnMCbFsFgc8L_1ajfPoq-4">
+          <mxGeometry x="45" y="760" width="10" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="QnMCbFsFgc8L_1ajfPoq-155" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="QnMCbFsFgc8L_1ajfPoq-4">
+          <mxGeometry x="45" y="1280" width="10" height="170" as="geometry" />
+        </mxCell>
         <mxCell id="QnMCbFsFgc8L_1ajfPoq-7" value="SDK" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="2117" y="120" width="100" height="2750" as="geometry" />
         </mxCell>
@@ -2254,6 +2266,12 @@
         </mxCell>
         <mxCell id="QnMCbFsFgc8L_1ajfPoq-91" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="QnMCbFsFgc8L_1ajfPoq-7">
           <mxGeometry x="45" y="379" width="10" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="QnMCbFsFgc8L_1ajfPoq-135" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="QnMCbFsFgc8L_1ajfPoq-7">
+          <mxGeometry x="45" y="760" width="10" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="QnMCbFsFgc8L_1ajfPoq-156" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="QnMCbFsFgc8L_1ajfPoq-7">
+          <mxGeometry x="45" y="1280" width="10" height="160" as="geometry" />
         </mxCell>
         <mxCell id="QnMCbFsFgc8L_1ajfPoq-10" value="呼叫-卓智达" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fontColor=#990000;" vertex="1" parent="1">
           <mxGeometry x="1350" y="40" width="870" height="60" as="geometry" />
@@ -2384,6 +2402,180 @@
         </mxCell>
         <mxCell id="QnMCbFsFgc8L_1ajfPoq-100" value="卓智达没有个呼，个呼是建立临时组的，走的是组呼流程" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="1230" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QnMCbFsFgc8L_1ajfPoq-131" value="PTT释放结束组呼" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#80FF00;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="858" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QnMCbFsFgc8L_1ajfPoq-132" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;exitX=1.009;exitY=0.635;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1340" y="878" as="sourcePoint" />
+            <mxPoint x="1395" y="878.26" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QnMCbFsFgc8L_1ajfPoq-136" value="UPoc_TxCease_Request" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1400" y="880" as="sourcePoint" />
+            <mxPoint x="1745" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QnMCbFsFgc8L_1ajfPoq-137" value="&lt;div&gt;UPoc_CallRelease_Response&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0007" relative="1" as="geometry">
+            <mxPoint x="1744.5" y="1010" as="sourcePoint" />
+            <mxPoint x="1400" y="1010" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QnMCbFsFgc8L_1ajfPoq-146" value="&lt;font color=&quot;#009900&quot;&gt;0C&lt;/font&gt;,0003&lt;div&gt;&lt;span class=&quot;fontstyle0&quot;&gt;ERequestEndPTT:&lt;font color=&quot;#009900&quot;&gt;0C&lt;/font&gt;,&lt;/span&gt;&lt;br style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; line-height: normal; text-align: -webkit-auto; text-wrap: wrap; text-size-adjust: auto;&quot;&gt;&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;fontstyle0&quot;&gt;&lt;span class=&quot;fontstyle0&quot;&gt;请求 &lt;/span&gt;&lt;span class=&quot;fontstyle2&quot;&gt;POC &lt;/span&gt;&lt;span class=&quot;fontstyle0&quot;&gt;应用结束讲话&lt;/span&gt;&lt;br style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; line-height: normal; text-align: -webkit-auto; text-wrap: wrap; text-size-adjust: auto;&quot;&gt;&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;entryX=-0.2;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0007" width="160" relative="1" as="geometry">
+            <mxPoint x="1754" y="880" as="sourcePoint" />
+            <mxPoint x="2164" y="880" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QnMCbFsFgc8L_1ajfPoq-147" value="&lt;div&gt;&lt;font color=&quot;#009900&quot;&gt;96&lt;/font&gt;,00,&lt;font color=&quot;#009900&quot;&gt;01&lt;/font&gt;&lt;div&gt;&lt;span class=&quot;fontstyle0&quot;&gt;ENotifyPlayTone:&lt;font color=&quot;#009900&quot;&gt;96,,结束讲话&lt;/font&gt;&lt;/span&gt;&lt;br style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; line-height: normal; text-align: -webkit-auto; text-wrap: wrap; text-size-adjust: auto;&quot;&gt;&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;fontstyle0&quot;&gt;通知播放提示音&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0022" relative="1" as="geometry">
+            <mxPoint x="2164.5" y="950" as="sourcePoint" />
+            <mxPoint x="1754" y="950" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QnMCbFsFgc8L_1ajfPoq-148" value="&lt;font color=&quot;#009900&quot;&gt;83,01&lt;/font&gt;,ffffffff,dd8b43677a7af2950000&lt;div&gt;&lt;div&gt;&lt;span class=&quot;fontstyle0&quot;&gt;ENotifySpker:&lt;font color=&quot;#009900&quot;&gt;83,讲话状态,&lt;/font&gt;讲话方ID,讲话方别名&lt;/span&gt;&lt;br style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; line-height: normal; text-align: -webkit-auto; text-wrap: wrap; text-size-adjust: auto;&quot;&gt;&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;fontstyle0&quot;&gt;讲话用户信息通知&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.002" relative="1" as="geometry">
+            <mxPoint x="2164.5" y="1010" as="sourcePoint" />
+            <mxPoint x="1754" y="1010" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QnMCbFsFgc8L_1ajfPoq-149" value="&lt;font color=&quot;#009900&quot;&gt;96&lt;/font&gt;,00,&lt;font color=&quot;#009900&quot;&gt;01&lt;/font&gt;&lt;div&gt;&lt;span class=&quot;fontstyle0&quot;&gt;ENotifyPlayTone:&lt;font color=&quot;#009900&quot;&gt;96,,结束讲话&lt;/font&gt;&lt;/span&gt;&lt;br style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; line-height: normal; text-align: -webkit-auto; text-wrap: wrap; text-size-adjust: auto;&quot;&gt;&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;fontstyle0&quot;&gt;通知播放提示音&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.002" relative="1" as="geometry">
+            <mxPoint x="2164.5" y="1133" as="sourcePoint" />
+            <mxPoint x="1754" y="1133" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QnMCbFsFgc8L_1ajfPoq-150" value="&lt;font color=&quot;#009900&quot;&gt;0c,00&lt;/font&gt;,0003&lt;div&gt;&lt;div style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;&lt;span class=&quot;fontstyle0&quot;&gt;ERequestEndPTT:&lt;font color=&quot;#009900&quot;&gt;0C&lt;/font&gt;,&lt;font color=&quot;#009900&quot;&gt;结果&lt;/font&gt;,&lt;/span&gt;&lt;br style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; line-height: normal; text-align: -webkit-auto; text-wrap: wrap; text-size-adjust: auto;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;&lt;span class=&quot;fontstyle0&quot;&gt;&lt;span class=&quot;fontstyle0&quot;&gt;请求&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;fontstyle2&quot;&gt;POC&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;fontstyle0&quot;&gt;应用结束讲话响应&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0049" relative="1" as="geometry">
+            <mxPoint x="2164.5" y="1203" as="sourcePoint" />
+            <mxPoint x="1754" y="1203" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QnMCbFsFgc8L_1ajfPoq-151" value="UPoc_TxCease_Request&lt;div&gt;&lt;font color=&quot;#ff3333&quot;&gt;这里有问题，为何要发两次&lt;/font&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1400" y="1070" as="sourcePoint" />
+            <mxPoint x="1745" y="1070" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QnMCbFsFgc8L_1ajfPoq-152" value="&lt;font color=&quot;#009900&quot;&gt;0C&lt;/font&gt;,0003&lt;div&gt;&lt;span class=&quot;fontstyle0&quot;&gt;ERequestEndPTT:&lt;font color=&quot;#009900&quot;&gt;0C&lt;/font&gt;,&lt;/span&gt;&lt;br style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; line-height: normal; text-align: -webkit-auto; text-wrap: wrap; text-size-adjust: auto;&quot;&gt;&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;fontstyle0&quot;&gt;&lt;span class=&quot;fontstyle0&quot;&gt;请求 &lt;/span&gt;&lt;span class=&quot;fontstyle2&quot;&gt;POC &lt;/span&gt;&lt;span class=&quot;fontstyle0&quot;&gt;应用结束讲话&lt;/span&gt;&lt;br style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; line-height: normal; text-align: -webkit-auto; text-wrap: wrap; text-size-adjust: auto;&quot;&gt;&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;entryX=-0.2;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0007" width="160" relative="1" as="geometry">
+            <mxPoint x="1754" y="1070" as="sourcePoint" />
+            <mxPoint x="2164" y="1070" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QnMCbFsFgc8L_1ajfPoq-153" value="&lt;font color=&quot;#009900&quot;&gt;0c,ff&lt;/font&gt;,0003&lt;div&gt;&lt;div style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;&lt;span class=&quot;fontstyle0&quot;&gt;ERequestEndPTT:&lt;font color=&quot;#009900&quot;&gt;0C&lt;/font&gt;,&lt;font color=&quot;#009900&quot;&gt;结果&lt;/font&gt;,&lt;/span&gt;&lt;br style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; line-height: normal; text-align: -webkit-auto; text-wrap: wrap; text-size-adjust: auto;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;&lt;span class=&quot;fontstyle0&quot;&gt;&lt;span class=&quot;fontstyle0&quot;&gt;请求&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;fontstyle2&quot;&gt;POC&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;fontstyle0&quot;&gt;应用结束讲话响应&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0049" relative="1" as="geometry">
+            <mxPoint x="2160.5" y="1280" as="sourcePoint" />
+            <mxPoint x="1750" y="1280" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QnMCbFsFgc8L_1ajfPoq-157" value="接收呼叫" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#80FF00;" vertex="1" parent="1">
+          <mxGeometry x="2238" y="1380" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QnMCbFsFgc8L_1ajfPoq-158" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="2238" y="1399.57" as="sourcePoint" />
+            <mxPoint x="2170" y="1399.57" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QnMCbFsFgc8L_1ajfPoq-159" value="&lt;div&gt;&lt;div style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;&lt;span class=&quot;fontstyle0&quot;&gt;&lt;font color=&quot;#009900&quot;&gt;83,00,8ef10005,590058002857b28bdd8b2e002e002e000000&lt;/font&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;&lt;span class=&quot;fontstyle0&quot;&gt;&lt;font&gt;&lt;span class=&quot;fontstyle0&quot;&gt;ENotifySpker:&lt;font color=&quot;#009900&quot;&gt;83,讲话状态,讲话用户ID,讲话用户名字&lt;/font&gt;&lt;/span&gt;&lt;br style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; line-height: normal; text-align: -webkit-auto; text-wrap: wrap; text-size-adjust: auto;&quot;&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;&lt;span class=&quot;fontstyle0&quot;&gt;&lt;font&gt;&lt;span class=&quot;fontstyle0&quot;&gt;&lt;span class=&quot;fontstyle0&quot;&gt;讲话用户信息通知&lt;/span&gt;&lt;br style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; line-height: normal; text-align: -webkit-auto; text-wrap: wrap; text-size-adjust: auto;&quot;&gt;&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontColor=#000000;" edge="1" parent="1">
+          <mxGeometry x="-0.0049" relative="1" as="geometry">
+            <mxPoint x="2164.5" y="1399.57" as="sourcePoint" />
+            <mxPoint x="1754" y="1399.57" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QnMCbFsFgc8L_1ajfPoq-160" value="&lt;div&gt;&lt;div style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;&lt;span class=&quot;fontstyle0&quot;&gt;&lt;font&gt;8b,00,01&lt;/font&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;&lt;span class=&quot;fontstyle0&quot;&gt;&lt;font&gt;&lt;span class=&quot;fontstyle0&quot;&gt;ENotifyPlayStatus:8B,,状态,音质&lt;/span&gt;&lt;br style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; line-height: normal; text-align: -webkit-auto; text-wrap: wrap; text-size-adjust: auto;&quot;&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;&lt;span class=&quot;fontstyle0&quot;&gt;&lt;font&gt;&lt;span class=&quot;fontstyle0&quot;&gt;&lt;span class=&quot;fontstyle0&quot;&gt;通知音频播放的状态&lt;/span&gt;&lt;br style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; line-height: normal; text-align: -webkit-auto; text-wrap: wrap; text-size-adjust: auto;&quot;&gt;&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontColor=default;" edge="1" parent="1">
+          <mxGeometry x="-0.0049" relative="1" as="geometry">
+            <mxPoint x="2164.5" y="1470" as="sourcePoint" />
+            <mxPoint x="1754" y="1470" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QnMCbFsFgc8L_1ajfPoq-161" value="&lt;div&gt;&lt;div style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;&lt;span class=&quot;fontstyle0&quot;&gt;&lt;font&gt;96,00,03&lt;/font&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;&lt;span class=&quot;fontstyle0&quot;&gt;&lt;font&gt;&lt;span class=&quot;fontstyle0&quot;&gt;ENotifyPlayTone:96,,Tone类型&lt;/span&gt;&lt;br style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; line-height: normal; text-align: -webkit-auto; text-wrap: wrap; text-size-adjust: auto;&quot;&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;&lt;span class=&quot;fontstyle0&quot;&gt;&lt;font&gt;&lt;span class=&quot;fontstyle0&quot;&gt;通知播放提示音&lt;/span&gt; &lt;br&gt;&lt;br style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; line-height: normal; text-align: -webkit-auto; text-wrap: wrap; text-size-adjust: auto;&quot;&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontColor=default;" edge="1" parent="1">
+          <mxGeometry x="-0.0049" relative="1" as="geometry">
+            <mxPoint x="2164.5" y="1560" as="sourcePoint" />
+            <mxPoint x="1754" y="1560" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QnMCbFsFgc8L_1ajfPoq-162" value="&lt;div&gt;UPoc_CallGranted_Ind&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0004" relative="1" as="geometry">
+            <mxPoint x="1744.5" y="1561.57" as="sourcePoint" />
+            <mxPoint x="1400" y="1561.57" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QnMCbFsFgc8L_1ajfPoq-180" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1395" y="1711" width="10" height="169" as="geometry" />
+        </mxCell>
+        <mxCell id="QnMCbFsFgc8L_1ajfPoq-181" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1745" y="1711" width="10" height="169" as="geometry" />
+        </mxCell>
+        <mxCell id="QnMCbFsFgc8L_1ajfPoq-182" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="2162" y="1711" width="10" height="169" as="geometry" />
+        </mxCell>
+        <mxCell id="QnMCbFsFgc8L_1ajfPoq-187" value="&lt;div&gt;&lt;div style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;&lt;span class=&quot;fontstyle0&quot;&gt;&lt;font&gt;8b0000&lt;/font&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontColor=default;" edge="1" parent="1">
+          <mxGeometry x="-0.0049" relative="1" as="geometry">
+            <mxPoint x="2164.5" y="1712" as="sourcePoint" />
+            <mxPoint x="1754" y="1712" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QnMCbFsFgc8L_1ajfPoq-188" value="&lt;div&gt;&lt;div style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;&lt;span class=&quot;fontstyle0&quot;&gt;&lt;font&gt;8301ffffffffdd8b43677a7af2950000&lt;/font&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontColor=default;" edge="1" parent="1">
+          <mxGeometry x="-0.0049" relative="1" as="geometry">
+            <mxPoint x="2164.5" y="1792" as="sourcePoint" />
+            <mxPoint x="1754" y="1792" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QnMCbFsFgc8L_1ajfPoq-189" value="&lt;div&gt;UPoc_CallRelease_Response&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0004" relative="1" as="geometry">
+            <mxPoint x="1744.5" y="1792" as="sourcePoint" />
+            <mxPoint x="1400" y="1792" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QnMCbFsFgc8L_1ajfPoq-190" value="&lt;div&gt;&lt;div style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;&lt;span class=&quot;fontstyle0&quot;&gt;&lt;font&gt;960004&lt;/font&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontColor=default;" edge="1" parent="1">
+          <mxGeometry x="-0.0049" relative="1" as="geometry">
+            <mxPoint x="2164.5" y="1874" as="sourcePoint" />
+            <mxPoint x="1754" y="1874" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QnMCbFsFgc8L_1ajfPoq-191" value="正常结束接收" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#80FF00;" vertex="1" parent="1">
+          <mxGeometry x="2238" y="1690" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QnMCbFsFgc8L_1ajfPoq-192" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="2238" y="1709.57" as="sourcePoint" />
+            <mxPoint x="2170" y="1709.57" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
