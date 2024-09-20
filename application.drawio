@@ -1042,7 +1042,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="RppzLfKGi5goHTpbu5a1" name="联系人">
-    <mxGraphModel dx="1234" dy="649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2183" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1400,7 +1400,7 @@
         <mxCell id="esd0bKe4YRnzVb8diSCU-13" value="注意：设置结果通过通知接口（grpsetn）返回" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="635" y="1830" width="270" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="dAAG4Qb7cKRz4j8MIZN1-1" value="获取联系人-POC 3K" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fontColor=#990000;" vertex="1" parent="1">
+        <mxCell id="dAAG4Qb7cKRz4j8MIZN1-1" value="获取联系人-卓智达" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fontColor=#990000;" vertex="1" parent="1">
           <mxGeometry x="1510" y="40" width="1380" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dAAG4Qb7cKRz4j8MIZN1-2" value="A7" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
