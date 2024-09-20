@@ -1338,7 +1338,7 @@
             <mxPoint x="2634.3387096774195" y="201" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dAAG4Qb7cKRz4j8MIZN1-65" value="85,01&lt;div&gt;&lt;span class=&quot;fontstyle0&quot;&gt;ENotifyUpdateData:85,成员更新&lt;/span&gt;&lt;br style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; line-height: normal; text-align: -webkit-auto; text-wrap: wrap; text-size-adjust: auto;&quot;&gt;&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;fontstyle0&quot;&gt;&lt;span class=&quot;fontstyle0&quot;&gt;通知更新用户群组信息&lt;/span&gt;&lt;br style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; line-height: normal; text-align: -webkit-auto; text-wrap: wrap; text-size-adjust: auto;&quot;&gt;&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="dAAG4Qb7cKRz4j8MIZN1-10">
+        <mxCell id="dAAG4Qb7cKRz4j8MIZN1-65" value="85,01&lt;div&gt;&lt;span class=&quot;fontstyle0&quot;&gt;ENotifyUpdateData:85,成员更新&lt;/span&gt;&lt;br style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; line-height: normal; text-align: -webkit-auto; text-wrap: wrap; text-size-adjust: auto;&quot;&gt;&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;fontstyle0&quot;&gt;&lt;span class=&quot;fontstyle0&quot;&gt;通知更新用户群组信息（后续没有进入到组前，可以过滤掉）&lt;/span&gt;&lt;br style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; line-height: normal; text-align: -webkit-auto; text-wrap: wrap; text-size-adjust: auto;&quot;&gt;&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="dAAG4Qb7cKRz4j8MIZN1-10">
           <mxGeometry x="-0.0012" relative="1" as="geometry">
             <mxPoint x="2320.5" y="200" as="sourcePoint" />
             <mxPoint x="1910" y="200" as="targetPoint" />
@@ -1346,7 +1346,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dAAG4Qb7cKRz4j8MIZN1-66" value="0E,0005,00000001,0000001e,00000000&lt;div&gt;&lt;span class=&quot;fontstyle0&quot;&gt;ERequestUserListInfo:0E,,组索引,返回指定条数,指定索引位置&lt;/span&gt;&lt;br style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; line-height: normal; text-align: -webkit-auto; text-wrap: wrap; text-size-adjust: auto;&quot;&gt;&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;fontstyle0&quot;&gt;&lt;span class=&quot;fontstyle0&quot;&gt;请求 &lt;/span&gt;&lt;span class=&quot;fontstyle2&quot;&gt;POC &lt;/span&gt;&lt;span class=&quot;fontstyle0&quot;&gt;应用组的成员信息&lt;/span&gt;&lt;br style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; line-height: normal; text-align: -webkit-auto; text-wrap: wrap; text-size-adjust: auto;&quot;&gt;&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;" edge="1" parent="1" target="dAAG4Qb7cKRz4j8MIZN1-10">
+        <mxCell id="dAAG4Qb7cKRz4j8MIZN1-66" value="0E,0005,00000001,0000001e,00000000&lt;div&gt;&lt;span class=&quot;fontstyle0&quot;&gt;ERequestUserListInfo:0E,,组索引,返回指定条数,指定索引位置&lt;/span&gt;&lt;br style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; line-height: normal; text-align: -webkit-auto; text-wrap: wrap; text-size-adjust: auto;&quot;&gt;&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;fontstyle0&quot;&gt;&lt;span class=&quot;fontstyle0&quot;&gt;请求 &lt;/span&gt;&lt;span class=&quot;fontstyle2&quot;&gt;POC &lt;/span&gt;&lt;span class=&quot;fontstyle0&quot;&gt;应用组的成员信息&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;（后续没有进入到组前，可以过滤掉）&lt;/span&gt;&lt;br style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; line-height: normal; text-align: -webkit-auto; text-wrap: wrap; text-size-adjust: auto;&quot;&gt;&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;" edge="1" parent="1" target="dAAG4Qb7cKRz4j8MIZN1-10">
           <mxGeometry x="-0.0019" width="160" relative="1" as="geometry">
             <mxPoint x="1910" y="270.0000000000002" as="sourcePoint" />
             <mxPoint x="2321.4999999999995" y="270.0000000000002" as="targetPoint" />
@@ -1354,15 +1354,15 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="dAAG4Qb7cKRz4j8MIZN1-67" value="&lt;font color=&quot;#009900&quot;&gt;02,00&lt;/font&gt;,0000,69703d302e302e302e30&lt;font color=&quot;#3333ff&quot;&gt;3b&lt;/font&gt;69643d78786c3031&lt;font color=&quot;#3333ff&quot;&gt;3b&lt;/font&gt;00&lt;div&gt;&lt;span class=&quot;fontstyle0&quot;&gt;ERequestGetParam:&lt;font color=&quot;#009900&quot;&gt;02,结果&lt;/font&gt;,,&lt;font color=&quot;#009900&quot;&gt;ip=xx;id=xx&lt;/font&gt;;&lt;/span&gt;&lt;br style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; line-height: normal; text-align: -webkit-auto; text-wrap: wrap; text-size-adjust: auto;&quot;&gt;&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;fontstyle0&quot;&gt;&lt;span class=&quot;fontstyle0&quot;&gt;请求 &lt;/span&gt;&lt;span class=&quot;fontstyle2&quot;&gt;POC &lt;/span&gt;&lt;span class=&quot;fontstyle0&quot;&gt;参数响应（登录成功时请求的）&lt;/span&gt;&lt;br style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; line-height: normal; text-align: -webkit-auto; text-wrap: wrap; text-size-adjust: auto;&quot;&gt;&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="dAAG4Qb7cKRz4j8MIZN1-10">
-          <mxGeometry x="-0.0012" relative="1" as="geometry">
+          <mxGeometry x="-0.0009" relative="1" as="geometry">
             <mxPoint x="2320.5" y="356" as="sourcePoint" />
             <mxPoint x="1910" y="356" as="targetPoint" />
             <Array as="points" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dAAG4Qb7cKRz4j8MIZN1-68" value="86,00,ffffffff,0000" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="dAAG4Qb7cKRz4j8MIZN1-10">
-          <mxGeometry x="-0.0021" relative="1" as="geometry">
+        <mxCell id="dAAG4Qb7cKRz4j8MIZN1-68" value="86,00,ffffffff,0000&lt;div&gt;&lt;span class=&quot;fontstyle0&quot;&gt;ENotifyUpdateGroup:86,,群组ID,群组别名&lt;/span&gt;&lt;br style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; line-height: normal; text-align: -webkit-auto; text-wrap: wrap; text-size-adjust: auto;&quot;&gt;&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;fontstyle0&quot;&gt;&lt;span class=&quot;fontstyle0&quot;&gt;用户进入群组信息&lt;/span&gt;&lt;br style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; line-height: normal; text-align: -webkit-auto; text-wrap: wrap; text-size-adjust: auto;&quot;&gt;&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="dAAG4Qb7cKRz4j8MIZN1-10">
+          <mxGeometry x="-0.0029" relative="1" as="geometry">
             <mxPoint x="2320.5" y="430" as="sourcePoint" />
             <mxPoint x="1910" y="430" as="targetPoint" />
             <Array as="points" />
@@ -1377,7 +1377,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dAAG4Qb7cKRz4j8MIZN1-89" value="8500" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="dAAG4Qb7cKRz4j8MIZN1-10">
+        <mxCell id="dAAG4Qb7cKRz4j8MIZN1-89" value="85,00&lt;div&gt;&lt;span class=&quot;fontstyle0&quot;&gt;ENotifyUpdateGroup:85,组更新&lt;/span&gt;&lt;br style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; line-height: normal; text-align: -webkit-auto; text-wrap: wrap; text-size-adjust: auto;&quot;&gt;&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;fontstyle0&quot;&gt;&lt;span class=&quot;fontstyle0&quot;&gt;通知更新用户群组信息&lt;/span&gt;&lt;br style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; line-height: normal; text-align: -webkit-auto; text-wrap: wrap; text-size-adjust: auto;&quot;&gt;&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="dAAG4Qb7cKRz4j8MIZN1-10">
           <mxGeometry x="-0.0021" relative="1" as="geometry">
             <mxPoint x="2320.5" y="495" as="sourcePoint" />
             <mxPoint x="1910" y="495" as="targetPoint" />
@@ -1385,21 +1385,21 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dAAG4Qb7cKRz4j8MIZN1-90" value="0D,000D,0000001E,00000000" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;" edge="1" parent="1" target="dAAG4Qb7cKRz4j8MIZN1-10">
+        <mxCell id="dAAG4Qb7cKRz4j8MIZN1-90" value="0D,000D,0000001E,00000000&lt;div&gt;&lt;span class=&quot;fontstyle0&quot;&gt;ERequestGroupListInfo:0D,,指定条数,指定索引位置&lt;/span&gt;&lt;br style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; line-height: normal; text-align: -webkit-auto; text-wrap: wrap; text-size-adjust: auto;&quot;&gt;&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;fontstyle0&quot;&gt;&lt;span class=&quot;fontstyle0&quot;&gt;请求 &lt;/span&gt;&lt;span class=&quot;fontstyle2&quot;&gt;POC &lt;/span&gt;&lt;span class=&quot;fontstyle0&quot;&gt;应用组信息&lt;/span&gt;&lt;br style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; line-height: normal; text-align: -webkit-auto; text-wrap: wrap; text-size-adjust: auto;&quot;&gt;&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;" edge="1" parent="1" target="dAAG4Qb7cKRz4j8MIZN1-10">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="1910" y="560.0000000000002" as="sourcePoint" />
             <mxPoint x="2321.4999999999995" y="560.0000000000002" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kQoiqVrL-pk8s69i_kp5-1" value="8102000500008ef10015300031003200330034003500360037003800390030003100320033003400350036003700380039000000" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="dAAG4Qb7cKRz4j8MIZN1-10">
-          <mxGeometry x="-0.0024" relative="1" as="geometry">
+        <mxCell id="kQoiqVrL-pk8s69i_kp5-1" value="&lt;font color=&quot;#009900&quot;&gt;81,02&lt;/font&gt;,0005,&lt;font color=&quot;#009900&quot;&gt;0000&lt;/font&gt;&lt;font color=&quot;#3333ff&quot;&gt;8ef10015&lt;/font&gt;&lt;font color=&quot;#ff8000&quot;&gt;300031003200330034003500360037003800390030003100320033003400350036003700380039000000&lt;/font&gt;&lt;div&gt;&lt;span class=&quot;fontstyle0&quot;&gt;ENotifyUserListData:&lt;font color=&quot;#009900&quot;&gt;81,成员状态&lt;/font&gt;,,&lt;font color=&quot;#009900&quot;&gt;成员信息&lt;/font&gt;&lt;/span&gt;&lt;br style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; line-height: normal; text-align: -webkit-auto; text-wrap: wrap; text-size-adjust: auto;&quot;&gt;&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;fontstyle0&quot;&gt;&lt;span class=&quot;fontstyle0&quot;&gt;返回群组信息（成员信息：&lt;font color=&quot;#009900&quot;&gt;成员索引&lt;/font&gt;,&lt;font color=&quot;#3333ff&quot;&gt;成员ID&lt;/font&gt;,&lt;font color=&quot;#ff8000&quot;&gt;成员名&lt;/font&gt;)&lt;/span&gt;&lt;br style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; line-height: normal; text-align: -webkit-auto; text-wrap: wrap; text-size-adjust: auto;&quot;&gt;&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="dAAG4Qb7cKRz4j8MIZN1-10">
+          <mxGeometry x="-0.0029" relative="1" as="geometry">
             <mxPoint x="2320.5" y="630" as="sourcePoint" />
             <mxPoint x="1910" y="630" as="targetPoint" />
             <Array as="points" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kQoiqVrL-pk8s69i_kp5-2" value="0e000005000d" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="kQoiqVrL-pk8s69i_kp5-2" value="0e,00,0005,000d&lt;div&gt;&lt;span class=&quot;fontstyle0&quot;&gt;ERequestUserListInfo:0E,结果,,组成员个数&lt;/span&gt;&lt;br style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; line-height: normal; text-align: -webkit-auto; text-wrap: wrap; text-size-adjust: auto;&quot;&gt;&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;fontstyle0&quot;&gt;&lt;span class=&quot;fontstyle0&quot;&gt;请求 &lt;/span&gt;&lt;span class=&quot;fontstyle2&quot;&gt;POC &lt;/span&gt;&lt;span class=&quot;fontstyle0&quot;&gt;应用组的成员响应&lt;/span&gt;&lt;br style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; line-height: normal; text-align: -webkit-auto; text-wrap: wrap; text-size-adjust: auto;&quot;&gt;&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry x="-0.0031" relative="1" as="geometry">
             <mxPoint x="2634" y="710" as="sourcePoint" />
             <mxPoint x="1910" y="710" as="targetPoint" />
@@ -1445,8 +1445,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kQoiqVrL-pk8s69i_kp5-8" value="8500" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
-          <mxGeometry x="-0.0021" relative="1" as="geometry">
+        <mxCell id="kQoiqVrL-pk8s69i_kp5-8" value="85,00&lt;div&gt;&lt;span class=&quot;fontstyle0&quot;&gt;ENotifyUpdateGroup:85,组更新&lt;/span&gt;&lt;br style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; line-height: normal; text-align: -webkit-auto; text-wrap: wrap; text-size-adjust: auto;&quot;&gt;&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;fontstyle0&quot;&gt;通知更新用户群组信息&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0016" relative="1" as="geometry">
             <mxPoint x="2634" y="950" as="sourcePoint" />
             <mxPoint x="1910" y="950" as="targetPoint" />
             <Array as="points" />
