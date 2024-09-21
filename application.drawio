@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" version="24.7.14" pages="4">
   <diagram name="开机" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
-    <mxGraphModel dx="1669" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1183" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -126,7 +126,7 @@
         <mxCell id="7RSoEEu4NMHhabJblym3-25" value="开机-卓智达" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fontColor=#990000;" parent="1" vertex="1">
           <mxGeometry x="1440" y="40" width="1090" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1tZmRkpazBAELRoXQhXo-1" value="请到登录的《开机自动登录》" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
+        <mxCell id="1tZmRkpazBAELRoXQhXo-1" value="&lt;div&gt;由于开机与登录杂糅在一起，&lt;/div&gt;请到登录的《开机自动登录》" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="1850" y="130" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="H-kDmZLRsYmPu2iiL-tc-25" value="A7" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
@@ -200,7 +200,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="H-kDmZLRsYmPu2iiL-tc-39" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;UPoc_ZZD_Param_Req:&lt;font color=&quot;#009900&quot;&gt;8K编码,自适应&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;卓智达音质参数同步（卓智达）&lt;/span&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;exitX=1.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+        <mxCell id="H-kDmZLRsYmPu2iiL-tc-39" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;UPoc_ZZD_Param_Req:&lt;font color=&quot;#009900&quot;&gt;8K编码,自适应&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;卓智达音质参数同步（卓智达，可以去除）&lt;/span&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;exitX=1.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
           <mxGeometry x="-0.0024" width="160" relative="1" as="geometry">
             <mxPoint x="2754" y="327" as="sourcePoint" />
             <mxPoint x="3099" y="327" as="targetPoint" />
@@ -245,7 +245,7 @@
         <mxCell id="H-kDmZLRsYmPu2iiL-tc-47" value="携带配置信息" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="3120" y="300" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="H-kDmZLRsYmPu2iiL-tc-48" value="开机-POC 3K" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fontColor=#990000;" vertex="1" parent="1">
+        <mxCell id="H-kDmZLRsYmPu2iiL-tc-48" value="开机-善理" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fontColor=#990000;" vertex="1" parent="1">
           <mxGeometry x="2660" y="40" width="960" height="60" as="geometry" />
         </mxCell>
       </root>
