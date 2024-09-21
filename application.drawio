@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" version="24.7.14" pages="4">
   <diagram name="开机" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
-    <mxGraphModel dx="1195" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="3153" dy="1658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -120,13 +120,13 @@
         <mxCell id="DqW32darjoosJ-GPymWo-2" value="携带配置信息" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="570" y="290" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7RSoEEu4NMHhabJblym3-1" value="开机-POC 3K" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fontColor=#990000;" vertex="1" parent="1">
+        <mxCell id="7RSoEEu4NMHhabJblym3-1" value="开机-POC 3K" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fontColor=#990000;" parent="1" vertex="1">
           <mxGeometry x="110" y="30" width="960" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7RSoEEu4NMHhabJblym3-25" value="开机-卓智达" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fontColor=#990000;" vertex="1" parent="1">
+        <mxCell id="7RSoEEu4NMHhabJblym3-25" value="开机-卓智达" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fontColor=#990000;" parent="1" vertex="1">
           <mxGeometry x="1440" y="20" width="1090" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1tZmRkpazBAELRoXQhXo-1" value="请到登录的《开机自动登录》" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+        <mxCell id="1tZmRkpazBAELRoXQhXo-1" value="请到登录的《开机自动登录》" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="1850" y="110" width="210" height="60" as="geometry" />
         </mxCell>
       </root>
