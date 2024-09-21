@@ -370,7 +370,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="azlCwML0RFL3LNcEhYYG" name="登录">
-    <mxGraphModel dx="3153" dy="1658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1774" dy="933" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1329,7 +1329,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kEc7lgzmz_Hi3rA4dlNN-30" value="65561" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontColor=#000000;" edge="1" parent="1">
+        <mxCell id="kEc7lgzmz_Hi3rA4dlNN-30" value="UPoc_Login_Response" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontColor=#000000;" edge="1" parent="1">
           <mxGeometry x="-0.0031" relative="1" as="geometry">
             <mxPoint x="3195" y="621" as="sourcePoint" />
             <mxPoint x="2850" y="621" as="targetPoint" />
@@ -1349,7 +1349,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kEc7lgzmz_Hi3rA4dlNN-32" value="65561" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontColor=#000000;" edge="1" parent="1">
+        <mxCell id="kEc7lgzmz_Hi3rA4dlNN-32" value="UPoc_Login_Response" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontColor=#000000;" edge="1" parent="1">
           <mxGeometry x="-0.0031" relative="1" as="geometry">
             <mxPoint x="3195" y="697" as="sourcePoint" />
             <mxPoint x="2850" y="697" as="targetPoint" />
@@ -1379,7 +1379,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kEc7lgzmz_Hi3rA4dlNN-39" value="65561" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="kEc7lgzmz_Hi3rA4dlNN-39" value="UPoc_Login_Response" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry x="-0.0031" relative="1" as="geometry">
             <mxPoint x="3195" y="855" as="sourcePoint" />
             <mxPoint x="2850" y="855" as="targetPoint" />
@@ -1397,7 +1397,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kEc7lgzmz_Hi3rA4dlNN-51" value="65561" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="kEc7lgzmz_Hi3rA4dlNN-51" value="UPoc_Login_Response" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry x="-0.0045" relative="1" as="geometry">
             <mxPoint x="3195" y="1111" as="sourcePoint" />
             <mxPoint x="2850" y="1111" as="targetPoint" />
@@ -1424,7 +1424,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kEc7lgzmz_Hi3rA4dlNN-54" value="65543" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="kEc7lgzmz_Hi3rA4dlNN-54" value="UPoc_UpdateGroup_Notify" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry x="-0.0045" relative="1" as="geometry">
             <mxPoint x="3195" y="1211" as="sourcePoint" />
             <mxPoint x="2850" y="1211" as="targetPoint" />
@@ -1434,14 +1434,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kEc7lgzmz_Hi3rA4dlNN-55" value="10037" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;exitX=1.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+        <mxCell id="kEc7lgzmz_Hi3rA4dlNN-55" value="APP_Get_PocType_Req" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;exitX=1.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
           <mxGeometry x="-0.0019" width="160" relative="1" as="geometry">
             <mxPoint x="2850" y="1291" as="sourcePoint" />
             <mxPoint x="3195" y="1291" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kEc7lgzmz_Hi3rA4dlNN-56" value="65592" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="kEc7lgzmz_Hi3rA4dlNN-56" value="APP_Get_PocType_Rsp" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry x="-0.0045" relative="1" as="geometry">
             <mxPoint x="3195" y="1371" as="sourcePoint" />
             <mxPoint x="2850" y="1371" as="targetPoint" />
@@ -1469,7 +1469,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kEc7lgzmz_Hi3rA4dlNN-59" value="65564" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="kEc7lgzmz_Hi3rA4dlNN-59" value="UPoc_GPSConfig_Notify" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry x="-0.0045" relative="1" as="geometry">
             <mxPoint x="3195" y="1531" as="sourcePoint" />
             <mxPoint x="2850" y="1531" as="targetPoint" />
@@ -1538,7 +1538,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="K3-wWCVvIunt15IcSAX9-4" value="65563" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontColor=#000000;" edge="1" parent="1">
+        <mxCell id="K3-wWCVvIunt15IcSAX9-4" value="UPoc_Logout_Response" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontColor=#000000;" edge="1" parent="1">
           <mxGeometry x="-0.0031" relative="1" as="geometry">
             <mxPoint x="3195" y="380" as="sourcePoint" />
             <mxPoint x="2850" y="380" as="targetPoint" />
@@ -1580,7 +1580,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="RppzLfKGi5goHTpbu5a1" name="联系人">
-    <mxGraphModel dx="2183" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2580" dy="1356" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
