@@ -3322,8 +3322,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jNEipH4ApQGwxENxSed_-104" value="&lt;div&gt;65558&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
-          <mxGeometry x="-0.0004" relative="1" as="geometry">
+        <mxCell id="jNEipH4ApQGwxENxSed_-104" value="UPoc_CallGranted_Ind&#xa;话权状态通知" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0022" relative="1" as="geometry">
             <mxPoint x="3025" y="620" as="sourcePoint" />
             <mxPoint x="2680.5" y="620" as="targetPoint" />
             <Array as="points" />
@@ -3355,8 +3355,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jNEipH4ApQGwxENxSed_-110" value="&lt;div&gt;65548&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
-          <mxGeometry x="-0.0004" relative="1" as="geometry">
+        <mxCell id="jNEipH4ApQGwxENxSed_-110" value="UPoc_CallRelease_Response&#xa;呼叫结束响应" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0022" relative="1" as="geometry">
             <mxPoint x="3024.5" y="912" as="sourcePoint" />
             <mxPoint x="2680" y="912" as="targetPoint" />
             <Array as="points" />
