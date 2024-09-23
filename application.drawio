@@ -3229,7 +3229,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jNEipH4ApQGwxENxSed_-35" value="卓智达没有个呼，个呼是建立临时组的，走的是组呼流程" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+        <mxCell id="jNEipH4ApQGwxENxSed_-35" value="善理没有个呼，个呼是建立临时组的，走的是组呼流程" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="2510" y="250" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jNEipH4ApQGwxENxSed_-83" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
