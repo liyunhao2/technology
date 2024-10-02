@@ -3455,14 +3455,6 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YZyJwpsgoS3c_vLdwzAH-9" value="+POC:ptt,1,1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="YZyJwpsgoS3c_vLdwzAH-5">
-          <mxGeometry x="-0.002" relative="1" as="geometry">
-            <mxPoint x="4880.5" y="260" as="sourcePoint" />
-            <mxPoint x="4470" y="260" as="targetPoint" />
-            <Array as="points" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="YZyJwpsgoS3c_vLdwzAH-10" value="ql_voice_call_start:0,号码&lt;div&gt;拨打语音电话 &lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;endFill=1;rounded=0;entryX=-0.2;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="YZyJwpsgoS3c_vLdwzAH-3" target="YZyJwpsgoS3c_vLdwzAH-6">
           <mxGeometry x="0.0012" width="160" relative="1" as="geometry">
             <mxPoint x="4540" y="200.0000000000001" as="sourcePoint" />
@@ -3470,8 +3462,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YZyJwpsgoS3c_vLdwzAH-11" value="UPoc_CallGranted_Ind&#xa;话权状态通知" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
-          <mxGeometry x="-0.0007" relative="1" as="geometry">
+        <mxCell id="YZyJwpsgoS3c_vLdwzAH-11" value="UGSM_CALL_IND:发射请求,号码&lt;div&gt;GSM通话状态&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0015" relative="1" as="geometry">
             <mxPoint x="4464.5" y="320" as="sourcePoint" />
             <mxPoint x="4120" y="320" as="targetPoint" />
             <Array as="points" />
@@ -3487,10 +3479,10 @@
             <mxPoint x="4110" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YZyJwpsgoS3c_vLdwzAH-14" value="+POC:nspk,0,0,2c673a670000" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="YZyJwpsgoS3c_vLdwzAH-5">
+        <mxCell id="YZyJwpsgoS3c_vLdwzAH-14" value="QL_VC_CONNECT_IND" style="html=1;verticalAlign=bottom;endArrow=block;dashed=1;endSize=8;curved=0;rounded=0;endFill=1;" edge="1" parent="1">
           <mxGeometry x="-0.0034" relative="1" as="geometry">
-            <mxPoint x="4883.5" y="320" as="sourcePoint" />
-            <mxPoint x="4473" y="320" as="targetPoint" />
+            <mxPoint x="4972.5" y="265" as="sourcePoint" />
+            <mxPoint x="4473" y="265" as="targetPoint" />
             <Array as="points" />
             <mxPoint as="offset" />
           </mxGeometry>
@@ -3690,6 +3682,13 @@
             <mxPoint x="4885.5" y="1357" as="sourcePoint" />
             <mxPoint x="4475" y="1357" as="targetPoint" />
             <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YZyJwpsgoS3c_vLdwzAH-52" value="ql_voice_call_clcc" style="html=1;verticalAlign=bottom;endArrow=block;endFill=1;rounded=0;entryX=-0.2;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry x="0.0012" width="160" relative="1" as="geometry">
+            <mxPoint x="4475" y="309" as="sourcePoint" />
+            <mxPoint x="4971" y="309" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
