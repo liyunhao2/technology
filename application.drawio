@@ -3685,10 +3685,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YZyJwpsgoS3c_vLdwzAH-52" value="ql_voice_call_clcc" style="html=1;verticalAlign=bottom;endArrow=block;endFill=1;rounded=0;entryX=-0.2;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
-          <mxGeometry x="0.0012" width="160" relative="1" as="geometry">
-            <mxPoint x="4475" y="309" as="sourcePoint" />
-            <mxPoint x="4971" y="309" as="targetPoint" />
+        <mxCell id="YZyJwpsgoS3c_vLdwzAH-52" value="ql_voice_call_clcc&lt;div&gt;&lt;span class=&quot;fontstyle0&quot;&gt;获取当前所有通话的详细信息&lt;/span&gt;&lt;br style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; line-height: normal; text-align: -webkit-auto; text-wrap: wrap; text-size-adjust: auto;&quot;&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;endFill=1;rounded=0;entryX=-0.2;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry x="0.0007" width="160" relative="1" as="geometry">
+            <mxPoint x="4475" y="319" as="sourcePoint" />
+            <mxPoint x="4971" y="319" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
