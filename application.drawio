@@ -3556,7 +3556,7 @@
             <mxPoint x="4976" y="619.5699999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YZyJwpsgoS3c_vLdwzAH-31" value="+POC:nspk,0,10967858,310036003800310031003000340031003200340035000000" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="YZyJwpsgoS3c_vLdwzAH-5">
+        <mxCell id="YZyJwpsgoS3c_vLdwzAH-31" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space-collapse: preserve;&quot;&gt;&lt;span style=&quot;color: #4fc1ff;&quot;&gt;QL_VC_RING_IND&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space-collapse: preserve;&quot;&gt;&lt;span class=&quot;fontstyle0&quot;&gt;有新来电&lt;/span&gt; &lt;br/&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="YZyJwpsgoS3c_vLdwzAH-5">
           <mxGeometry x="-0.0049" relative="1" as="geometry">
             <mxPoint x="4884.5" y="619.5699999999999" as="sourcePoint" />
             <mxPoint x="4474" y="619.5699999999999" as="targetPoint" />
@@ -3572,7 +3572,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YZyJwpsgoS3c_vLdwzAH-33" value="UPoc_CallGranted_Ind&#xa;话权状态通知" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="YZyJwpsgoS3c_vLdwzAH-33" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space-collapse: preserve;&quot;&gt;&lt;span style=&quot;color: #4fc1ff;&quot;&gt;UGSM_CALL_IND:来电,号码&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry x="0.0022" relative="1" as="geometry">
             <mxPoint x="4465" y="620" as="sourcePoint" />
             <mxPoint x="4120.5" y="620" as="targetPoint" />
