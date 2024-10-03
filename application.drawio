@@ -2307,7 +2307,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="7O-j-J1sYUuLUexz8yVT" name="呼叫">
-    <mxGraphModel dx="925" dy="481" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1304" dy="678" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3640,10 +3640,10 @@
             <mxPoint x="4115" y="1588.26" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YZyJwpsgoS3c_vLdwzAH-48" value="+POC:npong,1&#xa;" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="YZyJwpsgoS3c_vLdwzAH-48" value="QL_VC_NOCARRIER_IND&#xa;断开语音通话连接" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;" edge="1" parent="1">
           <mxGeometry x="0.0011" width="160" relative="1" as="geometry">
-            <mxPoint x="4472" y="1663" as="sourcePoint" />
-            <mxPoint x="4972.5" y="1663" as="targetPoint" />
+            <mxPoint x="4968" y="1666" as="sourcePoint" />
+            <mxPoint x="4469.590909090909" y="1666" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -3653,18 +3653,10 @@
             <mxPoint x="4470" y="1593" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YZyJwpsgoS3c_vLdwzAH-50" value="UPoc_CallRelease_Response&#xa;呼叫结束响应" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="YZyJwpsgoS3c_vLdwzAH-50" value="UGSM_VOICE_CALL_RELEASE_RSP&#xa;GSM通话结束响应" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry x="0.0022" relative="1" as="geometry">
             <mxPoint x="4465" y="1663" as="sourcePoint" />
             <mxPoint x="4120.5" y="1663" as="targetPoint" />
-            <Array as="points" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="YZyJwpsgoS3c_vLdwzAH-51" value="&lt;div style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;&lt;font color=&quot;#009900&quot;&gt;57,00,&lt;/font&gt;0000&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;&lt;div&gt;&lt;span class=&quot;fontstyle0&quot;&gt;ERequestMuteSession:&lt;font color=&quot;#009900&quot;&gt;57&lt;/font&gt;,&lt;font color=&quot;#009900&quot;&gt;结果&lt;/font&gt;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;fontstyle0&quot;&gt;&lt;span class=&quot;fontstyle0&quot;&gt;设置会话静音&lt;/span&gt;&lt;br style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; line-height: normal; text-align: -webkit-auto; text-wrap: wrap; text-size-adjust: auto;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontColor=default;" edge="1" parent="1">
-          <mxGeometry x="-0.0049" relative="1" as="geometry">
-            <mxPoint x="4972.5" y="1733" as="sourcePoint" />
-            <mxPoint x="4475" y="1733" as="targetPoint" />
             <Array as="points" />
             <mxPoint as="offset" />
           </mxGeometry>
