@@ -2307,7 +2307,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="7O-j-J1sYUuLUexz8yVT" name="呼叫">
-    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1304" dy="678" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3480,7 +3480,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="YZyJwpsgoS3c_vLdwzAH-14" value="QL_VC_CONNECT_IND" style="html=1;verticalAlign=bottom;endArrow=block;dashed=1;endSize=8;curved=0;rounded=0;endFill=1;" edge="1" parent="1">
-          <mxGeometry x="-0.0034" relative="1" as="geometry">
+          <mxGeometry x="-0.0026" relative="1" as="geometry">
             <mxPoint x="4972.5" y="265" as="sourcePoint" />
             <mxPoint x="4473" y="265" as="targetPoint" />
             <Array as="points" />
