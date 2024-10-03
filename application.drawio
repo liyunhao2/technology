@@ -2307,7 +2307,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="7O-j-J1sYUuLUexz8yVT" name="呼叫">
-    <mxGraphModel dx="1103" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="925" dy="481" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3632,7 +3632,7 @@
           <mxGeometry x="4968" y="1590" width="10" height="166" as="geometry" />
         </mxCell>
         <mxCell id="YZyJwpsgoS3c_vLdwzAH-46" value="挂机键挂断接收" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#80FF00;" vertex="1" parent="1">
-          <mxGeometry x="3960" y="1391" width="100" height="40" as="geometry" />
+          <mxGeometry x="3960" y="1570" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="YZyJwpsgoS3c_vLdwzAH-47" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;exitX=1.009;exitY=0.635;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -3647,7 +3647,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YZyJwpsgoS3c_vLdwzAH-49" value="UPoc_CallRelease_Request&#xa;呼叫结束请求" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="YZyJwpsgoS3c_vLdwzAH-49" value="10047" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;" edge="1" parent="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="4125" y="1593" as="sourcePoint" />
             <mxPoint x="4470" y="1593" as="targetPoint" />
@@ -3695,6 +3695,29 @@
             <mxPoint x="4465" y="756" as="sourcePoint" />
             <mxPoint x="4120.5" y="756" as="targetPoint" />
             <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YZyJwpsgoS3c_vLdwzAH-56" value="QL_VC_CONNECT_IND&#xa;建立语音通话连接" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0049" relative="1" as="geometry">
+            <mxPoint x="4974" y="831.4300000000001" as="sourcePoint" />
+            <mxPoint x="4475" y="831" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YZyJwpsgoS3c_vLdwzAH-57" value="UGSM_CALL_IND,接收,号码&lt;br&gt;GSM通话状态" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0003" relative="1" as="geometry">
+            <mxPoint x="4465" y="831" as="sourcePoint" />
+            <mxPoint x="4120.5" y="831" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YZyJwpsgoS3c_vLdwzAH-58" value="ql_voice_call_end,0" style="html=1;verticalAlign=bottom;endArrow=block;endFill=1;rounded=0;entryX=-0.2;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry x="0.0012" width="160" relative="1" as="geometry">
+            <mxPoint x="4475" y="1592" as="sourcePoint" />
+            <mxPoint x="4971" y="1592" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
