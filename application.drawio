@@ -3445,7 +3445,7 @@
         <mxCell id="YZyJwpsgoS3c_vLdwzAH-6" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="YZyJwpsgoS3c_vLdwzAH-5" vertex="1">
           <mxGeometry x="45" y="80" width="10" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="YZyJwpsgoS3c_vLdwzAH-7" value="呼叫-善理" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fontColor=#990000;" parent="1" vertex="1">
+        <mxCell id="YZyJwpsgoS3c_vLdwzAH-7" value="呼叫-GSM" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fontColor=#990000;" parent="1" vertex="1">
           <mxGeometry x="4070" y="40" width="870" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YZyJwpsgoS3c_vLdwzAH-8" value="UGSM_CALL_REQ:号码&lt;br&gt;GSM通话请求" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;" parent="1" target="YZyJwpsgoS3c_vLdwzAH-4" edge="1">
