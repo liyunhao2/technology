@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" version="24.7.17" pages="4">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" version="24.8.3" pages="4">
   <diagram name="开机" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="1669" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -1580,7 +1580,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="RppzLfKGi5goHTpbu5a1" name="联系人">
-    <mxGraphModel dx="1103" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="478" dy="249" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1732,8 +1732,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BR4Ddncq0KbIIfcRAgqN-7" value="UPoc_GroupList_Response&lt;div&gt;&lt;/div&gt;&lt;div&gt;获取列列表响应&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;strokeColor=#33FF33;" parent="1" edge="1">
-          <mxGeometry x="0.0006" relative="1" as="geometry">
+        <mxCell id="BR4Ddncq0KbIIfcRAgqN-7" value="UPoc_GroupList_Response&lt;br&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;获取列列表响应&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;strokeColor=#33FF33;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
             <mxPoint x="546" y="926" as="sourcePoint" />
             <mxPoint x="200" y="926" as="targetPoint" />
             <Array as="points">
