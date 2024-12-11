@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" version="25.0.1" pages="2">
   <diagram name="用例图" id="929967ad-93f9-6ef4-fab6-5d389245f69c">
-    <mxGraphModel dx="2948.5" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+    <mxGraphModel dx="3187.5" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" style=";html=1;" />
         <mxCell id="1" style=";html=1;" parent="0" />
@@ -25,10 +25,10 @@
         <mxCell id="0zPS17KgJWWsVTxHjcvX-14" value="系统启动" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="960" y="430" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="0zPS17KgJWWsVTxHjcvX-17" value="公共开机初始化" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0zPS17KgJWWsVTxHjcvX-17" value="公共业务初始化" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="750" y="580" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="0zPS17KgJWWsVTxHjcvX-18" value="POC开机初始化" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0zPS17KgJWWsVTxHjcvX-18" value="POC业务初始化" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1170" y="580" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="0zPS17KgJWWsVTxHjcvX-19" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0zPS17KgJWWsVTxHjcvX-14" target="0zPS17KgJWWsVTxHjcvX-18">
@@ -37,7 +37,7 @@
             <mxPoint x="880" y="590" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0zPS17KgJWWsVTxHjcvX-20" value="窄带开机初始化" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0zPS17KgJWWsVTxHjcvX-20" value="窄带业务初始化" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="960" y="585" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="0zPS17KgJWWsVTxHjcvX-21" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0zPS17KgJWWsVTxHjcvX-14" target="0zPS17KgJWWsVTxHjcvX-20">
@@ -112,8 +112,8 @@
             <mxPoint x="825" y="794" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0zPS17KgJWWsVTxHjcvX-41" value="LTV初始化" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1080" y="779" width="140" height="70" as="geometry" />
+        <mxCell id="0zPS17KgJWWsVTxHjcvX-41" value="VOX初始化" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="778" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="0zPS17KgJWWsVTxHjcvX-42" value="DSP初始" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="530" y="1010" width="140" height="70" as="geometry" />
@@ -152,13 +152,40 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="0zPS17KgJWWsVTxHjcvX-50" value="CAT1处理" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1010" y="1010" width="140" height="70" as="geometry" />
+          <mxGeometry x="1270" y="1010" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="0zPS17KgJWWsVTxHjcvX-51" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0zPS17KgJWWsVTxHjcvX-27" target="0zPS17KgJWWsVTxHjcvX-44">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="659.5" y="849" as="sourcePoint" />
             <mxPoint x="750.5" y="1012" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="0zPS17KgJWWsVTxHjcvX-52" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;entryX=0.731;entryY=0.055;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="0zPS17KgJWWsVTxHjcvX-42">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="800" y="850" as="sourcePoint" />
+            <mxPoint x="618" y="1020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0zPS17KgJWWsVTxHjcvX-53" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=0.418;exitY=0.971;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="0zPS17KgJWWsVTxHjcvX-45">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="973" y="848" as="sourcePoint" />
+            <mxPoint x="950" y="975" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0zPS17KgJWWsVTxHjcvX-55" value="倒放初始化" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-680" y="769" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="0zPS17KgJWWsVTxHjcvX-56" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=-0.009;exitY=0.519;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.907;entryY=0.2;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0zPS17KgJWWsVTxHjcvX-17" target="0zPS17KgJWWsVTxHjcvX-55">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="740" y="610" as="sourcePoint" />
+            <mxPoint x="-480" y="738" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0zPS17KgJWWsVTxHjcvX-57" value="窄带协议栈处理" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="1010" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="0zPS17KgJWWsVTxHjcvX-58" value="呼叫优化级初始化" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="778" width="140" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
