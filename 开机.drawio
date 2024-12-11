@@ -7,10 +7,10 @@
         <mxCell id="0zPS17KgJWWsVTxHjcvX-3" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
           <mxGeometry x="690" y="40" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0zPS17KgJWWsVTxHjcvX-7" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="0zPS17KgJWWsVTxHjcvX-7" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0zPS17KgJWWsVTxHjcvX-14" target="0zPS17KgJWWsVTxHjcvX-17">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="1060" y="560" as="sourcePoint" />
-            <mxPoint x="1220" y="560" as="targetPoint" />
+            <mxPoint x="1000" y="550" as="sourcePoint" />
+            <mxPoint x="1160" y="550" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="0zPS17KgJWWsVTxHjcvX-8" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;" edge="1" parent="1">
@@ -20,13 +20,28 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="0zPS17KgJWWsVTxHjcvX-14" value="系统启动" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="900" y="440" width="140" height="70" as="geometry" />
+          <mxGeometry x="960" y="430" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="0zPS17KgJWWsVTxHjcvX-17" value="窄带初始化" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="800" y="580" width="140" height="70" as="geometry" />
+        <mxCell id="0zPS17KgJWWsVTxHjcvX-17" value="公共资源初始化" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="580" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="0zPS17KgJWWsVTxHjcvX-18" value="POC初始化" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="585" width="140" height="70" as="geometry" />
+          <mxGeometry x="1170" y="580" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="0zPS17KgJWWsVTxHjcvX-19" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0zPS17KgJWWsVTxHjcvX-14" target="0zPS17KgJWWsVTxHjcvX-18">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="980" y="520" as="sourcePoint" />
+            <mxPoint x="880" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0zPS17KgJWWsVTxHjcvX-20" value="窄带初始化" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="585" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="0zPS17KgJWWsVTxHjcvX-21" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0zPS17KgJWWsVTxHjcvX-14" target="0zPS17KgJWWsVTxHjcvX-20">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1040" y="510" as="sourcePoint" />
+            <mxPoint x="1250" y="590" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
