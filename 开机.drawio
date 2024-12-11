@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" version="25.0.1" pages="2">
   <diagram name="用例图" id="929967ad-93f9-6ef4-fab6-5d389245f69c">
-    <mxGraphModel dx="3187.5" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2948.5" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" style=";html=1;" />
         <mxCell id="1" style=";html=1;" parent="0" />
@@ -47,25 +47,25 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="0zPS17KgJWWsVTxHjcvX-25" value="菜单初始化" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="780" width="140" height="70" as="geometry" />
+          <mxGeometry x="50" y="779" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="0zPS17KgJWWsVTxHjcvX-26" value="音量初始化" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="590" y="779" width="140" height="70" as="geometry" />
+          <mxGeometry x="420" y="778" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="0zPS17KgJWWsVTxHjcvX-27" value="LTV初始化" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="750" y="780" width="140" height="70" as="geometry" />
+        <mxCell id="0zPS17KgJWWsVTxHjcvX-27" value="LED初始化" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="779" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="0zPS17KgJWWsVTxHjcvX-28" value="电池初始化" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-120" y="779" width="140" height="70" as="geometry" />
+          <mxGeometry x="-290" y="778" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="0zPS17KgJWWsVTxHjcvX-29" value="待机界面初始化" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="779" width="140" height="70" as="geometry" />
+          <mxGeometry x="-110" y="778" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="0zPS17KgJWWsVTxHjcvX-30" value="蓝牙初始化" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-300" y="770" width="140" height="70" as="geometry" />
+          <mxGeometry x="-470" y="769" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="0zPS17KgJWWsVTxHjcvX-31" value="状态栏" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="779" width="140" height="70" as="geometry" />
+          <mxGeometry x="230" y="778" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="0zPS17KgJWWsVTxHjcvX-32" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.465;entryY=0.061;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0zPS17KgJWWsVTxHjcvX-17" target="0zPS17KgJWWsVTxHjcvX-27">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -129,6 +129,15 @@
         </mxCell>
         <mxCell id="0zPS17KgJWWsVTxHjcvX-45" value="CAT1处理" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="790" y="1010" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="0zPS17KgJWWsVTxHjcvX-46" value="提示音初始化" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="736.5" y="778" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="0zPS17KgJWWsVTxHjcvX-47" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;" edge="1" parent="1" target="0zPS17KgJWWsVTxHjcvX-46">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="820" y="650" as="sourcePoint" />
+            <mxPoint x="655" y="793" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
