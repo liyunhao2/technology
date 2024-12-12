@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" version="25.0.1" pages="2">
   <diagram name="用例图" id="929967ad-93f9-6ef4-fab6-5d389245f69c">
-    <mxGraphModel dx="4940.5" dy="1658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+    <mxGraphModel dx="3262.5" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" style=";html=1;" />
         <mxCell id="1" style=";html=1;" parent="0" />
@@ -161,15 +161,6 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="1053" y="890" as="sourcePoint" />
             <mxPoint x="1030" y="1017" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="0zPS17KgJWWsVTxHjcvX-55" value="倒放开机启动" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-680" y="813" width="140" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="0zPS17KgJWWsVTxHjcvX-56" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=0.47;exitY=1.046;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0zPS17KgJWWsVTxHjcvX-17" target="0zPS17KgJWWsVTxHjcvX-55">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="740" y="654" as="sourcePoint" />
-            <mxPoint x="-480" y="782" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="0zPS17KgJWWsVTxHjcvX-58" value="呼叫优化级初始化" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
