@@ -46,9 +46,6 @@
         <mxCell id="0zPS17KgJWWsVTxHjcvX-27" value="LED初始化" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="400" y="822" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="0zPS17KgJWWsVTxHjcvX-28" value="电池初始化" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-290" y="822" width="140" height="70" as="geometry" />
-        </mxCell>
         <mxCell id="0zPS17KgJWWsVTxHjcvX-29" value="待机界面初始化" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-110" y="822" width="140" height="70" as="geometry" />
         </mxCell>
@@ -76,7 +73,7 @@
             <mxPoint x="550" y="699" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0zPS17KgJWWsVTxHjcvX-35" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="0zPS17KgJWWsVTxHjcvX-31">
+        <mxCell id="0zPS17KgJWWsVTxHjcvX-35" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="0zPS17KgJWWsVTxHjcvX-17" target="0zPS17KgJWWsVTxHjcvX-31">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="130" y="704" as="sourcePoint" />
             <mxPoint x="540" y="774" as="targetPoint" />
@@ -86,12 +83,6 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="766" y="683" as="sourcePoint" />
             <mxPoint x="360" y="774" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="0zPS17KgJWWsVTxHjcvX-37" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="0zPS17KgJWWsVTxHjcvX-28">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="130" y="704" as="sourcePoint" />
-            <mxPoint x="188" y="754" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="0zPS17KgJWWsVTxHjcvX-39" value="信道初始化" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -124,7 +115,7 @@
         <mxCell id="0zPS17KgJWWsVTxHjcvX-46" value="提示音初始化" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="736.5" y="822" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="0zPS17KgJWWsVTxHjcvX-47" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="0zPS17KgJWWsVTxHjcvX-46">
+        <mxCell id="0zPS17KgJWWsVTxHjcvX-47" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="0zPS17KgJWWsVTxHjcvX-17" target="0zPS17KgJWWsVTxHjcvX-46">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="140" y="704" as="sourcePoint" />
             <mxPoint x="655" y="837" as="targetPoint" />
