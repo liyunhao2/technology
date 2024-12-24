@@ -488,18 +488,18 @@
             <mxPoint x="280" y="710" as="sourcePoint" />
             <mxPoint x="1000" y="690" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="110" y="590" />
+              <mxPoint x="220" y="590" />
               <mxPoint x="1049" y="590" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="yLrX47pfWROLzC0KBrJb-29" value="依赖" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#009900;" edge="1" parent="1" target="yLrX47pfWROLzC0KBrJb-5">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="230" y="520" as="sourcePoint" />
+            <mxPoint x="220" y="520" as="sourcePoint" />
             <mxPoint x="1080" y="528" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="230" y="520" />
-              <mxPoint x="230" y="590" />
+              <mxPoint x="220" y="520" />
+              <mxPoint x="220" y="590" />
               <mxPoint x="663" y="590" />
             </Array>
           </mxGeometry>
