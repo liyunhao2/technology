@@ -199,7 +199,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="iDl8UPzRlmWPVipwswMW-3" value="集群模式：退出集群成功&lt;div&gt;集群模式：关闭集群成功&lt;/div&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vXc2AkrPIIhQ2rVYQP_R-1" target="vXc2AkrPIIhQ2rVYQP_R-3">
+        <mxCell id="iDl8UPzRlmWPVipwswMW-3" value="集群模式：退出集群成功（自动切）&lt;div&gt;集群模式：关闭集群成功（手动切）&lt;/div&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vXc2AkrPIIhQ2rVYQP_R-1" target="vXc2AkrPIIhQ2rVYQP_R-3">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="469.5" y="320" as="sourcePoint" />
             <mxPoint x="470" y="424" as="targetPoint" />
@@ -209,13 +209,23 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="68uMkdOSYBehV4TcYbds-1" value="常规模式：直接跳转" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;exitX=0.467;exitY=0.983;exitDx=0;exitDy=0;entryX=0.486;entryY=-0.019;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="vXc2AkrPIIhQ2rVYQP_R-3" target="vXc2AkrPIIhQ2rVYQP_R-5">
-          <mxGeometry width="160" relative="1" as="geometry">
+        <mxCell id="68uMkdOSYBehV4TcYbds-1" value="常规模式：直接跳转" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;exitX=0.467;exitY=0.983;exitDx=0;exitDy=0;entryX=0.399;entryY=-0.018;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="vXc2AkrPIIhQ2rVYQP_R-3" target="vXc2AkrPIIhQ2rVYQP_R-5">
+          <mxGeometry x="-0.0033" width="160" relative="1" as="geometry">
             <mxPoint x="269.5" y="483.5" as="sourcePoint" />
             <mxPoint x="270" y="590" as="targetPoint" />
             <mxPoint as="offset" />
             <Array as="points">
               <mxPoint x="170" y="533.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="68uMkdOSYBehV4TcYbds-2" value="集群模式：直接跳转" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;exitX=0.443;exitY=0.977;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="vXc2AkrPIIhQ2rVYQP_R-3" target="vXc2AkrPIIhQ2rVYQP_R-5">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="270" y="486" as="sourcePoint" />
+            <mxPoint x="270" y="590" as="targetPoint" />
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="370" y="546" />
             </Array>
           </mxGeometry>
         </mxCell>
