@@ -158,6 +158,9 @@
         <mxCell id="woSFp-U5koIpizRuvs54-76" value="走手动退出当前模式流程" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="1500" width="350" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="woSFp-U5koIpizRuvs54-77" value="切区域/信道/组群导致的模式切换" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="1340" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
