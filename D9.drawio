@@ -247,7 +247,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="f3CxnZUErrCEVj6IyxSK-1" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="f3CxnZUErrCEVj6IyxSK-1" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;labelBackgroundColor=none;fontColor=#009900;" vertex="1" parent="1">
           <mxGeometry x="30" y="40" width="1140" height="1880" as="geometry" />
         </mxCell>
         <mxCell id="f3CxnZUErrCEVj6IyxSK-2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="f3CxnZUErrCEVj6IyxSK-1">
@@ -406,7 +406,7 @@
             <mxRectangle width="483" height="240" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="f3CxnZUErrCEVj6IyxSK-36" value="1、建议将关闭数字集群去除&lt;br&gt;2、增加：模式切换与集群注册，就可以不用区分，是自动模式切换/手动模式切换。" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="f3CxnZUErrCEVj6IyxSK-32">
+        <mxCell id="f3CxnZUErrCEVj6IyxSK-36" value="1、建议将关闭数字集群去除&lt;br&gt;2、增加：模式切换与集群注册，就可以不用区分，是自动模式切换/还是手动模式切换。" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;fontColor=#009900;" vertex="1" parent="f3CxnZUErrCEVj6IyxSK-32">
           <mxGeometry x="910" width="230" height="240" as="geometry">
             <mxRectangle width="230" height="240" as="alternateBounds" />
           </mxGeometry>
