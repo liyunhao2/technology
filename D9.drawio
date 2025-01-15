@@ -159,7 +159,7 @@
         <mxCell id="woSFp-U5koIpizRuvs54-77" value="切区域/信道/组群导致的模式切换" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="1080" y="1340" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Amn0KpJ--W4ceh6jiE8T-2" value="建议：添加模式切换前的等待机制，由业务调用触发与释放，去除定时器机制" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+        <mxCell id="Amn0KpJ--W4ceh6jiE8T-2" value="建议：添加模式切换前的等待机制，由业务调用触发与释放，去除定时器机制。&lt;div&gt;（支持多个业务触发与释放，模式切换不依赖业务）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="530" y="1420" width="250" height="60" as="geometry" />
         </mxCell>
       </root>
