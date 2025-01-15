@@ -247,329 +247,329 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Fi2ldse8DGfnExOhTT0_-1" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="50" y="170" width="1000" height="1880" as="geometry" />
+        <mxCell id="f3CxnZUErrCEVj6IyxSK-1" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="30" y="40" width="1140" height="1880" as="geometry" />
         </mxCell>
-        <mxCell id="Fi2ldse8DGfnExOhTT0_-2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="Fi2ldse8DGfnExOhTT0_-1">
-          <mxGeometry width="1000" height="50" as="geometry" />
+        <mxCell id="f3CxnZUErrCEVj6IyxSK-2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="f3CxnZUErrCEVj6IyxSK-1">
+          <mxGeometry width="1140" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Fi2ldse8DGfnExOhTT0_-3" value="状态" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="Fi2ldse8DGfnExOhTT0_-2">
+        <mxCell id="f3CxnZUErrCEVj6IyxSK-3" value="状态" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="f3CxnZUErrCEVj6IyxSK-2">
           <mxGeometry width="213" height="50" as="geometry">
             <mxRectangle width="213" height="50" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fi2ldse8DGfnExOhTT0_-4" value="事件" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="Fi2ldse8DGfnExOhTT0_-2">
+        <mxCell id="f3CxnZUErrCEVj6IyxSK-4" value="事件" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="f3CxnZUErrCEVj6IyxSK-2">
           <mxGeometry x="213" width="214" height="50" as="geometry">
             <mxRectangle width="214" height="50" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fi2ldse8DGfnExOhTT0_-5" value="处理" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="Fi2ldse8DGfnExOhTT0_-2">
+        <mxCell id="f3CxnZUErrCEVj6IyxSK-5" value="处理" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="f3CxnZUErrCEVj6IyxSK-2">
           <mxGeometry x="427" width="483" height="50" as="geometry">
             <mxRectangle width="483" height="50" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fi2ldse8DGfnExOhTT0_-43" value="消息" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="Fi2ldse8DGfnExOhTT0_-2">
-          <mxGeometry x="910" width="90" height="50" as="geometry">
-            <mxRectangle width="90" height="50" as="alternateBounds" />
+        <mxCell id="f3CxnZUErrCEVj6IyxSK-6" value="消息" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="f3CxnZUErrCEVj6IyxSK-2">
+          <mxGeometry x="910" width="230" height="50" as="geometry">
+            <mxRectangle width="230" height="50" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fi2ldse8DGfnExOhTT0_-6" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="Fi2ldse8DGfnExOhTT0_-1">
-          <mxGeometry y="50" width="1000" height="140" as="geometry" />
+        <mxCell id="f3CxnZUErrCEVj6IyxSK-7" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="f3CxnZUErrCEVj6IyxSK-1">
+          <mxGeometry y="50" width="1140" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="Fi2ldse8DGfnExOhTT0_-7" value="IDLE" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=1;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;rowspan=4;colspan=1;" vertex="1" parent="Fi2ldse8DGfnExOhTT0_-6">
+        <mxCell id="f3CxnZUErrCEVj6IyxSK-8" value="IDLE" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=1;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;rowspan=4;colspan=1;" vertex="1" parent="f3CxnZUErrCEVj6IyxSK-7">
           <mxGeometry width="213" height="450" as="geometry">
             <mxRectangle width="213" height="140" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fi2ldse8DGfnExOhTT0_-8" value="MANUALSWITCH" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Fi2ldse8DGfnExOhTT0_-6">
+        <mxCell id="f3CxnZUErrCEVj6IyxSK-9" value="MANUALSWITCH" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="f3CxnZUErrCEVj6IyxSK-7">
           <mxGeometry x="213" width="214" height="140" as="geometry">
             <mxRectangle width="214" height="140" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fi2ldse8DGfnExOhTT0_-9" value="&lt;div&gt;公共：&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;保存对应的模式:switchMode&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;font style=&quot;color: rgb(255, 0, 255);&quot;&gt;保存切换类型：switchType&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;打断正在播报的语音:Stop_Notify_In_Idle&lt;br&gt;集群：显示&lt;/div&gt;&lt;div&gt;常规：没有显示。（为何没显示，有可能是太快了？）&lt;/div&gt;&lt;div&gt;公共：&lt;font style=&quot;color: rgb(255, 0, 255);&quot;&gt;跳到CHECK状态，继续执行:MANUALSWITCH&lt;/font&gt;&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="Fi2ldse8DGfnExOhTT0_-6">
+        <mxCell id="f3CxnZUErrCEVj6IyxSK-10" value="&lt;div&gt;公共：&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;保存对应的模式:switchMode&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;font style=&quot;color: rgb(255, 0, 255);&quot;&gt;保存切换类型：switchType&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;打断正在播报的语音:Stop_Notify_In_Idle&lt;br&gt;集群：显示&lt;/div&gt;&lt;div&gt;常规：没有显示。（为何没显示，有可能是太快了？）&lt;/div&gt;&lt;div&gt;公共：&lt;font style=&quot;color: rgb(255, 0, 255);&quot;&gt;跳到CHECK状态，继续执行:MANUALSWITCH&lt;/font&gt;&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="f3CxnZUErrCEVj6IyxSK-7">
           <mxGeometry x="427" width="483" height="140" as="geometry">
             <mxRectangle width="483" height="140" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fi2ldse8DGfnExOhTT0_-44" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="Fi2ldse8DGfnExOhTT0_-6">
-          <mxGeometry x="910" width="90" height="140" as="geometry">
-            <mxRectangle width="90" height="140" as="alternateBounds" />
+        <mxCell id="f3CxnZUErrCEVj6IyxSK-11" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="f3CxnZUErrCEVj6IyxSK-7">
+          <mxGeometry x="910" width="230" height="140" as="geometry">
+            <mxRectangle width="230" height="140" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fi2ldse8DGfnExOhTT0_-10" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="Fi2ldse8DGfnExOhTT0_-1">
-          <mxGeometry y="190" width="1000" height="210" as="geometry" />
+        <mxCell id="f3CxnZUErrCEVj6IyxSK-12" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="f3CxnZUErrCEVj6IyxSK-1">
+          <mxGeometry y="190" width="1140" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="Fi2ldse8DGfnExOhTT0_-11" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=1;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;" vertex="1" visible="0" parent="Fi2ldse8DGfnExOhTT0_-10">
+        <mxCell id="f3CxnZUErrCEVj6IyxSK-13" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=1;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;" vertex="1" visible="0" parent="f3CxnZUErrCEVj6IyxSK-12">
           <mxGeometry width="213" height="210" as="geometry">
             <mxRectangle width="213" height="210" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fi2ldse8DGfnExOhTT0_-12" value="AUTOSWITCH" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Fi2ldse8DGfnExOhTT0_-10">
+        <mxCell id="f3CxnZUErrCEVj6IyxSK-14" value="AUTOSWITCH" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="f3CxnZUErrCEVj6IyxSK-12">
           <mxGeometry x="213" width="214" height="210" as="geometry">
             <mxRectangle width="214" height="210" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fi2ldse8DGfnExOhTT0_-13" value="&lt;div&gt;公共：&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;保存对应的模式:switchMode&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;font style=&quot;color: rgb(255, 0, 255);&quot;&gt;保存切换类型：switchType&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;打断正在播报的语音:Stop_Notify_In_Idle&lt;br&gt;集群：显示&lt;/div&gt;&lt;div&gt;常规：没有显示&lt;/div&gt;&lt;div&gt;公共：&lt;font style=&quot;color: rgb(255, 0, 255);&quot;&gt;跳到CHECK状态，继续执行:&lt;span style=&quot;font-size: 12px; text-align: center; background-color: transparent;&quot;&gt;AUTOSWITCH&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="Fi2ldse8DGfnExOhTT0_-10">
+        <mxCell id="f3CxnZUErrCEVj6IyxSK-15" value="&lt;div&gt;公共：&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;保存对应的模式:switchMode&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;font style=&quot;color: rgb(255, 0, 255);&quot;&gt;保存切换类型：switchType&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;打断正在播报的语音:Stop_Notify_In_Idle&lt;br&gt;集群：显示&lt;/div&gt;&lt;div&gt;常规：没有显示&lt;/div&gt;&lt;div&gt;公共：&lt;font style=&quot;color: rgb(255, 0, 255);&quot;&gt;跳到CHECK状态，继续执行:&lt;span style=&quot;font-size: 12px; text-align: center; background-color: transparent;&quot;&gt;AUTOSWITCH&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="f3CxnZUErrCEVj6IyxSK-12">
           <mxGeometry x="427" width="483" height="210" as="geometry">
             <mxRectangle width="483" height="210" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fi2ldse8DGfnExOhTT0_-45" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="Fi2ldse8DGfnExOhTT0_-10">
-          <mxGeometry x="910" width="90" height="210" as="geometry">
-            <mxRectangle width="90" height="210" as="alternateBounds" />
+        <mxCell id="f3CxnZUErrCEVj6IyxSK-16" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="f3CxnZUErrCEVj6IyxSK-12">
+          <mxGeometry x="910" width="230" height="210" as="geometry">
+            <mxRectangle width="230" height="210" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fi2ldse8DGfnExOhTT0_-71" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="Fi2ldse8DGfnExOhTT0_-1">
-          <mxGeometry y="400" width="1000" height="50" as="geometry" />
+        <mxCell id="f3CxnZUErrCEVj6IyxSK-17" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="f3CxnZUErrCEVj6IyxSK-1">
+          <mxGeometry y="400" width="1140" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Fi2ldse8DGfnExOhTT0_-72" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=1;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;" vertex="1" visible="0" parent="Fi2ldse8DGfnExOhTT0_-71">
+        <mxCell id="f3CxnZUErrCEVj6IyxSK-18" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=1;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;" vertex="1" visible="0" parent="f3CxnZUErrCEVj6IyxSK-17">
           <mxGeometry width="213" height="50" as="geometry">
             <mxRectangle width="213" height="50" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fi2ldse8DGfnExOhTT0_-73" value="WAIT" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Fi2ldse8DGfnExOhTT0_-71">
+        <mxCell id="f3CxnZUErrCEVj6IyxSK-19" value="WAIT" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="f3CxnZUErrCEVj6IyxSK-17">
           <mxGeometry x="213" width="214" height="50" as="geometry">
             <mxRectangle width="214" height="50" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fi2ldse8DGfnExOhTT0_-74" value="启动定时器，定时器到了后，与&lt;span style=&quot;font-size: 12px; text-align: center;&quot;&gt;MANUALSWITCH一样&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="Fi2ldse8DGfnExOhTT0_-71">
+        <mxCell id="f3CxnZUErrCEVj6IyxSK-20" value="启动定时器，定时器到了后，与&lt;span style=&quot;font-size: 12px; text-align: center;&quot;&gt;MANUALSWITCH一样&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="f3CxnZUErrCEVj6IyxSK-17">
           <mxGeometry x="427" width="483" height="50" as="geometry">
             <mxRectangle width="483" height="50" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fi2ldse8DGfnExOhTT0_-75" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="Fi2ldse8DGfnExOhTT0_-71">
-          <mxGeometry x="910" width="90" height="50" as="geometry">
-            <mxRectangle width="90" height="50" as="alternateBounds" />
+        <mxCell id="f3CxnZUErrCEVj6IyxSK-21" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="f3CxnZUErrCEVj6IyxSK-17">
+          <mxGeometry x="910" width="230" height="50" as="geometry">
+            <mxRectangle width="230" height="50" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fi2ldse8DGfnExOhTT0_-107" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="Fi2ldse8DGfnExOhTT0_-1">
-          <mxGeometry y="450" width="1000" height="50" as="geometry" />
+        <mxCell id="f3CxnZUErrCEVj6IyxSK-22" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="f3CxnZUErrCEVj6IyxSK-1">
+          <mxGeometry y="450" width="1140" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Fi2ldse8DGfnExOhTT0_-108" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=1;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;" vertex="1" visible="0" parent="Fi2ldse8DGfnExOhTT0_-107">
+        <mxCell id="f3CxnZUErrCEVj6IyxSK-23" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=1;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;" vertex="1" visible="0" parent="f3CxnZUErrCEVj6IyxSK-22">
           <mxGeometry width="213" height="50" as="geometry">
             <mxRectangle width="213" height="50" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fi2ldse8DGfnExOhTT0_-109" value="CHECKFAIL" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Fi2ldse8DGfnExOhTT0_-107">
+        <mxCell id="f3CxnZUErrCEVj6IyxSK-24" value="CHECKFAIL" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="f3CxnZUErrCEVj6IyxSK-22">
           <mxGeometry x="213" width="214" height="50" as="geometry">
             <mxRectangle width="214" height="50" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fi2ldse8DGfnExOhTT0_-110" value="模式切换过程中，区域/信道/组群进行模式切换的异常处理" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="Fi2ldse8DGfnExOhTT0_-107">
+        <mxCell id="f3CxnZUErrCEVj6IyxSK-25" value="模式切换过程中，区域/信道/组群进行模式切换的异常处理" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="f3CxnZUErrCEVj6IyxSK-22">
           <mxGeometry x="427" width="483" height="50" as="geometry">
             <mxRectangle width="483" height="50" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fi2ldse8DGfnExOhTT0_-111" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="Fi2ldse8DGfnExOhTT0_-107">
-          <mxGeometry x="910" width="90" height="50" as="geometry">
-            <mxRectangle width="90" height="50" as="alternateBounds" />
+        <mxCell id="f3CxnZUErrCEVj6IyxSK-26" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="f3CxnZUErrCEVj6IyxSK-22">
+          <mxGeometry x="910" width="230" height="50" as="geometry">
+            <mxRectangle width="230" height="50" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fi2ldse8DGfnExOhTT0_-61" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="Fi2ldse8DGfnExOhTT0_-1">
-          <mxGeometry y="500" width="1000" height="360" as="geometry" />
+        <mxCell id="f3CxnZUErrCEVj6IyxSK-27" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="f3CxnZUErrCEVj6IyxSK-1">
+          <mxGeometry y="500" width="1140" height="360" as="geometry" />
         </mxCell>
-        <mxCell id="Fi2ldse8DGfnExOhTT0_-62" value="CHECK" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;rowspan=3;colspan=1;" vertex="1" parent="Fi2ldse8DGfnExOhTT0_-61">
+        <mxCell id="f3CxnZUErrCEVj6IyxSK-28" value="CHECK" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;rowspan=3;colspan=1;" vertex="1" parent="f3CxnZUErrCEVj6IyxSK-27">
           <mxGeometry width="213" height="690" as="geometry">
             <mxRectangle width="213" height="360" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fi2ldse8DGfnExOhTT0_-63" value="AUTOSWITCH" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Fi2ldse8DGfnExOhTT0_-61">
+        <mxCell id="f3CxnZUErrCEVj6IyxSK-29" value="AUTOSWITCH" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="f3CxnZUErrCEVj6IyxSK-27">
           <mxGeometry x="213" width="214" height="360" as="geometry">
             <mxRectangle width="214" height="360" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fi2ldse8DGfnExOhTT0_-64" value="&lt;div&gt;常规模式：&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;检测是否能够执行模式切换:AppModeSwitchEnvirCheck&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;不能切换的，给出提示音与UI显示&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;font style=&quot;color: rgb(255, 0, 255);&quot;&gt;跳到:&lt;/font&gt;&lt;font style=&quot;color: rgb(255, 0, 255);&quot;&gt;SAVEPAR状态，继续执行:&lt;span style=&quot;font-size: 12px; text-align: center; background-color: transparent;&quot;&gt;AUTOSWITCH&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;数字集群：&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;检测是否能够执行模式切换:AppModeSwitchEnvirCheck&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;font style=&quot;color: rgb(255, 0, 255);&quot;&gt;能切的，通知协议栈，退出数字集群&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;不能切换的，给出提示音与UI显示&lt;/div&gt;&lt;div&gt;模拟集群：&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;通用切的，通协议栈，退出模拟集群&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;（没有实现）&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;不能切的，给出提示音与UI显示&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="Fi2ldse8DGfnExOhTT0_-61">
+        <mxCell id="f3CxnZUErrCEVj6IyxSK-30" value="&lt;div&gt;常规模式：&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;检测是否能够执行模式切换:AppModeSwitchEnvirCheck&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;不能切换的，给出提示音与UI显示&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;font style=&quot;color: rgb(255, 0, 255);&quot;&gt;跳到:&lt;/font&gt;&lt;font style=&quot;color: rgb(255, 0, 255);&quot;&gt;SAVEPAR状态，继续执行:&lt;span style=&quot;font-size: 12px; text-align: center; background-color: transparent;&quot;&gt;AUTOSWITCH&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;数字集群：&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;检测是否能够执行模式切换:AppModeSwitchEnvirCheck&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;font style=&quot;color: rgb(255, 0, 255);&quot;&gt;能切的，通知协议栈，退出数字集群&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;不能切换的，给出提示音与UI显示&lt;/div&gt;&lt;div&gt;模拟集群：&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;通用切的，通协议栈，退出模拟集群&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;（没有实现）&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;不能切的，给出提示音与UI显示&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="f3CxnZUErrCEVj6IyxSK-27">
           <mxGeometry x="427" width="483" height="360" as="geometry">
             <mxRectangle width="483" height="360" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fi2ldse8DGfnExOhTT0_-65" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="Fi2ldse8DGfnExOhTT0_-61">
-          <mxGeometry x="910" width="90" height="360" as="geometry">
-            <mxRectangle width="90" height="360" as="alternateBounds" />
+        <mxCell id="f3CxnZUErrCEVj6IyxSK-31" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="f3CxnZUErrCEVj6IyxSK-27">
+          <mxGeometry x="910" width="230" height="360" as="geometry">
+            <mxRectangle width="230" height="360" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fi2ldse8DGfnExOhTT0_-56" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="Fi2ldse8DGfnExOhTT0_-1">
-          <mxGeometry y="860" width="1000" height="240" as="geometry" />
+        <mxCell id="f3CxnZUErrCEVj6IyxSK-32" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="f3CxnZUErrCEVj6IyxSK-1">
+          <mxGeometry y="860" width="1140" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="Fi2ldse8DGfnExOhTT0_-57" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" visible="0" parent="Fi2ldse8DGfnExOhTT0_-56">
+        <mxCell id="f3CxnZUErrCEVj6IyxSK-33" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" visible="0" parent="f3CxnZUErrCEVj6IyxSK-32">
           <mxGeometry width="213" height="240" as="geometry">
             <mxRectangle width="213" height="240" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fi2ldse8DGfnExOhTT0_-58" value="MANUALSWITCH" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Fi2ldse8DGfnExOhTT0_-56">
+        <mxCell id="f3CxnZUErrCEVj6IyxSK-34" value="MANUALSWITCH" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="f3CxnZUErrCEVj6IyxSK-32">
           <mxGeometry x="213" width="214" height="240" as="geometry">
             <mxRectangle width="214" height="240" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fi2ldse8DGfnExOhTT0_-59" value="&lt;div&gt;常规模式：&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;检测是否能够执行模式切换:AppModeSwitchEnvirCheck&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;不能切换的，给出提示音与UI显示&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;font style=&quot;color: rgb(255, 0, 255);&quot;&gt;跳到:&lt;/font&gt;&lt;font style=&quot;color: rgb(255, 0, 255);&quot;&gt;SAVEPAR状态，继续执行:MANUALSWITCH&lt;/font&gt;&lt;/div&gt;&lt;div&gt;数字集群：&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;检测是否能够执行模式切换:AppModeSwitchEnvirCheck&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;font style=&quot;color: rgb(255, 0, 255);&quot;&gt;能切的，通知协议栈，关闭数字集群&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;不能切换的，给出提示音与UI显示&lt;/div&gt;&lt;div&gt;模拟集群：&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;通用切的，通协议栈，退出模拟集群&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;不能切的，给出提示音与UI显示&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="Fi2ldse8DGfnExOhTT0_-56">
+        <mxCell id="f3CxnZUErrCEVj6IyxSK-35" value="&lt;div&gt;常规模式：&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;检测是否能够执行模式切换:AppModeSwitchEnvirCheck&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;不能切换的，给出提示音与UI显示&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;font style=&quot;color: rgb(255, 0, 255);&quot;&gt;跳到:&lt;/font&gt;&lt;font style=&quot;color: rgb(255, 0, 255);&quot;&gt;SAVEPAR状态，继续执行:MANUALSWITCH&lt;/font&gt;&lt;/div&gt;&lt;div&gt;数字集群：&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;检测是否能够执行模式切换:AppModeSwitchEnvirCheck&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;font style=&quot;color: rgb(255, 0, 255);&quot;&gt;能切的，通知协议栈，关闭数字集群&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;不能切换的，给出提示音与UI显示&lt;/div&gt;&lt;div&gt;模拟集群：&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;通用切的，通协议栈，退出模拟集群&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;不能切的，给出提示音与UI显示&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="f3CxnZUErrCEVj6IyxSK-32">
           <mxGeometry x="427" width="483" height="240" as="geometry">
             <mxRectangle width="483" height="240" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fi2ldse8DGfnExOhTT0_-60" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="Fi2ldse8DGfnExOhTT0_-56">
-          <mxGeometry x="910" width="90" height="240" as="geometry">
-            <mxRectangle width="90" height="240" as="alternateBounds" />
+        <mxCell id="f3CxnZUErrCEVj6IyxSK-36" value="1、建议将关闭数字集群去除&lt;br&gt;2、增加：模式切换与集群注册，就可以不用区分，是自动模式切换/手动模式切换。" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="f3CxnZUErrCEVj6IyxSK-32">
+          <mxGeometry x="910" width="230" height="240" as="geometry">
+            <mxRectangle width="230" height="240" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fi2ldse8DGfnExOhTT0_-51" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="Fi2ldse8DGfnExOhTT0_-1">
-          <mxGeometry y="1100" width="1000" height="90" as="geometry" />
+        <mxCell id="f3CxnZUErrCEVj6IyxSK-37" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="f3CxnZUErrCEVj6IyxSK-1">
+          <mxGeometry y="1100" width="1140" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="Fi2ldse8DGfnExOhTT0_-52" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" visible="0" parent="Fi2ldse8DGfnExOhTT0_-51">
+        <mxCell id="f3CxnZUErrCEVj6IyxSK-38" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" visible="0" parent="f3CxnZUErrCEVj6IyxSK-37">
           <mxGeometry width="213" height="90" as="geometry">
             <mxRectangle width="213" height="90" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fi2ldse8DGfnExOhTT0_-53" value="QUITMODEOK" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Fi2ldse8DGfnExOhTT0_-51">
+        <mxCell id="f3CxnZUErrCEVj6IyxSK-39" value="QUITMODEOK" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="f3CxnZUErrCEVj6IyxSK-37">
           <mxGeometry x="213" width="214" height="90" as="geometry">
             <mxRectangle width="214" height="90" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fi2ldse8DGfnExOhTT0_-54" value="&lt;div&gt;（PS：退出数字集群/关闭数字集群的处理一样）&lt;/div&gt;&lt;div&gt;1、保存集群切换信息&lt;/div&gt;&lt;div&gt;2、跳到:SAVEPAR状态，执行QUITMODEOK&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="Fi2ldse8DGfnExOhTT0_-51">
+        <mxCell id="f3CxnZUErrCEVj6IyxSK-40" value="&lt;div&gt;（PS：退出数字集群/关闭数字集群的处理一样）&lt;/div&gt;&lt;div&gt;1、保存集群切换信息&lt;/div&gt;&lt;div&gt;2、跳到:SAVEPAR状态，执行QUITMODEOK&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="f3CxnZUErrCEVj6IyxSK-37">
           <mxGeometry x="427" width="483" height="90" as="geometry">
             <mxRectangle width="483" height="90" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fi2ldse8DGfnExOhTT0_-55" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="Fi2ldse8DGfnExOhTT0_-51">
-          <mxGeometry x="910" width="90" height="90" as="geometry">
-            <mxRectangle width="90" height="90" as="alternateBounds" />
+        <mxCell id="f3CxnZUErrCEVj6IyxSK-41" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="f3CxnZUErrCEVj6IyxSK-37">
+          <mxGeometry x="910" width="230" height="90" as="geometry">
+            <mxRectangle width="230" height="90" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fi2ldse8DGfnExOhTT0_-46" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="Fi2ldse8DGfnExOhTT0_-1">
-          <mxGeometry y="1190" width="1000" height="50" as="geometry" />
+        <mxCell id="f3CxnZUErrCEVj6IyxSK-42" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="f3CxnZUErrCEVj6IyxSK-1">
+          <mxGeometry y="1190" width="1140" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Fi2ldse8DGfnExOhTT0_-47" value="SAVEPARA&#xa;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;rowspan=3;colspan=1;" vertex="1" parent="Fi2ldse8DGfnExOhTT0_-46">
+        <mxCell id="f3CxnZUErrCEVj6IyxSK-43" value="SAVEPARA&#xa;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;rowspan=3;colspan=1;" vertex="1" parent="f3CxnZUErrCEVj6IyxSK-42">
           <mxGeometry width="213" height="490" as="geometry">
             <mxRectangle width="213" height="50" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fi2ldse8DGfnExOhTT0_-48" value="AUTOSWITCH" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Fi2ldse8DGfnExOhTT0_-46">
+        <mxCell id="f3CxnZUErrCEVj6IyxSK-44" value="AUTOSWITCH" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="f3CxnZUErrCEVj6IyxSK-42">
           <mxGeometry x="213" width="214" height="50" as="geometry">
             <mxRectangle width="214" height="50" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fi2ldse8DGfnExOhTT0_-49" value="&lt;div&gt;常规模式：&lt;/div&gt;&lt;div&gt;（1）保存一些RCDB参数:SaveData4PowerDown（不理解，看是否能够删除）&lt;/div&gt;&lt;div&gt;（2）保存自动模式参数及开关（菜单切不应该执行，区分开）&lt;/div&gt;&lt;div&gt;（3）保存键盘锁的状态（看看是否可用交互，放到键盘锁APP里去）&lt;/div&gt;&lt;div&gt;（4）通知PS退出模式:SendModeChangeParaToService&lt;/div&gt;&lt;div&gt;（5）通知平台:模式修改了&lt;/div&gt;&lt;div&gt;（6）跳到:ENDBUSINESS状态，执行:QUITMODEOK（早期的常规退出，通知PS退出，不用等到结果）&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;rowspan=2;colspan=1;" vertex="1" parent="Fi2ldse8DGfnExOhTT0_-46">
+        <mxCell id="f3CxnZUErrCEVj6IyxSK-45" value="&lt;div&gt;常规模式：&lt;/div&gt;&lt;div&gt;（1）保存一些RCDB参数:SaveData4PowerDown（不理解，看是否能够删除）&lt;/div&gt;&lt;div&gt;（2）保存自动模式参数及开关（菜单切不应该执行，区分开）&lt;/div&gt;&lt;div&gt;（3）保存键盘锁的状态（看看是否可用交互，放到键盘锁APP里去）&lt;/div&gt;&lt;div&gt;（4）通知PS退出模式:SendModeChangeParaToService&lt;/div&gt;&lt;div&gt;（5）通知平台:模式修改了&lt;/div&gt;&lt;div&gt;（6）跳到:ENDBUSINESS状态，执行:QUITMODEOK（早期的常规退出，通知PS退出，不用等到结果）&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;rowspan=2;colspan=1;" vertex="1" parent="f3CxnZUErrCEVj6IyxSK-42">
           <mxGeometry x="427" width="483" height="250" as="geometry">
             <mxRectangle width="483" height="50" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fi2ldse8DGfnExOhTT0_-50" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="Fi2ldse8DGfnExOhTT0_-46">
-          <mxGeometry x="910" width="90" height="50" as="geometry">
-            <mxRectangle width="90" height="50" as="alternateBounds" />
+        <mxCell id="f3CxnZUErrCEVj6IyxSK-46" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="f3CxnZUErrCEVj6IyxSK-42">
+          <mxGeometry x="910" width="230" height="50" as="geometry">
+            <mxRectangle width="230" height="50" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fi2ldse8DGfnExOhTT0_-97" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="Fi2ldse8DGfnExOhTT0_-1">
-          <mxGeometry y="1240" width="1000" height="200" as="geometry" />
+        <mxCell id="f3CxnZUErrCEVj6IyxSK-47" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="f3CxnZUErrCEVj6IyxSK-1">
+          <mxGeometry y="1240" width="1140" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="Fi2ldse8DGfnExOhTT0_-98" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" visible="0" parent="Fi2ldse8DGfnExOhTT0_-97">
+        <mxCell id="f3CxnZUErrCEVj6IyxSK-48" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" visible="0" parent="f3CxnZUErrCEVj6IyxSK-47">
           <mxGeometry width="213" height="200" as="geometry">
             <mxRectangle width="213" height="200" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fi2ldse8DGfnExOhTT0_-99" value="MANUALSWITCH" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Fi2ldse8DGfnExOhTT0_-97">
+        <mxCell id="f3CxnZUErrCEVj6IyxSK-49" value="MANUALSWITCH" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="f3CxnZUErrCEVj6IyxSK-47">
           <mxGeometry x="213" width="214" height="200" as="geometry">
             <mxRectangle width="214" height="200" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fi2ldse8DGfnExOhTT0_-100" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" visible="0" parent="Fi2ldse8DGfnExOhTT0_-97">
+        <mxCell id="f3CxnZUErrCEVj6IyxSK-50" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" visible="0" parent="f3CxnZUErrCEVj6IyxSK-47">
           <mxGeometry x="427" width="483" height="200" as="geometry">
             <mxRectangle width="483" height="200" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fi2ldse8DGfnExOhTT0_-101" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="Fi2ldse8DGfnExOhTT0_-97">
-          <mxGeometry x="910" width="90" height="200" as="geometry">
-            <mxRectangle width="90" height="200" as="alternateBounds" />
+        <mxCell id="f3CxnZUErrCEVj6IyxSK-51" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="f3CxnZUErrCEVj6IyxSK-47">
+          <mxGeometry x="910" width="230" height="200" as="geometry">
+            <mxRectangle width="230" height="200" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fi2ldse8DGfnExOhTT0_-92" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="Fi2ldse8DGfnExOhTT0_-1">
-          <mxGeometry y="1440" width="1000" height="240" as="geometry" />
+        <mxCell id="f3CxnZUErrCEVj6IyxSK-52" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="f3CxnZUErrCEVj6IyxSK-1">
+          <mxGeometry y="1440" width="1140" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="Fi2ldse8DGfnExOhTT0_-93" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" visible="0" parent="Fi2ldse8DGfnExOhTT0_-92">
+        <mxCell id="f3CxnZUErrCEVj6IyxSK-53" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" visible="0" parent="f3CxnZUErrCEVj6IyxSK-52">
           <mxGeometry width="213" height="240" as="geometry">
             <mxRectangle width="213" height="240" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fi2ldse8DGfnExOhTT0_-94" value="QUITMODEOK" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Fi2ldse8DGfnExOhTT0_-92">
+        <mxCell id="f3CxnZUErrCEVj6IyxSK-54" value="QUITMODEOK" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="f3CxnZUErrCEVj6IyxSK-52">
           <mxGeometry x="213" width="214" height="240" as="geometry">
             <mxRectangle width="214" height="240" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fi2ldse8DGfnExOhTT0_-95" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;常规模式，跳到ENDBUSINESS&lt;/span&gt;&lt;font style=&quot;background-color: transparent; color: rgb(255, 0, 0);&quot;&gt;（此处不应该存在，看看后面是否还有其他场景）&lt;/font&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;数字集群：（StateAction_QEU_SavePara）&lt;/div&gt;&lt;div&gt;（1）保存启动模式&lt;/div&gt;&lt;div&gt;（2）手动切换 保存控制信道&lt;/div&gt;&lt;div&gt;（3）自动切换到MPT 保存控制信道&lt;/div&gt;&lt;div&gt;（4）保存集群模式当前组群和当前组索引&lt;/div&gt;&lt;div&gt;（5）….好多好多&lt;/div&gt;&lt;div&gt;模拟集群：StateAction_MPT_SavePara&lt;br&gt;（1）同样模拟集群也有很多处理&lt;br&gt;（2）跳到:&lt;span style=&quot;font-size: 12px; text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ENDBUSINESS状态，执行：&lt;/span&gt;&lt;span style=&quot;font-size: 12px; text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;QUITMODEOK&lt;/span&gt;&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="Fi2ldse8DGfnExOhTT0_-92">
+        <mxCell id="f3CxnZUErrCEVj6IyxSK-55" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;常规模式，跳到ENDBUSINESS&lt;/span&gt;&lt;font style=&quot;background-color: transparent; color: rgb(255, 0, 0);&quot;&gt;（此处不应该存在，看看后面是否还有其他场景）&lt;/font&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;数字集群：（StateAction_QEU_SavePara）&lt;/div&gt;&lt;div&gt;（1）保存启动模式&lt;/div&gt;&lt;div&gt;（2）手动切换 保存控制信道&lt;/div&gt;&lt;div&gt;（3）自动切换到MPT 保存控制信道&lt;/div&gt;&lt;div&gt;（4）保存集群模式当前组群和当前组索引&lt;/div&gt;&lt;div&gt;（5）….好多好多&lt;/div&gt;&lt;div&gt;模拟集群：StateAction_MPT_SavePara&lt;br&gt;（1）同样模拟集群也有很多处理&lt;br&gt;（2）跳到:&lt;span style=&quot;font-size: 12px; text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ENDBUSINESS状态，执行：&lt;/span&gt;&lt;span style=&quot;font-size: 12px; text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;QUITMODEOK&lt;/span&gt;&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="f3CxnZUErrCEVj6IyxSK-52">
           <mxGeometry x="427" width="483" height="240" as="geometry">
             <mxRectangle width="483" height="240" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fi2ldse8DGfnExOhTT0_-96" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="Fi2ldse8DGfnExOhTT0_-92">
-          <mxGeometry x="910" width="90" height="240" as="geometry">
-            <mxRectangle width="90" height="240" as="alternateBounds" />
+        <mxCell id="f3CxnZUErrCEVj6IyxSK-56" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="f3CxnZUErrCEVj6IyxSK-52">
+          <mxGeometry x="910" width="230" height="240" as="geometry">
+            <mxRectangle width="230" height="240" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fi2ldse8DGfnExOhTT0_-87" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="Fi2ldse8DGfnExOhTT0_-1">
-          <mxGeometry y="1680" width="1000" height="50" as="geometry" />
+        <mxCell id="f3CxnZUErrCEVj6IyxSK-57" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="f3CxnZUErrCEVj6IyxSK-1">
+          <mxGeometry y="1680" width="1140" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Fi2ldse8DGfnExOhTT0_-88" value="ENDBUSINESS" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;rowspan=2;colspan=1;" vertex="1" parent="Fi2ldse8DGfnExOhTT0_-87">
+        <mxCell id="f3CxnZUErrCEVj6IyxSK-58" value="ENDBUSINESS" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;rowspan=2;colspan=1;" vertex="1" parent="f3CxnZUErrCEVj6IyxSK-57">
           <mxGeometry width="213" height="100" as="geometry">
             <mxRectangle width="213" height="50" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fi2ldse8DGfnExOhTT0_-89" value="QUITMODEOK" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Fi2ldse8DGfnExOhTT0_-87">
+        <mxCell id="f3CxnZUErrCEVj6IyxSK-59" value="QUITMODEOK" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="f3CxnZUErrCEVj6IyxSK-57">
           <mxGeometry x="213" width="214" height="50" as="geometry">
             <mxRectangle width="214" height="50" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fi2ldse8DGfnExOhTT0_-90" value="常规/数字集群/模拟集群，广播系统模式切换消息，自己注册。" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="Fi2ldse8DGfnExOhTT0_-87">
+        <mxCell id="f3CxnZUErrCEVj6IyxSK-60" value="常规/数字集群/模拟集群，广播系统模式切换消息，自己注册。" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="f3CxnZUErrCEVj6IyxSK-57">
           <mxGeometry x="427" width="483" height="50" as="geometry">
             <mxRectangle width="483" height="50" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fi2ldse8DGfnExOhTT0_-91" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="Fi2ldse8DGfnExOhTT0_-87">
-          <mxGeometry x="910" width="90" height="50" as="geometry">
-            <mxRectangle width="90" height="50" as="alternateBounds" />
+        <mxCell id="f3CxnZUErrCEVj6IyxSK-61" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="f3CxnZUErrCEVj6IyxSK-57">
+          <mxGeometry x="910" width="230" height="50" as="geometry">
+            <mxRectangle width="230" height="50" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fi2ldse8DGfnExOhTT0_-82" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="Fi2ldse8DGfnExOhTT0_-1">
-          <mxGeometry y="1730" width="1000" height="50" as="geometry" />
+        <mxCell id="f3CxnZUErrCEVj6IyxSK-62" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="f3CxnZUErrCEVj6IyxSK-1">
+          <mxGeometry y="1730" width="1140" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Fi2ldse8DGfnExOhTT0_-83" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" visible="0" parent="Fi2ldse8DGfnExOhTT0_-82">
+        <mxCell id="f3CxnZUErrCEVj6IyxSK-63" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" visible="0" parent="f3CxnZUErrCEVj6IyxSK-62">
           <mxGeometry width="213" height="50" as="geometry">
             <mxRectangle width="213" height="50" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fi2ldse8DGfnExOhTT0_-84" value="ENTERCONFIG" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Fi2ldse8DGfnExOhTT0_-82">
+        <mxCell id="f3CxnZUErrCEVj6IyxSK-64" value="ENTERCONFIG" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="f3CxnZUErrCEVj6IyxSK-62">
           <mxGeometry x="213" width="214" height="50" as="geometry">
             <mxRectangle width="214" height="50" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fi2ldse8DGfnExOhTT0_-85" value="处理系统模式切换消息，跳转到：&lt;span style=&quot;font-size: 12px; text-align: center;&quot;&gt;CONFIG，执行：&lt;/span&gt;&lt;span style=&quot;font-size: 12px; text-align: center;&quot;&gt;ENTERCONFIG&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="Fi2ldse8DGfnExOhTT0_-82">
+        <mxCell id="f3CxnZUErrCEVj6IyxSK-65" value="处理系统模式切换消息，跳转到：&lt;span style=&quot;font-size: 12px; text-align: center;&quot;&gt;CONFIG，执行：&lt;/span&gt;&lt;span style=&quot;font-size: 12px; text-align: center;&quot;&gt;ENTERCONFIG&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="f3CxnZUErrCEVj6IyxSK-62">
           <mxGeometry x="427" width="483" height="50" as="geometry">
             <mxRectangle width="483" height="50" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fi2ldse8DGfnExOhTT0_-86" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="Fi2ldse8DGfnExOhTT0_-82">
-          <mxGeometry x="910" width="90" height="50" as="geometry">
-            <mxRectangle width="90" height="50" as="alternateBounds" />
+        <mxCell id="f3CxnZUErrCEVj6IyxSK-66" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="f3CxnZUErrCEVj6IyxSK-62">
+          <mxGeometry x="910" width="230" height="50" as="geometry">
+            <mxRectangle width="230" height="50" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fi2ldse8DGfnExOhTT0_-77" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="Fi2ldse8DGfnExOhTT0_-1">
-          <mxGeometry y="1780" width="1000" height="100" as="geometry" />
+        <mxCell id="f3CxnZUErrCEVj6IyxSK-67" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="f3CxnZUErrCEVj6IyxSK-1">
+          <mxGeometry y="1780" width="1140" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="Fi2ldse8DGfnExOhTT0_-78" value="CONFIG" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Fi2ldse8DGfnExOhTT0_-77">
+        <mxCell id="f3CxnZUErrCEVj6IyxSK-68" value="CONFIG" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="f3CxnZUErrCEVj6IyxSK-67">
           <mxGeometry width="213" height="100" as="geometry">
             <mxRectangle width="213" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fi2ldse8DGfnExOhTT0_-79" value="ENTERCONFIG" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="Fi2ldse8DGfnExOhTT0_-77">
+        <mxCell id="f3CxnZUErrCEVj6IyxSK-69" value="ENTERCONFIG" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="f3CxnZUErrCEVj6IyxSK-67">
           <mxGeometry x="213" width="214" height="100" as="geometry">
             <mxRectangle width="214" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fi2ldse8DGfnExOhTT0_-80" value="常规：成功后的处理，很多很多。&lt;br&gt;数字集群：成功后的处理，很多很多。&lt;br&gt;模拟集群：成功后的处理，很多很多。&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="Fi2ldse8DGfnExOhTT0_-77">
+        <mxCell id="f3CxnZUErrCEVj6IyxSK-70" value="常规：成功后的处理，很多很多。&lt;br&gt;数字集群：成功后的处理，很多很多。&lt;br&gt;模拟集群：成功后的处理，很多很多。&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="f3CxnZUErrCEVj6IyxSK-67">
           <mxGeometry x="427" width="483" height="100" as="geometry">
             <mxRectangle width="483" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fi2ldse8DGfnExOhTT0_-81" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="Fi2ldse8DGfnExOhTT0_-77">
-          <mxGeometry x="910" width="90" height="100" as="geometry">
-            <mxRectangle width="90" height="100" as="alternateBounds" />
+        <mxCell id="f3CxnZUErrCEVj6IyxSK-71" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="f3CxnZUErrCEVj6IyxSK-67">
+          <mxGeometry x="910" width="230" height="100" as="geometry">
+            <mxRectangle width="230" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
       </root>
