@@ -13,13 +13,10 @@
         <mxCell id="fF2yLzQ_xOnauesnfYyS-3" value="PS" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry y="40" width="100" height="1580" as="geometry" />
         </mxCell>
-        <mxCell id="fF2yLzQ_xOnauesnfYyS-4" value="&lt;br&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(78, 201, 176); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; text-align: center; white-space: pre; background-color: rgb(31, 31, 31);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="1040" y="100" width="340" height="180" as="geometry" />
-        </mxCell>
         <mxCell id="woSFp-U5koIpizRuvs54-1" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space-collapse: preserve;&quot;&gt;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;MessageAppToModeSwith&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;" edge="1" parent="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="869.5" y="206" as="sourcePoint" />
-            <mxPoint x="511.6818181818189" y="206" as="targetPoint" />
+            <mxPoint x="869.5" y="189" as="sourcePoint" />
+            <mxPoint x="511.6818181818189" y="189" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="woSFp-U5koIpizRuvs54-2" value="UI" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
@@ -124,6 +121,15 @@
         </mxCell>
         <mxCell id="woSFp-U5koIpizRuvs54-44" value="退出当前模式" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="610" y="926" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="woSFp-U5koIpizRuvs54-70" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space-collapse: preserve;&quot;&gt;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;MessageKey&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;" edge="1" parent="1" target="fF2yLzQ_xOnauesnfYyS-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-180" y="140" as="sourcePoint" />
+            <mxPoint x="-20" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="woSFp-U5koIpizRuvs54-71" value="退出当前模式" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="573" y="450" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
