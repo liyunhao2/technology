@@ -123,7 +123,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="woSFp-U5koIpizRuvs54-44" value="退出当前模式" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="240" width="120" height="60" as="geometry" />
+          <mxGeometry x="610" y="870" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
