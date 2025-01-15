@@ -65,7 +65,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="woSFp-U5koIpizRuvs54-20" value="并未做MPT的响应消息" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="woSFp-U5koIpizRuvs54-6">
+        <mxCell id="woSFp-U5koIpizRuvs54-20" value="并未做MPT的响应消息&lt;div&gt;（去除MPT的代码）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="woSFp-U5koIpizRuvs54-6">
           <mxGeometry x="260" y="440" width="250" height="60" as="geometry" />
         </mxCell>
         <mxCell id="woSFp-U5koIpizRuvs54-19" value="早期退出常规，协议栈是没有回复的" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="woSFp-U5koIpizRuvs54-6">
