@@ -576,7 +576,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="nlcq06nGqH52HFKX8SsC" name="呼叫">
-    <mxGraphModel dx="2603" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2364" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -622,10 +622,10 @@
         <mxCell id="blvt1GGw1fCX8dFg0dxi-33" value="建议：添加模式切换前的等待机制，由业务调用触发与释放，去除定时器机制。&lt;div&gt;（支持多个业务触发与释放，模式切换不依赖业务）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fontColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="530" y="1420" width="250" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="blvt1GGw1fCX8dFg0dxi-11" value="MessageApplet2ServiceModeExitFromConventional&#xa;" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;" edge="1" parent="1">
-          <mxGeometry x="-0.0008" width="160" relative="1" as="geometry">
-            <mxPoint x="1343" y="460" as="sourcePoint" />
-            <mxPoint x="880" y="460" as="targetPoint" />
+        <mxCell id="blvt1GGw1fCX8dFg0dxi-11" value="MessageDGroupVoiceCallReq&lt;div&gt;请求发射呼叫（会议呼叫类型）&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;" edge="1" parent="1" source="blvt1GGw1fCX8dFg0dxi-2">
+          <mxGeometry x="-0.0021" width="160" relative="1" as="geometry">
+            <mxPoint x="513" y="480" as="sourcePoint" />
+            <mxPoint x="50" y="480" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -659,10 +659,26 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UV1sn8A8Re7yW6fZarQa-7" value="&lt;span style=&quot;font-size: 12px; text-align: left; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;MessageDvoiceEORxInd&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px; text-align: left; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;退出接收&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;" edge="1" parent="1">
+        <mxCell id="UV1sn8A8Re7yW6fZarQa-7" value="&lt;span style=&quot;font-size: 12px; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;MessageDvoiceEORxInd&lt;/span&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;接收退出&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;align=center;" edge="1" parent="1">
           <mxGeometry x="0.001" width="160" relative="1" as="geometry">
             <mxPoint x="53.25" y="370" as="sourcePoint" />
             <mxPoint x="536.75" y="370" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UV1sn8A8Re7yW6fZarQa-8" value="发射会议呼叫&lt;div&gt;&lt;span style=&quot;font-size: 11px; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;（组呼为例）&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="450" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UV1sn8A8Re7yW6fZarQa-9" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="UV1sn8A8Re7yW6fZarQa-8" target="blvt1GGw1fCX8dFg0dxi-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="440" y="420" as="sourcePoint" />
+            <mxPoint x="650" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UV1sn8A8Re7yW6fZarQa-11" value="&lt;span style=&quot;font-size: 12px; text-align: left; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;MessageDvoiceTxReqRep&lt;/span&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;发射请求结果&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;align=center;" edge="1" parent="1">
+          <mxGeometry x="-0.0003" width="160" relative="1" as="geometry">
+            <mxPoint x="50" y="570" as="sourcePoint" />
+            <mxPoint x="533.5" y="570" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
