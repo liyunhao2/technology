@@ -629,7 +629,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="blvt1GGw1fCX8dFg0dxi-13" value="MessageDvoiceBORxInd" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;" edge="1" parent="1" target="blvt1GGw1fCX8dFg0dxi-2">
+        <mxCell id="blvt1GGw1fCX8dFg0dxi-13" value="MessageDvoiceBORxInd&lt;div&gt;接收呼叫&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;" edge="1" parent="1" target="blvt1GGw1fCX8dFg0dxi-2">
           <mxGeometry x="-0.0008" width="160" relative="1" as="geometry">
             <mxPoint x="52.5" y="150" as="sourcePoint" />
             <mxPoint x="513" y="150" as="targetPoint" />
@@ -644,6 +644,27 @@
         </mxCell>
         <mxCell id="UV1sn8A8Re7yW6fZarQa-3" value="接收会议呼叫" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-80" y="114" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UV1sn8A8Re7yW6fZarQa-4" value="MessageMeettingCallInd&lt;div&gt;会议呼叫&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry x="0.001" width="160" relative="1" as="geometry">
+            <mxPoint x="50" y="220" as="sourcePoint" />
+            <mxPoint x="533.5" y="220" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UV1sn8A8Re7yW6fZarQa-5" value="MessageDvoiceEORxEnterHangTime&lt;div&gt;接收hangtime&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry x="-0.0008" width="160" relative="1" as="geometry">
+            <mxPoint x="48.5" y="290" as="sourcePoint" />
+            <mxPoint x="532" y="290" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UV1sn8A8Re7yW6fZarQa-7" value="&lt;span style=&quot;font-size: 12px; text-align: left; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;MessageDvoiceEORxInd&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px; text-align: left; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;退出接收&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry x="0.001" width="160" relative="1" as="geometry">
+            <mxPoint x="53.25" y="370" as="sourcePoint" />
+            <mxPoint x="536.75" y="370" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
