@@ -622,7 +622,7 @@
         <mxCell id="blvt1GGw1fCX8dFg0dxi-33" value="建议：添加模式切换前的等待机制，由业务调用触发与释放，去除定时器机制。&lt;div&gt;（支持多个业务触发与释放，模式切换不依赖业务）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fontColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="530" y="1420" width="250" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="blvt1GGw1fCX8dFg0dxi-11" value="MessageDGroupVoiceCallReq&lt;div&gt;请求发射呼叫（会议呼叫类型）&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;" edge="1" parent="1" source="blvt1GGw1fCX8dFg0dxi-2">
+        <mxCell id="blvt1GGw1fCX8dFg0dxi-11" value="MessageDGroupVoiceCallReq&lt;br&gt;请求发射呼叫（SupplementaryVoiceType=会议呼叫类型）" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;" edge="1" parent="1" source="blvt1GGw1fCX8dFg0dxi-2">
           <mxGeometry x="-0.0021" width="160" relative="1" as="geometry">
             <mxPoint x="513" y="480" as="sourcePoint" />
             <mxPoint x="50" y="480" as="targetPoint" />
