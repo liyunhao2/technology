@@ -576,10 +576,72 @@
     </mxGraphModel>
   </diagram>
   <diagram id="nlcq06nGqH52HFKX8SsC" name="呼叫">
-    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2856" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="blvt1GGw1fCX8dFg0dxi-1" value="平台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="-230" y="40" width="100" height="1590" as="geometry" />
+        </mxCell>
+        <mxCell id="blvt1GGw1fCX8dFg0dxi-2" value="ModeSwitchService" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="453" y="40" width="120" height="1610" as="geometry" />
+        </mxCell>
+        <mxCell id="blvt1GGw1fCX8dFg0dxi-3" value="PS" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry y="40" width="100" height="1580" as="geometry" />
+        </mxCell>
+        <mxCell id="blvt1GGw1fCX8dFg0dxi-5" value="UI" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="820" y="40" width="100" height="1580" as="geometry" />
+        </mxCell>
+        <mxCell id="blvt1GGw1fCX8dFg0dxi-25" value="MessageKey" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;" edge="1" parent="1" target="blvt1GGw1fCX8dFg0dxi-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-180" y="140" as="sourcePoint" />
+            <mxPoint x="-20" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="blvt1GGw1fCX8dFg0dxi-28" value="n_RADIO_MODE_TRUNK" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;" edge="1" parent="1" target="blvt1GGw1fCX8dFg0dxi-2">
+          <mxGeometry x="-0.0008" width="160" relative="1" as="geometry">
+            <mxPoint x="1063" y="1370" as="sourcePoint" />
+            <mxPoint x="600" y="1370" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="blvt1GGw1fCX8dFg0dxi-29" value="启动300ms定时器，等待其他业务完成" style="html=1;verticalAlign=bottom;endArrow=block;endFill=1;rounded=0;" edge="1" parent="1" target="blvt1GGw1fCX8dFg0dxi-1">
+          <mxGeometry x="0.0001" width="160" relative="1" as="geometry">
+            <mxPoint x="510" y="1400" as="sourcePoint" />
+            <mxPoint x="-40" y="1400" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="blvt1GGw1fCX8dFg0dxi-30" value="MessageTimeout" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;" edge="1" parent="1" target="blvt1GGw1fCX8dFg0dxi-2">
+          <mxGeometry x="-0.0005" width="160" relative="1" as="geometry">
+            <mxPoint x="-180" y="1470" as="sourcePoint" />
+            <mxPoint x="-20" y="1470" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="blvt1GGw1fCX8dFg0dxi-31" value="走手动退出当前模式流程" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1500" width="350" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="blvt1GGw1fCX8dFg0dxi-32" value="切区域/信道/组群导致的模式切换" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="1340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="blvt1GGw1fCX8dFg0dxi-33" value="建议：添加模式切换前的等待机制，由业务调用触发与释放，去除定时器机制。&lt;div&gt;（支持多个业务触发与释放，模式切换不依赖业务）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="530" y="1420" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="blvt1GGw1fCX8dFg0dxi-11" value="MessageApplet2ServiceModeExitFromConventional&#xa;" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0008" width="160" relative="1" as="geometry">
+            <mxPoint x="513" y="300" as="sourcePoint" />
+            <mxPoint x="50" y="300" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="blvt1GGw1fCX8dFg0dxi-13" value="MessageTrunkPowerOffPrePareOK&lt;div&gt;关闭集群成功&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry x="-0.0008" width="160" relative="1" as="geometry">
+            <mxPoint x="52.5" y="370" as="sourcePoint" />
+            <mxPoint x="513" y="370" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
