@@ -740,10 +740,17 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uAPkuS1TimQDia7jlI6v-4" value="MessageDVoicePTTReleaseReq&lt;br&gt;请求发射呼叫" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="uAPkuS1TimQDia7jlI6v-4" value="MessageDVoicePTTReleaseReq&lt;br&gt;请求结束发射" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;" edge="1" parent="1">
           <mxGeometry x="-0.0021" width="160" relative="1" as="geometry">
             <mxPoint x="536" y="290" as="sourcePoint" />
             <mxPoint x="50" y="290" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZCmYJ9h2r9i-m8E4KJTh-1" value="&lt;span style=&quot;font-size: 12px; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;MessageDvoiceEOTxEnterHangTime&lt;/span&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;退出发射进入hangtime&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;align=center;" edge="1" parent="1">
+          <mxGeometry x="-0.0003" width="160" relative="1" as="geometry">
+            <mxPoint x="50" y="360" as="sourcePoint" />
+            <mxPoint x="533.5" y="360" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
