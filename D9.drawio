@@ -700,18 +700,18 @@
             <mxPoint x="49.5" y="145" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mxPXB9OJcTtdOgEnG6Gf-14" value="按下PTT" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="mxPXB9OJcTtdOgEnG6Gf-14" value="PTT按下" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="910" y="100" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mxPXB9OJcTtdOgEnG6Gf-17" value="&lt;span style=&quot;font-size: 12px; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;MessageDvoiceTxReqRep&lt;/span&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;发射请求结果&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;align=center;" edge="1" parent="1">
+        <mxCell id="mxPXB9OJcTtdOgEnG6Gf-17" value="&lt;span style=&quot;font-size: 12px; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;MessageDvoiceTxReqRep&lt;/span&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;请求发射结果&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;align=center;" edge="1" parent="1">
           <mxGeometry x="-0.0003" width="160" relative="1" as="geometry">
             <mxPoint x="53.25" y="200" as="sourcePoint" />
             <mxPoint x="536.75" y="200" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mxPXB9OJcTtdOgEnG6Gf-23" value="MessageKey&lt;br&gt;PTT按键" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;" edge="1" parent="1">
-          <mxGeometry x="-0.0021" width="160" relative="1" as="geometry">
+        <mxCell id="mxPXB9OJcTtdOgEnG6Gf-23" value="MessageKey&lt;br&gt;PTT按下" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0011" width="160" relative="1" as="geometry">
             <mxPoint x="839.4999999999995" y="136.40999999999997" as="sourcePoint" />
             <mxPoint x="535.8235294117644" y="136.40999999999997" as="targetPoint" />
             <mxPoint as="offset" />
@@ -730,13 +730,20 @@
             <mxPoint x="840" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uAPkuS1TimQDia7jlI6v-2" value="松开PTT" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="uAPkuS1TimQDia7jlI6v-2" value="PTT松开" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="910" y="250" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="uAPkuS1TimQDia7jlI6v-3" value="MessageKey&lt;br&gt;PTT按键" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;" edge="1" parent="1">
-          <mxGeometry x="-0.0021" width="160" relative="1" as="geometry">
+        <mxCell id="uAPkuS1TimQDia7jlI6v-3" value="MessageKey&lt;br&gt;PTT松开" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0011" width="160" relative="1" as="geometry">
             <mxPoint x="839.4999999999995" y="286.40999999999997" as="sourcePoint" />
             <mxPoint x="535.8235294117644" y="286.40999999999997" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uAPkuS1TimQDia7jlI6v-4" value="MessageDVoicePTTReleaseReq&lt;br&gt;请求发射呼叫" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0021" width="160" relative="1" as="geometry">
+            <mxPoint x="536" y="290" as="sourcePoint" />
+            <mxPoint x="50" y="290" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
