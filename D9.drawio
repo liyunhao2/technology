@@ -674,6 +674,75 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="V2i39nAuX2zrr5gA-0yQ-1" value="DV_STATE_START" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="90" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="V2i39nAuX2zrr5gA-0yQ-2" value="DVOICE_TX_REQ" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="220" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="V2i39nAuX2zrr5gA-0yQ-3" value="REPEATER_ACCESS" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="360" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="V2i39nAuX2zrr5gA-0yQ-4" value="STATE_PCALL_CONFIRM" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="510" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="V2i39nAuX2zrr5gA-0yQ-5" value="DVOICE_TX" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="640" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="V2i39nAuX2zrr5gA-0yQ-9" value="TX_HANG_TIME" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="780" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="V2i39nAuX2zrr5gA-0yQ-10" value="DVOICE_TX_STOP_REQ" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="910" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="V2i39nAuX2zrr5gA-0yQ-11" value="TX_PROCESS_END" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="1050" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="V2i39nAuX2zrr5gA-0yQ-12" value="DVOICE_RX" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="1200" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="V2i39nAuX2zrr5gA-0yQ-13" value="RX_HANG_TIME" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="1330" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="V2i39nAuX2zrr5gA-0yQ-14" value="RX_PROCESS_END" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="1460" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="V2i39nAuX2zrr5gA-0yQ-15" value="WAIT" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="1590" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="V2i39nAuX2zrr5gA-0yQ-16" value="BUFPHONE_TXREQ" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="1730" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="V2i39nAuX2zrr5gA-0yQ-17" value="STATE_BUFPHONE_SEND" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="1880" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="V2i39nAuX2zrr5gA-0yQ-18" value="STATE_SFR" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="2010" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="V2i39nAuX2zrr5gA-0yQ-19" value="DUPLEX_TX_WAIT" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="2140" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="V2i39nAuX2zrr5gA-0yQ-20" value="DUPLEX_RX_WAIT" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="2270" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="V2i39nAuX2zrr5gA-0yQ-21" value="DV_DUPLEX_CALL" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="2410" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="V2i39nAuX2zrr5gA-0yQ-22" value="DUPLEX_CALL_END" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="2560" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="V2i39nAuX2zrr5gA-0yQ-23" value="DUPLEX_ADAPTIVE" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="2690" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="V2i39nAuX2zrr5gA-0yQ-24" value="MEETING_CALL_RX2" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="2830" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="V2i39nAuX2zrr5gA-0yQ-25" value="MEETING_CALL_DUPLEX" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="2960" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="V2i39nAuX2zrr5gA-0yQ-26" value="STOP" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="3090" width="120" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
