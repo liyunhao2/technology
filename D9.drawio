@@ -892,8 +892,8 @@
         <mxCell id="mxPXB9OJcTtdOgEnG6Gf-14" value="PTT按下" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="910" y="125" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mxPXB9OJcTtdOgEnG6Gf-17" value="&lt;span style=&quot;font-size: 12px; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;MessageDvoiceTxReqRep&lt;/span&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;请求发射结果&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;align=center;" parent="1" edge="1">
-          <mxGeometry x="-0.0003" width="160" relative="1" as="geometry">
+        <mxCell id="mxPXB9OJcTtdOgEnG6Gf-17" value="MessageDvoiceTxReqRep&lt;br&gt;请求发射结果(允许:TX_GRANTED_IND)" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;align=center;" parent="1" edge="1">
+          <mxGeometry x="0.001" width="160" relative="1" as="geometry">
             <mxPoint x="53.25" y="260" as="sourcePoint" />
             <mxPoint x="536.75" y="260" as="targetPoint" />
             <mxPoint as="offset" />
