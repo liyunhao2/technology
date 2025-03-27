@@ -1,10 +1,10 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" version="26.1.3" pages="6">
   <diagram name="模式切换时序图" id="muVQDdwf6d4eTpT-z0X4">
-    <mxGraphModel dx="2416" dy="649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2603" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="fF2yLzQ_xOnauesnfYyS-1" value="平台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+        <mxCell id="fF2yLzQ_xOnauesnfYyS-1" value="平台/框架" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="-230" y="40" width="100" height="1590" as="geometry" />
         </mxCell>
         <mxCell id="fF2yLzQ_xOnauesnfYyS-2" value="ModeSwitchService" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
@@ -13,153 +13,153 @@
         <mxCell id="fF2yLzQ_xOnauesnfYyS-3" value="PS" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry y="40" width="100" height="1580" as="geometry" />
         </mxCell>
-        <mxCell id="woSFp-U5koIpizRuvs54-1" value="MessageAppToModeSwith" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="woSFp-U5koIpizRuvs54-1" value="MessageAppToModeSwith" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;" parent="1" edge="1">
           <mxGeometry x="0.0002" width="160" relative="1" as="geometry">
             <mxPoint x="869.5" y="189" as="sourcePoint" />
             <mxPoint x="511.6818181818189" y="189" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="woSFp-U5koIpizRuvs54-2" value="UI" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+        <mxCell id="woSFp-U5koIpizRuvs54-2" value="UI" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="820" y="40" width="100" height="1580" as="geometry" />
         </mxCell>
-        <mxCell id="woSFp-U5koIpizRuvs54-6" value="Interaction heading" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=170;" vertex="1" parent="1">
+        <mxCell id="woSFp-U5koIpizRuvs54-6" value="Interaction heading" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=170;" parent="1" vertex="1">
           <mxGeometry x="-110" y="216" width="650" height="510" as="geometry" />
         </mxCell>
-        <mxCell id="woSFp-U5koIpizRuvs54-7" value="[当前=常规]" style="text;html=1;" vertex="1" parent="woSFp-U5koIpizRuvs54-6">
+        <mxCell id="woSFp-U5koIpizRuvs54-7" value="[当前=常规]" style="text;html=1;" parent="woSFp-U5koIpizRuvs54-6" vertex="1">
           <mxGeometry width="100" height="20" relative="1" as="geometry">
             <mxPoint x="20" y="40" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="woSFp-U5koIpizRuvs54-8" value="&lt;span style=&quot;text-wrap: nowrap; background-color: rgb(251, 251, 251);&quot;&gt;[当前=数字集群]&lt;/span&gt;" style="line;strokeWidth=1;dashed=1;labelPosition=center;verticalLabelPosition=bottom;align=left;verticalAlign=top;spacingLeft=20;spacingTop=15;html=1;whiteSpace=wrap;" vertex="1" parent="woSFp-U5koIpizRuvs54-6">
+        <mxCell id="woSFp-U5koIpizRuvs54-8" value="&lt;span style=&quot;text-wrap: nowrap; background-color: rgb(251, 251, 251);&quot;&gt;[当前=数字集群]&lt;/span&gt;" style="line;strokeWidth=1;dashed=1;labelPosition=center;verticalLabelPosition=bottom;align=left;verticalAlign=top;spacingLeft=20;spacingTop=15;html=1;whiteSpace=wrap;" parent="woSFp-U5koIpizRuvs54-6" vertex="1">
           <mxGeometry x="-1" y="170" width="620" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="woSFp-U5koIpizRuvs54-9" value="&lt;span style=&quot;text-wrap: nowrap; background-color: rgb(251, 251, 251);&quot;&gt;[当前=模拟集群]&lt;/span&gt;" style="line;strokeWidth=1;dashed=1;labelPosition=center;verticalLabelPosition=bottom;align=left;verticalAlign=top;spacingLeft=20;spacingTop=15;html=1;whiteSpace=wrap;" vertex="1" parent="woSFp-U5koIpizRuvs54-6">
+        <mxCell id="woSFp-U5koIpizRuvs54-9" value="&lt;span style=&quot;text-wrap: nowrap; background-color: rgb(251, 251, 251);&quot;&gt;[当前=模拟集群]&lt;/span&gt;" style="line;strokeWidth=1;dashed=1;labelPosition=center;verticalLabelPosition=bottom;align=left;verticalAlign=top;spacingLeft=20;spacingTop=15;html=1;whiteSpace=wrap;" parent="woSFp-U5koIpizRuvs54-6" vertex="1">
           <mxGeometry y="370" width="620" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="woSFp-U5koIpizRuvs54-5" value="MessageTrunkRadioTurnOff&lt;br&gt;关闭集群（为了让协议栈，把去注册做了，才发这消息）" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;" edge="1" parent="woSFp-U5koIpizRuvs54-6">
+        <mxCell id="woSFp-U5koIpizRuvs54-5" value="MessageTrunkRadioTurnOff&lt;br&gt;关闭集群（为了让协议栈，把去注册做了，才发这消息）" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;" parent="woSFp-U5koIpizRuvs54-6" edge="1">
           <mxGeometry x="-0.0008" width="160" relative="1" as="geometry">
             <mxPoint x="620" y="240" as="sourcePoint" />
             <mxPoint x="157" y="240" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="woSFp-U5koIpizRuvs54-4" value="MessageApplet2ServiceModeExitFromConventional&#xa;" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;" edge="1" parent="woSFp-U5koIpizRuvs54-6">
+        <mxCell id="woSFp-U5koIpizRuvs54-4" value="MessageApplet2ServiceModeExitFromConventional&#xa;" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;" parent="woSFp-U5koIpizRuvs54-6" edge="1">
           <mxGeometry x="-0.0008" width="160" relative="1" as="geometry">
             <mxPoint x="620" y="50" as="sourcePoint" />
             <mxPoint x="157" y="50" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="woSFp-U5koIpizRuvs54-11" value="MSG_MPT_APPLET_MODE_MPT_OUT&#xa;模拟集群没改成类，没实现" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;" edge="1" parent="woSFp-U5koIpizRuvs54-6">
+        <mxCell id="woSFp-U5koIpizRuvs54-11" value="MSG_MPT_APPLET_MODE_MPT_OUT&#xa;模拟集群没改成类，没实现" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;" parent="woSFp-U5koIpizRuvs54-6" edge="1">
           <mxGeometry x="-0.0008" width="160" relative="1" as="geometry">
             <mxPoint x="620" y="420" as="sourcePoint" />
             <mxPoint x="157" y="420" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="woSFp-U5koIpizRuvs54-16" value="MessageTrunkPowerOffPrePareOK&lt;div&gt;关闭集群成功&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;" edge="1" parent="woSFp-U5koIpizRuvs54-6">
+        <mxCell id="woSFp-U5koIpizRuvs54-16" value="MessageTrunkPowerOffPrePareOK&lt;div&gt;关闭集群成功&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;" parent="woSFp-U5koIpizRuvs54-6" edge="1">
           <mxGeometry x="-0.0008" width="160" relative="1" as="geometry">
             <mxPoint x="159.5" y="320" as="sourcePoint" />
             <mxPoint x="620" y="320" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="woSFp-U5koIpizRuvs54-20" value="并未做MPT的响应消息&lt;div&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;（去除MPT的代码）&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="woSFp-U5koIpizRuvs54-6">
+        <mxCell id="woSFp-U5koIpizRuvs54-20" value="并未做MPT的响应消息&lt;div&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;（去除MPT的代码）&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="woSFp-U5koIpizRuvs54-6" vertex="1">
           <mxGeometry x="260" y="440" width="250" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="woSFp-U5koIpizRuvs54-19" value="早期退出常规，协议栈是没有回复的" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="woSFp-U5koIpizRuvs54-6">
+        <mxCell id="woSFp-U5koIpizRuvs54-19" value="早期退出常规，协议栈是没有回复的" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="woSFp-U5koIpizRuvs54-6" vertex="1">
           <mxGeometry x="260" y="80" width="250" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="woSFp-U5koIpizRuvs54-35" value="Interaction heading" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=170;" vertex="1" parent="1">
+        <mxCell id="woSFp-U5koIpizRuvs54-35" value="Interaction heading" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=170;" parent="1" vertex="1">
           <mxGeometry x="-160" y="786" width="750" height="360" as="geometry" />
         </mxCell>
-        <mxCell id="woSFp-U5koIpizRuvs54-36" value="[自动模式切换：常规切集群]" style="text;html=1;" vertex="1" parent="woSFp-U5koIpizRuvs54-35">
+        <mxCell id="woSFp-U5koIpizRuvs54-36" value="[自动模式切换：常规切集群]" style="text;html=1;" parent="woSFp-U5koIpizRuvs54-35" vertex="1">
           <mxGeometry width="100" height="20" relative="1" as="geometry">
             <mxPoint x="20" y="40" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="woSFp-U5koIpizRuvs54-37" value="&lt;span style=&quot;text-wrap: nowrap; background-color: rgb(251, 251, 251);&quot;&gt;[自动模式切换：集群切常规]&lt;/span&gt;" style="line;strokeWidth=1;dashed=1;labelPosition=center;verticalLabelPosition=bottom;align=left;verticalAlign=top;spacingLeft=20;spacingTop=15;html=1;whiteSpace=wrap;" vertex="1" parent="woSFp-U5koIpizRuvs54-35">
+        <mxCell id="woSFp-U5koIpizRuvs54-37" value="&lt;span style=&quot;text-wrap: nowrap; background-color: rgb(251, 251, 251);&quot;&gt;[自动模式切换：集群切常规]&lt;/span&gt;" style="line;strokeWidth=1;dashed=1;labelPosition=center;verticalLabelPosition=bottom;align=left;verticalAlign=top;spacingLeft=20;spacingTop=15;html=1;whiteSpace=wrap;" parent="woSFp-U5koIpizRuvs54-35" vertex="1">
           <mxGeometry y="150" width="750" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="woSFp-U5koIpizRuvs54-42" value="MessageTrunkModeSwitch" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;" edge="1" parent="woSFp-U5koIpizRuvs54-35">
+        <mxCell id="woSFp-U5koIpizRuvs54-42" value="MessageTrunkModeSwitch" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;" parent="woSFp-U5koIpizRuvs54-35" edge="1">
           <mxGeometry x="-0.0008" width="160" relative="1" as="geometry">
             <mxPoint x="210" y="210" as="sourcePoint" />
             <mxPoint x="672.5" y="210" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="woSFp-U5koIpizRuvs54-43" value="MessageModeAutoSwitchSwitch" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;" edge="1" parent="woSFp-U5koIpizRuvs54-35" target="fF2yLzQ_xOnauesnfYyS-2">
+        <mxCell id="woSFp-U5koIpizRuvs54-43" value="MessageModeAutoSwitchSwitch" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;" parent="woSFp-U5koIpizRuvs54-35" target="fF2yLzQ_xOnauesnfYyS-2" edge="1">
           <mxGeometry x="-0.0008" width="160" relative="1" as="geometry">
             <mxPoint x="210" y="60" as="sourcePoint" />
             <mxPoint x="670" y="60" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="woSFp-U5koIpizRuvs54-51" value="MessageApplet2ServiceModeExitFromConventional&#xa;" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;" edge="1" parent="woSFp-U5koIpizRuvs54-35">
+        <mxCell id="woSFp-U5koIpizRuvs54-51" value="MessageApplet2ServiceModeExitFromConventional&#xa;" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;" parent="woSFp-U5koIpizRuvs54-35" edge="1">
           <mxGeometry x="-0.0008" width="160" relative="1" as="geometry">
             <mxPoint x="670" y="110" as="sourcePoint" />
             <mxPoint x="207" y="110" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="woSFp-U5koIpizRuvs54-50" value="MessageModeExit" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;" edge="1" parent="woSFp-U5koIpizRuvs54-35">
+        <mxCell id="woSFp-U5koIpizRuvs54-50" value="MessageModeExit" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;" parent="woSFp-U5koIpizRuvs54-35" edge="1">
           <mxGeometry x="-0.0008" width="160" relative="1" as="geometry">
             <mxPoint x="673" y="260" as="sourcePoint" />
             <mxPoint x="210" y="260" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="woSFp-U5koIpizRuvs54-67" value="MessageModeEixtEnterRspInd&#xa;" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;" edge="1" parent="woSFp-U5koIpizRuvs54-35">
+        <mxCell id="woSFp-U5koIpizRuvs54-67" value="MessageModeEixtEnterRspInd&#xa;" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;" parent="woSFp-U5koIpizRuvs54-35" edge="1">
           <mxGeometry x="-0.0011" width="160" relative="1" as="geometry">
             <mxPoint x="210" y="320" as="sourcePoint" />
             <mxPoint x="672.5" y="320" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="woSFp-U5koIpizRuvs54-44" value="自动退出前当模式流程" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+        <mxCell id="woSFp-U5koIpizRuvs54-44" value="自动退出前当模式流程" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="610" y="926" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="woSFp-U5koIpizRuvs54-70" value="MessageKey" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;" edge="1" parent="1" target="fF2yLzQ_xOnauesnfYyS-2">
+        <mxCell id="woSFp-U5koIpizRuvs54-70" value="MessageKey" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;" parent="1" target="fF2yLzQ_xOnauesnfYyS-2" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="-180" y="140" as="sourcePoint" />
             <mxPoint x="-20" y="140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="woSFp-U5koIpizRuvs54-71" value="手动退出当前模式流程&lt;div&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;（建议改成与自动模式切换一样，增加模式切换与集群去注册的交互）&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+        <mxCell id="woSFp-U5koIpizRuvs54-71" value="手动退出当前模式流程&lt;div&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;（建议改成与自动模式切换一样，增加模式切换与集群去注册的交互）&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="573" y="450" width="177" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="woSFp-U5koIpizRuvs54-72" value="信道切换/组群" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+        <mxCell id="woSFp-U5koIpizRuvs54-72" value="信道切换/组群" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="1010" y="40" width="100" height="1580" as="geometry" />
         </mxCell>
-        <mxCell id="woSFp-U5koIpizRuvs54-73" value="n_RADIO_MODE_TRUNK" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;" edge="1" parent="1" target="fF2yLzQ_xOnauesnfYyS-2">
+        <mxCell id="woSFp-U5koIpizRuvs54-73" value="n_RADIO_MODE_TRUNK" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;" parent="1" target="fF2yLzQ_xOnauesnfYyS-2" edge="1">
           <mxGeometry x="-0.0008" width="160" relative="1" as="geometry">
             <mxPoint x="1063" y="1370" as="sourcePoint" />
             <mxPoint x="600" y="1370" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="woSFp-U5koIpizRuvs54-74" value="启动300ms定时器，等待其他业务完成" style="html=1;verticalAlign=bottom;endArrow=block;endFill=1;rounded=0;" edge="1" parent="1" target="fF2yLzQ_xOnauesnfYyS-1">
+        <mxCell id="woSFp-U5koIpizRuvs54-74" value="启动300ms定时器，等待其他业务完成" style="html=1;verticalAlign=bottom;endArrow=block;endFill=1;rounded=0;" parent="1" target="fF2yLzQ_xOnauesnfYyS-1" edge="1">
           <mxGeometry x="0.0001" width="160" relative="1" as="geometry">
             <mxPoint x="510" y="1400" as="sourcePoint" />
             <mxPoint x="-40" y="1400" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="woSFp-U5koIpizRuvs54-75" value="MessageTimeout" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;" edge="1" parent="1" target="fF2yLzQ_xOnauesnfYyS-2">
+        <mxCell id="woSFp-U5koIpizRuvs54-75" value="MessageTimeout" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;" parent="1" target="fF2yLzQ_xOnauesnfYyS-2" edge="1">
           <mxGeometry x="-0.0005" width="160" relative="1" as="geometry">
             <mxPoint x="-180" y="1470" as="sourcePoint" />
             <mxPoint x="-20" y="1470" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="woSFp-U5koIpizRuvs54-76" value="走手动退出当前模式流程" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+        <mxCell id="woSFp-U5koIpizRuvs54-76" value="走手动退出当前模式流程" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="1500" width="350" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="woSFp-U5koIpizRuvs54-77" value="切区域/信道/组群导致的模式切换" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+        <mxCell id="woSFp-U5koIpizRuvs54-77" value="切区域/信道/组群导致的模式切换" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="1080" y="1340" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Amn0KpJ--W4ceh6jiE8T-2" value="建议：添加模式切换前的等待机制，由业务调用触发与释放，去除定时器机制。&lt;div&gt;（支持多个业务触发与释放，模式切换不依赖业务）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fontColor=#FF0000;" vertex="1" parent="1">
+        <mxCell id="Amn0KpJ--W4ceh6jiE8T-2" value="建议：添加模式切换前的等待机制，由业务调用触发与释放，去除定时器机制。&lt;div&gt;（支持多个业务触发与释放，模式切换不依赖业务）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="530" y="1420" width="250" height="60" as="geometry" />
         </mxCell>
       </root>
@@ -670,7 +670,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="QSh1Rwk45d_W0UejF-h8" name="呼叫状态图">
-    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="819" dy="426" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -735,7 +735,7 @@
           <mxGeometry x="1010" y="920" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="V2i39nAuX2zrr5gA-0yQ-21" value="DV_DUPLEX_CALL" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1010" y="1060" width="120" height="80" as="geometry" />
+          <mxGeometry x="520" y="770" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="V2i39nAuX2zrr5gA-0yQ-22" value="DUPLEX_CALL_END" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1010" y="1210" width="120" height="80" as="geometry" />
@@ -758,7 +758,7 @@
             <mxPoint x="750" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mcQOmUvgeCMH3iCQpWou-2" value="34&lt;br&gt;PTT按下" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="mcQOmUvgeCMH3iCQpWou-1" vertex="1" connectable="0">
+        <mxCell id="mcQOmUvgeCMH3iCQpWou-2" value="34" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="mcQOmUvgeCMH3iCQpWou-1" vertex="1" connectable="0">
           <mxGeometry x="-0.1138" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -772,7 +772,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="mcQOmUvgeCMH3iCQpWou-6" value="&lt;span style=&quot;font-size: 12px; text-align: left; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;TX_PERMIT&lt;/span&gt;&lt;br&gt;发射允许" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="mcQOmUvgeCMH3iCQpWou-5" vertex="1" connectable="0">
+        <mxCell id="mcQOmUvgeCMH3iCQpWou-6" value="&lt;span style=&quot;font-size: 12px; text-align: left; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;0&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="mcQOmUvgeCMH3iCQpWou-5" vertex="1" connectable="0">
           <mxGeometry x="-0.1138" relative="1" as="geometry">
             <mxPoint x="-30" y="24" as="offset" />
           </mxGeometry>
@@ -844,7 +844,7 @@
             <mxPoint x="820" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4bgnVrOk7rCHMKoYay-k-8" value="16&lt;div&gt;进入接收hangtime&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="4bgnVrOk7rCHMKoYay-k-7" vertex="1" connectable="0">
+        <mxCell id="4bgnVrOk7rCHMKoYay-k-8" value="16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="4bgnVrOk7rCHMKoYay-k-7" vertex="1" connectable="0">
           <mxGeometry x="-0.1138" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -855,7 +855,7 @@
             <mxPoint x="880" y="470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4bgnVrOk7rCHMKoYay-k-11" value="15&lt;br&gt;接收结束" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="4bgnVrOk7rCHMKoYay-k-10" vertex="1" connectable="0">
+        <mxCell id="4bgnVrOk7rCHMKoYay-k-11" value="15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="4bgnVrOk7rCHMKoYay-k-10" vertex="1" connectable="0">
           <mxGeometry x="-0.1138" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -875,7 +875,7 @@
             <mxPoint x="430" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hM9I2OBiGhXKQPEABw7y-2" value="7&lt;div&gt;个呼确认开始&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hM9I2OBiGhXKQPEABw7y-1">
+        <mxCell id="hM9I2OBiGhXKQPEABw7y-2" value="7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hM9I2OBiGhXKQPEABw7y-1">
           <mxGeometry x="-0.1138" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -889,7 +889,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="hM9I2OBiGhXKQPEABw7y-4" value="&lt;div&gt;8&lt;/div&gt;&lt;div&gt;个呼确认结束&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hM9I2OBiGhXKQPEABw7y-3">
+        <mxCell id="hM9I2OBiGhXKQPEABw7y-4" value="&lt;div&gt;8&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hM9I2OBiGhXKQPEABw7y-3">
           <mxGeometry x="-0.1138" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -900,9 +900,68 @@
             <mxPoint x="650" y="660" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hM9I2OBiGhXKQPEABw7y-7" value="&lt;div&gt;60&lt;/div&gt;&lt;div&gt;双工呼叫主叫进入振铃&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hM9I2OBiGhXKQPEABw7y-6">
+        <mxCell id="hM9I2OBiGhXKQPEABw7y-7" value="&lt;div&gt;60&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hM9I2OBiGhXKQPEABw7y-6">
           <mxGeometry x="-0.1138" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hM9I2OBiGhXKQPEABw7y-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="V2i39nAuX2zrr5gA-0yQ-19" target="V2i39nAuX2zrr5gA-0yQ-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="573" y="703" as="sourcePoint" />
+            <mxPoint x="650" y="840" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="460" y="630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hM9I2OBiGhXKQPEABw7y-12" value="&lt;div&gt;72&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hM9I2OBiGhXKQPEABw7y-11">
+          <mxGeometry x="-0.1138" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hM9I2OBiGhXKQPEABw7y-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.984;entryY=0.621;entryDx=0;entryDy=0;entryPerimeter=0;elbow=vertical;" edge="1" parent="1" source="V2i39nAuX2zrr5gA-0yQ-19" target="V2i39nAuX2zrr5gA-0yQ-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="680" as="sourcePoint" />
+            <mxPoint x="659.96" y="710" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="710" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hM9I2OBiGhXKQPEABw7y-15" value="&lt;div&gt;0&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hM9I2OBiGhXKQPEABw7y-14">
+          <mxGeometry x="-0.1138" relative="1" as="geometry">
+            <mxPoint y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hM9I2OBiGhXKQPEABw7y-16" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;elbow=vertical;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="V2i39nAuX2zrr5gA-0yQ-19" target="V2i39nAuX2zrr5gA-0yQ-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="648" y="661" as="sourcePoint" />
+            <mxPoint x="648" y="680" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hM9I2OBiGhXKQPEABw7y-17" value="&lt;div&gt;0&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hM9I2OBiGhXKQPEABw7y-16">
+          <mxGeometry x="-0.1138" relative="1" as="geometry">
+            <mxPoint y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hM9I2OBiGhXKQPEABw7y-18" value="61" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hM9I2OBiGhXKQPEABw7y-16">
+          <mxGeometry x="0.1567" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hM9I2OBiGhXKQPEABw7y-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;elbow=vertical;" edge="1" parent="1" source="V2i39nAuX2zrr5gA-0yQ-21" target="V2i39nAuX2zrr5gA-0yQ-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="761" as="sourcePoint" />
+            <mxPoint x="660" y="780" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="700" y="790" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hM9I2OBiGhXKQPEABw7y-20" value="&lt;div&gt;88&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hM9I2OBiGhXKQPEABw7y-19">
+          <mxGeometry x="-0.1138" relative="1" as="geometry">
+            <mxPoint y="10" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
