@@ -1285,7 +1285,7 @@
             <mxRectangle width="483" height="140" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZIiUCbYHpm_b4glgzO18-115" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="ZIiUCbYHpm_b4glgzO18-110">
+        <mxCell id="ZIiUCbYHpm_b4glgzO18-115" value="跳转到：RX_HangTime状态" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="ZIiUCbYHpm_b4glgzO18-110">
           <mxGeometry x="1337" width="230" height="140" as="geometry">
             <mxRectangle width="230" height="140" as="alternateBounds" />
           </mxGeometry>
