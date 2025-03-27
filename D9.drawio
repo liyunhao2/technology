@@ -1009,7 +1009,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="nkAi9TnOL1i13eJVyELx-3" value="Interaction heading" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=170;" parent="1" vertex="1">
-          <mxGeometry x="-80" y="150" width="670" height="420" as="geometry" />
+          <mxGeometry x="-80" y="150" width="670" height="340" as="geometry" />
         </mxCell>
         <mxCell id="nkAi9TnOL1i13eJVyELx-4" value="[组呼/全呼]" style="text;html=1;" parent="nkAi9TnOL1i13eJVyELx-3" vertex="1">
           <mxGeometry width="100" height="20" relative="1" as="geometry">
@@ -1017,7 +1017,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="nkAi9TnOL1i13eJVyELx-5" value="[个呼]" style="line;strokeWidth=1;dashed=1;labelPosition=center;verticalLabelPosition=bottom;align=left;verticalAlign=top;spacingLeft=20;spacingTop=15;html=1;whiteSpace=wrap;" parent="nkAi9TnOL1i13eJVyELx-3" vertex="1">
-          <mxGeometry y="125" width="610" height="35" as="geometry" />
+          <mxGeometry y="125" width="670" height="35" as="geometry" />
         </mxCell>
         <mxCell id="nkAi9TnOL1i13eJVyELx-8" value="&lt;span style=&quot;font-size: 12px; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;MessageDvoiceTxReqRep&lt;/span&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;请求发射结果&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;align=center;" parent="1" edge="1">
           <mxGeometry x="-0.0003" width="160" relative="1" as="geometry">
@@ -1027,7 +1027,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="nkAi9TnOL1i13eJVyELx-9" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;MessageDvoiceOacsuCallInd&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;请求发射结果&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;align=center;" parent="1" edge="1">
-          <mxGeometry x="-0.0003" width="160" relative="1" as="geometry">
+          <mxGeometry x="0.001" width="160" relative="1" as="geometry">
             <mxPoint x="50" y="460" as="sourcePoint" />
             <mxPoint x="533.5" y="460" as="targetPoint" />
             <mxPoint as="offset" />
@@ -1035,10 +1035,16 @@
         </mxCell>
         <mxCell id="nkAi9TnOL1i13eJVyELx-12" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px; text-align: left; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;MessageDuplexCallTxReqRsp&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;请求发射结果&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;align=center;" parent="1" edge="1">
           <mxGeometry x="0.0003" width="160" relative="1" as="geometry">
-            <mxPoint x="51" y="530" as="sourcePoint" />
-            <mxPoint x="534.5" y="530" as="targetPoint" />
+            <mxPoint x="51" y="550" as="sourcePoint" />
+            <mxPoint x="534.5" y="550" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Y5FhFZaQ6Ce9nH1ysMkW-1" value="Ref" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=50;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="510" width="670" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Y5FhFZaQ6Ce9nH1ysMkW-2" value="[全双工、个呼]" style="text;html=1;" vertex="1" parent="Y5FhFZaQ6Ce9nH1ysMkW-1">
+          <mxGeometry y="30.000000000000227" width="100" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
