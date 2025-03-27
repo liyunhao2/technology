@@ -1026,7 +1026,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nkAi9TnOL1i13eJVyELx-9" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;MessageDvoiceOacsuCallInd&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;个呼确认结果&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;align=center;" parent="1" edge="1">
+        <mxCell id="nkAi9TnOL1i13eJVyELx-9" value="MessageDvoiceOacsuCallInd&lt;br&gt;个呼确认（DOACSU_EOTX_REQ）" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;align=center;" parent="1" edge="1">
           <mxGeometry x="0.001" width="160" relative="1" as="geometry">
             <mxPoint x="50" y="460" as="sourcePoint" />
             <mxPoint x="533.5" y="460" as="targetPoint" />
