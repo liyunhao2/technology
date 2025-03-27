@@ -1041,15 +1041,22 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Y5FhFZaQ6Ce9nH1ysMkW-1" value="Ref" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=50;" vertex="1" parent="1">
-          <mxGeometry x="-80" y="510" width="670" height="120" as="geometry" />
+          <mxGeometry x="-80" y="510" width="670" height="180" as="geometry" />
         </mxCell>
         <mxCell id="Y5FhFZaQ6Ce9nH1ysMkW-2" value="[全双工、个呼]" style="text;html=1;" vertex="1" parent="Y5FhFZaQ6Ce9nH1ysMkW-1">
           <mxGeometry y="30.000000000000227" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Y5FhFZaQ6Ce9nH1ysMkW-3" value="MessageDuplexCallTxReqRsp&lt;br&gt;请求发射结果（结果：eDUPLEX_CALLSETUP_SUCCESS/eDUPLEX_REJECT_BY_USER）" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;align=center;" edge="1" parent="Y5FhFZaQ6Ce9nH1ysMkW-1">
           <mxGeometry x="0.0003" width="160" relative="1" as="geometry">
-            <mxPoint x="130" y="90" as="sourcePoint" />
-            <mxPoint x="613.5" y="90" as="targetPoint" />
+            <mxPoint x="130" y="150" as="sourcePoint" />
+            <mxPoint x="613.5" y="150" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y5FhFZaQ6Ce9nH1ysMkW-5" value="MessageDvoiceTxReqRep&lt;br&gt;请求发射结果(允许:TX_GRANTED_IND)" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;align=center;" edge="1" parent="Y5FhFZaQ6Ce9nH1ysMkW-1">
+          <mxGeometry x="0.001" width="160" relative="1" as="geometry">
+            <mxPoint x="130" y="89.5" as="sourcePoint" />
+            <mxPoint x="613.5" y="89.5" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
