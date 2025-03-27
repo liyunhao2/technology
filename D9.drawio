@@ -1033,7 +1033,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nkAi9TnOL1i13eJVyELx-12" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px; text-align: left; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;MessageDuplexCallTxReqRsp&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;请求发射结果&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;align=center;" parent="1" edge="1">
+        <mxCell id="nkAi9TnOL1i13eJVyELx-12" value="MessageDuplexCallTxReqRsp&lt;br&gt;请求发射结果（响玲：eDUPLEX_ALERTING）" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;align=center;" parent="1" edge="1">
           <mxGeometry x="0.0003" width="160" relative="1" as="geometry">
             <mxPoint x="51" y="550" as="sourcePoint" />
             <mxPoint x="534.5" y="550" as="targetPoint" />
