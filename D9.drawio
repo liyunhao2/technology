@@ -1046,6 +1046,13 @@
         <mxCell id="Y5FhFZaQ6Ce9nH1ysMkW-2" value="[全双工、个呼]" style="text;html=1;" vertex="1" parent="Y5FhFZaQ6Ce9nH1ysMkW-1">
           <mxGeometry y="30.000000000000227" width="100" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="Y5FhFZaQ6Ce9nH1ysMkW-3" value="MessageDuplexCallTxReqRsp&lt;br&gt;请求发射结果（结果：eDUPLEX_CALLSETUP_SUCCESS/eDUPLEX_REJECT_BY_USER）" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;align=center;" edge="1" parent="Y5FhFZaQ6Ce9nH1ysMkW-1">
+          <mxGeometry x="0.0003" width="160" relative="1" as="geometry">
+            <mxPoint x="130" y="90" as="sourcePoint" />
+            <mxPoint x="613.5" y="90" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
