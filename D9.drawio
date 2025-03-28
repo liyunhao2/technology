@@ -968,7 +968,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="b5A_p91qpExWZnJ8dCDS" name="呼叫_新">
-    <mxGraphModel dx="2038" dy="1279" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2391" dy="1504" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1017,15 +1017,15 @@
         </mxCell>
         <mxCell id="uAPkuS1TimQDia7jlI6v-4" value="MessageDVoicePTTReleaseReq&lt;br&gt;请求结束发射" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;" parent="1" edge="1">
           <mxGeometry x="-0.0021" width="160" relative="1" as="geometry">
-            <mxPoint x="536" y="930" as="sourcePoint" />
-            <mxPoint x="49.5" y="930" as="targetPoint" />
+            <mxPoint x="1546.9899999999998" y="1190" as="sourcePoint" />
+            <mxPoint x="1060.49" y="1190" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ZCmYJ9h2r9i-m8E4KJTh-1" value="&lt;span style=&quot;font-size: 12px; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;MessageDvoiceEOTxEnterHangTime&lt;/span&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;退出发射进入hangtime&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;align=center;entryX=0.521;entryY=0.199;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
           <mxGeometry x="-0.0003" width="160" relative="1" as="geometry">
-            <mxPoint x="49.323529411764866" y="1000.3899999999999" as="sourcePoint" />
-            <mxPoint x="540.0070000000001" y="1000.3899999999999" as="targetPoint" />
+            <mxPoint x="1060.3135294117649" y="1260.3899999999999" as="sourcePoint" />
+            <mxPoint x="1550.9969999999998" y="1260.3899999999999" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -1045,8 +1045,8 @@
         </mxCell>
         <mxCell id="xbiM88wQbNx1bpGEE50n-2" value="&lt;span style=&quot;font-size: 12px; text-align: left; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;MessageDvoiceEOTxInd&lt;/span&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;结束发射&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;align=center;" parent="1" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="50" y="1070" as="sourcePoint" />
-            <mxPoint x="536" y="1070.0000000000002" as="targetPoint" />
+            <mxPoint x="1060.99" y="1330" as="sourcePoint" />
+            <mxPoint x="1546.9899999999998" y="1330.0000000000002" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -1081,7 +1081,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="nkAi9TnOL1i13eJVyELx-3" value="Interaction heading" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=170;" parent="1" vertex="1">
-          <mxGeometry x="-720" y="150" width="670" height="340" as="geometry" />
+          <mxGeometry x="1760" y="310" width="670" height="340" as="geometry" />
         </mxCell>
         <mxCell id="nkAi9TnOL1i13eJVyELx-4" value="[组呼/全呼]" style="text;html=1;" parent="nkAi9TnOL1i13eJVyELx-3" vertex="1">
           <mxGeometry width="100" height="20" relative="1" as="geometry">
@@ -1097,33 +1097,17 @@
         <mxCell id="Y5FhFZaQ6Ce9nH1ysMkW-2" value="[全双工、个呼]" style="text;html=1;" parent="Y5FhFZaQ6Ce9nH1ysMkW-1" vertex="1">
           <mxGeometry y="30.000000000000227" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Y5FhFZaQ6Ce9nH1ysMkW-6" value="对方接听/拒接" style="ellipse;whiteSpace=wrap;html=1;" parent="Y5FhFZaQ6Ce9nH1ysMkW-1" vertex="1">
-          <mxGeometry x="20" y="180" width="80" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Y5FhFZaQ6Ce9nH1ysMkW-7" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="Y5FhFZaQ6Ce9nH1ysMkW-6" target="mxPXB9OJcTtdOgEnG6Gf-3" edge="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="-129.31999999999994" y="550" as="sourcePoint" />
-            <mxPoint x="-220" y="580" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Y5FhFZaQ6Ce9nH1ysMkW-3" value="MessageDuplexCallTxReqRsp&lt;br&gt;全双工请求发射结果（结果：eDUPLEX_CALLSETUP_SUCCESS/eDUPLEX_REJECT_BY_USER）" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;align=center;" parent="1" edge="1">
+        <mxCell id="Y5FhFZaQ6Ce9nH1ysMkW-8" value="" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;align=center;" parent="1" edge="1">
           <mxGeometry x="0.001" width="160" relative="1" as="geometry">
-            <mxPoint x="50" y="720" as="sourcePoint" />
-            <mxPoint x="533.5" y="720" as="targetPoint" />
+            <mxPoint x="1060.99" y="1030" as="sourcePoint" />
+            <mxPoint x="1544.4899999999998" y="1030" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Y5FhFZaQ6Ce9nH1ysMkW-8" value="MessageDvoiceTxReqRep&lt;br&gt;发射结果(允许:TX_GRANTED_IND)" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;align=center;" parent="1" edge="1">
+        <mxCell id="Y5FhFZaQ6Ce9nH1ysMkW-9" value="" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;align=center;" parent="1" edge="1">
           <mxGeometry x="0.001" width="160" relative="1" as="geometry">
-            <mxPoint x="50" y="770" as="sourcePoint" />
-            <mxPoint x="533.5" y="770" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Y5FhFZaQ6Ce9nH1ysMkW-9" value="MessageDvoiceBORxInd&lt;br&gt;接收(允许:TX_GRANTED_IND)" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;align=center;" parent="1" edge="1">
-          <mxGeometry x="0.001" width="160" relative="1" as="geometry">
-            <mxPoint x="50" y="826" as="sourcePoint" />
-            <mxPoint x="533.5" y="826" as="targetPoint" />
+            <mxPoint x="1060.99" y="1086" as="sourcePoint" />
+            <mxPoint x="1544.4899999999998" y="1086" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -1248,6 +1232,30 @@
           <mxGeometry x="0.001" width="160" relative="1" as="geometry">
             <mxPoint x="1594.5" y="640" as="sourcePoint" />
             <mxPoint x="1204" y="640" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y5FhFZaQ6Ce9nH1ysMkW-6" value="对方接听/拒接" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1651" y="670" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3Q_57I00AopeKOtVm8Cz-16" value="MessageDuplexCallTxReqRsp&lt;br&gt;全双工请求发射结果&lt;div&gt;（结果：eDUPLEX_CALLSETUP_SUCCESS/eDUPLEX_REJECT_BY_USER）&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;align=center;" edge="1" parent="1">
+          <mxGeometry x="0.001" width="160" relative="1" as="geometry">
+            <mxPoint x="1593.5" y="720" as="sourcePoint" />
+            <mxPoint x="1203" y="720" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3Q_57I00AopeKOtVm8Cz-17" value="MessageDvoiceTxReqRep&lt;br&gt;发射结果(允许:TX_GRANTED_IND)" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;align=center;" edge="1" parent="1">
+          <mxGeometry x="0.001" width="160" relative="1" as="geometry">
+            <mxPoint x="1594.5" y="800" as="sourcePoint" />
+            <mxPoint x="1204" y="800" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3Q_57I00AopeKOtVm8Cz-18" value="MessageDvoiceBORxInd&lt;br&gt;接收(允许:TX_GRANTED_IND)" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;align=center;" edge="1" parent="1">
+          <mxGeometry x="0.001" width="160" relative="1" as="geometry">
+            <mxPoint x="1590.5" y="880" as="sourcePoint" />
+            <mxPoint x="1200" y="880" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
