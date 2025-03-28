@@ -968,7 +968,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="b5A_p91qpExWZnJ8dCDS" name="呼叫_新">
-    <mxGraphModel dx="2757" dy="1707" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2492" dy="1560" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -982,13 +982,13 @@
           <mxGeometry x="1117" y="40" width="167" height="2720" as="geometry" />
         </mxCell>
         <mxCell id="_facArUDr_h4fjDgYPz3-5" value="" style="html=1;perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};imageAspect=1;" vertex="1" parent="mxPXB9OJcTtdOgEnG6Gf-2">
-          <mxGeometry x="78.5" y="120" width="10" height="870" as="geometry" />
+          <mxGeometry x="78.5" y="120" width="10" height="1510" as="geometry" />
         </mxCell>
         <mxCell id="mxPXB9OJcTtdOgEnG6Gf-3" value="PS" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="1551" y="40" width="100" height="2740" as="geometry" />
         </mxCell>
         <mxCell id="3Q_57I00AopeKOtVm8Cz-3" value="" style="html=1;perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};imageAspect=1;" vertex="1" parent="mxPXB9OJcTtdOgEnG6Gf-3">
-          <mxGeometry x="45" y="120" width="10" height="870" as="geometry" />
+          <mxGeometry x="45" y="120" width="10" height="1490" as="geometry" />
         </mxCell>
         <mxCell id="mxPXB9OJcTtdOgEnG6Gf-13" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -1008,20 +1008,6 @@
         <mxCell id="uAPkuS1TimQDia7jlI6v-2" value="PTT松开" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="670" y="920" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="uAPkuS1TimQDia7jlI6v-4" value="" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;" parent="1" edge="1">
-          <mxGeometry x="-0.0021" width="160" relative="1" as="geometry">
-            <mxPoint x="1546.9899999999998" y="1190" as="sourcePoint" />
-            <mxPoint x="1060.49" y="1190" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ZCmYJ9h2r9i-m8E4KJTh-1" value="&lt;span style=&quot;font-size: 12px; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;MessageDvoiceEOTxEnterHangTime&lt;/span&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;退出发射进入hangtime&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;align=center;entryX=0.521;entryY=0.199;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
-          <mxGeometry x="-0.0003" width="160" relative="1" as="geometry">
-            <mxPoint x="1060.3135294117649" y="1260.3899999999999" as="sourcePoint" />
-            <mxPoint x="1550.9969999999998" y="1260.3899999999999" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="ZCmYJ9h2r9i-m8E4KJTh-3" value="" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;align=center;" parent="1" edge="1">
           <mxGeometry x="-0.0003" width="160" relative="1" as="geometry">
             <mxPoint x="50.003529411764866" y="1886" as="sourcePoint" />
@@ -1033,13 +1019,6 @@
           <mxGeometry x="-0.0021" width="160" relative="1" as="geometry">
             <mxPoint x="536.68" y="1901" as="sourcePoint" />
             <mxPoint x="50.003529411764866" y="1901" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="xbiM88wQbNx1bpGEE50n-2" value="&lt;span style=&quot;font-size: 12px; text-align: left; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;MessageDvoiceEOTxInd&lt;/span&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;结束发射&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;align=center;" parent="1" edge="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="1060.99" y="1330" as="sourcePoint" />
-            <mxPoint x="1546.9899999999998" y="1330.0000000000002" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -1240,8 +1219,8 @@
         </mxCell>
         <mxCell id="3Q_57I00AopeKOtVm8Cz-20" value="MessageKey&lt;br&gt;PTT松开" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;startFill=1;anchorPointDirection=1;bendable=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1">
           <mxGeometry x="-0.0011" width="160" relative="1" as="geometry">
-            <mxPoint x="807" y="952" as="sourcePoint" />
-            <mxPoint x="1197.5" y="952" as="targetPoint" />
+            <mxPoint x="807" y="958" as="sourcePoint" />
+            <mxPoint x="1197.5" y="958" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -1263,6 +1242,27 @@
           <mxGeometry x="-0.0011" width="160" relative="1" as="geometry">
             <mxPoint x="1680" y="1078" as="sourcePoint" />
             <mxPoint x="2070.5" y="1078" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3Q_57I00AopeKOtVm8Cz-24" value="MessageDvoiceBORxInd&lt;br&gt;接收(允许:TX_GRANTED_IND)" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;align=center;" edge="1" parent="1">
+          <mxGeometry x="0.001" width="160" relative="1" as="geometry">
+            <mxPoint x="1594.5" y="1040" as="sourcePoint" />
+            <mxPoint x="1204" y="1040" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3Q_57I00AopeKOtVm8Cz-25" value="&lt;span style=&quot;text-wrap: wrap; font-size: 12px; background-color: rgb(251, 251, 251);&quot;&gt;MessageDvoiceEOTxEnterHangTime&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;退出发射进入hangtime&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;align=center;" edge="1" parent="1">
+          <mxGeometry x="0.001" width="160" relative="1" as="geometry">
+            <mxPoint x="1595.5" y="1119" as="sourcePoint" />
+            <mxPoint x="1205" y="1119" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3Q_57I00AopeKOtVm8Cz-26" value="&lt;span style=&quot;text-wrap: wrap; font-size: 12px; text-align: left; background-color: rgb(251, 251, 251);&quot;&gt;MessageDvoiceEOTxInd&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;结束发射&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;align=center;" edge="1" parent="1">
+          <mxGeometry x="0.001" width="160" relative="1" as="geometry">
+            <mxPoint x="1593.5" y="1200" as="sourcePoint" />
+            <mxPoint x="1203" y="1200" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
