@@ -1180,10 +1180,40 @@
         <mxCell id="Y5FhFZaQ6Ce9nH1ysMkW-15" value="1、如果是接收方主动结束，返回结果与请求结束发射的结果一样&lt;div&gt;2、&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;电话或全双工无hangtime&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="-170" y="980" width="190" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="j6vW1F8-4x-9Ifbt4tBP-1" value="&lt;span style=&quot;font-size: 12px; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;MessageRxDuplexCallReq&lt;/span&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;双工呼叫（双工只有个呼）&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;align=center;entryX=0.521;entryY=0.199;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+        <mxCell id="j6vW1F8-4x-9Ifbt4tBP-1" value="&lt;span style=&quot;font-size: 12px; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;MessageRxDuplexCallReq&lt;/span&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;双工呼叫（双工个呼）&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;align=center;entryX=0.521;entryY=0.199;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
           <mxGeometry x="-0.0003" width="160" relative="1" as="geometry">
             <mxPoint x="50" y="1600" as="sourcePoint" />
             <mxPoint x="540" y="1600" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j6vW1F8-4x-9Ifbt4tBP-2" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="j6vW1F8-4x-9Ifbt4tBP-3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="10" y="1665" as="sourcePoint" />
+            <mxPoint x="840" y="1650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j6vW1F8-4x-9Ifbt4tBP-3" value="接听键" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="910" y="1620" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j6vW1F8-4x-9Ifbt4tBP-4" value="MessageKey&lt;br&gt;接听键" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0011" width="160" relative="1" as="geometry">
+            <mxPoint x="839.4999999999995" y="1656.4099999999999" as="sourcePoint" />
+            <mxPoint x="535.8235294117644" y="1656.4099999999999" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j6vW1F8-4x-9Ifbt4tBP-5" value="MessageDuplexGrantedByUser&lt;br&gt;请求结束发射" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0014" width="160" relative="1" as="geometry">
+            <mxPoint x="536.68" y="1657" as="sourcePoint" />
+            <mxPoint x="50.003529411764866" y="1657" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j6vW1F8-4x-9Ifbt4tBP-7" value="&lt;span style=&quot;font-size: 12px; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;MessageRxDuplexCallReq&lt;/span&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;双工呼叫（双工个呼）&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;align=center;entryX=0.521;entryY=0.199;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0003" width="160" relative="1" as="geometry">
+            <mxPoint x="50" y="1720" as="sourcePoint" />
+            <mxPoint x="540" y="1720" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
