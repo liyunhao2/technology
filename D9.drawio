@@ -968,7 +968,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="b5A_p91qpExWZnJ8dCDS" name="呼叫_新">
-    <mxGraphModel dx="1658" dy="880" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1808" dy="937" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -999,6 +999,9 @@
         <mxCell id="vBXETefE6m1F2K_9yXW6-16" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;resizable=1;" vertex="1" parent="mxPXB9OJcTtdOgEnG6Gf-2">
           <mxGeometry x="78.5" y="1599" width="10" height="1120" as="geometry" />
         </mxCell>
+        <mxCell id="vBXETefE6m1F2K_9yXW6-31" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;resizable=1;" vertex="1" parent="mxPXB9OJcTtdOgEnG6Gf-2">
+          <mxGeometry x="78.5" y="2798" width="10" height="162" as="geometry" />
+        </mxCell>
         <mxCell id="mxPXB9OJcTtdOgEnG6Gf-3" value="PS" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="1551" y="40" width="100" height="3910" as="geometry" />
         </mxCell>
@@ -1007,6 +1010,9 @@
         </mxCell>
         <mxCell id="vBXETefE6m1F2K_9yXW6-17" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;resizable=1;" vertex="1" parent="mxPXB9OJcTtdOgEnG6Gf-3">
           <mxGeometry x="45" y="1599" width="10" height="1120" as="geometry" />
+        </mxCell>
+        <mxCell id="vBXETefE6m1F2K_9yXW6-27" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;resizable=1;" vertex="1" parent="mxPXB9OJcTtdOgEnG6Gf-3">
+          <mxGeometry x="45" y="2800" width="10" height="160" as="geometry" />
         </mxCell>
         <mxCell id="mxPXB9OJcTtdOgEnG6Gf-13" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -1390,6 +1396,40 @@
         </mxCell>
         <mxCell id="vBXETefE6m1F2K_9yXW6-26" value="对方接听/挂断" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1651" y="850" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vBXETefE6m1F2K_9yXW6-28" value="接收同频中转语音" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1690" y="2810" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vBXETefE6m1F2K_9yXW6-29" value="" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;startFill=1;anchorPointDirection=1;bendable=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;strokeColor=default;align=center;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="vBXETefE6m1F2K_9yXW6-28" target="vBXETefE6m1F2K_9yXW6-27">
+          <mxGeometry x="-0.0011" width="160" relative="1" as="geometry">
+            <mxPoint x="1290" y="2740" as="sourcePoint" />
+            <mxPoint x="1680.5" y="2740" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vBXETefE6m1F2K_9yXW6-30" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); text-wrap: wrap;&quot;&gt;MessageDConvSFRMyVoiceCtrl&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;align=center;" edge="1" parent="1">
+          <mxGeometry x="0.0024" width="160" relative="1" as="geometry">
+            <mxPoint x="1595.75" y="2841.17" as="sourcePoint" />
+            <mxPoint x="1205.25" y="2841.17" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vBXETefE6m1F2K_9yXW6-33" value="MessageDvoiceBORxInd" style="text;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;resizable=1;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="3050" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vBXETefE6m1F2K_9yXW6-34" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-wrap: wrap;&quot;&gt;MessageDvoiceBORxInd&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;align=center;" edge="1" parent="1">
+          <mxGeometry x="0.0024" width="160" relative="1" as="geometry">
+            <mxPoint x="1594.75" y="2919" as="sourcePoint" />
+            <mxPoint x="1204.25" y="2919" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vBXETefE6m1F2K_9yXW6-35" value="MessageDConvSFRMyVoiceCtrl&#xa;开始" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;align=center;" edge="1" parent="1">
+          <mxGeometry x="0.0024" width="160" relative="1" as="geometry">
+            <mxPoint x="1594.75" y="2999" as="sourcePoint" />
+            <mxPoint x="1204.25" y="2999" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
