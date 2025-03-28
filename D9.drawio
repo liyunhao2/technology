@@ -968,7 +968,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="b5A_p91qpExWZnJ8dCDS" name="呼叫_新">
-    <mxGraphModel dx="1134" dy="629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1013" dy="629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1040,7 +1040,7 @@
         <mxCell id="Y5FhFZaQ6Ce9nH1ysMkW-15" value="1、如果是接收方主动结束，返回结果与请求结束发射的结果一样&lt;div&gt;2、&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;电话或全双工无hangtime&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="850" y="1040" width="190" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="j6vW1F8-4x-9Ifbt4tBP-2" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="j6vW1F8-4x-9Ifbt4tBP-3">
+        <mxCell id="j6vW1F8-4x-9Ifbt4tBP-2" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="j6vW1F8-4x-9Ifbt4tBP-3">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="10" y="1784" as="sourcePoint" />
             <mxPoint x="799.5" y="1719" as="targetPoint" />
@@ -1155,7 +1155,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="3Q_57I00AopeKOtVm8Cz-22" value="MessageDVoicePTTReleaseReq&lt;br&gt;请求结束发射" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;startFill=1;anchorPointDirection=1;bendable=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1">
-          <mxGeometry x="-0.0011" width="160" relative="1" as="geometry">
+          <mxGeometry x="0.0024" width="160" relative="1" as="geometry">
             <mxPoint x="1206" y="959" as="sourcePoint" />
             <mxPoint x="1596.5" y="959" as="targetPoint" />
             <mxPoint as="offset" />
@@ -1258,6 +1258,29 @@
           <mxGeometry x="0.0024" width="160" relative="1" as="geometry">
             <mxPoint x="1595.25" y="2040" as="sourcePoint" />
             <mxPoint x="1204.75" y="2040" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3Q_57I00AopeKOtVm8Cz-48" value="接听键" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="2090" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3Q_57I00AopeKOtVm8Cz-49" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="3Q_57I00AopeKOtVm8Cz-48" target="mxPXB9OJcTtdOgEnG6Gf-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="810" y="2140" as="sourcePoint" />
+            <mxPoint x="989.5" y="2140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3Q_57I00AopeKOtVm8Cz-50" value="MessageKey&lt;br&gt;挂断键" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;startFill=1;anchorPointDirection=1;bendable=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1">
+          <mxGeometry x="0.0024" width="160" relative="1" as="geometry">
+            <mxPoint x="810" y="2119.29" as="sourcePoint" />
+            <mxPoint x="1200.5" y="2119.29" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3Q_57I00AopeKOtVm8Cz-51" value="MessageDVoicePTTReleaseReq&lt;div&gt;请求结束发射&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;startFill=1;anchorPointDirection=1;bendable=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1">
+          <mxGeometry x="0.0024" width="160" relative="1" as="geometry">
+            <mxPoint x="1206" y="2119.29" as="sourcePoint" />
+            <mxPoint x="1596.5" y="2119.29" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
