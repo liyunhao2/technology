@@ -1211,7 +1211,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3Q_57I00AopeKOtVm8Cz-29" value="&lt;span style=&quot;text-wrap: wrap; font-size: 12px; text-align: left; background-color: rgb(251, 251, 251);&quot;&gt;MessageDvoiceEORxInd&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;结束接收语音&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;align=center;" edge="1" parent="1">
+        <mxCell id="3Q_57I00AopeKOtVm8Cz-29" value="&lt;span style=&quot;text-wrap: wrap; font-size: 12px; text-align: left; background-color: rgb(251, 251, 251);&quot;&gt;MessageDvoiceEORxInd&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;结束接收&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;align=center;" edge="1" parent="1">
           <mxGeometry x="0.001" width="160" relative="1" as="geometry">
             <mxPoint x="1595.5" y="1796" as="sourcePoint" />
             <mxPoint x="1205" y="1796" as="targetPoint" />
@@ -1335,7 +1335,7 @@
           <mxGeometry x="3" y="610" width="1280" height="10" as="geometry" />
         </mxCell>
         <mxCell id="vBXETefE6m1F2K_9yXW6-1" value="&lt;span style=&quot;text-wrap: wrap; font-size: 12px; background-color: rgb(251, 251, 251);&quot;&gt;MessageDvoiceBORxInd&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;接收语音&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;align=center;" edge="1" parent="1">
-          <mxGeometry x="0.001" width="160" relative="1" as="geometry">
+          <mxGeometry x="0.0004" width="160" relative="1" as="geometry">
             <mxPoint x="1595.25" y="1878" as="sourcePoint" />
             <mxPoint x="1204.75" y="1878" as="targetPoint" />
             <mxPoint as="offset" />
@@ -1364,7 +1364,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vBXETefE6m1F2K_9yXW6-11" value="&lt;span style=&quot;text-wrap: wrap; font-size: 12px; text-align: left; background-color: rgb(251, 251, 251);&quot;&gt;MessageDvoiceEORxInd&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;结束接收语音&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;align=center;" edge="1" parent="1">
+        <mxCell id="vBXETefE6m1F2K_9yXW6-11" value="&lt;span style=&quot;text-wrap: wrap; font-size: 12px; text-align: left; background-color: rgb(251, 251, 251);&quot;&gt;MessageDvoiceEORxInd&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;结束接收&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;align=center;" edge="1" parent="1">
           <mxGeometry x="0.001" width="160" relative="1" as="geometry">
             <mxPoint x="1595.25" y="2119" as="sourcePoint" />
             <mxPoint x="1204.75" y="2119" as="targetPoint" />
@@ -1442,7 +1442,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vBXETefE6m1F2K_9yXW6-38" value="MessageDvoiceEORxInd&lt;div&gt;接收结束&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;align=center;" edge="1" parent="1">
+        <mxCell id="vBXETefE6m1F2K_9yXW6-38" value="MessageDvoiceEORxInd&lt;div&gt;结束接收&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;align=center;" edge="1" parent="1">
           <mxGeometry x="0.0038" width="160" relative="1" as="geometry">
             <mxPoint x="1592.75" y="3240" as="sourcePoint" />
             <mxPoint x="1202.25" y="3240" as="targetPoint" />
