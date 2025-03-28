@@ -1428,22 +1428,22 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vBXETefE6m1F2K_9yXW6-36" value="MessageDConvSFRMyVoiceCtrl&lt;br&gt;（同频语音接收结束）" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;align=center;" edge="1" parent="1">
+        <mxCell id="vBXETefE6m1F2K_9yXW6-36" value="MessageDConvSFRMyVoiceCtrl&lt;br&gt;同频语音接收结束" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;align=center;" edge="1" parent="1">
           <mxGeometry x="0.0038" width="160" relative="1" as="geometry">
             <mxPoint x="1595.5" y="3080" as="sourcePoint" />
             <mxPoint x="1205" y="3080" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vBXETefE6m1F2K_9yXW6-37" value="MessageDvoiceEORxEnterHangTime" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;align=center;" edge="1" parent="1">
+        <mxCell id="vBXETefE6m1F2K_9yXW6-37" value="MessageDvoiceEORxEnterHangTime&lt;div&gt;接收hangtime&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;align=center;" edge="1" parent="1">
           <mxGeometry x="0.0024" width="160" relative="1" as="geometry">
             <mxPoint x="1593.75" y="3160" as="sourcePoint" />
             <mxPoint x="1203.25" y="3160" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vBXETefE6m1F2K_9yXW6-38" value="MessageDvoiceEORxInd" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;align=center;" edge="1" parent="1">
-          <mxGeometry x="0.0024" width="160" relative="1" as="geometry">
+        <mxCell id="vBXETefE6m1F2K_9yXW6-38" value="MessageDvoiceEORxInd&lt;div&gt;接收结束&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;align=center;" edge="1" parent="1">
+          <mxGeometry x="0.0038" width="160" relative="1" as="geometry">
             <mxPoint x="1592.75" y="3240" as="sourcePoint" />
             <mxPoint x="1202.25" y="3240" as="targetPoint" />
             <mxPoint as="offset" />
