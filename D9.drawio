@@ -1428,8 +1428,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vBXETefE6m1F2K_9yXW6-36" value="MessageDConvSFRMyVoiceCtrl&#xa;（结束）" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;align=center;" edge="1" parent="1">
-          <mxGeometry x="0.0024" width="160" relative="1" as="geometry">
+        <mxCell id="vBXETefE6m1F2K_9yXW6-36" value="MessageDConvSFRMyVoiceCtrl&lt;br&gt;（同频语音接收结束）" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;align=center;" edge="1" parent="1">
+          <mxGeometry x="0.0038" width="160" relative="1" as="geometry">
             <mxPoint x="1595.5" y="3080" as="sourcePoint" />
             <mxPoint x="1205" y="3080" as="targetPoint" />
             <mxPoint as="offset" />
