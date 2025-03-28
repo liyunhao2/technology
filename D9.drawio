@@ -968,24 +968,24 @@
     </mxGraphModel>
   </diagram>
   <diagram id="b5A_p91qpExWZnJ8dCDS" name="呼叫_新">
-    <mxGraphModel dx="2962" dy="933" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2416" dy="1476" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="mxPXB9OJcTtdOgEnG6Gf-1" value="平台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
-          <mxGeometry x="790" y="40" width="100" height="2740" as="geometry" />
+          <mxGeometry x="750" y="40" width="100" height="2740" as="geometry" />
         </mxCell>
         <mxCell id="_facArUDr_h4fjDgYPz3-4" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="mxPXB9OJcTtdOgEnG6Gf-1">
           <mxGeometry x="45" y="120" width="10" height="1710" as="geometry" />
         </mxCell>
         <mxCell id="mxPXB9OJcTtdOgEnG6Gf-2" value="DigitalVoiceService" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
-          <mxGeometry x="1168" y="40" width="167" height="2720" as="geometry" />
+          <mxGeometry x="1117" y="40" width="167" height="2720" as="geometry" />
         </mxCell>
         <mxCell id="_facArUDr_h4fjDgYPz3-5" value="" style="html=1;perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};imageAspect=1;" vertex="1" parent="mxPXB9OJcTtdOgEnG6Gf-2">
           <mxGeometry x="78.5" y="120" width="10" height="870" as="geometry" />
         </mxCell>
         <mxCell id="mxPXB9OJcTtdOgEnG6Gf-3" value="PS" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
-          <mxGeometry x="1560" y="40" width="100" height="2740" as="geometry" />
+          <mxGeometry x="1551" y="40" width="100" height="2740" as="geometry" />
         </mxCell>
         <mxCell id="3Q_57I00AopeKOtVm8Cz-3" value="" style="html=1;perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};imageAspect=1;" vertex="1" parent="mxPXB9OJcTtdOgEnG6Gf-3">
           <mxGeometry x="45" y="120" width="10" height="870" as="geometry" />
@@ -1001,8 +1001,8 @@
         </mxCell>
         <mxCell id="mxPXB9OJcTtdOgEnG6Gf-17" value="MessageDvoiceTxReqRep&lt;br&gt;发射结果(允许:TX_GRANTED_IND)" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;align=center;" parent="1" edge="1">
           <mxGeometry x="0.001" width="160" relative="1" as="geometry">
-            <mxPoint x="53.25" y="260" as="sourcePoint" />
-            <mxPoint x="536.75" y="260" as="targetPoint" />
+            <mxPoint x="1568.5" y="340" as="sourcePoint" />
+            <mxPoint x="1220.0000000000005" y="340" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -1015,8 +1015,8 @@
         </mxCell>
         <mxCell id="Z8n0XIZ4G_qYP5rBTAYT-2" value="MessageDGroupVoiceCallReq&lt;br&gt;请求发射呼叫（组呼）" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;" parent="1" edge="1">
           <mxGeometry x="-0.0027" width="160" relative="1" as="geometry">
-            <mxPoint x="1256.5" y="170" as="sourcePoint" />
-            <mxPoint x="1605" y="170" as="targetPoint" />
+            <mxPoint x="1206.5" y="161" as="sourcePoint" />
+            <mxPoint x="1555" y="161" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -1103,8 +1103,8 @@
         </mxCell>
         <mxCell id="nkAi9TnOL1i13eJVyELx-2" value="&lt;span style=&quot;font-size: 12px; text-align: left; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;MessageDPriVateVoiceCallReq&lt;/span&gt;&lt;br&gt;请求发射呼叫（个呼）" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;" parent="1" edge="1">
           <mxGeometry x="-0.0027" width="160" relative="1" as="geometry">
-            <mxPoint x="536" y="330" as="sourcePoint" />
-            <mxPoint x="50" y="330" as="targetPoint" />
+            <mxPoint x="1230" y="420" as="sourcePoint" />
+            <mxPoint x="1578.5" y="420" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -1120,23 +1120,23 @@
           <mxGeometry y="125" width="670" height="35" as="geometry" />
         </mxCell>
         <mxCell id="nkAi9TnOL1i13eJVyELx-8" value="MessageDvoiceTxReqRep&lt;br&gt;请求发射结果（个呼确认:TX_CSBKREQ_GRANTED）" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;align=center;" parent="1" edge="1">
-          <mxGeometry x="-0.0003" width="160" relative="1" as="geometry">
-            <mxPoint x="50" y="400" as="sourcePoint" />
-            <mxPoint x="533.5" y="400" as="targetPoint" />
+          <mxGeometry x="-0.001" width="160" relative="1" as="geometry">
+            <mxPoint x="1588.5" y="500" as="sourcePoint" />
+            <mxPoint x="1239.9999999999995" y="500" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="nkAi9TnOL1i13eJVyELx-9" value="MessageDvoiceOacsuCallInd&lt;br&gt;个呼确认发送完毕（DOACSU_EOTX_REQ）" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;align=center;" parent="1" edge="1">
           <mxGeometry x="0.001" width="160" relative="1" as="geometry">
-            <mxPoint x="50" y="460" as="sourcePoint" />
-            <mxPoint x="533.5" y="460" as="targetPoint" />
+            <mxPoint x="1566.5" y="570" as="sourcePoint" />
+            <mxPoint x="1220" y="570" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="nkAi9TnOL1i13eJVyELx-12" value="MessageDuplexCallTxReqRsp&lt;br&gt;全双工请求发射结果（响玲：eDUPLEX_ALERTING）" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;align=center;" parent="1" edge="1">
           <mxGeometry x="0.001" width="160" relative="1" as="geometry">
-            <mxPoint x="51" y="550" as="sourcePoint" />
-            <mxPoint x="534.5" y="550" as="targetPoint" />
+            <mxPoint x="1568.5" y="630" as="sourcePoint" />
+            <mxPoint x="1220.0000000000005" y="630" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -1157,8 +1157,8 @@
         </mxCell>
         <mxCell id="Y5FhFZaQ6Ce9nH1ysMkW-5" value="MessageDvoiceTxReqRep&lt;br&gt;发射结果(允许:TX_GRANTED_IND)" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;align=center;" parent="1" edge="1">
           <mxGeometry x="0.001" width="160" relative="1" as="geometry">
-            <mxPoint x="50" y="620" as="sourcePoint" />
-            <mxPoint x="533.5" y="620" as="targetPoint" />
+            <mxPoint x="1568.5" y="679.4699999999999" as="sourcePoint" />
+            <mxPoint x="1220" y="679.4699999999999" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -1220,6 +1220,20 @@
           <mxGeometry x="-0.0003" width="160" relative="1" as="geometry">
             <mxPoint x="50" y="1720" as="sourcePoint" />
             <mxPoint x="540" y="1720" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3Q_57I00AopeKOtVm8Cz-4" value="demo" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;startFill=1;anchorPointDirection=1;bendable=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1">
+          <mxGeometry x="-0.0011" width="160" relative="1" as="geometry">
+            <mxPoint x="805" y="-60" as="sourcePoint" />
+            <mxPoint x="1195.5" y="-60" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3Q_57I00AopeKOtVm8Cz-5" value="demo" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;align=center;" edge="1" parent="1">
+          <mxGeometry x="0.001" width="160" relative="1" as="geometry">
+            <mxPoint x="1195.5" y="-10" as="sourcePoint" />
+            <mxPoint x="805" y="-10" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
