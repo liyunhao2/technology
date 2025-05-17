@@ -3727,8 +3727,8 @@
         <mxCell id="8ftDYVPzk9oRzemfkDqo-9" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="8ftDYVPzk9oRzemfkDqo-8">
           <mxGeometry x="45" y="80" width="10" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="8ftDYVPzk9oRzemfkDqo-13" value="MESSAGE_ID_SafetyAlertSwitch_Notify&lt;div&gt;获取类型请求&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;exitX=1.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
-          <mxGeometry width="160" relative="1" as="geometry">
+        <mxCell id="8ftDYVPzk9oRzemfkDqo-13" value="MESSAGE_ID_SafetyAlertSwitch_Notify&lt;div&gt;打开定时预警&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;exitX=1.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0028" width="160" relative="1" as="geometry">
             <mxPoint x="210" y="211.41" as="sourcePoint" />
             <mxPoint x="554.5" y="211.41" as="targetPoint" />
             <mxPoint as="offset" />
