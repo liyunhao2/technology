@@ -19,17 +19,29 @@
         <mxCell id="hwEPEX_snPCJdD1slW9v-6" value="后台3：&lt;br&gt;背光灯" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="110" y="390" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="hwEPEX_snPCJdD1slW9v-7" value="前台1&lt;br&gt;home" style="ellipse;whiteSpace=wrap;html=1;fillColor=#009900;" vertex="1" parent="1">
+        <mxCell id="hwEPEX_snPCJdD1slW9v-7" value="前台1&lt;br&gt;home" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="290" y="390" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="hwEPEX_snPCJdD1slW9v-9" value="后台3：&lt;br&gt;背光灯" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="110" y="530" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="hwEPEX_snPCJdD1slW9v-10" value="前台1&lt;br&gt;home" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hwEPEX_snPCJdD1slW9v-10" value="前台1&lt;br&gt;home" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="480" y="530" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="hwEPEX_snPCJdD1slW9v-11" value="后台&lt;br&gt;一键呼叫" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hwEPEX_snPCJdD1slW9v-11" value="后台&lt;br&gt;一键呼叫" style="ellipse;whiteSpace=wrap;html=1;fillColor=#B3FF66;" vertex="1" parent="1">
           <mxGeometry x="290" y="530" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="hwEPEX_snPCJdD1slW9v-12" value="后台3：&lt;br&gt;背光灯" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="660" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="hwEPEX_snPCJdD1slW9v-13" value="前台1&lt;br&gt;home" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="660" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="hwEPEX_snPCJdD1slW9v-14" value="后台&lt;br&gt;一键呼叫" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="480" y="660" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="hwEPEX_snPCJdD1slW9v-15" value="前台&lt;br&gt;报警" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="300" y="660" width="140" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
