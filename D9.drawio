@@ -1453,10 +1453,19 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Hw4Iobef2nKk2eNOfUMf" name="第 7 页">
-    <mxGraphModel dx="1226" dy="667" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1042" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="FXmoL299zIp9hxAo9jmp-1" value="如要改m_call_service.jsion&lt;br&gt;action" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="60" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FXmoL299zIp9hxAo9jmp-2" value="1、ps的数据结构成员也叫:action&lt;br&gt;修复方法：恢复ps数据结构" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="260" y="170" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FXmoL299zIp9hxAo9jmp-3" value="2、其他公共头文件的数据结构，也包含有action，也要恢复。" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="260" y="260" width="210" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
