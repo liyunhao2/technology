@@ -1463,7 +1463,7 @@
         <mxCell id="FXmoL299zIp9hxAo9jmp-2" value="其他数据结构，用了同样的名字，恢复需要时间：&lt;br&gt;1、ps的数据结构成员也叫:action&lt;br&gt;2、其他公共头文件的数据结构，也叫：action。" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="240" y="170" width="270" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="FXmoL299zIp9hxAo9jmp-4" value="其他文件，也用到了该头文件的数据结构，.h与.cpp并不是一一对应的，其他.cpp也要修改。&lt;br&gt;（修改的地方比较多，不过都是一些全局变量成员）" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="FXmoL299zIp9hxAo9jmp-4" value="其他文件，也用到了该头文件的数据结构，.h与.cpp并不是一一对应的，其他.cpp也要修改。&lt;br&gt;（修改的地方比较多，不过都是一些全局变量的成员）" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="240" y="300" width="270" height="90" as="geometry" />
         </mxCell>
         <mxCell id="FXmoL299zIp9hxAo9jmp-7" value="大部份文件，是UTF-8格式，但里面的注释并不是UTF-8，导致用CCS编辑要转换格式（CCS已经使用UTF-8编辑格式了）" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
