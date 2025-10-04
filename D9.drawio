@@ -1460,11 +1460,11 @@
         <mxCell id="FXmoL299zIp9hxAo9jmp-1" value="如要改m_call_service.jsion&lt;br&gt;action" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="290" y="60" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FXmoL299zIp9hxAo9jmp-2" value="1、ps的数据结构成员也叫:action&lt;br&gt;修复方法：恢复ps数据结构" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="260" y="170" width="210" height="60" as="geometry" />
+        <mxCell id="FXmoL299zIp9hxAo9jmp-2" value="其他数据结构，用了同样的名字，恢复需要时间：&lt;br&gt;1、ps的数据结构成员也叫:action&lt;br&gt;2、其他公共头文件的数据结构，也叫：action。" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="240" y="170" width="270" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="FXmoL299zIp9hxAo9jmp-3" value="2、其他公共头文件的数据结构，也包含有action，也要恢复。" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="260" y="260" width="210" height="60" as="geometry" />
+        <mxCell id="FXmoL299zIp9hxAo9jmp-4" value="其他文件，也用到了该头文件的数据结构，.h与.cpp并不是一一对应的，其他.cpp也要修改。&lt;br&gt;（修改的地方非常多）" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="240" y="300" width="270" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
