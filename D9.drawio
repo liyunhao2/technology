@@ -1571,7 +1571,7 @@
         <mxCell id="fQ-Pk-fB7RjBbidc1oaq-1" value="按键" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="470" y="270" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fQ-Pk-fB7RjBbidc1oaq-2" value="特殊功能键" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="fQ-Pk-fB7RjBbidc1oaq-2" value="特殊功能按下键" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="440" y="414" width="180" height="110" as="geometry" />
         </mxCell>
         <mxCell id="fQ-Pk-fB7RjBbidc1oaq-3" value="" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;startFill=1;anchorPointDirection=1;bendable=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="fQ-Pk-fB7RjBbidc1oaq-1" target="fQ-Pk-fB7RjBbidc1oaq-2">
@@ -1599,10 +1599,17 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fQ-Pk-fB7RjBbidc1oaq-8" value="demo" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;startFill=1;anchorPointDirection=1;bendable=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+        <mxCell id="fQ-Pk-fB7RjBbidc1oaq-8" value="demo" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;startFill=1;anchorPointDirection=1;bendable=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
           <mxGeometry x="-0.0011" width="160" relative="1" as="geometry">
             <mxPoint x="830" y="330" as="sourcePoint" />
             <mxPoint x="950" y="561" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fQ-Pk-fB7RjBbidc1oaq-10" value="demo" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;startFill=1;anchorPointDirection=1;bendable=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry x="-0.0011" width="160" relative="1" as="geometry">
+            <mxPoint x="870" y="590" as="sourcePoint" />
+            <mxPoint x="990" y="821" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
