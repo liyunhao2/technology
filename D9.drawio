@@ -1582,7 +1582,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="fQ-Pk-fB7RjBbidc1oaq-4" value="响错误提示音" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
-          <mxGeometry x="190" y="1440" width="120" height="70" as="geometry" />
+          <mxGeometry x="190" y="1610" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="fQ-Pk-fB7RjBbidc1oaq-8" value="否" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;startFill=1;anchorPointDirection=1;bendable=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fQ-Pk-fB7RjBbidc1oaq-2" target="fQ-Pk-fB7RjBbidc1oaq-12">
           <mxGeometry x="-0.0011" width="160" relative="1" as="geometry">
@@ -1605,7 +1605,7 @@
           <mxGeometry x="440" y="600" width="180" height="110" as="geometry" />
         </mxCell>
         <mxCell id="fQ-Pk-fB7RjBbidc1oaq-13" value="不响提示音" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="750" y="1440" width="120" height="70" as="geometry" />
+          <mxGeometry x="750" y="1610" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="fQ-Pk-fB7RjBbidc1oaq-14" value="是" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;startFill=1;anchorPointDirection=1;bendable=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="fQ-Pk-fB7RjBbidc1oaq-12" target="fQ-Pk-fB7RjBbidc1oaq-13">
           <mxGeometry x="-0.0011" width="160" relative="1" as="geometry">
@@ -1625,9 +1625,60 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="fQ-Pk-fB7RjBbidc1oaq-19" value="是" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;startFill=1;anchorPointDirection=1;bendable=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="fQ-Pk-fB7RjBbidc1oaq-16">
-          <mxGeometry x="-0.0011" width="160" relative="1" as="geometry">
+          <mxGeometry x="-0.9658" y="5" width="160" relative="1" as="geometry">
             <mxPoint x="720" y="960" as="sourcePoint" />
-            <mxPoint x="810" y="1045" as="targetPoint" />
+            <mxPoint x="810" y="1610" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fQ-Pk-fB7RjBbidc1oaq-20" value="暂态物理键按下" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="1186" width="180" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="fQ-Pk-fB7RjBbidc1oaq-21" value="是" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;startFill=1;anchorPointDirection=1;bendable=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry x="-0.8972" y="-11" width="160" relative="1" as="geometry">
+            <mxPoint x="440" y="1241" as="sourcePoint" />
+            <mxPoint x="250" y="1610" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fQ-Pk-fB7RjBbidc1oaq-22" value="否" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;startFill=1;anchorPointDirection=1;bendable=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="fQ-Pk-fB7RjBbidc1oaq-16">
+          <mxGeometry x="-0.1111" y="10" width="160" relative="1" as="geometry">
+            <mxPoint x="580" y="1250" as="sourcePoint" />
+            <mxPoint x="530" y="1190" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fQ-Pk-fB7RjBbidc1oaq-23" value="否" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;startFill=1;anchorPointDirection=1;bendable=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry x="-0.1111" y="10" width="160" relative="1" as="geometry">
+            <mxPoint x="529.5" y="920" as="sourcePoint" />
+            <mxPoint x="530" y="990" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fQ-Pk-fB7RjBbidc1oaq-26" value="是" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;startFill=1;anchorPointDirection=1;bendable=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="fQ-Pk-fB7RjBbidc1oaq-27">
+          <mxGeometry x="-0.8873" y="5" width="160" relative="1" as="geometry">
+            <mxPoint x="670" y="1241" as="sourcePoint" />
+            <mxPoint x="810" y="1610" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fQ-Pk-fB7RjBbidc1oaq-27" value="物理键短按按下与长按松开" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="1390" width="180" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="fQ-Pk-fB7RjBbidc1oaq-29" value="否" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;startFill=1;anchorPointDirection=1;bendable=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="fQ-Pk-fB7RjBbidc1oaq-4">
+          <mxGeometry x="-0.1111" y="10" width="160" relative="1" as="geometry">
+            <mxPoint x="529.5" y="1500" as="sourcePoint" />
+            <mxPoint x="529.5" y="1590" as="targetPoint" />
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="530" y="1645" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fQ-Pk-fB7RjBbidc1oaq-30" value="否" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;startFill=1;anchorPointDirection=1;bendable=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry x="-0.1111" y="10" width="160" relative="1" as="geometry">
+            <mxPoint x="529.5" y="1296" as="sourcePoint" />
+            <mxPoint x="530" y="1390" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
