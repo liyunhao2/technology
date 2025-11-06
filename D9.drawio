@@ -1598,8 +1598,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fQ-Pk-fB7RjBbidc1oaq-11" value="暂态功能键松开" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="570" width="180" height="110" as="geometry" />
+        <mxCell id="fQ-Pk-fB7RjBbidc1oaq-11" value="暂态功能键按下" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="598" width="180" height="110" as="geometry" />
         </mxCell>
         <mxCell id="fQ-Pk-fB7RjBbidc1oaq-12" value="暂态功能键按下" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="440" y="760" width="180" height="110" as="geometry" />
