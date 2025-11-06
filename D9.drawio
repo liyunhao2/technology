@@ -1563,7 +1563,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="d5o-WKqMAy-02SvVw2Iq" name="第 9 页">
+  <diagram id="d5o-WKqMAy-02SvVw2Iq" name="提示音响">
     <mxGraphModel dx="1042" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -1572,7 +1572,7 @@
           <mxGeometry x="470" y="270" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fQ-Pk-fB7RjBbidc1oaq-2" value="特殊功能键" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="390" width="180" height="110" as="geometry" />
+          <mxGeometry x="440" y="414" width="180" height="110" as="geometry" />
         </mxCell>
         <mxCell id="fQ-Pk-fB7RjBbidc1oaq-3" value="demo" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;startFill=1;anchorPointDirection=1;bendable=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="fQ-Pk-fB7RjBbidc1oaq-1" target="fQ-Pk-fB7RjBbidc1oaq-2">
           <mxGeometry x="-0.0011" width="160" relative="1" as="geometry">
@@ -1586,6 +1586,20 @@
         </mxCell>
         <mxCell id="fQ-Pk-fB7RjBbidc1oaq-5" value="不响错误提示音" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="680" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fQ-Pk-fB7RjBbidc1oaq-7" value="demo" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;startFill=1;anchorPointDirection=1;bendable=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="fQ-Pk-fB7RjBbidc1oaq-2" target="fQ-Pk-fB7RjBbidc1oaq-5">
+          <mxGeometry x="-0.0011" width="160" relative="1" as="geometry">
+            <mxPoint x="340" y="540" as="sourcePoint" />
+            <mxPoint x="730.5" y="540" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fQ-Pk-fB7RjBbidc1oaq-8" value="demo" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;startFill=1;anchorPointDirection=1;bendable=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0011" width="160" relative="1" as="geometry">
+            <mxPoint x="830" y="330" as="sourcePoint" />
+            <mxPoint x="950" y="561" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
