@@ -1543,7 +1543,7 @@
         <mxCell id="Z8KXdp9LXVzJGd5KI9fP-4" value="MTP_MSG_MPT_PS_CALL_OVER&#xa;呼叫结束" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;align=center;" edge="1" parent="1">
           <mxGeometry x="0.001" width="160" relative="1" as="geometry">
             <mxPoint x="812" y="717" as="sourcePoint" />
-            <mxPoint x="1295.5" y="717" as="targetPoint" />
+            <mxPoint x="1290" y="717" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
