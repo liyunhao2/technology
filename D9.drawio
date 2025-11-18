@@ -1481,19 +1481,19 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="5sVkMC55XeS-8s0VM31X-2" value="mCallService" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
-          <mxGeometry x="1213" y="180" width="167" height="1610" as="geometry" />
+          <mxGeometry x="1213" y="180" width="167" height="1800" as="geometry" />
         </mxCell>
         <mxCell id="Z8KXdp9LXVzJGd5KI9fP-11" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="5sVkMC55XeS-8s0VM31X-2">
           <mxGeometry x="78.5" y="100" width="10" height="617" as="geometry" />
         </mxCell>
         <mxCell id="Z8KXdp9LXVzJGd5KI9fP-18" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="5sVkMC55XeS-8s0VM31X-2">
-          <mxGeometry x="78.5" y="780" width="10" height="730" as="geometry" />
+          <mxGeometry x="78.5" y="780" width="10" height="840" as="geometry" />
         </mxCell>
         <mxCell id="5sVkMC55XeS-8s0VM31X-3" value="PS" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
-          <mxGeometry x="760" y="180" width="100" height="1580" as="geometry" />
+          <mxGeometry x="760" y="180" width="100" height="1780" as="geometry" />
         </mxCell>
         <mxCell id="Z8KXdp9LXVzJGd5KI9fP-19" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="5sVkMC55XeS-8s0VM31X-3">
-          <mxGeometry x="45" y="780" width="10" height="740" as="geometry" />
+          <mxGeometry x="45" y="780" width="10" height="830" as="geometry" />
         </mxCell>
         <mxCell id="5sVkMC55XeS-8s0VM31X-6" value="MTP_MSG_MPT_PS_CALL_NOTIFY&lt;br&gt;呼叫建立(type=RSP_CALL_SETUP)" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;" parent="1" edge="1">
           <mxGeometry x="-0.0008" width="160" relative="1" as="geometry">
@@ -1664,6 +1664,31 @@
         </mxCell>
         <mxCell id="Z8KXdp9LXVzJGd5KI9fP-33" value="松开PTT" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1350" y="1420" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z8KXdp9LXVzJGd5KI9fP-34" value="Interaction heading" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=170;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1540" width="750" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="Z8KXdp9LXVzJGd5KI9fP-35" value="[自动结束]" style="text;html=1;" vertex="1" parent="Z8KXdp9LXVzJGd5KI9fP-34">
+          <mxGeometry width="100" height="20" relative="1" as="geometry">
+            <mxPoint x="20" y="40" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z8KXdp9LXVzJGd5KI9fP-36" value="[主动结束]" style="line;strokeWidth=1;dashed=1;labelPosition=center;verticalLabelPosition=bottom;align=left;verticalAlign=top;spacingLeft=20;spacingTop=15;html=1;whiteSpace=wrap;" vertex="1" parent="Z8KXdp9LXVzJGd5KI9fP-34">
+          <mxGeometry y="90" width="750" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="Z8KXdp9LXVzJGd5KI9fP-37" value="MSG_MPT_APPLET_HOOK_ON" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;startFill=1;anchorPointDirection=1;bendable=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="Z8KXdp9LXVzJGd5KI9fP-34">
+          <mxGeometry x="-0.0011" width="160" relative="1" as="geometry">
+            <mxPoint x="690.5" y="130" as="sourcePoint" />
+            <mxPoint x="214" y="130" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z8KXdp9LXVzJGd5KI9fP-38" value="MTP_MSG_MPT_PS_CALL_OVER&#xa;呼叫结束" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;align=center;" edge="1" parent="1">
+          <mxGeometry x="0.001" width="160" relative="1" as="geometry">
+            <mxPoint x="815" y="1740" as="sourcePoint" />
+            <mxPoint x="1293" y="1740" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
