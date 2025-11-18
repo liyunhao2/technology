@@ -1532,15 +1532,15 @@
         </mxCell>
         <mxCell id="Z8KXdp9LXVzJGd5KI9fP-3" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space-collapse: preserve;&quot;&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;MSG_MPT_APPLET_HOOK_ON&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;startFill=1;anchorPointDirection=1;bendable=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1">
           <mxGeometry x="-0.0011" width="160" relative="1" as="geometry">
-            <mxPoint x="1296" y="650" as="sourcePoint" />
-            <mxPoint x="809.5" y="650" as="targetPoint" />
+            <mxPoint x="1296" y="659" as="sourcePoint" />
+            <mxPoint x="809.5" y="659" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Z8KXdp9LXVzJGd5KI9fP-4" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space-collapse: preserve;&quot;&gt;&lt;span style=&quot;color: #4fc1ff;&quot;&gt;MTP_MSG_MPT_PS_CALL_OVER&lt;br/&gt;呼叫结束&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;align=center;" edge="1" parent="1">
           <mxGeometry x="0.001" width="160" relative="1" as="geometry">
-            <mxPoint x="810" y="700" as="sourcePoint" />
-            <mxPoint x="1293.5" y="700" as="targetPoint" />
+            <mxPoint x="812" y="717" as="sourcePoint" />
+            <mxPoint x="1295.5" y="717" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
