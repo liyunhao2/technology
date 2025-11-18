@@ -1487,13 +1487,13 @@
           <mxGeometry x="78.5" y="100" width="10" height="617" as="geometry" />
         </mxCell>
         <mxCell id="Z8KXdp9LXVzJGd5KI9fP-18" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="5sVkMC55XeS-8s0VM31X-2">
-          <mxGeometry x="78.5" y="780" width="10" height="610" as="geometry" />
+          <mxGeometry x="78.5" y="780" width="10" height="730" as="geometry" />
         </mxCell>
         <mxCell id="5sVkMC55XeS-8s0VM31X-3" value="PS" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="760" y="180" width="100" height="1580" as="geometry" />
         </mxCell>
         <mxCell id="Z8KXdp9LXVzJGd5KI9fP-19" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="5sVkMC55XeS-8s0VM31X-3">
-          <mxGeometry x="45" y="780" width="10" height="610" as="geometry" />
+          <mxGeometry x="45" y="780" width="10" height="740" as="geometry" />
         </mxCell>
         <mxCell id="5sVkMC55XeS-8s0VM31X-6" value="MTP_MSG_MPT_PS_CALL_NOTIFY&lt;br&gt;呼叫建立(type=RSP_CALL_SETUP)" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;" parent="1" edge="1">
           <mxGeometry x="-0.0008" width="160" relative="1" as="geometry">
@@ -1603,7 +1603,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Z8KXdp9LXVzJGd5KI9fP-24" value="Interaction heading" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=170;" vertex="1" parent="1">
-          <mxGeometry x="610" y="910" width="710" height="250" as="geometry" />
+          <mxGeometry x="610" y="910" width="710" height="200" as="geometry" />
         </mxCell>
         <mxCell id="Z8KXdp9LXVzJGd5KI9fP-25" value="[报警背景音=false]" style="text;html=1;" vertex="1" parent="Z8KXdp9LXVzJGd5KI9fP-24">
           <mxGeometry width="100" height="20" relative="1" as="geometry">
@@ -1617,6 +1617,48 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="681.5" y="170" as="sourcePoint" />
             <mxPoint x="205" y="170" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z8KXdp9LXVzJGd5KI9fP-27" value="35616&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;align=center;" edge="1" parent="1">
+          <mxGeometry x="0.001" width="160" relative="1" as="geometry">
+            <mxPoint x="815" y="1170" as="sourcePoint" />
+            <mxPoint x="1293" y="1170" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z8KXdp9LXVzJGd5KI9fP-28" value="35617&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;align=center;" edge="1" parent="1">
+          <mxGeometry x="0.001" width="160" relative="1" as="geometry">
+            <mxPoint x="815" y="1280" as="sourcePoint" />
+            <mxPoint x="1293" y="1280" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z8KXdp9LXVzJGd5KI9fP-29" value="35623&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;align=center;" edge="1" parent="1">
+          <mxGeometry x="0.001" width="160" relative="1" as="geometry">
+            <mxPoint x="815" y="1360" as="sourcePoint" />
+            <mxPoint x="1293" y="1360" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z8KXdp9LXVzJGd5KI9fP-30" value="&lt;div style=&quot;background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space-collapse: preserve; color: rgb(204, 204, 204);&quot;&gt;&lt;span style=&quot;color: rgb(86, 156, 214);&quot;&gt;&lt;div style=&quot;line-height: 19px; color: rgb(204, 204, 204);&quot;&gt;&lt;font color=&quot;#569cd6&quot;&gt;松开PTT&lt;/font&gt;&lt;/div&gt;&lt;font color=&quot;rgba(0, 0, 0, 0)&quot;&gt;请求语音发射&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;startFill=1;anchorPointDirection=1;bendable=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1291.5" y="1450" as="sourcePoint" />
+            <mxPoint x="815" y="1450" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z8KXdp9LXVzJGd5KI9fP-31" value="35624&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;align=center;" edge="1" parent="1">
+          <mxGeometry x="0.001" width="160" relative="1" as="geometry">
+            <mxPoint x="815" y="1520" as="sourcePoint" />
+            <mxPoint x="1293" y="1520" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z8KXdp9LXVzJGd5KI9fP-32" value="MTP_MSG_MPT_PS_CALL_OVER&#xa;呼叫结束" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;align=center;" edge="1" parent="1">
+          <mxGeometry x="0.001" width="160" relative="1" as="geometry">
+            <mxPoint x="815" y="1600" as="sourcePoint" />
+            <mxPoint x="1293" y="1600" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
