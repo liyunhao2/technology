@@ -1535,8 +1535,8 @@
         </mxCell>
         <mxCell id="Z8KXdp9LXVzJGd5KI9fP-3" value="MSG_MPT_APPLET_HOOK_ON" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;startFill=1;anchorPointDirection=1;bendable=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1">
           <mxGeometry x="-0.0011" width="160" relative="1" as="geometry">
-            <mxPoint x="1296" y="659" as="sourcePoint" />
-            <mxPoint x="809.5" y="659" as="targetPoint" />
+            <mxPoint x="1290" y="659" as="sourcePoint" />
+            <mxPoint x="813.5" y="659" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
