@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" version="28.2.8" pages="9">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" version="28.2.9" pages="9">
   <diagram name="模式切换时序图" id="muVQDdwf6d4eTpT-z0X4">
     <mxGraphModel dx="2211" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1476,84 +1476,75 @@
     </mxGraphModel>
   </diagram>
   <diagram id="T8fBFM96dFwS-hglUcvH" name="MPT呼叫时隙图">
-    <mxGraphModel dx="1489" dy="810" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1042" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="5sVkMC55XeS-8s0VM31X-2" value="DigitalVoiceService" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+        <mxCell id="5sVkMC55XeS-8s0VM31X-2" value="DigitalVoiceService" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="1213" y="180" width="167" height="1610" as="geometry" />
         </mxCell>
-        <mxCell id="5sVkMC55XeS-8s0VM31X-3" value="PS" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+        <mxCell id="5sVkMC55XeS-8s0VM31X-3" value="PS" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="760" y="180" width="100" height="1580" as="geometry" />
         </mxCell>
-        <mxCell id="5sVkMC55XeS-8s0VM31X-5" value="MessageDGroupVoiceCallReq&lt;br&gt;请求发射呼叫（SupplementaryVoiceType=会议呼叫）" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;" edge="1" parent="1" source="5sVkMC55XeS-8s0VM31X-2">
+        <mxCell id="5sVkMC55XeS-8s0VM31X-5" value="MessageDGroupVoiceCallReq&lt;br&gt;请求发射呼叫（SupplementaryVoiceType=会议呼叫）" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;" parent="1" source="5sVkMC55XeS-8s0VM31X-2" edge="1">
           <mxGeometry x="-0.0021" width="160" relative="1" as="geometry">
             <mxPoint x="1273" y="620" as="sourcePoint" />
             <mxPoint x="810" y="620" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5sVkMC55XeS-8s0VM31X-6" value="MessageDvoiceBORxInd&lt;div&gt;接收呼叫&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;" edge="1" parent="1" target="5sVkMC55XeS-8s0VM31X-2">
+        <mxCell id="5sVkMC55XeS-8s0VM31X-6" value="35618&lt;div&gt;接收呼叫(type=RSP_CALL_SETUP)&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;" parent="1" target="5sVkMC55XeS-8s0VM31X-2" edge="1">
           <mxGeometry x="-0.0008" width="160" relative="1" as="geometry">
             <mxPoint x="812.5" y="290" as="sourcePoint" />
             <mxPoint x="1273" y="290" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5sVkMC55XeS-8s0VM31X-7" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="5sVkMC55XeS-8s0VM31X-8">
+        <mxCell id="5sVkMC55XeS-8s0VM31X-7" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="5sVkMC55XeS-8s0VM31X-8" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="770" y="285" as="sourcePoint" />
             <mxPoint x="809.5" y="285" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5sVkMC55XeS-8s0VM31X-8" value="接收会议呼叫" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5sVkMC55XeS-8s0VM31X-8" value="接收呼叫" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="680" y="254" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5sVkMC55XeS-8s0VM31X-9" value="MessageMeettingCallInd&lt;div&gt;会议呼叫（通过时隙控制接收哪路）&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;" edge="1" parent="1">
+        <mxCell id="5sVkMC55XeS-8s0VM31X-9" value="35621&lt;div&gt;会议呼叫（通过时隙控制接收哪路）&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;" parent="1" edge="1">
           <mxGeometry x="0.001" width="160" relative="1" as="geometry">
             <mxPoint x="810" y="360" as="sourcePoint" />
             <mxPoint x="1293.5" y="360" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5sVkMC55XeS-8s0VM31X-10" value="MessageDvoiceEORxEnterHangTime&lt;div&gt;接收hangtime&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;" edge="1" parent="1">
+        <mxCell id="5sVkMC55XeS-8s0VM31X-10" value="MessageDvoiceEORxEnterHangTime&lt;div&gt;接收hangtime&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;" parent="1" edge="1">
           <mxGeometry x="-0.0008" width="160" relative="1" as="geometry">
             <mxPoint x="808.5" y="430" as="sourcePoint" />
             <mxPoint x="1292" y="430" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5sVkMC55XeS-8s0VM31X-11" value="&lt;span style=&quot;font-size: 12px; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;MessageDvoiceEORxInd&lt;/span&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;接收退出&lt;/span&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;（通过时隙控制退出哪路）&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;align=center;" edge="1" parent="1">
+        <mxCell id="5sVkMC55XeS-8s0VM31X-11" value="&lt;span style=&quot;font-size: 12px; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;MessageDvoiceEORxInd&lt;/span&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;接收退出&lt;/span&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;（通过时隙控制退出哪路）&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;align=center;" parent="1" edge="1">
           <mxGeometry x="0.001" width="160" relative="1" as="geometry">
             <mxPoint x="813.25" y="510" as="sourcePoint" />
             <mxPoint x="1296.75" y="510" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5sVkMC55XeS-8s0VM31X-12" value="发射会议呼叫&lt;div&gt;&lt;span style=&quot;font-size: 11px; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;（组呼为例）&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1340" y="590" width="80" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="5sVkMC55XeS-8s0VM31X-13" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="5sVkMC55XeS-8s0VM31X-12" target="5sVkMC55XeS-8s0VM31X-2">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="1200" y="560" as="sourcePoint" />
-            <mxPoint x="1410" y="560" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="5sVkMC55XeS-8s0VM31X-14" value="&lt;span style=&quot;font-size: 12px; text-align: left; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;MessageDvoiceTxReqRep&lt;/span&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;发射请求结果&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;align=center;" edge="1" parent="1">
+        <mxCell id="5sVkMC55XeS-8s0VM31X-14" value="&lt;span style=&quot;font-size: 12px; text-align: left; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;MessageDvoiceTxReqRep&lt;/span&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;发射请求结果&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;align=center;" parent="1" edge="1">
           <mxGeometry x="-0.0003" width="160" relative="1" as="geometry">
             <mxPoint x="810" y="710" as="sourcePoint" />
             <mxPoint x="1293.5" y="710" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5sVkMC55XeS-8s0VM31X-15" value="&lt;span style=&quot;font-size: 12px; text-align: left; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;MessageDVoicePTTReleaseReq&lt;/span&gt;&lt;br&gt;请求结束发射" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="5sVkMC55XeS-8s0VM31X-15" value="&lt;span style=&quot;font-size: 12px; text-align: left; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;MessageDVoicePTTReleaseReq&lt;/span&gt;&lt;br&gt;请求结束发射" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;" parent="1" edge="1">
           <mxGeometry x="-0.0021" width="160" relative="1" as="geometry">
             <mxPoint x="1296" y="780" as="sourcePoint" />
             <mxPoint x="810" y="780" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5sVkMC55XeS-8s0VM31X-16" value="&lt;span style=&quot;font-size: 12px; text-align: left; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;MessageDvoiceEOTxInd&lt;/span&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;发射请求结束&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;align=center;" edge="1" parent="1">
+        <mxCell id="5sVkMC55XeS-8s0VM31X-16" value="&lt;span style=&quot;font-size: 12px; text-align: left; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;MessageDvoiceEOTxInd&lt;/span&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;发射请求结束&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;align=center;" parent="1" edge="1">
           <mxGeometry x="-0.0003" width="160" relative="1" as="geometry">
             <mxPoint x="810" y="860" as="sourcePoint" />
             <mxPoint x="1293.5" y="860" as="targetPoint" />
