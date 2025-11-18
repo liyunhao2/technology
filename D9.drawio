@@ -1493,7 +1493,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5sVkMC55XeS-8s0VM31X-6" value="35618&lt;div&gt;接收呼叫(type=RSP_CALL_SETUP)&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;" parent="1" target="5sVkMC55XeS-8s0VM31X-2" edge="1">
+        <mxCell id="5sVkMC55XeS-8s0VM31X-6" value="&lt;div&gt;&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space-collapse: preserve;&quot;&gt;&lt;span style=&quot;color: #4fc1ff;&quot;&gt;MTP_MSG_MPT_PS_CALL_NOTIFY&lt;/span&gt;&lt;/div&gt;接收呼叫(type=RSP_CALL_SETUP)&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;" parent="1" target="5sVkMC55XeS-8s0VM31X-2" edge="1">
           <mxGeometry x="-0.0008" width="160" relative="1" as="geometry">
             <mxPoint x="812.5" y="290" as="sourcePoint" />
             <mxPoint x="1273" y="290" as="targetPoint" />
