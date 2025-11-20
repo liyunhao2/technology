@@ -1634,22 +1634,22 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Z8KXdp9LXVzJGd5KI9fP-29" value="MTP_MSG_MPT_PS_PTT_ON_RSP&lt;br&gt;发射语音结果" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;align=center;" parent="1" edge="1">
+        <mxCell id="Z8KXdp9LXVzJGd5KI9fP-29" value="MTP_MSG_MPT_PS_PTT_ON_RSP&lt;br&gt;发射语音开始" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;align=center;" parent="1" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="815" y="1360" as="sourcePoint" />
             <mxPoint x="1293" y="1360" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Z8KXdp9LXVzJGd5KI9fP-30" value="MSG_MPT_APPLET_PTT_RELEASE&#xa;PTT松开" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;startFill=1;anchorPointDirection=1;bendable=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" edge="1">
+        <mxCell id="Z8KXdp9LXVzJGd5KI9fP-30" value="MSG_MPT_APPLET_PTT_RELEASE&lt;br&gt;发射语音结束请求" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;startFill=1;anchorPointDirection=1;bendable=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="1291.5" y="1450" as="sourcePoint" />
             <mxPoint x="815" y="1450" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Z8KXdp9LXVzJGd5KI9fP-31" value="MTP_MSG_MPT_PS_PTT_OF_RSP&#xa;PTT松开响应" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;align=center;" parent="1" edge="1">
-          <mxGeometry x="0.0005" width="160" relative="1" as="geometry">
+        <mxCell id="Z8KXdp9LXVzJGd5KI9fP-31" value="MTP_MSG_MPT_PS_PTT_OF_RSP&lt;br&gt;发射语音结束" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;align=center;" parent="1" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="815" y="1520" as="sourcePoint" />
             <mxPoint x="1293" y="1520" as="targetPoint" />
             <mxPoint as="offset" />
