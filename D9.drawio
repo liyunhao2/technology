@@ -1648,7 +1648,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Z8KXdp9LXVzJGd5KI9fP-31" value="MTP_MSG_MPT_PS_PTT_OF_RSP&lt;br&gt;发射语音结束" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;align=center;" parent="1" edge="1">
+        <mxCell id="Z8KXdp9LXVzJGd5KI9fP-31" value="MTP_MSG_MPT_PS_PTT_OF_RSP&lt;br&gt;发射语音结束（进入hangtime）" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;dashed=1;align=center;" parent="1" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="815" y="1520" as="sourcePoint" />
             <mxPoint x="1293" y="1520" as="targetPoint" />
@@ -1676,7 +1676,7 @@
         <mxCell id="Z8KXdp9LXVzJGd5KI9fP-36" value="[主动结束]" style="line;strokeWidth=1;dashed=1;labelPosition=center;verticalLabelPosition=bottom;align=left;verticalAlign=top;spacingLeft=20;spacingTop=15;html=1;whiteSpace=wrap;" parent="Z8KXdp9LXVzJGd5KI9fP-34" vertex="1">
           <mxGeometry y="90" width="750" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="Z8KXdp9LXVzJGd5KI9fP-37" value="MSG_MPT_APPLET_HOOK_ON" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;startFill=1;anchorPointDirection=1;bendable=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="Z8KXdp9LXVzJGd5KI9fP-34" edge="1">
+        <mxCell id="Z8KXdp9LXVzJGd5KI9fP-37" value="MSG_MPT_APPLET_HOOK_ON&lt;br&gt;结束呼叫请求" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;startFill=1;anchorPointDirection=1;bendable=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="Z8KXdp9LXVzJGd5KI9fP-34" edge="1">
           <mxGeometry x="-0.0011" width="160" relative="1" as="geometry">
             <mxPoint x="690.5" y="130" as="sourcePoint" />
             <mxPoint x="214" y="130" as="targetPoint" />
