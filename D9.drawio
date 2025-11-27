@@ -1922,35 +1922,41 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="PknYMplZKPNHlfmFVRBK-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="应用管理" vertex="1">
-          <mxGeometry height="60" width="120" x="390" y="300" as="geometry" />
-        </mxCell>
         <mxCell id="PknYMplZKPNHlfmFVRBK-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="显示管理" vertex="1">
-          <mxGeometry height="60" width="120" x="530" y="300" as="geometry" />
+          <mxGeometry height="60" width="120" x="455" y="290" as="geometry" />
         </mxCell>
-        <mxCell id="PknYMplZKPNHlfmFVRBK-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="业务功能" vertex="1">
-          <mxGeometry height="60" width="250" x="390" y="210" as="geometry" />
+        <mxCell id="PknYMplZKPNHlfmFVRBK-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="应用管理" vertex="1">
+          <mxGeometry height="60" width="120" x="315" y="290" as="geometry" />
         </mxCell>
         <mxCell id="PknYMplZKPNHlfmFVRBK-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="数据库" vertex="1">
-          <mxGeometry height="150" width="120" x="230" y="210" as="geometry" />
+          <mxGeometry height="150" width="80" x="150" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="PknYMplZKPNHlfmFVRBK-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="业务功能" vertex="1">
+          <mxGeometry height="60" width="250" x="315" y="200" as="geometry" />
         </mxCell>
         <mxCell id="PknYMplZKPNHlfmFVRBK-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" value="平台" vertex="1">
-          <mxGeometry height="60" width="410" x="240" y="400" as="geometry" />
+          <mxGeometry height="60" width="410" x="240" y="430" as="geometry" />
         </mxCell>
-        <mxCell id="PknYMplZKPNHlfmFVRBK-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="定时器" vertex="1">
-          <mxGeometry height="60" width="80" x="280" y="400" as="geometry" />
+        <mxCell id="PknYMplZKPNHlfmFVRBK-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="定时器" vertex="1">
+          <mxGeometry height="60" width="80" x="280" y="430" as="geometry" />
         </mxCell>
-        <mxCell id="PknYMplZKPNHlfmFVRBK-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="按键" vertex="1">
-          <mxGeometry height="60" width="100" x="360" y="400" as="geometry" />
+        <mxCell id="PknYMplZKPNHlfmFVRBK-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="按键" vertex="1">
+          <mxGeometry height="60" width="100" x="360" y="430" as="geometry" />
         </mxCell>
-        <mxCell id="PknYMplZKPNHlfmFVRBK-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="线程" vertex="1">
-          <mxGeometry height="60" width="110" x="460" y="400" as="geometry" />
+        <mxCell id="PknYMplZKPNHlfmFVRBK-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="线程" vertex="1">
+          <mxGeometry height="60" width="110" x="460" y="430" as="geometry" />
         </mxCell>
-        <mxCell id="PknYMplZKPNHlfmFVRBK-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="消息" vertex="1">
-          <mxGeometry height="60" width="80" x="570" y="400" as="geometry" />
+        <mxCell id="PknYMplZKPNHlfmFVRBK-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="200" width="330" x="20" y="140" as="geometry" />
         </mxCell>
-        <mxCell id="PknYMplZKPNHlfmFVRBK-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="平台接口" vertex="1">
-          <mxGeometry height="30" width="410" x="240" y="370" as="geometry" />
+        <mxCell id="PknYMplZKPNHlfmFVRBK-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="消息" vertex="1">
+          <mxGeometry height="60" width="80" x="570" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="PknYMplZKPNHlfmFVRBK-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="平台接口" vertex="1">
+          <mxGeometry height="30" width="410" x="240" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="PknYMplZKPNHlfmFVRBK-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="协议栈接口" vertex="1">
+          <mxGeometry height="60" width="120" x="690" y="210" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
