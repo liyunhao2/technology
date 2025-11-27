@@ -1918,45 +1918,69 @@
     </mxGraphModel>
   </diagram>
   <diagram id="9ZwW4jae5lQuPFKcr-Nt" name="第 11 页">
-    <mxGraphModel dx="719" dy="391" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="868" dy="473" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="PknYMplZKPNHlfmFVRBK-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="平台数据库" vertex="1">
+          <mxGeometry height="150" width="70" x="150" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="PknYMplZKPNHlfmFVRBK-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" value="平台" vertex="1">
+          <mxGeometry height="60" width="410" x="240" y="442" as="geometry" />
+        </mxCell>
+        <mxCell id="PknYMplZKPNHlfmFVRBK-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="定时器" vertex="1">
+          <mxGeometry height="60" width="80" x="280" y="442" as="geometry" />
+        </mxCell>
+        <mxCell id="PknYMplZKPNHlfmFVRBK-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="按键" vertex="1">
+          <mxGeometry height="60" width="100" x="360" y="442" as="geometry" />
+        </mxCell>
+        <mxCell id="PknYMplZKPNHlfmFVRBK-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="线程" vertex="1">
+          <mxGeometry height="60" width="110" x="460" y="442" as="geometry" />
+        </mxCell>
+        <mxCell id="PknYMplZKPNHlfmFVRBK-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" value="应用" vertex="1">
+          <mxGeometry height="200" width="330" x="275" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="PknYMplZKPNHlfmFVRBK-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="消息" vertex="1">
+          <mxGeometry height="60" width="80" x="570" y="442" as="geometry" />
+        </mxCell>
+        <mxCell id="PknYMplZKPNHlfmFVRBK-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="平台接口（换成HP平台，模拟器同样适配）" vertex="1">
+          <mxGeometry height="30" width="410" x="240" y="412" as="geometry" />
+        </mxCell>
+        <mxCell id="PknYMplZKPNHlfmFVRBK-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" value="协议栈接口&lt;div&gt;（只需模拟器适配）&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="650" y="210" as="geometry" />
+        </mxCell>
         <mxCell id="PknYMplZKPNHlfmFVRBK-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="显示管理" vertex="1">
           <mxGeometry height="60" width="120" x="455" y="290" as="geometry" />
         </mxCell>
         <mxCell id="PknYMplZKPNHlfmFVRBK-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="应用管理" vertex="1">
           <mxGeometry height="60" width="120" x="315" y="290" as="geometry" />
         </mxCell>
-        <mxCell id="PknYMplZKPNHlfmFVRBK-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="数据库" vertex="1">
-          <mxGeometry height="150" width="80" x="150" y="210" as="geometry" />
-        </mxCell>
         <mxCell id="PknYMplZKPNHlfmFVRBK-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="业务功能" vertex="1">
           <mxGeometry height="60" width="250" x="315" y="200" as="geometry" />
         </mxCell>
-        <mxCell id="PknYMplZKPNHlfmFVRBK-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" value="平台" vertex="1">
-          <mxGeometry height="60" width="410" x="240" y="430" as="geometry" />
+        <mxCell id="PknYMplZKPNHlfmFVRBK-15" edge="1" parent="1" source="PknYMplZKPNHlfmFVRBK-14" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;startFill=1;anchorPointDirection=1;bendable=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry relative="1" width="160" x="-0.0011" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="130" y="150" as="sourcePoint" />
+            <mxPoint x="440" y="410" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="PknYMplZKPNHlfmFVRBK-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="定时器" vertex="1">
-          <mxGeometry height="60" width="80" x="280" y="430" as="geometry" />
+        <mxCell id="PknYMplZKPNHlfmFVRBK-16" edge="1" parent="1" source="PknYMplZKPNHlfmFVRBK-14" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;startFill=1;anchorPointDirection=1;bendable=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" value="">
+          <mxGeometry relative="1" width="160" x="-0.0011" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="174.5" y="170" as="sourcePoint" />
+            <mxPoint x="220" y="280" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="PknYMplZKPNHlfmFVRBK-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="按键" vertex="1">
-          <mxGeometry height="60" width="100" x="360" y="430" as="geometry" />
+        <mxCell id="PknYMplZKPNHlfmFVRBK-17" edge="1" parent="1" source="PknYMplZKPNHlfmFVRBK-14" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;startFill=1;anchorPointDirection=1;bendable=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;exitX=1.007;exitY=0.305;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" target="PknYMplZKPNHlfmFVRBK-12" value="">
+          <mxGeometry relative="1" width="160" x="-0.0011" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="667" y="239.66" as="sourcePoint" />
+            <mxPoint x="620" y="239.66" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="PknYMplZKPNHlfmFVRBK-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="线程" vertex="1">
-          <mxGeometry height="60" width="110" x="460" y="430" as="geometry" />
-        </mxCell>
-        <mxCell id="PknYMplZKPNHlfmFVRBK-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="200" width="330" x="20" y="140" as="geometry" />
-        </mxCell>
-        <mxCell id="PknYMplZKPNHlfmFVRBK-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="消息" vertex="1">
-          <mxGeometry height="60" width="80" x="570" y="430" as="geometry" />
-        </mxCell>
-        <mxCell id="PknYMplZKPNHlfmFVRBK-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="平台接口" vertex="1">
-          <mxGeometry height="30" width="410" x="240" y="400" as="geometry" />
-        </mxCell>
-        <mxCell id="PknYMplZKPNHlfmFVRBK-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="协议栈接口" vertex="1">
-          <mxGeometry height="60" width="120" x="690" y="210" as="geometry" />
+        <mxCell id="PknYMplZKPNHlfmFVRBK-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="平台数据库" vertex="1">
+          <mxGeometry height="50" width="200" x="330" y="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
