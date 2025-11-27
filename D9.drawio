@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" version="29.1.1" pages="10">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" version="29.1.1" pages="11">
   <diagram name="模式切换时序图" id="muVQDdwf6d4eTpT-z0X4">
     <mxGraphModel dx="2211" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1913,6 +1913,44 @@
           <mxGeometry relative="1" x="0.0976" y="-1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="9ZwW4jae5lQuPFKcr-Nt" name="第 11 页">
+    <mxGraphModel dx="719" dy="391" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PknYMplZKPNHlfmFVRBK-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="应用管理" vertex="1">
+          <mxGeometry height="60" width="120" x="390" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="PknYMplZKPNHlfmFVRBK-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="显示管理" vertex="1">
+          <mxGeometry height="60" width="120" x="530" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="PknYMplZKPNHlfmFVRBK-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="业务功能" vertex="1">
+          <mxGeometry height="60" width="250" x="390" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="PknYMplZKPNHlfmFVRBK-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="数据库" vertex="1">
+          <mxGeometry height="150" width="120" x="230" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="PknYMplZKPNHlfmFVRBK-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" value="平台" vertex="1">
+          <mxGeometry height="60" width="440" x="230" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="PknYMplZKPNHlfmFVRBK-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="定时器" vertex="1">
+          <mxGeometry height="60" width="80" x="280" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="PknYMplZKPNHlfmFVRBK-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="按键" vertex="1">
+          <mxGeometry height="60" width="70" x="360" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="PknYMplZKPNHlfmFVRBK-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="线程" vertex="1">
+          <mxGeometry height="60" width="70" x="430" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="PknYMplZKPNHlfmFVRBK-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="消息" vertex="1">
+          <mxGeometry height="60" width="70" x="500" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="PknYMplZKPNHlfmFVRBK-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="平台接口" vertex="1">
+          <mxGeometry height="30" width="420" x="240" y="370" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
