@@ -1840,7 +1840,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pVQn-bBBhDoIx1rSx9bc-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="结束" vertex="1">
-          <mxGeometry height="60" width="120" x="400" y="600" as="geometry" />
+          <mxGeometry height="60" width="220" x="350" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="pVQn-bBBhDoIx1rSx9bc-10" edge="1" parent="1" source="pVQn-bBBhDoIx1rSx9bc-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="pVQn-bBBhDoIx1rSx9bc-7" value="">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pVQn-bBBhDoIx1rSx9bc-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="记录当前节点线程占用" vertex="1">
           <mxGeometry height="60" width="120" x="400" y="390" as="geometry" />
@@ -1852,6 +1855,14 @@
             <mxPoint x="459.5" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="pVQn-bBBhDoIx1rSx9bc-13" connectable="0" parent="pVQn-bBBhDoIx1rSx9bc-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="是" vertex="1">
+          <mxGeometry relative="1" x="-0.0766" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pVQn-bBBhDoIx1rSx9bc-14" edge="1" parent="1" source="pVQn-bBBhDoIx1rSx9bc-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="pVQn-bBBhDoIx1rSx9bc-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="pVQn-bBBhDoIx1rSx9bc-7" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="任务结束？" vertex="1">
           <mxGeometry height="100" width="100" x="410" y="490" as="geometry" />
         </mxCell>
@@ -1860,6 +1871,28 @@
             <mxPoint as="offset" />
             <mxPoint x="459.71" y="450" as="sourcePoint" />
             <mxPoint x="460" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pVQn-bBBhDoIx1rSx9bc-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="打印所有节点耗时信息" vertex="1">
+          <mxGeometry height="60" width="120" x="400" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="pVQn-bBBhDoIx1rSx9bc-11" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;startFill=1;anchorPointDirection=1;bendable=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry relative="1" width="160" x="-0.0011" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="459.71" y="590" as="sourcePoint" />
+            <mxPoint x="459.99999999999994" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pVQn-bBBhDoIx1rSx9bc-15" connectable="0" parent="pVQn-bBBhDoIx1rSx9bc-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="是" vertex="1">
+          <mxGeometry relative="1" x="-0.0886" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pVQn-bBBhDoIx1rSx9bc-12" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;startFill=1;anchorPointDirection=1;bendable=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry relative="1" width="160" x="-0.0011" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="459.71" y="690" as="sourcePoint" />
+            <mxPoint x="459.99999999999994" y="730" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
