@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" version="29.1.1" pages="11">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" version="29.1.1" pages="12">
   <diagram name="模式切换时序图" id="muVQDdwf6d4eTpT-z0X4">
     <mxGraphModel dx="2211" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1978,6 +1978,29 @@
             <mxPoint x="667" y="239.66" as="sourcePoint" />
             <mxPoint x="620" y="239.66" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="JcbyHUJabs6Bz8LEMrTs" name="第 12 页">
+    <mxGraphModel dx="1042" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Y0fwAZ4IOK_kee1MLvTB-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="附件端口11配置成PTT1时，&lt;div&gt;附件端口10自动配置成PTT2&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="230" x="430" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0fwAZ4IOK_kee1MLvTB-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="PTT1没有关联发射信道&lt;div&gt;PTT2没有关联发射信道&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="180" x="80" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0fwAZ4IOK_kee1MLvTB-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="PTT1关联了发射信道&lt;div&gt;PTT2没有关联发射信道&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="180" x="300" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0fwAZ4IOK_kee1MLvTB-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="PTT1没有关联发射信道&lt;div&gt;PTT2关联发射信道&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="180" x="520" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0fwAZ4IOK_kee1MLvTB-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="PTT1没有关联发射信道&lt;div&gt;PTT2没有关联发射信道&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="180" x="750" y="290" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
