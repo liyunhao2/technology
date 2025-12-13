@@ -1983,7 +1983,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="JcbyHUJabs6Bz8LEMrTs" name="第 12 页">
-    <mxGraphModel dx="1042" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1097" dy="597" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1991,7 +1991,7 @@
           <mxGeometry height="320" width="270" x="950" y="320" as="geometry" />
         </mxCell>
         <mxCell id="sK63rkN7beaCaLTEZJnj-33" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;" value="" vertex="1">
-          <mxGeometry height="600" width="600" x="340" y="10" as="geometry" />
+          <mxGeometry height="420" width="600" x="340" y="190" as="geometry" />
         </mxCell>
         <mxCell id="sK63rkN7beaCaLTEZJnj-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="xml初始化" vertex="1">
           <mxGeometry height="60" width="120" x="450" y="79" as="geometry" />
@@ -2051,8 +2051,8 @@
         <mxCell id="sK63rkN7beaCaLTEZJnj-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="xml初始化" vertex="1">
           <mxGeometry height="60" width="120" x="450" y="79" as="geometry" />
         </mxCell>
-        <mxCell id="sK63rkN7beaCaLTEZJnj-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" value="菜单入口：&lt;div&gt;起始节点由用户调用&lt;/div&gt;&lt;div&gt;其余由基类调用&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="760" y="200" as="geometry" />
+        <mxCell id="sK63rkN7beaCaLTEZJnj-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" value="菜单入口：&lt;div&gt;xml携带有user_id的，由用户调用&lt;/div&gt;&lt;div&gt;其余由基类调用&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="150" x="760" y="200" as="geometry" />
         </mxCell>
         <mxCell id="sK63rkN7beaCaLTEZJnj-22" edge="1" parent="1" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" value="">
           <mxGeometry relative="1" width="160" as="geometry">
@@ -2068,7 +2068,7 @@
             <mxPoint x="744.5" y="299.41" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sK63rkN7beaCaLTEZJnj-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="菜单类名/ID/&#xa;标题/用户ID" vertex="1">
+        <mxCell id="sK63rkN7beaCaLTEZJnj-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="菜单类名/ID/&lt;br&gt;标题/user_id" vertex="1">
           <mxGeometry height="60" width="120" x="760" y="270" as="geometry" />
         </mxCell>
         <mxCell id="sK63rkN7beaCaLTEZJnj-27" edge="1" parent="1" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" value="">
@@ -2182,7 +2182,7 @@
         <mxCell id="sK63rkN7beaCaLTEZJnj-58" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="消息&lt;div&gt;（外部消息/内部消息）&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="160" x="500" y="690" as="geometry" />
         </mxCell>
-        <mxCell id="sK63rkN7beaCaLTEZJnj-59" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;text-align: left;&quot;&gt;BaseMenuActivity&lt;br&gt;接收消息&lt;/span&gt;" vertex="1">
+        <mxCell id="sK63rkN7beaCaLTEZJnj-59" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;span style=&quot;text-align: left;&quot;&gt;BaseMenuActivity&lt;br&gt;接收消息&lt;/span&gt;" vertex="1">
           <mxGeometry height="40" width="120" x="520" y="770" as="geometry" />
         </mxCell>
         <mxCell id="sK63rkN7beaCaLTEZJnj-60" edge="1" parent="1" source="sK63rkN7beaCaLTEZJnj-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="sK63rkN7beaCaLTEZJnj-59" value="">
@@ -2252,7 +2252,7 @@
             <mxPoint x="419.76" y="960" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sK63rkN7beaCaLTEZJnj-77" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;text-align: left;&quot;&gt;BaseMenuActivity&lt;br&gt;默认处理&lt;/span&gt;" vertex="1">
+        <mxCell id="sK63rkN7beaCaLTEZJnj-77" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;span style=&quot;text-align: left;&quot;&gt;BaseMenuActivity&lt;br&gt;默认处理&lt;/span&gt;" vertex="1">
           <mxGeometry height="40" width="120" x="360" y="1108" as="geometry" />
         </mxCell>
         <mxCell id="sK63rkN7beaCaLTEZJnj-78" edge="1" parent="1" source="sK63rkN7beaCaLTEZJnj-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="sK63rkN7beaCaLTEZJnj-77" value="">
