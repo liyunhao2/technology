@@ -2064,12 +2064,12 @@
         <mxCell id="sK63rkN7beaCaLTEZJnj-23" edge="1" parent="1" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" value="">
           <mxGeometry relative="1" width="160" as="geometry">
             <mxPoint as="offset" />
-            <mxPoint x="585" y="320" as="sourcePoint" />
-            <mxPoint x="745" y="320" as="targetPoint" />
+            <mxPoint x="585" y="310" as="sourcePoint" />
+            <mxPoint x="745" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="sK63rkN7beaCaLTEZJnj-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre; color: rgb(204, 204, 204);&quot;&gt;&lt;font color=&quot;#9cdcfe&quot;&gt;菜单类名/ID/&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre; color: rgb(204, 204, 204);&quot;&gt;&lt;font color=&quot;#9cdcfe&quot;&gt;标题/用户ID&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="760" y="290" as="geometry" />
+          <mxGeometry height="60" width="120" x="760" y="280" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
