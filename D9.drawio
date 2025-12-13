@@ -1983,12 +1983,15 @@
     </mxGraphModel>
   </diagram>
   <diagram id="JcbyHUJabs6Bz8LEMrTs" name="第 12 页">
-    <mxGraphModel dx="1097" dy="597" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1303" dy="709" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="sK63rkN7beaCaLTEZJnj-33" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;" value="菜单管理&#xa;MenuManager" vertex="1">
-          <mxGeometry height="580" width="650" x="340" y="30" as="geometry" />
+        <mxCell id="sK63rkN7beaCaLTEZJnj-53" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="370" width="270" x="950" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="sK63rkN7beaCaLTEZJnj-33" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;" value="" vertex="1">
+          <mxGeometry height="580" width="600" x="340" y="30" as="geometry" />
         </mxCell>
         <mxCell id="sK63rkN7beaCaLTEZJnj-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="xml初始化" vertex="1">
           <mxGeometry height="60" width="120" x="450" y="79" as="geometry" />
@@ -2042,8 +2045,8 @@
         <mxCell id="sK63rkN7beaCaLTEZJnj-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="设置焦点高亮" vertex="1">
           <mxGeometry height="40" width="120" x="450" y="560" as="geometry" />
         </mxCell>
-        <mxCell id="sK63rkN7beaCaLTEZJnj-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="显示" vertex="1">
-          <mxGeometry height="30" width="120" x="450" y="640" as="geometry" />
+        <mxCell id="sK63rkN7beaCaLTEZJnj-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="showMenu" vertex="1">
+          <mxGeometry height="30" width="120" x="979" y="630" as="geometry" />
         </mxCell>
         <mxCell id="sK63rkN7beaCaLTEZJnj-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="xml初始化" vertex="1">
           <mxGeometry height="60" width="120" x="450" y="79" as="geometry" />
@@ -2085,7 +2088,7 @@
             <mxPoint x="745" y="449.40999999999997" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sK63rkN7beaCaLTEZJnj-30" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;font style=&quot;color: rgb(51, 153, 255);&quot;&gt;1、静态由框架根据xml填充&lt;/font&gt;&lt;div&gt;2、动态由业务填充&lt;/div&gt;" vertex="1">
+        <mxCell id="sK63rkN7beaCaLTEZJnj-30" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;fontColor=default;" value="&lt;font style=&quot;&quot;&gt;&lt;strike&gt;1、静态由框架根据xml填充&lt;/strike&gt;&lt;/font&gt;&lt;div&gt;2、动态由业务填充&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="170" x="760" y="420" as="geometry" />
         </mxCell>
         <mxCell id="sK63rkN7beaCaLTEZJnj-31" edge="1" parent="1" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" value="">
@@ -2116,12 +2119,6 @@
             <mxPoint x="510" y="560" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sK63rkN7beaCaLTEZJnj-40" edge="1" parent="1" source="sK63rkN7beaCaLTEZJnj-17" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="sK63rkN7beaCaLTEZJnj-18" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="509.58" y="730" as="sourcePoint" />
-            <mxPoint x="509.58" y="770" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="sK63rkN7beaCaLTEZJnj-41" edge="1" parent="1" source="sK63rkN7beaCaLTEZJnj-14" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="sK63rkN7beaCaLTEZJnj-15" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="510" y="400" as="sourcePoint" />
@@ -2139,6 +2136,48 @@
         </mxCell>
         <mxCell id="sK63rkN7beaCaLTEZJnj-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="菜单初始化" vertex="1">
           <mxGeometry height="40" width="120" x="450" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="sK63rkN7beaCaLTEZJnj-45" edge="1" parent="1" source="sK63rkN7beaCaLTEZJnj-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="sK63rkN7beaCaLTEZJnj-44" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sK63rkN7beaCaLTEZJnj-43" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" value="createMenu" vertex="1">
+          <mxGeometry height="40" width="120" x="979" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="sK63rkN7beaCaLTEZJnj-44" parent="1" style="whiteSpace=wrap;html=1;align=center;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" value="preHandle" vertex="1">
+          <mxGeometry height="40" width="120" x="980" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="sK63rkN7beaCaLTEZJnj-47" parent="1" style="whiteSpace=wrap;html=1;align=center;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" value="loadDynamicItem" vertex="1">
+          <mxGeometry height="40" width="120" x="980" y="424" as="geometry" />
+        </mxCell>
+        <mxCell id="sK63rkN7beaCaLTEZJnj-48" edge="1" parent="1" source="sK63rkN7beaCaLTEZJnj-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="sK63rkN7beaCaLTEZJnj-47" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1120" y="380" as="sourcePoint" />
+            <mxPoint x="1040" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sK63rkN7beaCaLTEZJnj-50" parent="1" style="whiteSpace=wrap;html=1;align=center;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" value="initMenu" vertex="1">
+          <mxGeometry height="40" width="120" x="980" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="sK63rkN7beaCaLTEZJnj-51" edge="1" parent="1" source="sK63rkN7beaCaLTEZJnj-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="sK63rkN7beaCaLTEZJnj-50" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1080" y="430" as="sourcePoint" />
+            <mxPoint x="1080" y="464" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sK63rkN7beaCaLTEZJnj-52" edge="1" parent="1" source="sK63rkN7beaCaLTEZJnj-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="sK63rkN7beaCaLTEZJnj-18" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1120" y="530" as="sourcePoint" />
+            <mxPoint x="1120" y="566" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sK63rkN7beaCaLTEZJnj-55" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" value="&lt;span style=&quot;color: rgb(0, 0, 0); text-align: left; background-color: rgb(236, 236, 236); float: none; display: inline !important;&quot;&gt;菜单管理&lt;/span&gt;&lt;br style=&quot;color: rgb(0, 0, 0); text-align: left; background-color: rgb(236, 236, 236);&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); text-align: left; background-color: rgb(236, 236, 236); float: none; display: inline !important;&quot;&gt;MenuManager&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="190" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="sK63rkN7beaCaLTEZJnj-56" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" value="&lt;span style=&quot;color: rgb(0, 0, 0); text-align: left; background-color: rgb(236, 236, 236); float: none; display: inline !important;&quot;&gt;菜单基类&lt;/span&gt;&lt;br style=&quot;color: rgb(0, 0, 0); text-align: left; background-color: rgb(236, 236, 236);&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;BaseMenu&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1150" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="sK63rkN7beaCaLTEZJnj-57" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" value="&lt;span style=&quot;color: rgb(0, 0, 0); text-align: left; background-color: rgb(236, 236, 236); float: none; display: inline !important;&quot;&gt;菜单activity基类&lt;/span&gt;&lt;br style=&quot;color: rgb(0, 0, 0); text-align: left; background-color: rgb(236, 236, 236);&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;BaseMenuActivity&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="979" y="139" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
