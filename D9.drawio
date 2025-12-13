@@ -2036,7 +2036,7 @@
         <mxCell id="sK63rkN7beaCaLTEZJnj-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;" value="创建菜单" vertex="1">
           <mxGeometry height="40" width="120" x="450" y="210" as="geometry" />
         </mxCell>
-        <mxCell id="sK63rkN7beaCaLTEZJnj-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="设置菜单属性" vertex="1">
+        <mxCell id="sK63rkN7beaCaLTEZJnj-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="设置菜单属性&lt;br&gt;（xml获取到的）" vertex="1">
           <mxGeometry height="40" width="120" x="450" y="280" as="geometry" />
         </mxCell>
         <mxCell id="sK63rkN7beaCaLTEZJnj-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="菜单预处理" vertex="1">
