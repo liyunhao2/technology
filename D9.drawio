@@ -2042,8 +2042,8 @@
         <mxCell id="sK63rkN7beaCaLTEZJnj-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre; color: rgb(204, 204, 204);&quot;&gt;&lt;font color=&quot;#dcdcaa&quot;&gt;菜单初始化&lt;/font&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="450" y="570" as="geometry" />
         </mxCell>
-        <mxCell id="sK63rkN7beaCaLTEZJnj-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre; color: rgb(204, 204, 204);&quot;&gt;&lt;font color=&quot;#dcdcaa&quot;&gt;设置焦点&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="450" y="700" as="geometry" />
+        <mxCell id="sK63rkN7beaCaLTEZJnj-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre; color: rgb(204, 204, 204);&quot;&gt;&lt;font color=&quot;#dcdcaa&quot;&gt;设置焦点高亮&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="450" y="670" as="geometry" />
         </mxCell>
         <mxCell id="sK63rkN7beaCaLTEZJnj-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre; color: rgb(204, 204, 204);&quot;&gt;&lt;font color=&quot;#dcdcaa&quot;&gt;显示&lt;/font&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="450" y="800" as="geometry" />
