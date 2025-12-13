@@ -1990,8 +1990,9 @@
         <mxCell id="sK63rkN7beaCaLTEZJnj-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="xml解析" vertex="1">
           <mxGeometry height="60" width="120" x="450" y="90" as="geometry" />
         </mxCell>
-        <mxCell id="sK63rkN7beaCaLTEZJnj-2" edge="1" parent="1" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" value="得出菜单树">
+        <mxCell id="sK63rkN7beaCaLTEZJnj-2" edge="1" parent="1" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" value="得出菜单节点">
           <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint as="offset" />
             <mxPoint x="585" y="119.5" as="sourcePoint" />
             <mxPoint x="745" y="119.5" as="targetPoint" />
           </mxGeometry>
