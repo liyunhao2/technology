@@ -1983,7 +1983,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="JcbyHUJabs6Bz8LEMrTs" name="第 12 页">
-    <mxGraphModel dx="1042" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="868" dy="473" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2047,6 +2047,19 @@
         </mxCell>
         <mxCell id="sK63rkN7beaCaLTEZJnj-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre; color: rgb(204, 204, 204);&quot;&gt;&lt;font color=&quot;#dcdcaa&quot;&gt;显示&lt;/font&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="450" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="sK63rkN7beaCaLTEZJnj-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="xml初始化" vertex="1">
+          <mxGeometry height="60" width="120" x="450" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sK63rkN7beaCaLTEZJnj-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="xml初始化" vertex="1">
+          <mxGeometry height="60" width="120" x="760" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="sK63rkN7beaCaLTEZJnj-22" edge="1" parent="1" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" value="得出菜单节点">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="585" y="219.58" as="sourcePoint" />
+            <mxPoint x="745" y="219.58" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
