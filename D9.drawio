@@ -2051,7 +2051,7 @@
         <mxCell id="sK63rkN7beaCaLTEZJnj-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="xml初始化" vertex="1">
           <mxGeometry height="60" width="120" x="450" y="50" as="geometry" />
         </mxCell>
-        <mxCell id="sK63rkN7beaCaLTEZJnj-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="菜单入口：&lt;div&gt;起始节点由用户调用&lt;/div&gt;&lt;div&gt;其余由基类调用&lt;/div&gt;" vertex="1">
+        <mxCell id="sK63rkN7beaCaLTEZJnj-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="菜单入口：&lt;div&gt;起始节点由用户调用&lt;/div&gt;&lt;div&gt;其余由基类调用&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="760" y="190" as="geometry" />
         </mxCell>
         <mxCell id="sK63rkN7beaCaLTEZJnj-22" edge="1" parent="1" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" value="">
@@ -2078,7 +2078,7 @@
             <mxPoint x="745" y="414" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sK63rkN7beaCaLTEZJnj-28" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="1、接收上一级菜单的自定义数据&lt;div&gt;2、设置菜单属性&lt;/div&gt;&lt;div&gt;3、该类数据的初始化&lt;/div&gt;" vertex="1">
+        <mxCell id="sK63rkN7beaCaLTEZJnj-28" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="1、接收上一级菜单的自定义数据&lt;div&gt;2、设置菜单属性&lt;/div&gt;&lt;div&gt;3、该类数据的初始化&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="180" x="760" y="384" as="geometry" />
         </mxCell>
         <mxCell id="sK63rkN7beaCaLTEZJnj-29" edge="1" parent="1" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" value="">
