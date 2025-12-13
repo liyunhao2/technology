@@ -2078,7 +2078,7 @@
             <mxPoint x="745" y="414" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sK63rkN7beaCaLTEZJnj-28" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="1、接收上一级菜单的自定义数据&lt;div&gt;2、设置菜单属性&lt;/div&gt;&lt;div&gt;3、该类数据的初始化&lt;/div&gt;" vertex="1">
+        <mxCell id="sK63rkN7beaCaLTEZJnj-28" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="1、接收上一级菜单的自定义数据&lt;div&gt;2、设置菜单属性&lt;/div&gt;&lt;div&gt;3、该菜单数据的初始化&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="180" x="760" y="384" as="geometry" />
         </mxCell>
         <mxCell id="sK63rkN7beaCaLTEZJnj-29" edge="1" parent="1" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" value="">
@@ -2088,8 +2088,18 @@
             <mxPoint x="745" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sK63rkN7beaCaLTEZJnj-30" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="用户" vertex="1">
-          <mxGeometry height="60" width="120" x="760" y="490" as="geometry" />
+        <mxCell id="sK63rkN7beaCaLTEZJnj-30" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="1、静态由框架根据xml填充&lt;div&gt;2、动态由业务填充&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="170" x="760" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="sK63rkN7beaCaLTEZJnj-31" edge="1" parent="1" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="585" y="599.58" as="sourcePoint" />
+            <mxPoint x="745" y="599.58" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sK63rkN7beaCaLTEZJnj-32" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="1、对item显示性的配置" vertex="1">
+          <mxGeometry height="60" width="170" x="760" y="580" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
