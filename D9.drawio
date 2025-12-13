@@ -2051,7 +2051,7 @@
         <mxCell id="sK63rkN7beaCaLTEZJnj-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="xml初始化" vertex="1">
           <mxGeometry height="60" width="120" x="450" y="50" as="geometry" />
         </mxCell>
-        <mxCell id="sK63rkN7beaCaLTEZJnj-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="菜单入口：&lt;div&gt;起始节点由用户调用&lt;/div&gt;&lt;div&gt;其余由基类调用&lt;/div&gt;" vertex="1">
+        <mxCell id="sK63rkN7beaCaLTEZJnj-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" value="菜单入口：&lt;div&gt;起始节点由用户调用&lt;/div&gt;&lt;div&gt;其余由基类调用&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="760" y="190" as="geometry" />
         </mxCell>
         <mxCell id="sK63rkN7beaCaLTEZJnj-22" edge="1" parent="1" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" value="">
@@ -2068,7 +2068,7 @@
             <mxPoint x="745" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sK63rkN7beaCaLTEZJnj-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre; color: rgb(204, 204, 204);&quot;&gt;&lt;font color=&quot;#9cdcfe&quot;&gt;菜单类名/ID/&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre; color: rgb(204, 204, 204);&quot;&gt;&lt;font color=&quot;#9cdcfe&quot;&gt;标题/用户ID&lt;/font&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="sK63rkN7beaCaLTEZJnj-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="菜单类名/ID/&#xa;标题/用户ID" vertex="1">
           <mxGeometry height="60" width="120" x="760" y="280" as="geometry" />
         </mxCell>
         <mxCell id="sK63rkN7beaCaLTEZJnj-27" edge="1" parent="1" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" value="">
@@ -2078,7 +2078,7 @@
             <mxPoint x="745" y="414" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sK63rkN7beaCaLTEZJnj-28" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="1、接收上一级菜单的自定义数据&lt;div&gt;2、设置菜单属性&lt;/div&gt;&lt;div&gt;3、该菜单数据的初始化&lt;/div&gt;" vertex="1">
+        <mxCell id="sK63rkN7beaCaLTEZJnj-28" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" value="1、接收上一级菜单的自定义数据&lt;div&gt;2、设置菜单属性&lt;/div&gt;&lt;div&gt;3、该菜单数据的初始化&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="180" x="760" y="384" as="geometry" />
         </mxCell>
         <mxCell id="sK63rkN7beaCaLTEZJnj-29" edge="1" parent="1" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" value="">
@@ -2088,8 +2088,8 @@
             <mxPoint x="745" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sK63rkN7beaCaLTEZJnj-30" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="1、静态由框架根据xml填充&lt;div&gt;2、动态由业务填充&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="170" x="760" y="490" as="geometry" />
+        <mxCell id="sK63rkN7beaCaLTEZJnj-30" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;font style=&quot;color: rgb(51, 153, 255);&quot;&gt;1、静态由框架根据xml填充&lt;/font&gt;&lt;div&gt;2、动态由业务填充&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="170" x="750" y="490" as="geometry" />
         </mxCell>
         <mxCell id="sK63rkN7beaCaLTEZJnj-31" edge="1" parent="1" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" value="">
           <mxGeometry relative="1" width="160" as="geometry">
@@ -2098,7 +2098,7 @@
             <mxPoint x="745" y="599.58" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sK63rkN7beaCaLTEZJnj-32" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="1、对item显示性的配置" vertex="1">
+        <mxCell id="sK63rkN7beaCaLTEZJnj-32" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" value="1、对item显示性的配置&lt;div&gt;2、该菜单数据的初始化&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="170" x="760" y="580" as="geometry" />
         </mxCell>
       </root>
