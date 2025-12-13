@@ -1983,7 +1983,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="JcbyHUJabs6Bz8LEMrTs" name="第 12 页">
-    <mxGraphModel dx="521" dy="284" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="719" dy="391" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2246,8 +2246,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sK63rkN7beaCaLTEZJnj-69" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;text-align: left;&quot;&gt;ShowMenu&lt;/div&gt;" vertex="1">
-          <mxGeometry height="30" width="120" x="520" y="990" as="geometry" />
+        <mxCell id="sK63rkN7beaCaLTEZJnj-69" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;" value="&lt;div style=&quot;&quot;&gt;BaseMenu基类处理&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;ShowMenu&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="120" x="520" y="990" as="geometry" />
         </mxCell>
         <mxCell id="sK63rkN7beaCaLTEZJnj-73" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" value="">
           <mxGeometry relative="1" as="geometry">
