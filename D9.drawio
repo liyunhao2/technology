@@ -2474,7 +2474,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="fwamiX0QpXOG_tb00YxG-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=right;" value="子节点" vertex="1">
-          <mxGeometry height="230" width="230" x="970" y="400" as="geometry" />
+          <mxGeometry height="230" width="210" x="990" y="410" as="geometry" />
         </mxCell>
         <mxCell id="4H406IGSOZGV_AKgm0cp-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" value="菜单管理" vertex="1">
           <mxGeometry height="84" width="290" x="270" y="356" as="geometry" />
