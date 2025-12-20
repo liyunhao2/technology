@@ -2479,8 +2479,31 @@
         <mxCell id="4H406IGSOZGV_AKgm0cp-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="业务数据" vertex="1">
           <mxGeometry height="60" width="120" x="440" y="230" as="geometry" />
         </mxCell>
-        <mxCell id="4H406IGSOZGV_AKgm0cp-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="菜单管理（控件显示）" vertex="1">
-          <mxGeometry height="60" width="290" x="270" y="354" as="geometry" />
+        <mxCell id="4H406IGSOZGV_AKgm0cp-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" value="菜单管理&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="86" width="290" x="270" y="354" as="geometry" />
+        </mxCell>
+        <mxCell id="4H406IGSOZGV_AKgm0cp-4" edge="1" parent="1" source="4H406IGSOZGV_AKgm0cp-1" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;startFill=1;anchorPointDirection=1;bendable=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.206;entryY=0.016;entryDx=0;entryDy=0;entryPerimeter=0;" target="4H406IGSOZGV_AKgm0cp-3" value="">
+          <mxGeometry relative="1" width="160" x="-0.0011" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="620" y="240" as="sourcePoint" />
+            <mxPoint x="330" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4H406IGSOZGV_AKgm0cp-5" edge="1" parent="1" source="4H406IGSOZGV_AKgm0cp-2" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;startFill=1;anchorPointDirection=1;bendable=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.789;entryY=0.017;entryDx=0;entryDy=0;entryPerimeter=0;" target="4H406IGSOZGV_AKgm0cp-3" value="">
+          <mxGeometry relative="1" width="160" x="-0.0011" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="530" y="310" as="sourcePoint" />
+            <mxPoint x="530" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4H406IGSOZGV_AKgm0cp-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="图形用户系统" vertex="1">
+          <mxGeometry height="60" width="290" x="260" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="4H406IGSOZGV_AKgm0cp-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="菜单列表" vertex="1">
+          <mxGeometry height="60" width="150" x="270" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="4H406IGSOZGV_AKgm0cp-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="菜单控件" vertex="1">
+          <mxGeometry height="60" width="140" x="420" y="380" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
