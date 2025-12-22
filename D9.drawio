@@ -2469,7 +2469,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="0z4_Xtwwlauaq1hNhnTT" name="第 15 页">
-    <mxGraphModel dx="168" dy="91" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1042" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2663,17 +2663,17 @@
             <mxPoint x="1790" y="650" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hR4I-HXq78Ve5DUKU10E-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" value="平台" vertex="1">
-          <mxGeometry height="152" width="492" x="2160" y="990" as="geometry" />
+        <mxCell id="hR4I-HXq78Ve5DUKU10E-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" value="平台&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;（PC）&lt;/span&gt;" vertex="1">
+          <mxGeometry height="170" width="560" x="2230" y="800" as="geometry" />
         </mxCell>
         <mxCell id="hR4I-HXq78Ve5DUKU10E-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="定时器" vertex="1">
           <mxGeometry height="60" width="80" x="2320" y="841" as="geometry" />
         </mxCell>
         <mxCell id="hR4I-HXq78Ve5DUKU10E-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="按键" vertex="1">
-          <mxGeometry height="60" width="80" x="2400" y="902" as="geometry" />
+          <mxGeometry height="68" width="80" x="2400" y="902" as="geometry" />
         </mxCell>
         <mxCell id="hR4I-HXq78Ve5DUKU10E-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="线程" vertex="1">
-          <mxGeometry height="60" width="80" x="2320" y="902" as="geometry" />
+          <mxGeometry height="68" width="80" x="2320" y="902" as="geometry" />
         </mxCell>
         <mxCell id="hR4I-HXq78Ve5DUKU10E-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" value="应用" vertex="1">
           <mxGeometry height="200" width="330" x="2375" y="580" as="geometry" />
@@ -2684,7 +2684,7 @@
         <mxCell id="hR4I-HXq78Ve5DUKU10E-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="平台接口" vertex="1">
           <mxGeometry height="30" width="450" x="2320" y="810" as="geometry" />
         </mxCell>
-        <mxCell id="hR4I-HXq78Ve5DUKU10E-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="协议栈接口" vertex="1">
+        <mxCell id="hR4I-HXq78Ve5DUKU10E-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="协议栈接口&lt;div&gt;（PC打桩）&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="2748" y="655" as="geometry" />
         </mxCell>
         <mxCell id="hR4I-HXq78Ve5DUKU10E-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="显示管理" vertex="1">
@@ -2713,20 +2713,23 @@
         <mxCell id="hR4I-HXq78Ve5DUKU10E-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="数据库" vertex="1">
           <mxGeometry height="60" width="80" x="2480" y="841" as="geometry" />
         </mxCell>
-        <mxCell id="hR4I-HXq78Ve5DUKU10E-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" value="文件系统" vertex="1">
-          <mxGeometry height="60" width="210" x="2560" y="841" as="geometry" />
+        <mxCell id="hR4I-HXq78Ve5DUKU10E-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" value="文件系统" vertex="1">
+          <mxGeometry height="130" width="200" x="2570" y="840" as="geometry" />
         </mxCell>
-        <mxCell id="hR4I-HXq78Ve5DUKU10E-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="图片包" vertex="1">
-          <mxGeometry height="28" width="70" x="2620" y="842" as="geometry" />
+        <mxCell id="hR4I-HXq78Ve5DUKU10E-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="图片包" vertex="1">
+          <mxGeometry height="58" width="70" x="2620" y="842" as="geometry" />
         </mxCell>
         <mxCell id="hR4I-HXq78Ve5DUKU10E-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="固定字符串" vertex="1">
-          <mxGeometry height="30" width="70" x="2620" y="870" as="geometry" />
+          <mxGeometry height="70" width="70" x="2620" y="900" as="geometry" />
         </mxCell>
-        <mxCell id="hR4I-HXq78Ve5DUKU10E-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="字库" vertex="1">
-          <mxGeometry height="28" width="80" x="2690" y="842" as="geometry" />
+        <mxCell id="hR4I-HXq78Ve5DUKU10E-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="字库" vertex="1">
+          <mxGeometry height="58" width="80" x="2690" y="842" as="geometry" />
         </mxCell>
         <mxCell id="hR4I-HXq78Ve5DUKU10E-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="开关机动画包" vertex="1">
-          <mxGeometry height="30" width="80" x="2690" y="871" as="geometry" />
+          <mxGeometry height="70" width="80" x="2690" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="hR4I-HXq78Ve5DUKU10E-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="LCD" vertex="1">
+          <mxGeometry height="68" width="80" x="2480" y="902" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
