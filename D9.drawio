@@ -2473,6 +2473,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="BInBLj-4f3jdAFyavVw8-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" value="核心业务场景" vertex="1">
+          <mxGeometry height="240" width="440" x="1370" y="320" as="geometry" />
+        </mxCell>
         <mxCell id="fwamiX0QpXOG_tb00YxG-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=right;" value="子节点" vertex="1">
           <mxGeometry height="230" width="210" x="990" y="410" as="geometry" />
         </mxCell>
