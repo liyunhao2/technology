@@ -2473,7 +2473,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="BInBLj-4f3jdAFyavVw8-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" value="核心业务场景" vertex="1">
+        <mxCell id="BInBLj-4f3jdAFyavVw8-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" value="核心业务场景" vertex="1">
           <mxGeometry height="240" width="440" x="1370" y="320" as="geometry" />
         </mxCell>
         <mxCell id="fwamiX0QpXOG_tb00YxG-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=right;" value="子节点" vertex="1">
@@ -2642,6 +2642,26 @@
         </mxCell>
         <mxCell id="BInBLj-4f3jdAFyavVw8-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="..." vertex="1">
           <mxGeometry height="60" width="120" x="1650" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="BInBLj-4f3jdAFyavVw8-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="耗时模块" vertex="1">
+          <mxGeometry height="50" width="140" x="1520" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="BInBLj-4f3jdAFyavVw8-12" edge="1" parent="1" source="BInBLj-4f3jdAFyavVw8-10" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;startFill=1;anchorPointDirection=1;bendable=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="BInBLj-4f3jdAFyavVw8-11" value="">
+          <mxGeometry relative="1" width="160" x="-0.0011" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1320" y="572.1599999999999" as="sourcePoint" />
+            <mxPoint x="1879.5" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BInBLj-4f3jdAFyavVw8-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="耗时结果统计" vertex="1">
+          <mxGeometry height="50" width="140" x="1520" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="BInBLj-4f3jdAFyavVw8-14" edge="1" parent="1" source="BInBLj-4f3jdAFyavVw8-11" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;startFill=1;anchorPointDirection=1;bendable=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="BInBLj-4f3jdAFyavVw8-13" value="">
+          <mxGeometry relative="1" width="160" x="-0.0011" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1790" y="610" as="sourcePoint" />
+            <mxPoint x="1790" y="650" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
