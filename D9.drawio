@@ -2743,13 +2743,37 @@
           <mxGeometry height="300" width="100" x="430" y="120" as="geometry" />
         </mxCell>
         <mxCell id="Pr-sdqASEvTUB60kNBJ_-10" parent="Pr-sdqASEvTUB60kNBJ_-9" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
-          <mxGeometry height="80" width="10" x="45" y="80" as="geometry" />
+          <mxGeometry height="170" width="10" x="45" y="80" as="geometry" />
         </mxCell>
-        <mxCell id="Pr-sdqASEvTUB60kNBJ_-11" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="ps/平台" vertex="1">
-          <mxGeometry height="300" width="100" x="220" y="130" as="geometry" />
+        <mxCell id="Pr-sdqASEvTUB60kNBJ_-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="消息1" vertex="1">
+          <mxGeometry height="30" width="50" x="360" y="190" as="geometry" />
         </mxCell>
-        <mxCell id="Pr-sdqASEvTUB60kNBJ_-12" parent="Pr-sdqASEvTUB60kNBJ_-11" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
-          <mxGeometry height="80" width="10" x="45" y="70" as="geometry" />
+        <mxCell id="Pr-sdqASEvTUB60kNBJ_-14" edge="1" parent="1" source="Pr-sdqASEvTUB60kNBJ_-13" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;startFill=1;anchorPointDirection=1;bendable=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="拉起">
+          <mxGeometry relative="1" width="160" x="-0.0011" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="340" y="350" as="sourcePoint" />
+            <mxPoint x="480" y="205" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pr-sdqASEvTUB60kNBJ_-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="按键" vertex="1">
+          <mxGeometry height="30" width="50" x="360" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="Pr-sdqASEvTUB60kNBJ_-16" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;startFill=1;anchorPointDirection=1;bendable=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="处理">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="410" y="274.5" as="sourcePoint" />
+            <mxPoint x="480" y="274.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pr-sdqASEvTUB60kNBJ_-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="按键" vertex="1">
+          <mxGeometry height="30" width="50" x="360" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="Pr-sdqASEvTUB60kNBJ_-18" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;rounded=0;startFill=1;anchorPointDirection=1;bendable=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="结束">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="410" y="354.5" as="sourcePoint" />
+            <mxPoint x="480" y="354.5" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
