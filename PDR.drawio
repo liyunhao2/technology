@@ -1,9 +1,12 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.6.1">
   <diagram name="GUI" id="TdLGVI8l1tTU8QwBIBn3">
-    <mxGraphModel dx="815" dy="449" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ck8Ya6YN36g07pjhxBbB-56" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="120" width="620" x="240" y="680" as="geometry" />
+        </mxCell>
         <mxCell id="ck8Ya6YN36g07pjhxBbB-50" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="120" width="470" x="300" y="500" as="geometry" />
         </mxCell>
@@ -62,25 +65,22 @@
           <mxGeometry height="40" width="75" x="610" y="550" as="geometry" />
         </mxCell>
         <mxCell id="ck8Ya6YN36g07pjhxBbB-23" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontStyle=1;fontSize=11;" value="通用状态/数据更新" vertex="1">
-          <mxGeometry height="20" width="120" x="860" y="650" as="geometry" />
+          <mxGeometry height="20" width="120" x="600" y="640" as="geometry" />
         </mxCell>
         <mxCell id="ck8Ya6YN36g07pjhxBbB-24" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=14;fontStyle=1;" value="&lt;b&gt;Service层（底层服务适配不同平台或协议）&lt;/b&gt;" vertex="1">
-          <mxGeometry height="30" width="400" x="350" y="660" as="geometry" />
+          <mxGeometry height="30" width="400" x="385" y="690" as="geometry" />
         </mxCell>
         <mxCell id="ck8Ya6YN36g07pjhxBbB-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="SystemService" vertex="1">
-          <mxGeometry height="40" width="100" x="350" y="700" as="geometry" />
+          <mxGeometry height="40" width="90" x="310" y="730" as="geometry" />
         </mxCell>
         <mxCell id="ck8Ya6YN36g07pjhxBbB-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="DataService" vertex="1">
-          <mxGeometry height="40" width="100" x="460" y="700" as="geometry" />
+          <mxGeometry height="40" width="80" x="420" y="730" as="geometry" />
         </mxCell>
         <mxCell id="ck8Ya6YN36g07pjhxBbB-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="DeviceService" vertex="1">
-          <mxGeometry height="40" width="100" x="570" y="700" as="geometry" />
+          <mxGeometry height="40" width="87.5" x="512.5" y="730" as="geometry" />
         </mxCell>
         <mxCell id="ck8Ya6YN36g07pjhxBbB-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="ProtocolService" vertex="1">
-          <mxGeometry height="40" width="110" x="680" y="700" as="geometry" />
-        </mxCell>
-        <mxCell id="ck8Ya6YN36g07pjhxBbB-29" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" value="..." vertex="1">
-          <mxGeometry height="20" width="30" x="790" y="710" as="geometry" />
+          <mxGeometry height="40" width="90" x="610" y="730" as="geometry" />
         </mxCell>
         <mxCell id="ck8Ya6YN36g07pjhxBbB-42" edge="1" parent="1" source="ck8Ya6YN36g07pjhxBbB-40" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1.01;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.516;entryY=-0.011;entryDx=0;entryDy=0;entryPerimeter=0;" target="ck8Ya6YN36g07pjhxBbB-6" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -131,6 +131,26 @@
         </mxCell>
         <mxCell id="ck8Ya6YN36g07pjhxBbB-54" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" value="KeyViewModel" vertex="1">
           <mxGeometry height="40" width="90" x="660" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="ck8Ya6YN36g07pjhxBbB-55" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="ProtocolService" vertex="1">
+          <mxGeometry height="40" width="90" x="710" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="ck8Ya6YN36g07pjhxBbB-57" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.765;entryY=1.009;entryDx=0;entryDy=0;entryPerimeter=0;" target="ck8Ya6YN36g07pjhxBbB-50" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="660" y="680" as="sourcePoint" />
+            <mxPoint x="930" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ck8Ya6YN36g07pjhxBbB-58" edge="1" parent="1" source="ck8Ya6YN36g07pjhxBbB-50" style="endArrow=classic;html=1;rounded=0;entryX=0.337;entryY=-0.011;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.318;exitY=1.011;exitDx=0;exitDy=0;exitPerimeter=0;" target="ck8Ya6YN36g07pjhxBbB-56" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="720" y="717" as="sourcePoint" />
+            <mxPoint x="720" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ck8Ya6YN36g07pjhxBbB-59" connectable="0" parent="ck8Ya6YN36g07pjhxBbB-58" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="业务请求" vertex="1">
+          <mxGeometry relative="1" x="-0.1399" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
