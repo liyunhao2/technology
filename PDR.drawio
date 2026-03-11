@@ -109,7 +109,7 @@
           <mxGeometry height="40" width="50" x="670" y="110" as="geometry" />
         </mxCell>
         <mxCell id="ck8Ya6YN36g07pjhxBbB-48" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8f2d6;strokeColor=#b59d5c;" value="MeneViewModel" vertex="1">
-          <mxGeometry height="40" width="90" x="639" y="392" as="geometry" />
+          <mxGeometry height="40" width="91" x="639" y="392" as="geometry" />
         </mxCell>
         <mxCell id="ck8Ya6YN36g07pjhxBbB-49" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79c5a;" value="..." vertex="1">
           <mxGeometry height="40" width="50" x="700" y="550" as="geometry" />
