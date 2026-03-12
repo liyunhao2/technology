@@ -50,7 +50,7 @@
           <mxGeometry height="40" width="171.5" x="1804.5" y="324" as="geometry" />
         </mxCell>
         <mxCell id="8xb-B-PlqWpw7XI8ANGE-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;container=0;fillColor=#d5e8d4;strokeColor=#82b366;" value="InputSystem" vertex="1">
-          <mxGeometry height="40" width="110" x="2110" y="324" as="geometry" />
+          <mxGeometry height="40" width="110" x="1990" y="324" as="geometry" />
         </mxCell>
         <mxCell id="8xb-B-PlqWpw7XI8ANGE-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;container=0;" value="MenuModel" vertex="1">
           <mxGeometry height="40" width="90" x="1650" y="563" as="geometry" />
@@ -124,8 +124,8 @@
         <mxCell id="8xb-B-PlqWpw7XI8ANGE-35" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;container=0;" value="CallViewModel" vertex="1">
           <mxGeometry height="40" width="110" x="1120.5" y="324" as="geometry" />
         </mxCell>
-        <mxCell id="8xb-B-PlqWpw7XI8ANGE-36" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;container=0;" value="MenuViewModel" vertex="1">
-          <mxGeometry height="40" width="120" x="1250" y="324" as="geometry" />
+        <mxCell id="8xb-B-PlqWpw7XI8ANGE-36" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;container=0;fillColor=#d5e8d4;strokeColor=#82b366;" value="MenuViewModel" vertex="1">
+          <mxGeometry height="40" width="120" x="1244" y="324" as="geometry" />
         </mxCell>
         <mxCell id="8xb-B-PlqWpw7XI8ANGE-37" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;container=0;" value="CallModel" vertex="1">
           <mxGeometry height="40" width="90" x="986" y="563" as="geometry" />
@@ -240,17 +240,14 @@
         <mxCell id="8xb-B-PlqWpw7XI8ANGE-63" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;container=0;" value="WifiDataModel" vertex="1">
           <mxGeometry height="40" width="99" x="1881" y="563" as="geometry" />
         </mxCell>
-        <mxCell id="vaL1S6FYgmyDNJbhT7-T-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;container=0;fillColor=#d5e8d4;strokeColor=#82b366;" value="MenuViewModel" vertex="1">
-          <mxGeometry height="40" width="110" x="1990" y="324" as="geometry" />
-        </mxCell>
         <mxCell id="vaL1S6FYgmyDNJbhT7-T-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;container=0;" value="..." vertex="1">
           <mxGeometry height="40" width="95" x="1390" y="563" as="geometry" />
         </mxCell>
         <mxCell id="8-BJupSKMZ5WmtUWQioM-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;container=0;" value="..." vertex="1">
-          <mxGeometry height="40" width="40" x="2230" y="324" as="geometry" />
+          <mxGeometry height="40" width="160" x="2110" y="324" as="geometry" />
         </mxCell>
-        <mxCell id="owEp26UjeR4g5BAYuJC6-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;container=0;" value="..." vertex="1">
-          <mxGeometry height="40" width="102.5" x="1377.5" y="324" as="geometry" />
+        <mxCell id="owEp26UjeR4g5BAYuJC6-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;container=0;" value="InputSystem" vertex="1">
+          <mxGeometry height="40" width="102.5" x="1373.5" y="324" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
