@@ -285,7 +285,7 @@
           <mxGeometry height="45" width="140" x="700" y="45" as="geometry" />
         </mxCell>
         <mxCell id="oRURVHrZIkcXHxvhnQ0_-12" parent="1" style="swimlane;fillColor=#ffe6cc;strokeColor=#d79b00;verticalAlign=top;fontStyle=1;" value="业务芯片 (Application)" vertex="1">
-          <mxGeometry height="280" width="440" x="40" y="260" as="geometry" />
+          <mxGeometry height="340" width="440" x="40" y="260" as="geometry" />
         </mxCell>
         <mxCell id="oRURVHrZIkcXHxvhnQ0_-13" parent="oRURVHrZIkcXHxvhnQ0_-12" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontStyle=1" value="Model 层" vertex="1">
           <mxGeometry height="20" width="360" x="10" y="40" as="geometry" />
@@ -315,34 +315,40 @@
           <mxGeometry height="45" width="100" x="15" y="235" as="geometry" />
         </mxCell>
         <mxCell id="oRURVHrZIkcXHxvhnQ0_-23" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;fontStyle=1;" value="UI 芯片（显示芯片）" vertex="1">
-          <mxGeometry height="280" width="380" x="550" y="260" as="geometry" />
+          <mxGeometry height="340" width="380" x="550" y="260" as="geometry" />
         </mxCell>
         <mxCell id="oRURVHrZIkcXHxvhnQ0_-24" parent="oRURVHrZIkcXHxvhnQ0_-23" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontStyle=1" value="输入子系统" vertex="1">
-          <mxGeometry height="20" width="360" x="10" y="40" as="geometry" />
+          <mxGeometry height="20" width="360" x="20" y="120" as="geometry" />
         </mxCell>
         <mxCell id="oRURVHrZIkcXHxvhnQ0_-25" parent="oRURVHrZIkcXHxvhnQ0_-23" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=center;fontSize=9;" value="手势识别&#xa;(LVGL/Qt 自带)" vertex="1">
-          <mxGeometry height="50" width="110" x="15" y="70" as="geometry" />
+          <mxGeometry height="50" width="110" x="25" y="150" as="geometry" />
         </mxCell>
         <mxCell id="oRURVHrZIkcXHxvhnQ0_-26" parent="oRURVHrZIkcXHxvhnQ0_-23" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=center;fontSize=9;" value="KeyMapEngine&#xa;(按键映射/PTT 上下文)" vertex="1">
-          <mxGeometry height="50" width="110" x="135" y="70" as="geometry" />
+          <mxGeometry height="50" width="110" x="145" y="150" as="geometry" />
         </mxCell>
         <mxCell id="oRURVHrZIkcXHxvhnQ0_-27" parent="oRURVHrZIkcXHxvhnQ0_-23" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=center;fontSize=9;" value="EventRouter&#xa;(事件路由)" vertex="1">
-          <mxGeometry height="50" width="110" x="255" y="70" as="geometry" />
+          <mxGeometry height="50" width="110" x="265" y="150" as="geometry" />
         </mxCell>
         <mxCell id="oRURVHrZIkcXHxvhnQ0_-28" parent="oRURVHrZIkcXHxvhnQ0_-23" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontStyle=1" value="ViewModel 层 (UI 相关)" vertex="1">
-          <mxGeometry height="20" width="360" x="10" y="140" as="geometry" />
+          <mxGeometry height="20" width="360" x="15" y="220" as="geometry" />
         </mxCell>
         <mxCell id="oRURVHrZIkcXHxvhnQ0_-29" parent="oRURVHrZIkcXHxvhnQ0_-23" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d79b00;align=center;fontSize=9;strokeWidth=2;" value="MenuViewModel&#xa;(导航栈/状态保持/序列化)" vertex="1">
-          <mxGeometry height="60" width="170" x="15" y="170" as="geometry" />
+          <mxGeometry height="60" width="170" x="20" y="250" as="geometry" />
         </mxCell>
         <mxCell id="oRURVHrZIkcXHxvhnQ0_-30" parent="oRURVHrZIkcXHxvhnQ0_-23" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d79b00;align=center;fontSize=9;strokeWidth=2;" value="SysSettingViewModel&#xa;(系统设置管理)" vertex="1">
-          <mxGeometry height="60" width="170" x="195" y="170" as="geometry" />
+          <mxGeometry height="60" width="170" x="200" y="250" as="geometry" />
         </mxCell>
         <mxCell id="oRURVHrZIkcXHxvhnQ0_-31" parent="oRURVHrZIkcXHxvhnQ0_-23" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontStyle=1" value="View 层" vertex="1">
-          <mxGeometry height="20" width="360" x="10" y="250" as="geometry" />
+          <mxGeometry height="20" width="360" x="15" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="cGfJXe8U9mD8ueBIkPqm-1" parent="oRURVHrZIkcXHxvhnQ0_-23" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontStyle=1" value="Model 层" vertex="1">
+          <mxGeometry height="20" width="360" x="10" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cGfJXe8U9mD8ueBIkPqm-2" parent="oRURVHrZIkcXHxvhnQ0_-23" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=center;fontSize=9;" value="MenuModel" vertex="1">
+          <mxGeometry height="55" width="80" x="155" y="60" as="geometry" />
         </mxCell>
         <mxCell id="oRURVHrZIkcXHxvhnQ0_-34" parent="1" style="swimlane;fillColor=#ffcdd2;strokeColor=#ef5350;verticalAlign=top;fontStyle=1;" value="View 层" vertex="1">
-          <mxGeometry height="80" width="890" x="40" y="560" as="geometry">
+          <mxGeometry height="80" width="890" x="30" y="630" as="geometry">
             <mxRectangle height="30" width="80" x="40" y="560" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
