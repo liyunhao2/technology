@@ -273,19 +273,19 @@
           <mxGeometry height="40" width="110" x="1124.5" y="324" as="geometry" />
         </mxCell>
         <mxCell id="8xb-B-PlqWpw7XI8ANGE-36" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;container=0;" value="... ..." vertex="1">
-          <mxGeometry height="40" width="221" x="1249.5" y="324" as="geometry" />
+          <mxGeometry height="40" width="80.5" x="1390" y="324" as="geometry" />
         </mxCell>
         <mxCell id="8xb-B-PlqWpw7XI8ANGE-37" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;container=0;" value="CallModel" vertex="1">
-          <mxGeometry height="40" width="90" x="991" y="563" as="geometry" />
+          <mxGeometry height="40" width="90" x="986" y="563" as="geometry" />
         </mxCell>
         <mxCell id="8xb-B-PlqWpw7XI8ANGE-38" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;container=0;" value="KeyModel" vertex="1">
-          <mxGeometry height="40" width="90" x="1095" y="563" as="geometry" />
+          <mxGeometry height="40" width="90" x="1090" y="563" as="geometry" />
         </mxCell>
         <mxCell id="8xb-B-PlqWpw7XI8ANGE-39" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;container=0;" value="WifiModel" vertex="1">
-          <mxGeometry height="40" width="80" x="1198" y="563" as="geometry" />
+          <mxGeometry height="40" width="80" x="1193" y="563" as="geometry" />
         </mxCell>
-        <mxCell id="8xb-B-PlqWpw7XI8ANGE-40" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;container=0;" value="MenuViewModel" vertex="1">
-          <mxGeometry height="40" width="110" x="1377" y="563" as="geometry" />
+        <mxCell id="8xb-B-PlqWpw7XI8ANGE-40" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;container=0;" value="MenuModel" vertex="1">
+          <mxGeometry height="40" width="83" x="1372" y="563" as="geometry" />
         </mxCell>
         <mxCell id="8xb-B-PlqWpw7XI8ANGE-41" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;startWidth=13.793103448275863;startSize=5.082758620689655;endWidth=13.793103448275863;endSize=5.082758620689655;" value="">
           <mxGeometry height="100" relative="1" width="100" as="geometry">
@@ -336,7 +336,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="8xb-B-PlqWpw7XI8ANGE-52" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;container=0;" value="IPCModel" vertex="1">
-          <mxGeometry height="40" width="80" x="1291" y="563" as="geometry" />
+          <mxGeometry height="40" width="80" x="1285" y="563" as="geometry" />
         </mxCell>
         <mxCell id="8xb-B-PlqWpw7XI8ANGE-53" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.998;exitY=0.143;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="8xb-B-PlqWpw7XI8ANGE-58" value="">
           <mxGeometry height="100" relative="1" width="100" as="geometry">
@@ -390,6 +390,12 @@
         </mxCell>
         <mxCell id="8xb-B-PlqWpw7XI8ANGE-63" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;container=0;" value="WifiDataModel" vertex="1">
           <mxGeometry height="40" width="99" x="1881" y="563" as="geometry" />
+        </mxCell>
+        <mxCell id="vaL1S6FYgmyDNJbhT7-T-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;container=0;" value="... ..." vertex="1">
+          <mxGeometry height="40" width="80.5" x="1250" y="324" as="geometry" />
+        </mxCell>
+        <mxCell id="vaL1S6FYgmyDNJbhT7-T-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;container=0;" value="..." vertex="1">
+          <mxGeometry height="40" width="20" x="1465" y="563" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
