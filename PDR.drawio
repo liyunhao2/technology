@@ -124,8 +124,8 @@
         <mxCell id="8xb-B-PlqWpw7XI8ANGE-35" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;container=0;" value="CallViewModel" vertex="1">
           <mxGeometry height="40" width="110" x="1120.5" y="324" as="geometry" />
         </mxCell>
-        <mxCell id="8xb-B-PlqWpw7XI8ANGE-36" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;container=0;" value="..." vertex="1">
-          <mxGeometry height="40" width="235" x="1250" y="324" as="geometry" />
+        <mxCell id="8xb-B-PlqWpw7XI8ANGE-36" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;container=0;" value="MenuViewModel" vertex="1">
+          <mxGeometry height="40" width="120" x="1250" y="324" as="geometry" />
         </mxCell>
         <mxCell id="8xb-B-PlqWpw7XI8ANGE-37" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;container=0;" value="CallModel" vertex="1">
           <mxGeometry height="40" width="90" x="986" y="563" as="geometry" />
@@ -248,6 +248,9 @@
         </mxCell>
         <mxCell id="8-BJupSKMZ5WmtUWQioM-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;container=0;" value="..." vertex="1">
           <mxGeometry height="40" width="40" x="2230" y="324" as="geometry" />
+        </mxCell>
+        <mxCell id="owEp26UjeR4g5BAYuJC6-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;container=0;" value="..." vertex="1">
+          <mxGeometry height="40" width="102.5" x="1377.5" y="324" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
