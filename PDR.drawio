@@ -255,34 +255,34 @@
           <mxGeometry height="80" width="890" x="40" y="40" as="geometry" />
         </mxCell>
         <mxCell id="oRURVHrZIkcXHxvhnQ0_-2" parent="oRURVHrZIkcXHxvhnQ0_-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6e6e6;strokeColor=#666666;align=center;" value="OS 内核" vertex="1">
-          <mxGeometry height="45" width="120" x="50" y="28" as="geometry" />
+          <mxGeometry height="45" width="120" x="40" y="28" as="geometry" />
         </mxCell>
         <mxCell id="oRURVHrZIkcXHxvhnQ0_-3" parent="oRURVHrZIkcXHxvhnQ0_-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6e6e6;strokeColor=#666666;align=center;" value="硬件驱动" vertex="1">
-          <mxGeometry height="45" width="120" x="225" y="28" as="geometry" />
+          <mxGeometry height="45" width="120" x="210" y="28" as="geometry" />
         </mxCell>
         <mxCell id="oRURVHrZIkcXHxvhnQ0_-4" parent="oRURVHrZIkcXHxvhnQ0_-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6e6e6;strokeColor=#666666;align=center;" value="触摸坐标上报" vertex="1">
-          <mxGeometry height="45" width="120" x="400" y="28" as="geometry" />
+          <mxGeometry height="45" width="120" x="380" y="28" as="geometry" />
         </mxCell>
         <mxCell id="oRURVHrZIkcXHxvhnQ0_-5" parent="oRURVHrZIkcXHxvhnQ0_-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6e6e6;strokeColor=#666666;align=center;" value="按键长短按识别" vertex="1">
-          <mxGeometry height="45" width="120" x="575" y="28" as="geometry" />
+          <mxGeometry height="45" width="120" x="550" y="28" as="geometry" />
         </mxCell>
         <mxCell id="oRURVHrZIkcXHxvhnQ0_-6" parent="oRURVHrZIkcXHxvhnQ0_-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6e6e6;strokeColor=#666666;align=center;" value="EventBus/消息队列" vertex="1">
-          <mxGeometry height="45" width="120" x="750" y="28" as="geometry" />
+          <mxGeometry height="45" width="120" x="720" y="28" as="geometry" />
         </mxCell>
         <mxCell id="oRURVHrZIkcXHxvhnQ0_-7" parent="1" style="swimlane;fillColor=#ffe6cc;strokeColor=#d79b00;verticalAlign=top;fontStyle=1;" value="协议栈层 PS" vertex="1">
-          <mxGeometry height="100" width="780" x="40" y="140" as="geometry" />
+          <mxGeometry height="100" width="890" x="40" y="140" as="geometry" />
         </mxCell>
         <mxCell id="oRURVHrZIkcXHxvhnQ0_-8" parent="oRURVHrZIkcXHxvhnQ0_-7" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d79b00;align=center;" value="射频信令" vertex="1">
-          <mxGeometry height="45" width="120" x="20" y="45" as="geometry" />
+          <mxGeometry height="45" width="120" x="40" y="45" as="geometry" />
         </mxCell>
         <mxCell id="oRURVHrZIkcXHxvhnQ0_-9" parent="oRURVHrZIkcXHxvhnQ0_-7" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d79b00;align=center;" value="呼叫控制" vertex="1">
-          <mxGeometry height="45" width="120" x="160" y="45" as="geometry" />
+          <mxGeometry height="45" width="120" x="263" y="45" as="geometry" />
         </mxCell>
         <mxCell id="oRURVHrZIkcXHxvhnQ0_-10" parent="oRURVHrZIkcXHxvhnQ0_-7" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d79b00;align=center;" value="语音编解码" vertex="1">
-          <mxGeometry height="45" width="120" x="300" y="45" as="geometry" />
+          <mxGeometry height="45" width="120" x="487" y="45" as="geometry" />
         </mxCell>
         <mxCell id="oRURVHrZIkcXHxvhnQ0_-11" parent="oRURVHrZIkcXHxvhnQ0_-7" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d79b00;align=center;" value="应用接口 (回调)" vertex="1">
-          <mxGeometry height="45" width="140" x="440" y="45" as="geometry" />
+          <mxGeometry height="45" width="140" x="700" y="45" as="geometry" />
         </mxCell>
         <mxCell id="oRURVHrZIkcXHxvhnQ0_-12" parent="1" style="swimlane;fillColor=#ffe6cc;strokeColor=#d79b00;verticalAlign=top;fontStyle=1;" value="业务芯片 (Application)" vertex="1">
           <mxGeometry height="280" width="380" x="40" y="260" as="geometry" />
@@ -318,7 +318,7 @@
           <mxGeometry height="45" width="100" x="15" y="235" as="geometry" />
         </mxCell>
         <mxCell id="oRURVHrZIkcXHxvhnQ0_-23" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;fontStyle=1;" value="UI 芯片（显示芯片）" vertex="1">
-          <mxGeometry height="280" width="380" x="460" y="260" as="geometry" />
+          <mxGeometry height="280" width="380" x="550" y="250" as="geometry" />
         </mxCell>
         <mxCell id="oRURVHrZIkcXHxvhnQ0_-24" parent="oRURVHrZIkcXHxvhnQ0_-23" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontStyle=1" value="输入子系统" vertex="1">
           <mxGeometry height="20" width="360" x="10" y="40" as="geometry" />
@@ -351,11 +351,11 @@
           <mxGeometry height="45" width="110" x="15" y="280" as="geometry" />
         </mxCell>
         <mxCell id="oRURVHrZIkcXHxvhnQ0_-34" parent="1" style="swimlane;fillColor=#ffcdd2;strokeColor=#ef5350;verticalAlign=top;fontStyle=1;" value="View 层" vertex="1">
-          <mxGeometry height="80" width="780" x="40" y="560" as="geometry">
+          <mxGeometry height="80" width="780" x="40" y="585" as="geometry">
             <mxRectangle height="30" width="80" x="40" y="560" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oRURVHrZIkcXHxvhnQ0_-35" parent="oRURVHrZIkcXHxvhnQ0_-34" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#ef5350;align=center;" value="MenuView (虚拟滚动)" vertex="1">
+        <mxCell id="oRURVHrZIkcXHxvhnQ0_-35" parent="oRURVHrZIkcXHxvhnQ0_-34" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#ef5350;align=center;" value="MenuView" vertex="1">
           <mxGeometry height="45" width="130" x="20" y="30" as="geometry" />
         </mxCell>
         <mxCell id="oRURVHrZIkcXHxvhnQ0_-36" parent="oRURVHrZIkcXHxvhnQ0_-34" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#ef5350;align=center;" value="HomeView" vertex="1">
@@ -371,7 +371,7 @@
           <mxGeometry height="45" width="130" x="580" y="30" as="geometry" />
         </mxCell>
         <mxCell id="oRURVHrZIkcXHxvhnQ0_-40" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6e6;strokeColor=#ef5350;align=left;fontSize=9;fontStyle=2" value="重点：MenuViewModel、SysSettingViewModel、输入子系统在 UI 芯片&#xa;需要通过 IPC 与业务芯片的 Model 层同步状态 (CallModel, MenuModel, Feature Flags)" vertex="1">
-          <mxGeometry height="80" width="780" x="40" y="660" as="geometry" />
+          <mxGeometry height="80" width="780" x="40" y="710" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
