@@ -257,140 +257,122 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="0vu5etNL_w567IIvD2Xo-1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1" value="数字对讲机 MVVM 架构分层图" vertex="1">
+        <mxCell id="i36KOiV00UXNyO8qcXA1-1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1" value="数字对讲机 MVVM 架构分层图" vertex="1">
           <mxGeometry height="40" width="400" x="200" y="10" as="geometry" />
         </mxCell>
-        <mxCell id="0vu5etNL_w567IIvD2Xo-2" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;fontStyle=1" value="Platform 层（平台团队）" vertex="1">
-          <mxGeometry height="130" width="760" x="20" y="60" as="geometry" />
+        <mxCell id="i36KOiV00UXNyO8qcXA1-2" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11" value="图例：─ 数据流  ─ 事件流  ─ 跨层调用" vertex="1">
+          <mxGeometry height="25" width="740" x="20" y="50" as="geometry" />
         </mxCell>
-        <mxCell id="0vu5etNL_w567IIvD2Xo-3" parent="0vu5etNL_w567IIvD2Xo-2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1" value="硬件驱动" vertex="1">
-          <mxGeometry height="35" width="160" x="10" y="30" as="geometry" />
+        <mxCell id="i36KOiV00UXNyO8qcXA1-3" parent="1" style="swimlane;fillColor=#f5f5f5;strokeColor=#666666;fontSize=14;fontStyle=1;whiteSpace=wrap;html=1;" value="协议栈层 (PS) - 协议栈团队" vertex="1">
+          <mxGeometry height="60" width="760" x="20" y="85" as="geometry" />
         </mxCell>
-        <mxCell id="0vu5etNL_w567IIvD2Xo-4" parent="0vu5etNL_w567IIvD2Xo-2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1" value="事件捕获" vertex="1">
-          <mxGeometry height="35" width="160" x="180" y="30" as="geometry" />
+        <mxCell id="i36KOiV00UXNyO8qcXA1-4" parent="i36KOiV00UXNyO8qcXA1-3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" value="核心功能" vertex="1">
+          <mxGeometry height="40" width="150" x="10" y="15" as="geometry" />
         </mxCell>
-        <mxCell id="0vu5etNL_w567IIvD2Xo-5" parent="0vu5etNL_w567IIvD2Xo-2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" value="EventBus" vertex="1">
-          <mxGeometry height="35" width="140" x="350" y="30" as="geometry" />
+        <mxCell id="i36KOiV00UXNyO8qcXA1-5" parent="i36KOiV00UXNyO8qcXA1-3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" value="呼叫控制" vertex="1">
+          <mxGeometry height="40" width="120" x="170" y="15" as="geometry" />
         </mxCell>
-        <mxCell id="0vu5etNL_w567IIvD2Xo-6" parent="0vu5etNL_w567IIvD2Xo-2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" value="IPC 适配层" vertex="1">
-          <mxGeometry height="35" width="140" x="500" y="30" as="geometry" />
+        <mxCell id="i36KOiV00UXNyO8qcXA1-6" parent="i36KOiV00UXNyO8qcXA1-3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" value="语音编解码" vertex="1">
+          <mxGeometry height="40" width="120" x="300" y="15" as="geometry" />
         </mxCell>
-        <mxCell id="0vu5etNL_w567IIvD2Xo-7" parent="0vu5etNL_w567IIvD2Xo-2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;verticalAlign=top;fontSize=10;" value="职责：&#xa;- 按键驱动 (上下左右/确认/返回/数字键/PTT/SK1-3)&#xa;- 触摸驱动 (上报原始坐标)&#xa;- 显示驱动 (LVGL/Qt)&#xa;- Flash/SQLite/KV 存储&#xa;- 系统服务" vertex="1">
-          <mxGeometry height="80" width="340" x="10" y="70" as="geometry" />
+        <mxCell id="i36KOiV00UXNyO8qcXA1-7" parent="i36KOiV00UXNyO8qcXA1-3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" value="射频信令" vertex="1">
+          <mxGeometry height="40" width="120" x="430" y="15" as="geometry" />
         </mxCell>
-        <mxCell id="0vu5etNL_w567IIvD2Xo-8" parent="0vu5etNL_w567IIvD2Xo-2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;verticalAlign=top;fontSize=10;" value="职责：&#xa;- 检测按键按下/释放&#xa;- 捕获触摸坐标&#xa;- 封装为结构体事件发送" vertex="1">
-          <mxGeometry height="80" width="170" x="360" y="70" as="geometry" />
+        <mxCell id="i36KOiV00UXNyO8qcXA1-8" parent="i36KOiV00UXNyO8qcXA1-3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;fontStyle=1" value="消息队列 (单向消息通知App层)" vertex="1">
+          <mxGeometry height="40" width="225" x="560" y="15" as="geometry" />
         </mxCell>
-        <mxCell id="0vu5etNL_w567IIvD2Xo-9" parent="0vu5etNL_w567IIvD2Xo-2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;verticalAlign=top;fontSize=10;" value="职责：&#xa;- 跨组件消息传递&#xa;- 发布/订阅机制&#xa;- 支持单/双芯片通信" vertex="1">
-          <mxGeometry height="80" width="150" x="540" y="70" as="geometry" />
+        <mxCell id="i36KOiV00UXNyO8qcXA1-9" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;fontStyle=1;startSize=30;" value="平台层 (平台团队) - OS / 硬件驱动 / 按键检测" vertex="1">
+          <mxGeometry height="160" width="760" x="20" y="155" as="geometry" />
         </mxCell>
-        <mxCell id="0vu5etNL_w567IIvD2Xo-10" parent="1" style="swimlane;fillColor=#fff4e6;strokeColor=#ff9966;fontSize=12;fontStyle=1;dashed=1;startSize=20;" value="输入子系统（应用团队 - 底层基础设施）" vertex="1">
-          <mxGeometry height="200" width="760" x="20" y="210" as="geometry" />
+        <mxCell id="i36KOiV00UXNyO8qcXA1-10" parent="i36KOiV00UXNyO8qcXA1-9" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1" value="硬件驱动" vertex="1">
+          <mxGeometry height="35" width="160" x="10" y="35" as="geometry" />
         </mxCell>
-        <mxCell id="0vu5etNL_w567IIvD2Xo-11" parent="0vu5etNL_w567IIvD2Xo-10" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" value="手势识别引擎" vertex="1">
-          <mxGeometry height="35" width="160" x="10" y="30" as="geometry" />
+        <mxCell id="i36KOiV00UXNyO8qcXA1-11" parent="i36KOiV00UXNyO8qcXA1-9" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1" value="事件捕获" vertex="1">
+          <mxGeometry height="35" width="160" x="180" y="35" as="geometry" />
         </mxCell>
-        <mxCell id="0vu5etNL_w567IIvD2Xo-12" parent="0vu5etNL_w567IIvD2Xo-10" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" value="KeyMap 映射引擎" vertex="1">
-          <mxGeometry height="35" width="160" x="180" y="30" as="geometry" />
+        <mxCell id="i36KOiV00UXNyO8qcXA1-12" parent="i36KOiV00UXNyO8qcXA1-9" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" value="EventBus" vertex="1">
+          <mxGeometry height="35" width="140" x="350" y="35" as="geometry" />
         </mxCell>
-        <mxCell id="0vu5etNL_w567IIvD2Xo-13" parent="0vu5etNL_w567IIvD2Xo-10" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" value="上下文解析器" vertex="1">
-          <mxGeometry height="35" width="160" x="350" y="30" as="geometry" />
+        <mxCell id="i36KOiV00UXNyO8qcXA1-13" parent="i36KOiV00UXNyO8qcXA1-9" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" value="IPC 适配层" vertex="1">
+          <mxGeometry height="35" width="140" x="500" y="35" as="geometry" />
         </mxCell>
-        <mxCell id="0vu5etNL_w567IIvD2Xo-14" parent="0vu5etNL_w567IIvD2Xo-10" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" value="事件仲裁器" vertex="1">
-          <mxGeometry height="35" width="160" x="520" y="30" as="geometry" />
+        <mxCell id="i36KOiV00UXNyO8qcXA1-14" parent="i36KOiV00UXNyO8qcXA1-9" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1" value="Flash/SQLite/KV" vertex="1">
+          <mxGeometry height="35" width="140" x="650" y="35" as="geometry" />
         </mxCell>
-        <mxCell id="0vu5etNL_w567IIvD2Xo-15" parent="0vu5etNL_w567IIvD2Xo-10" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;verticalAlign=top;fontSize=10;" value="职责：&#xa;- 接收原始触摸坐标&#xa;- 识别：Tap, LongPress, Swipe Up/Down/Left/Right&#xa;- 算法：速度阈值、位移阈值、时间窗口&#xa;- 生成语义化触摸事件" vertex="1">
-          <mxGeometry height="120" width="165" x="10" y="70" as="geometry" />
+        <mxCell id="i36KOiV00UXNyO8qcXA1-15" parent="i36KOiV00UXNyO8qcXA1-9" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;verticalAlign=top;fontSize=9;" value="职责：&#xa;- 按键驱动 (上下左右/确认/返回/数字键/PTT/SK1-3)&#xa;- 触摸驱动 (上报原始坐标)&#xa;- 显示驱动 (LVGL/Qt)&#xa;- 系统服务" vertex="1">
+          <mxGeometry height="85" width="340" x="10" y="70" as="geometry" />
         </mxCell>
-        <mxCell id="0vu5etNL_w567IIvD2Xo-16" parent="0vu5etNL_w567IIvD2Xo-10" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;verticalAlign=top;fontSize=10;" value="职责：&#xa;- JSON 配置：物理键 -&gt; 语义命令&#xa;- 表结构：{KEY_PTT, Context, Action}&#xa;- 一键直达功能映射&#xa;- 支持动态更新 KeyMap 表" vertex="1">
-          <mxGeometry height="120" width="165" x="180" y="70" as="geometry" />
+        <mxCell id="i36KOiV00UXNyO8qcXA1-16" parent="i36KOiV00UXNyO8qcXA1-9" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;verticalAlign=top;fontSize=9;" value="职责：&#xa;- 按键长短按检测 (KEY_PTT_SHORT/LONG)&#xa;- 捕获并封装原始触摸坐标事件&#xa;- 封装为结构体事件发送" vertex="1">
+          <mxGeometry height="85" width="170" x="360" y="70" as="geometry" />
         </mxCell>
-        <mxCell id="0vu5etNL_w567IIvD2Xo-17" parent="0vu5etNL_w567IIvD2Xo-10" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;verticalAlign=top;fontSize=10;" value="职责：&#xa;- PTT 状态机：联系人界面/待机/通话中&#xa;- SK 按键业务状态检查 (如发射中禁切功率)&#xa;- 冲突解决策略" vertex="1">
-          <mxGeometry height="120" width="165" x="350" y="70" as="geometry" />
+        <mxCell id="i36KOiV00UXNyO8qcXA1-17" parent="i36KOiV00UXNyO8qcXA1-9" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;verticalAlign=top;fontSize=9;" value="职责：&#xa;- 跨组件消息传递&#xa;- 发布/订阅机制&#xa;- 支持单/双芯片通信" vertex="1">
+          <mxGeometry height="85" width="145" x="540" y="70" as="geometry" />
         </mxCell>
-        <mxCell id="0vu5etNL_w567IIvD2Xo-18" parent="0vu5etNL_w567IIvD2Xo-10" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;verticalAlign=top;fontSize=10;" value="职责：&#xa;- 高优先级窗口抢占 (如呼叫打断菜单)&#xa;- 事件优先级排序&#xa;- 事件分发到对应 ViewModel&#xa;- 阻止/透传事件" vertex="1">
-          <mxGeometry height="120" width="175" x="520" y="70" as="geometry" />
+        <mxCell id="i36KOiV00UXNyO8qcXA1-18" parent="i36KOiV00UXNyO8qcXA1-9" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;verticalAlign=top;fontSize=9;" value="职责：&#xa;- 持久化底层实现&#xa;- 应用层通过Repository抽象访问" vertex="1">
+          <mxGeometry height="85" width="140" x="695" y="70" as="geometry" />
         </mxCell>
-        <mxCell id="0vu5etNL_w567IIvD2Xo-19" parent="1" style="swimlane;fillColor=#fff4e6;strokeColor=#ff9966;fontSize=12;fontStyle=1;dashed=1;startSize=20;" value="Model 层（应用团队 - 数据模型）" vertex="1">
-          <mxGeometry height="280" width="760" x="20" y="430" as="geometry" />
+        <mxCell id="i36KOiV00UXNyO8qcXA1-19" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" value="应用层 (应用团队) - MVVM 架构" vertex="1">
+          <mxGeometry height="25" width="760" x="20" y="325" as="geometry" />
         </mxCell>
-        <mxCell id="0vu5etNL_w567IIvD2Xo-20" parent="0vu5etNL_w567IIvD2Xo-19" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" value="MenuModel" vertex="1">
-          <mxGeometry height="35" width="160" x="10" y="30" as="geometry" />
+        <mxCell id="i36KOiV00UXNyO8qcXA1-20" parent="1" style="swimlane;fillColor=#fff4e6;strokeColor=#ff9966;fontSize=12;fontStyle=1;dashed=1;startSize=20;" value="输入子系统 (应用层基础设施) - 手势识别 / 按键映射 / 事件路由" vertex="1">
+          <mxGeometry height="200" width="760" x="20" y="350" as="geometry" />
         </mxCell>
-        <mxCell id="0vu5etNL_w567IIvD2Xo-21" parent="0vu5etNL_w567IIvD2Xo-19" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" value="CallModel" vertex="1">
-          <mxGeometry height="35" width="145" x="180" y="30" as="geometry" />
+        <mxCell id="i36KOiV00UXNyO8qcXA1-21" parent="i36KOiV00UXNyO8qcXA1-20" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" value="手势识别引擎" vertex="1">
+          <mxGeometry height="35" width="150" x="10" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="0vu5etNL_w567IIvD2Xo-22" parent="0vu5etNL_w567IIvD2Xo-19" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" value="WifiModel" vertex="1">
-          <mxGeometry height="35" width="140" x="335" y="30" as="geometry" />
+        <mxCell id="i36KOiV00UXNyO8qcXA1-22" parent="i36KOiV00UXNyO8qcXA1-20" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" value="KeyMap 映射引擎" vertex="1">
+          <mxGeometry height="35" width="150" x="170" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="0vu5etNL_w567IIvD2Xo-23" parent="0vu5etNL_w567IIvD2Xo-19" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" value="IDataRepository" vertex="1">
-          <mxGeometry height="35" width="150" x="485" y="30" as="geometry" />
+        <mxCell id="i36KOiV00UXNyO8qcXA1-23" parent="i36KOiV00UXNyO8qcXA1-20" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" value="上下文解析器" vertex="1">
+          <mxGeometry height="35" width="150" x="330" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="0vu5etNL_w567IIvD2Xo-24" parent="0vu5etNL_w567IIvD2Xo-19" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;verticalAlign=top;fontSize=10;" value="职责：&#xa;- 解析 JSON 菜单结构 (最大 20 层)&#xa;- 构建 String -&gt; uint16_t Index 映射表（O(1) 查找）&#xa;- Feature Flags：根据硬件状态动态过滤节点&#xa;- 多语言：加载 .bin 语言包&#xa;- 扁平化存储：SequentialAccess 容器" vertex="1">
-          <mxGeometry height="155" width="165" x="10" y="70" as="geometry" />
+        <mxCell id="i36KOiV00UXNyO8qcXA1-24" parent="i36KOiV00UXNyO8qcXA1-20" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" value="事件仲裁器" vertex="1">
+          <mxGeometry height="35" width="150" x="490" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="0vu5etNL_w567IIvD2Xo-25" parent="0vu5etNL_w567IIvD2Xo-19" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;verticalAlign=top;fontSize=10;" value="职责：&#xa;- 与 PS 交互：发送呼叫指令、接收呼叫事件&#xa;- 状态管理：空闲/呼叫中/接收中&#xa;- 语音数据处理&#xa;- 联系人信息管理" vertex="1">
-          <mxGeometry height="155" width="150" x="180" y="70" as="geometry" />
+        <mxCell id="i36KOiV00UXNyO8qcXA1-25" parent="i36KOiV00UXNyO8qcXA1-20" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" value="事件分发器" vertex="1">
+          <mxGeometry height="35" width="150" x="650" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="0vu5etNL_w567IIvD2Xo-26" parent="0vu5etNL_w567IIvD2Xo-19" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;verticalAlign=top;fontSize=10;" value="职责：&#xa;- 接收平台搜索的 WIFI 信息&#xa;- 保存 WIFI 数据&#xa;- WIFI 状态管理&#xa;- 连接/断开逻辑" vertex="1">
-          <mxGeometry height="155" width="145" x="335" y="70" as="geometry" />
+        <mxCell id="i36KOiV00UXNyO8qcXA1-26" parent="i36KOiV00UXNyO8qcXA1-20" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;verticalAlign=top;fontSize=9;" value="职责：&#xa;- 接收平台上报的原始触摸坐标&#xa;- 识别手势：Tap, LongPress, Swipe Up/Down/Left/Right&#xa;- 算法：速度阈值、位移阈值、时间窗口&#xa;- 输出：语义化触摸事件&#xa;- 注意：平台已做按键长短按检测" vertex="1">
+          <mxGeometry height="130" width="155" x="10" y="70" as="geometry" />
         </mxCell>
-        <mxCell id="0vu5etNL_w567IIvD2Xo-27" parent="0vu5etNL_w567IIvD2Xo-19" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;verticalAlign=top;fontSize=10;" value="职责：&#xa;- 抽象数据存储接口&#xa;- 底层适配：SQLite (Linux)&#xa;- 底层适配：RDB/KV (Harmony)&#xa;- Key-Value 接口：Save/Load/Delete" vertex="1">
-          <mxGeometry height="155" width="160" x="485" y="70" as="geometry" />
+        <mxCell id="i36KOiV00UXNyO8qcXA1-27" parent="i36KOiV00UXNyO8qcXA1-20" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;verticalAlign=top;fontSize=9;" value="职责：&#xa;- JSON 配置：物理键 → 语义命令映射&#xa;- 表结构：{KeyCode, Context, Action}&#xa;- 一键直达功能映射&#xa;- 支持动态更新 KeyMap 表&#xa;- 注意：平台已识别 KEY_PTT_SHORT/LONG" vertex="1">
+          <mxGeometry height="130" width="155" x="170" y="70" as="geometry" />
         </mxCell>
-        <mxCell id="0vu5etNL_w567IIvD2Xo-28" parent="0vu5etNL_w567IIvD2Xo-19" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;fontStyle=1" value="数据流向：PS → Model → ViewModel" vertex="1">
-          <mxGeometry height="25" width="735" x="10" y="235" as="geometry" />
+        <mxCell id="i36KOiV00UXNyO8qcXA1-28" parent="i36KOiV00UXNyO8qcXA1-20" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;verticalAlign=top;fontSize=9;" value="职责：&#xa;- PTT 上下文逻辑：&#xa;  · 联系菜单 → 呼叫选中联系人&#xa;  · 接收呼叫界面 → 接听/回复&#xa;  · 待机界面 → 呼叫默认联系人&#xa;- SK 按键业务状态检查：&#xa;  · 配置切功率时，若发射中则禁用&#xa;- 冲突解决策略" vertex="1">
+          <mxGeometry height="130" width="155" x="330" y="70" as="geometry" />
         </mxCell>
-        <mxCell id="0vu5etNL_w567IIvD2Xo-29" parent="1" style="swimlane;fillColor=#fff4e6;strokeColor=#ff9966;fontSize=12;fontStyle=1;dashed=1;startSize=20;" value="ViewModel 层（应用团队 - 业务逻辑）" vertex="1">
-          <mxGeometry height="290" width="760" x="20" y="730" as="geometry" />
+        <mxCell id="i36KOiV00UXNyO8qcXA1-29" parent="i36KOiV00UXNyO8qcXA1-20" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;verticalAlign=top;fontSize=9;" value="职责：&#xa;- 高优先级窗口抢占 (如呼叫打断菜单)&#xa;- 事件优先级排序&#xa;- 阻止/透传事件&#xa;- 事件队列管理" vertex="1">
+          <mxGeometry height="130" width="155" x="490" y="70" as="geometry" />
         </mxCell>
-        <mxCell id="0vu5etNL_w567IIvD2Xo-30" parent="0vu5etNL_w567IIvD2Xo-29" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" value="MenuViewModel" vertex="1">
-          <mxGeometry height="35" width="160" x="10" y="30" as="geometry" />
+        <mxCell id="i36KOiV00UXNyO8qcXA1-30" parent="i36KOiV00UXNyO8qcXA1-20" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;verticalAlign=top;fontSize=9;" value="职责：&#xa;- 事件分发到对应 ViewModel&#xa;- 维护事件到处理器的映射&#xa;- 支持事件过滤和转换" vertex="1">
+          <mxGeometry height="130" width="145" x="650" y="70" as="geometry" />
         </mxCell>
-        <mxCell id="0vu5etNL_w567IIvD2Xo-31" parent="0vu5etNL_w567IIvD2Xo-29" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" value="HomeViewModel" vertex="1">
-          <mxGeometry height="35" width="145" x="180" y="30" as="geometry" />
+        <mxCell id="i36KOiV00UXNyO8qcXA1-31" parent="1" style="swimlane;fillColor=#fff4e6;strokeColor=#ff9966;fontSize=12;fontStyle=1;dashed=1;startSize=20;" value="Model 层 (数据模型) - JSON 解析 / 数据管理 / 持久化" vertex="1">
+          <mxGeometry height="280" width="760" x="20" y="560" as="geometry" />
         </mxCell>
-        <mxCell id="0vu5etNL_w567IIvD2Xo-32" parent="0vu5etNL_w567IIvD2Xo-29" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" value="CallViewModel" vertex="1">
-          <mxGeometry height="35" width="140" x="335" y="30" as="geometry" />
+        <mxCell id="i36KOiV00UXNyO8qcXA1-32" parent="i36KOiV00UXNyO8qcXA1-31" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" value="MenuModel" vertex="1">
+          <mxGeometry height="35" width="150" x="10" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="0vu5etNL_w567IIvD2Xo-33" parent="0vu5etNL_w567IIvD2Xo-29" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" value="SettingsViewModel" vertex="1">
-          <mxGeometry height="35" width="150" x="485" y="30" as="geometry" />
+        <mxCell id="i36KOiV00UXNyO8qcXA1-33" parent="i36KOiV00UXNyO8qcXA1-31" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" value="CallModel" vertex="1">
+          <mxGeometry height="35" width="145" x="170" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="0vu5etNL_w567IIvD2Xo-34" parent="0vu5etNL_w567IIvD2Xo-29" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" value="WindowManager" vertex="1">
-          <mxGeometry height="35" width="140" x="645" y="30" as="geometry" />
+        <mxCell id="i36KOiV00UXNyO8qcXA1-34" parent="i36KOiV00UXNyO8qcXA1-31" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" value="WifiModel" vertex="1">
+          <mxGeometry height="35" width="145" x="325" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="0vu5etNL_w567IIvD2Xo-35" parent="0vu5etNL_w567IIvD2Xo-29" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;verticalAlign=top;fontSize=10;" value="职责：&#xa;- NavigationStack：管理 20 层导航&#xa;- 状态保持：滚动位置、编辑中内容、焦点&#xa;- 中断恢复：高优先级窗口打断后无缝还原&#xa;- 双芯片：状态序列化/反序列化&#xa;- 处理按键/触摸事件&#xa;- 数据转换：Index → View 格式" vertex="1">
-          <mxGeometry height="180" width="165" x="10" y="70" as="geometry" />
+        <mxCell id="i36KOiV00UXNyO8qcXA1-35" parent="i36KOiV00UXNyO8qcXA1-31" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" value="IDataRepository" vertex="1">
+          <mxGeometry height="35" width="150" x="480" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="0vu5etNL_w567IIvD2Xo-36" parent="0vu5etNL_w567IIvD2Xo-29" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;verticalAlign=top;fontSize=10;" value="职责：&#xa;- 首页数据组合：聚合各 ViewModel&#xa;- 待机状态处理&#xa;- 告警信息显示&#xa;- 快捷操作逻辑" vertex="1">
-          <mxGeometry height="100" width="150" x="180" y="70" as="geometry" />
+        <mxCell id="i36KOiV00UXNyO8qcXA1-36" parent="i36KOiV00UXNyO8qcXA1-31" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" value="StateManager" vertex="1">
+          <mxGeometry height="35" width="155" x="640" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="0vu5etNL_w567IIvD2Xo-37" parent="0vu5etNL_w567IIvD2Xo-29" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;verticalAlign=top;fontSize=10;" value="职责：&#xa;- 呼叫界面数据：联系人、信号强度&#xa;- 呼叫操作逻辑：拨打、挂断、拒接&#xa;- 通话状态显示：时长、加密状态&#xa;- 语音事件处理" vertex="1">
-          <mxGeometry height="100" width="145" x="335" y="70" as="geometry" />
+        <mxCell id="i36KOiV00UXNyO8qcXA1-37" parent="i36KOiV00UXNyO8qcXA1-31" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;verticalAlign=top;fontSize=9;" value="职责 - 结构处理：&#xa;- 解析 JSON 菜单结构 (最大 20 层)&#xa;- 构建 String → uint16_t Index 映射表（O(1) 查找）" vertex="1">
+          <mxGeometry height="60" width="155" x="10" y="70" as="geometry" />
         </mxCell>
-        <mxCell id="0vu5etNL_w567IIvD2Xo-38" parent="0vu5etNL_w567IIvD2Xo-29" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;verticalAlign=top;fontSize=10;" value="职责：&#xa;- 音量、功率、信道设置&#xa;- 系统配置：语言、时间&#xa;- 输入验证与保存&#xa;- 与 Model 层交互" vertex="1">
-          <mxGeometry height="100" width="155" x="485" y="70" as="geometry" />
+        <mxCell id="i36KOiV00UXNyO8qcXA1-38" parent="i36KOiV00UXNyO8qcXA1-31" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;verticalAlign=top;fontSize=9;" value="职责 - 动态特性：&#xa;- Feature Flags：根据硬件状态动态过滤节点&#xa;- 多语言：加载 .bin 语言包&#xa;- 扁平化存储：SequentialAccess 容器" vertex="1">
+          <mxGeometry height="60" width="155" x="170" y="70" as="geometry" />
         </mxCell>
-        <mxCell id="0vu5etNL_w567IIvD2Xo-39" parent="0vu5etNL_w567IIvD2Xo-29" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;verticalAlign=top;fontSize=10;" value="职责：&#xa;- 窗口优先级管理&#xa;- 事件路由与仲裁&#xa;- 窗口切换与生命周期&#xa;- 阻止冒泡到低优先级" vertex="1">
-          <mxGeometry height="100" width="145" x="645" y="70" as="geometry" />
-        </mxCell>
-        <mxCell id="0vu5etNL_w567IIvD2Xo-40" parent="1" style="swimlane;fillColor=#fff4e6;strokeColor=#ff9966;fontSize=12;fontStyle=1;dashed=1;startSize=20;" value="View 层（应用团队 - 视图渲染）" vertex="1">
-          <mxGeometry height="150" width="760" x="20" y="1040" as="geometry" />
-        </mxCell>
-        <mxCell id="0vu5etNL_w567IIvD2Xo-41" parent="0vu5etNL_w567IIvD2Xo-40" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" value="HomeView" vertex="1">
-          <mxGeometry height="35" width="130" x="10" y="30" as="geometry" />
-        </mxCell>
-        <mxCell id="0vu5etNL_w567IIvD2Xo-42" parent="0vu5etNL_w567IIvD2Xo-40" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" value="CallView" vertex="1">
-          <mxGeometry height="35" width="130" x="150" y="30" as="geometry" />
-        </mxCell>
-        <mxCell id="0vu5etNL_w567IIvD2Xo-43" parent="0vu5etNL_w567IIvD2Xo-40" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" value="MenuView" vertex="1">
-          <mxGeometry height="35" width="130" x="290" y="30" as="geometry" />
-        </mxCell>
-        <mxCell id="0vu5etNL_w567IIvD2Xo-44" parent="0vu5etNL_w567IIvD2Xo-40" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" value="SettingsView" vertex="1">
-          <mxGeometry height="35" width="130" x="430" y="30" as="geometry" />
-        </mxCell>
-        <mxCell id="0vu5etNL_w567IIvD2Xo-45" parent="0vu5etNL_w567IIvD2Xo-40" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" value="LVGL / Qt" vertex="1">
-          <mxGeometry height="35" width="140" x="570" y="30" as="geometry" />
+        <mxCell id="i36KOiV00UXNyO8qcXA1-39" parent="i36KOiV00UXNyO8qcXA1-31" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;verticalAlign=top;fontSize=9;" value="职责：&#xa;- 与 PS 交互：发送呼叫指令、接收呼叫事件&#xa;- 状态管理：空闲/呼叫中/接收中&#xa;- 呼叫结果事件&#xa;- 联系人信息管理" vertex="1">
+          <mxGeometry height="60" width="150" x="325" y="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
