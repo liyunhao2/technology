@@ -49,10 +49,10 @@
         <mxCell id="8xb-B-PlqWpw7XI8ANGE-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;container=0;" value="SysSetting&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ViewModel&lt;/span&gt;" vertex="1">
           <mxGeometry height="40" width="171.5" x="1804.5" y="324" as="geometry" />
         </mxCell>
-        <mxCell id="8xb-B-PlqWpw7XI8ANGE-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;container=0;fillColor=#d5e8d4;strokeColor=#82b366;" value="InputSystem" vertex="1">
+        <mxCell id="8xb-B-PlqWpw7XI8ANGE-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="InputSystem" vertex="1">
           <mxGeometry height="40" width="110" x="2140" y="324" as="geometry" />
         </mxCell>
-        <mxCell id="8xb-B-PlqWpw7XI8ANGE-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;container=0;fillColor=#d5e8d4;strokeColor=#82b366;" value="MenuModel" vertex="1">
+        <mxCell id="8xb-B-PlqWpw7XI8ANGE-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="MenuModel" vertex="1">
           <mxGeometry height="40" width="90" x="1650" y="563" as="geometry" />
         </mxCell>
         <mxCell id="8xb-B-PlqWpw7XI8ANGE-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;container=0;" value="ContactModel" vertex="1">
@@ -124,7 +124,7 @@
         <mxCell id="8xb-B-PlqWpw7XI8ANGE-35" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;container=0;" value="CallViewModel" vertex="1">
           <mxGeometry height="40" width="110" x="1120.5" y="324" as="geometry" />
         </mxCell>
-        <mxCell id="8xb-B-PlqWpw7XI8ANGE-36" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;container=0;fillColor=#d5e8d4;strokeColor=#82b366;" value="MenuViewModel" vertex="1">
+        <mxCell id="8xb-B-PlqWpw7XI8ANGE-36" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="MenuViewModel" vertex="1">
           <mxGeometry height="40" width="120" x="1990" y="324" as="geometry" />
         </mxCell>
         <mxCell id="8xb-B-PlqWpw7XI8ANGE-37" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;container=0;" value="CallModel" vertex="1">
@@ -349,7 +349,7 @@
             <mxRectangle height="30" width="80" x="40" y="560" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oRURVHrZIkcXHxvhnQ0_-35" parent="oRURVHrZIkcXHxvhnQ0_-34" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#ef5350;align=center;" value="MenuView" vertex="1">
+        <mxCell id="oRURVHrZIkcXHxvhnQ0_-35" parent="oRURVHrZIkcXHxvhnQ0_-34" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;" value="MenuView" vertex="1">
           <mxGeometry height="45" width="130" x="30" y="30" as="geometry" />
         </mxCell>
         <mxCell id="oRURVHrZIkcXHxvhnQ0_-36" parent="oRURVHrZIkcXHxvhnQ0_-34" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#ef5350;align=center;" value="HomeView" vertex="1">
