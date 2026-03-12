@@ -311,9 +311,6 @@
         <mxCell id="oRURVHrZIkcXHxvhnQ0_-20" parent="oRURVHrZIkcXHxvhnQ0_-12" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=center;fontSize=9;" value="CallViewModel" vertex="1">
           <mxGeometry height="45" width="100" x="125" y="175" as="geometry" />
         </mxCell>
-        <mxCell id="oRURVHrZIkcXHxvhnQ0_-21" parent="oRURVHrZIkcXHxvhnQ0_-12" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d79b00;align=center;fontSize=9;strokeWidth=2;" value="IPC Server&#xa;(状态同步/指令接收)" vertex="1">
-          <mxGeometry height="45" width="100" x="235" y="175" as="geometry" />
-        </mxCell>
         <mxCell id="oRURVHrZIkcXHxvhnQ0_-22" parent="oRURVHrZIkcXHxvhnQ0_-12" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d79b00;align=center;fontSize=9;" value="PS 连接器&#xa;(EventBus 订阅)" vertex="1">
           <mxGeometry height="45" width="100" x="15" y="235" as="geometry" />
         </mxCell>
@@ -366,6 +363,9 @@
         </mxCell>
         <mxCell id="oRURVHrZIkcXHxvhnQ0_-39" parent="oRURVHrZIkcXHxvhnQ0_-34" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#ef5350;align=center;" value="LVGL / Qt 框架" vertex="1">
           <mxGeometry height="45" width="130" x="730" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oRURVHrZIkcXHxvhnQ0_-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d79b00;align=center;fontSize=9;strokeWidth=2;" value="IPC&lt;br&gt;(状态同步/&lt;div&gt;指令收发)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="45" width="100" x="465" y="377.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
