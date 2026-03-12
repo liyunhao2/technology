@@ -494,20 +494,20 @@
         <mxCell id="VQl3Sa4uVV4mM_KJUnCu-13" parent="VQl3Sa4uVV4mM_KJUnCu-2" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;fontStyle=1;fontSize=10;" value="菜单数据获取" vertex="1">
           <mxGeometry height="130" width="720" x="20" y="190" as="geometry" />
         </mxCell>
-        <mxCell id="VQl3Sa4uVV4mM_KJUnCu-14" parent="VQl3Sa4uVV4mM_KJUnCu-13" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;align=center;fontSize=8;" value="查询 MenuModel&#xa;(IPC)&#xa;- 获取菜单结构&#xa;- 查找节点数据&#xa;- O1 索引查询" vertex="1">
-          <mxGeometry height="45" width="120" x="15" y="30" as="geometry" />
+        <mxCell id="VQl3Sa4uVV4mM_KJUnCu-14" parent="VQl3Sa4uVV4mM_KJUnCu-13" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;align=center;fontSize=8;" value="查询 MenuModel&lt;br&gt;- 获取菜单结构&lt;br&gt;- 查找节点数据&lt;br&gt;- O1 索引查询" vertex="1">
+          <mxGeometry height="50" width="120" x="15" y="30" as="geometry" />
         </mxCell>
         <mxCell id="VQl3Sa4uVV4mM_KJUnCu-15" parent="VQl3Sa4uVV4mM_KJUnCu-13" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;align=center;fontSize=8;" value="获取语言文本&#xa;- 多语言 Key&#xa;- 加载 .bin 语言包&#xa;- 本地缓存" vertex="1">
-          <mxGeometry height="45" width="120" x="145" y="30" as="geometry" />
+          <mxGeometry height="50" width="120" x="145" y="30" as="geometry" />
         </mxCell>
         <mxCell id="VQl3Sa4uVV4mM_KJUnCu-16" parent="VQl3Sa4uVV4mM_KJUnCu-13" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;align=center;fontSize=8;" value="获取菜单项&#xa;- 子菜单列表&#xa;- 显示属性&#xa;- 动态过滤状态" vertex="1">
-          <mxGeometry height="45" width="120" x="275" y="30" as="geometry" />
+          <mxGeometry height="50" width="120" x="275" y="30" as="geometry" />
         </mxCell>
         <mxCell id="VQl3Sa4uVV4mM_KJUnCu-17" parent="VQl3Sa4uVV4mM_KJUnCu-13" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;align=center;fontSize=8;" value="获取当前值&#xa;- 开关状态&#xa;- 数值范围&#xa;- 列表选项" vertex="1">
-          <mxGeometry height="45" width="120" x="405" y="30" as="geometry" />
+          <mxGeometry height="50" width="120" x="405" y="30" as="geometry" />
         </mxCell>
         <mxCell id="VQl3Sa4uVV4mM_KJUnCu-18" parent="VQl3Sa4uVV4mM_KJUnCu-13" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;align=center;fontSize=8;" value="虚拟滚动数据&#xa;- 可见项范围&#xa;- 分页请求&#xa;- 缓存管理" vertex="1">
-          <mxGeometry height="45" width="120" x="535" y="30" as="geometry" />
+          <mxGeometry height="50" width="120" x="535" y="30" as="geometry" />
         </mxCell>
         <mxCell id="VQl3Sa4uVV4mM_KJUnCu-19" parent="VQl3Sa4uVV4mM_KJUnCu-2" style="swimlane;fillColor=#f8cecc;strokeColor=#b85450;verticalAlign=top;fontStyle=1;fontSize=10;" value="菜单交互处理" vertex="1">
           <mxGeometry height="130" width="720" x="20" y="340" as="geometry" />
