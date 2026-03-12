@@ -31,7 +31,7 @@
         <mxCell id="8xb-B-PlqWpw7XI8ANGE-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;container=0;" value="CallView" vertex="1">
           <mxGeometry height="40" width="100" x="1779.5" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="8xb-B-PlqWpw7XI8ANGE-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;container=0;" value="MenuView" vertex="1">
+        <mxCell id="8xb-B-PlqWpw7XI8ANGE-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="MenuView" vertex="1">
           <mxGeometry height="40" width="100" x="1899.5" y="30" as="geometry" />
         </mxCell>
         <mxCell id="8xb-B-PlqWpw7XI8ANGE-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;container=0;" value="... ..." vertex="1">
