@@ -342,7 +342,7 @@
           <mxGeometry height="20" width="360" x="10" y="250" as="geometry" />
         </mxCell>
         <mxCell id="oRURVHrZIkcXHxvhnQ0_-34" parent="1" style="swimlane;fillColor=#ffcdd2;strokeColor=#ef5350;verticalAlign=top;fontStyle=1;" value="View 层" vertex="1">
-          <mxGeometry height="80" width="890" x="40" y="600" as="geometry">
+          <mxGeometry height="80" width="890" x="40" y="560" as="geometry">
             <mxRectangle height="30" width="80" x="40" y="560" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
