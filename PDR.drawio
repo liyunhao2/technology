@@ -451,10 +451,88 @@
     </mxGraphModel>
   </diagram>
   <diagram id="z6wypewixLZmt6IgpepY" name="第 5 页">
-    <mxGraphModel dx="1426" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="983" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="VQl3Sa4uVV4mM_KJUnCu-1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=16;fontStyle=1" value="MenuViewModel 功能架构" vertex="1">
+          <mxGeometry height="30" width="400" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VQl3Sa4uVV4mM_KJUnCu-2" parent="1" style="swimlane;fillColor=#e1d5e7;strokeColor=#9673a6;verticalAlign=top;fontStyle=1;fontSize=12;" value="MenuViewModel - 菜单管理核心" vertex="1">
+          <mxGeometry height="480" width="750" x="40" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="VQl3Sa4uVV4mM_KJUnCu-3" parent="VQl3Sa4uVV4mM_KJUnCu-2" style="swimlane;fillColor=#fff2cc;strokeColor=#d79b00;verticalAlign=top;fontStyle=1;fontSize=10;" value="导航栈管理" vertex="1">
+          <mxGeometry height="150" width="350" x="20" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VQl3Sa4uVV4mM_KJUnCu-4" parent="VQl3Sa4uVV4mM_KJUnCu-3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;fontSize=9;" value="NavigationStack&#xa;最大深度: 20层&#xa;栈式导航结构" vertex="1">
+          <mxGeometry height="55" width="100" x="15" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VQl3Sa4uVV4mM_KJUnCu-5" parent="VQl3Sa4uVV4mM_KJUnCu-3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=center;fontSize=8;" value="NavState&#xa;- menuIndex&#xa;- scrollPos&#xa;- focusIdx&#xa;- editContent" vertex="1">
+          <mxGeometry height="55" width="100" x="125" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VQl3Sa4uVV4mM_KJUnCu-6" parent="VQl3Sa4uVV4mM_KJUnCu-3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=center;fontSize=8;" value="操作接口&#xa;push() 入栈&#xa;pop() 出栈&#xa;peek() 查看栈顶&#xa;clear() 清空" vertex="1">
+          <mxGeometry height="55" width="100" x="235" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VQl3Sa4uVV4mM_KJUnCu-7" parent="VQl3Sa4uVV4mM_KJUnCu-3" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=8;" value="用途：&#xa;- 存储菜单访问路径&#xa;- 支持多级子菜单&#xa;- 可返回上级菜单&#xa;- 支持直接跳转" vertex="1">
+          <mxGeometry height="60" width="320" x="15" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="VQl3Sa4uVV4mM_KJUnCu-8" parent="VQl3Sa4uVV4mM_KJUnCu-2" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;verticalAlign=top;fontStyle=1;fontSize=10;" value="菜单状态管理" vertex="1">
+          <mxGeometry height="150" width="350" x="390" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VQl3Sa4uVV4mM_KJUnCu-9" parent="VQl3Sa4uVV4mM_KJUnCu-8" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d79b00;align=center;fontSize=8;" value="滚动状态&#xa;- 当前滚动位置&#xa;- 滚动速度&#xa;- 滚动方向" vertex="1">
+          <mxGeometry height="45" width="100" x="15" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VQl3Sa4uVV4mM_KJUnCu-10" parent="VQl3Sa4uVV4mM_KJUnCu-8" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d79b00;align=center;fontSize=8;" value="焦点状态&#xa;- 当前选中项索引&#xa;- 焦点可见性&#xa;- 焦点动画" vertex="1">
+          <mxGeometry height="45" width="100" x="125" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VQl3Sa4uVV4mM_KJUnCu-11" parent="VQl3Sa4uVV4mM_KJUnCu-8" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d79b00;align=center;fontSize=8;" value="编辑状态&#xa;- 编辑框内容&#xa;- 光标位置&#xa;- 编辑模式" vertex="1">
+          <mxGeometry height="45" width="100" x="235" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VQl3Sa4uVV4mM_KJUnCu-12" parent="VQl3Sa4uVV4mM_KJUnCu-8" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=8;" value="状态同步：&#xa;- 实时更新到 MenuView&#xa;- 状态变更通知&#xa;- 虚拟滚动位置维护" vertex="1">
+          <mxGeometry height="55" width="320" x="15" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="VQl3Sa4uVV4mM_KJUnCu-13" parent="VQl3Sa4uVV4mM_KJUnCu-2" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;fontStyle=1;fontSize=10;" value="菜单数据获取" vertex="1">
+          <mxGeometry height="130" width="720" x="20" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="VQl3Sa4uVV4mM_KJUnCu-14" parent="VQl3Sa4uVV4mM_KJUnCu-13" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;align=center;fontSize=8;" value="查询 MenuModel&#xa;(IPC)&#xa;- 获取菜单结构&#xa;- 查找节点数据&#xa;- O1 索引查询" vertex="1">
+          <mxGeometry height="45" width="120" x="15" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VQl3Sa4uVV4mM_KJUnCu-15" parent="VQl3Sa4uVV4mM_KJUnCu-13" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;align=center;fontSize=8;" value="获取语言文本&#xa;- 多语言 Key&#xa;- 加载 .bin 语言包&#xa;- 本地缓存" vertex="1">
+          <mxGeometry height="45" width="120" x="145" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VQl3Sa4uVV4mM_KJUnCu-16" parent="VQl3Sa4uVV4mM_KJUnCu-13" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;align=center;fontSize=8;" value="获取菜单项&#xa;- 子菜单列表&#xa;- 显示属性&#xa;- 动态过滤状态" vertex="1">
+          <mxGeometry height="45" width="120" x="275" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VQl3Sa4uVV4mM_KJUnCu-17" parent="VQl3Sa4uVV4mM_KJUnCu-13" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;align=center;fontSize=8;" value="获取当前值&#xa;- 开关状态&#xa;- 数值范围&#xa;- 列表选项" vertex="1">
+          <mxGeometry height="45" width="120" x="405" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VQl3Sa4uVV4mM_KJUnCu-18" parent="VQl3Sa4uVV4mM_KJUnCu-13" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;align=center;fontSize=8;" value="虚拟滚动数据&#xa;- 可见项范围&#xa;- 分页请求&#xa;- 缓存管理" vertex="1">
+          <mxGeometry height="45" width="120" x="535" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VQl3Sa4uVV4mM_KJUnCu-19" parent="VQl3Sa4uVV4mM_KJUnCu-2" style="swimlane;fillColor=#f8cecc;strokeColor=#b85450;verticalAlign=top;fontStyle=1;fontSize=10;" value="菜单交互处理" vertex="1">
+          <mxGeometry height="130" width="720" x="20" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="VQl3Sa4uVV4mM_KJUnCu-20" parent="VQl3Sa4uVV4mM_KJUnCu-19" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#b85450;align=center;fontSize=8;" value="导航动作&#xa;- 进入子菜单&#xa;- 返回上级&#xa;- 主菜单" vertex="1">
+          <mxGeometry height="45" width="100" x="15" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VQl3Sa4uVV4mM_KJUnCu-21" parent="VQl3Sa4uVV4mM_KJUnCu-19" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#b85450;align=center;fontSize=8;" value="选择动作&#xa;- 切换开关&#xa;- 数值调节&#xa;- 列表选择" vertex="1">
+          <mxGeometry height="45" width="100" x="125" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VQl3Sa4uVV4mM_KJUnCu-22" parent="VQl3Sa4uVV4mM_KJUnCu-19" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#b85450;align=center;fontSize=8;" value="滚动动作&#xa;- 上/下滑动&#xa;- 快速滚动&#xa;- 滚动停止" vertex="1">
+          <mxGeometry height="45" width="100" x="235" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VQl3Sa4uVV4mM_KJUnCu-23" parent="VQl3Sa4uVV4mM_KJUnCu-19" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#b85450;align=center;fontSize=8;" value="焦点动作&#xa;- 上/下移动焦点&#xa;- 快速跳转&#xa;- 聚焦输入" vertex="1">
+          <mxGeometry height="45" width="100" x="345" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VQl3Sa4uVV4mM_KJUnCu-24" parent="VQl3Sa4uVV4mM_KJUnCu-19" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#b85450;align=center;fontSize=8;" value="编辑动作&#xa;- 开始编辑&#xa;- 输入字符&#xa;- 确认/取消" vertex="1">
+          <mxGeometry height="45" width="100" x="455" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VQl3Sa4uVV4mM_KJUnCu-25" parent="VQl3Sa4uVV4mM_KJUnCu-19" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#b85450;align=center;fontSize=8;" value="暂停/恢复&#xa;- 状态暂停&#xa;- 状态恢复&#xa;- 序列化/反序列化" vertex="1">
+          <mxGeometry height="45" width="100" x="565" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VQl3Sa4uVV4mM_KJUnCu-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6e6;strokeColor=#ef5350;align=left;fontSize=9;fontStyle=2" value="职责边界：MenuViewModel 专注于菜单导航、状态管理、数据获取和交互处理，不处理来电、呼叫等非菜单相关业务" vertex="1">
+          <mxGeometry height="40" width="750" x="40" y="590" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
