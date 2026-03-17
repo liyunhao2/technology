@@ -533,16 +533,13 @@
         <mxCell id="cF-O8K4sHl9Q-5w55FuH-12" parent="cF-O8K4sHl9Q-5w55FuH-2" style="swimlane;fillColor=#ffe6cc;strokeColor=#d79b00;verticalAlign=top;fontStyle=1;fontSize=11;" value="按键处理" vertex="1">
           <mxGeometry height="130" width="350" x="380" y="140" as="geometry" />
         </mxCell>
-        <mxCell id="cF-O8K4sHl9Q-5w55FuH-16" parent="cF-O8K4sHl9Q-5w55FuH-12" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=8;" value="普通键直接转换 全局键进入仲裁流程" vertex="1">
-          <mxGeometry height="50" width="320" x="15" y="90" as="geometry" />
-        </mxCell>
         <mxCell id="LXwzwe78mzhBO-N_pHMO-1" parent="cF-O8K4sHl9Q-5w55FuH-12" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d79b00;align=center;fontSize=9;" value="按键映射配置" vertex="1">
           <mxGeometry height="50" width="150" x="10" y="30" as="geometry" />
         </mxCell>
         <mxCell id="qrZ9mrHw3R2BlpKLfydR-1" parent="cF-O8K4sHl9Q-5w55FuH-12" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d79b00;align=center;fontSize=9;" value="事件路由分发" vertex="1">
           <mxGeometry height="50" width="150" x="180" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="cF-O8K4sHl9Q-5w55FuH-17" parent="cF-O8K4sHl9Q-5w55FuH-2" style="swimlane;fillColor=#f8cecc;strokeColor=#b85450;verticalAlign=top;fontStyle=1;fontSize=11;" value="全局键仲裁 (两级)" vertex="1">
+        <mxCell id="cF-O8K4sHl9Q-5w55FuH-17" parent="cF-O8K4sHl9Q-5w55FuH-2" style="swimlane;fillColor=#f8cecc;strokeColor=#b85450;verticalAlign=top;fontStyle=1;fontSize=11;" value="按键仲裁 (两级)" vertex="1">
           <mxGeometry height="140" width="730" x="15" y="290" as="geometry" />
         </mxCell>
         <mxCell id="cF-O8K4sHl9Q-5w55FuH-18" parent="cF-O8K4sHl9Q-5w55FuH-17" style=" rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#b85450;align=center;fontSize=9;" value="一级仲裁 显示核顶层 VM" vertex="1">
