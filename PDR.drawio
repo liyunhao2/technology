@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.6.1" pages="4">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.6.1" pages="6">
   <diagram name="GUI" id="TdLGVI8l1tTU8QwBIBn3">
     <mxGraphModel dx="1584" dy="1699" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -494,6 +494,157 @@
         </mxCell>
         <mxCell id="xMycQW5vGxa5ZDI4QbMm-40" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6e6;strokeColor=#ef5350;align=left;fontSize=9;fontStyle=2;" value="核心职责：管理菜单导航栈、调度 Handler 生命周期、全局键一级仲裁、深层状态访问" vertex="1">
           <mxGeometry height="40" width="760" x="40" y="630" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="sSrIYy08lA5m1ezGVC1R" name="按键">
+    <mxGraphModel dx="1426" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cF-O8K4sHl9Q-5w55FuH-1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=16;fontStyle=1" value="输入子系统 - 简化功能图" vertex="1">
+          <mxGeometry height="30" width="400" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cF-O8K4sHl9Q-5w55FuH-2" parent="1" style=" rounded=1;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#666666;" value="" vertex="1">
+          <mxGeometry height="480" width="760" x="40" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="cF-O8K4sHl9Q-5w55FuH-3" parent="cF-O8K4sHl9Q-5w55FuH-2" style="swimlane;fillColor=#e6e6e6;strokeColor=#666666;verticalAlign=top;fontStyle=1;fontSize=11;" value="输入源" vertex="1">
+          <mxGeometry height="100" width="730" x="15" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cF-O8K4sHl9Q-5w55FuH-4" parent="cF-O8K4sHl9Q-5w55FuH-3" style=" rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d79b00;align=center;fontSize=9;" value="原始触摸坐标&#xa;(x, y, state)" vertex="1">
+          <mxGeometry height="50" width="100" x="15" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="cF-O8K4sHl9Q-5w55FuH-5" parent="cF-O8K4sHl9Q-5w55FuH-3" style=" rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d79b00;align=center;fontSize=9;" value="物理按键&#xa;(PTT, SK1-3)" vertex="1">
+          <mxGeometry height="50" width="100" x="125" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="cF-O8K4sHl9Q-5w55FuH-6" parent="cF-O8K4sHl9Q-5w55FuH-3" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=8;" value="来自平台层的中断驱动输入" vertex="1">
+          <mxGeometry height="50" width="480" x="235" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="cF-O8K4sHl9Q-5w55FuH-7" parent="cF-O8K4sHl9Q-5w55FuH-2" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;verticalAlign=top;fontStyle=1;fontSize=11;" value="触摸处理" vertex="1">
+          <mxGeometry height="130" width="350" x="15" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="cF-O8K4sHl9Q-5w55FuH-11" parent="cF-O8K4sHl9Q-5w55FuH-7" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=8;" value="复用引擎原生能力 返回命中对象指针 生成语义化事件" vertex="1">
+          <mxGeometry height="50" width="320" x="10" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="SNyiqzaXk1YCIrSk_RD5-1" parent="cF-O8K4sHl9Q-5w55FuH-7" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;align=center;fontSize=9;" value="GUI 引擎集成&#xa;LVGL/Qt 原生 HitTest 与手势识别" vertex="1">
+          <mxGeometry height="50" width="320" x="25" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cF-O8K4sHl9Q-5w55FuH-12" parent="cF-O8K4sHl9Q-5w55FuH-2" style="swimlane;fillColor=#ffe6cc;strokeColor=#d79b00;verticalAlign=top;fontStyle=1;fontSize=11;" value="按键处理" vertex="1">
+          <mxGeometry height="130" width="350" x="380" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="cF-O8K4sHl9Q-5w55FuH-13" parent="cF-O8K4sHl9Q-5w55FuH-12" style=" rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d79b00;align=center;fontSize=9;" value="按键去抖" vertex="1">
+          <mxGeometry height="50" width="100" x="15" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cF-O8K4sHl9Q-5w55FuH-14" parent="cF-O8K4sHl9Q-5w55FuH-12" style=" rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d79b00;align=center;fontSize=9;" value="按键映射" vertex="1">
+          <mxGeometry height="50" width="100" x="125" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cF-O8K4sHl9Q-5w55FuH-15" parent="cF-O8K4sHl9Q-5w55FuH-12" style=" rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d79b00;align=center;fontSize=9;" value="普通键" vertex="1">
+          <mxGeometry height="50" width="100" x="235" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cF-O8K4sHl9Q-5w55FuH-16" parent="cF-O8K4sHl9Q-5w55FuH-12" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=8;" value="普通键直接转换 全局键进入仲裁流程" vertex="1">
+          <mxGeometry height="50" width="320" x="15" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="cF-O8K4sHl9Q-5w55FuH-17" parent="cF-O8K4sHl9Q-5w55FuH-2" style="swimlane;fillColor=#f8cecc;strokeColor=#b85450;verticalAlign=top;fontStyle=1;fontSize=11;" value="全局键仲裁 (两级)" vertex="1">
+          <mxGeometry height="140" width="730" x="15" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="cF-O8K4sHl9Q-5w55FuH-18" parent="cF-O8K4sHl9Q-5w55FuH-17" style=" rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#b85450;align=center;fontSize=9;" value="一级仲裁 显示核顶层 VM" vertex="1">
+          <mxGeometry height="50" width="140" x="15" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cF-O8K4sHl9Q-5w55FuH-19" parent="cF-O8K4sHl9Q-5w55FuH-17" style=" rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#b85450;align=center;fontSize=8;" value="拦截判断" vertex="1">
+          <mxGeometry height="50" width="100" x="165" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cF-O8K4sHl9Q-5w55FuH-20" parent="cF-O8K4sHl9Q-5w55FuH-17" style=" rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#b85450;align=center;fontSize=8;" value="拦截 VM 处理" vertex="1">
+          <mxGeometry height="50" width="100" x="275" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cF-O8K4sHl9Q-5w55FuH-21" parent="cF-O8K4sHl9Q-5w55FuH-17" style=" rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#b85450;align=center;fontSize=9;" value="二级仲裁 业务核 Dispatcher" vertex="1">
+          <mxGeometry height="50" width="140" x="390" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cF-O8K4sHl9Q-5w55FuH-22" parent="cF-O8K4sHl9Q-5w55FuH-17" style=" rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#b85450;align=center;fontSize=8;" value="业务状态判断" vertex="1">
+          <mxGeometry height="50" width="100" x="540" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cF-O8K4sHl9Q-5w55FuH-23" parent="cF-O8K4sHl9Q-5w55FuH-17" style=" rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#b85450;align=center;fontSize=8;" value="放行 业务核处理" vertex="1">
+          <mxGeometry height="50" width="100" x="650" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cF-O8K4sHl9Q-5w55FuH-24" parent="cF-O8K4sHl9Q-5w55FuH-17" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=7;" value="流程: PTT/SOS 查询 VM 是否拦截 拦截则 VM 处理 不拦截透传业务核 业务核根据状态分发给各模块" vertex="1">
+          <mxGeometry height="70" width="710" x="15" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="cF-O8K4sHl9Q-5w55FuH-25" parent="cF-O8K4sHl9Q-5w55FuH-2" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;fontStyle=1;fontSize=11;" value="输出" vertex="1">
+          <mxGeometry height="100" width="730" x="15" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="cF-O8K4sHl9Q-5w55FuH-26" parent="cF-O8K4sHl9Q-5w55FuH-25" style=" rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;align=center;fontSize=9;" value="语义化事件 顶层 ViewModel" vertex="1">
+          <mxGeometry height="50" width="140" x="15" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="cF-O8K4sHl9Q-5w55FuH-27" parent="cF-O8K4sHl9Q-5w55FuH-25" style=" rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;align=center;fontSize=9;" value="透传事件 业务核 Dispatcher" vertex="1">
+          <mxGeometry height="50" width="140" x="165" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="cF-O8K4sHl9Q-5w55FuH-28" parent="cF-O8K4sHl9Q-5w55FuH-25" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=8;" value="View 层无业务逻辑，仅做映射和仲裁 支持双芯片模式输入分离" vertex="1">
+          <mxGeometry height="50" width="400" x="315" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="cF-O8K4sHl9Q-5w55FuH-29" parent="1" style=" rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6e6;strokeColor=#ef5350;align=left;fontSize=9;fontStyle=2;" value="核心特点：复用 GUI 引擎原生 HitTest，两级全局键仲裁，零业务判断逻辑" vertex="1">
+          <mxGeometry height="40" width="760" x="40" y="590" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="unqxAMysjOmZP0syHbvL" name="第 6 页">
+    <mxGraphModel dx="1426" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7YGTRpuPsGrzllc6zmH7-1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=16;fontStyle=1" value="输入子系统 - 简化功能图" vertex="1">
+          <mxGeometry height="30" width="400" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7YGTRpuPsGrzllc6zmH7-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#666666;" value="" vertex="1">
+          <mxGeometry height="300" width="760" x="40" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="7YGTRpuPsGrzllc6zmH7-3" parent="7YGTRpuPsGrzllc6zmH7-2" style="swimlane;fillColor=#e6e6e6;strokeColor=#666666;verticalAlign=top;fontStyle=1;fontSize=11;" value="输入源" vertex="1">
+          <mxGeometry height="80" width="730" x="15" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7YGTRpuPsGrzllc6zmH7-4" parent="7YGTRpuPsGrzllc6zmH7-3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d79b00;align=center;fontSize=9;" value="原始触摸坐标" vertex="1">
+          <mxGeometry height="45" width="100" x="15" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="7YGTRpuPsGrzllc6zmH7-5" parent="7YGTRpuPsGrzllc6zmH7-3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d79b00;align=center;fontSize=9;" value="语义化按键" vertex="1">
+          <mxGeometry height="45" width="100" x="125" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="7YGTRpuPsGrzllc6zmH7-6" parent="7YGTRpuPsGrzllc6zmH7-3" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=8;" value="平台层已完成处理" vertex="1">
+          <mxGeometry height="45" width="480" x="235" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="7YGTRpuPsGrzllc6zmH7-7" parent="7YGTRpuPsGrzllc6zmH7-2" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;verticalAlign=top;fontStyle=1;fontSize=11;" value="触摸处理" vertex="1">
+          <mxGeometry height="100" width="350" x="15" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="7YGTRpuPsGrzllc6zmH7-8" parent="7YGTRpuPsGrzllc6zmH7-7" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;align=center;fontSize=9;" value="GUI 引擎集成&#xa;LVGL/Qt 原生 HitTest 与手势识别" vertex="1">
+          <mxGeometry height="50" width="320" x="10" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7YGTRpuPsGrzllc6zmH7-9" parent="7YGTRpuPsGrzllc6zmH7-7" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=8;" value="返回命中对象并生成语义化事件" vertex="1">
+          <mxGeometry height="30" width="320" x="10" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7YGTRpuPsGrzllc6zmH7-10" parent="7YGTRpuPsGrzllc6zmH7-2" style="swimlane;fillColor=#ffe6cc;strokeColor=#d79b00;verticalAlign=top;fontStyle=1;fontSize=11;" value="按键处理" vertex="1">
+          <mxGeometry height="100" width="350" x="380" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="7YGTRpuPsGrzllc6zmH7-11" parent="7YGTRpuPsGrzllc6zmH7-10" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d79b00;align=center;fontSize=9;" value="按键映射配置" vertex="1">
+          <mxGeometry height="50" width="150" x="15" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7YGTRpuPsGrzllc6zmH7-12" parent="7YGTRpuPsGrzllc6zmH7-10" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d79b00;align=center;fontSize=9;" value="事件路由分发" vertex="1">
+          <mxGeometry height="50" width="150" x="175" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7YGTRpuPsGrzllc6zmH7-13" parent="7YGTRpuPsGrzllc6zmH7-10" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=8;" value="普通键直接转换 全局键透传业务核" vertex="1">
+          <mxGeometry height="30" width="320" x="15" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7YGTRpuPsGrzllc6zmH7-14" parent="7YGTRpuPsGrzllc6zmH7-2" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;fontStyle=1;fontSize=11;" value="输出" vertex="1">
+          <mxGeometry height="80" width="730" x="15" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="7YGTRpuPsGrzllc6zmH7-15" parent="7YGTRpuPsGrzllc6zmH7-14" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;align=center;fontSize=9;" value="语义化事件 顶层 ViewModel" vertex="1">
+          <mxGeometry height="45" width="140" x="15" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="7YGTRpuPsGrzllc6zmH7-16" parent="7YGTRpuPsGrzllc6zmH7-14" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;align=center;fontSize=9;" value="透传事件 业务核 Dispatcher" vertex="1">
+          <mxGeometry height="45" width="140" x="165" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="7YGTRpuPsGrzllc6zmH7-17" parent="7YGTRpuPsGrzllc6zmH7-14" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=8;" value="View 层仅做映射和路由 业务判断由 VM 和业务核负责" vertex="1">
+          <mxGeometry height="45" width="400" x="315" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="7YGTRpuPsGrzllc6zmH7-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6e6;strokeColor=#ef5350;align=left;fontSize=9;fontStyle=2;" value="核心特点：复用 GUI 引擎原生能力，配置化映射，View 零业务逻辑" vertex="1">
+          <mxGeometry height="40" width="760" x="40" y="410" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
