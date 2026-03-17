@@ -560,7 +560,7 @@
         <mxCell id="cF-O8K4sHl9Q-5w55FuH-23" parent="cF-O8K4sHl9Q-5w55FuH-17" style=" rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#b85450;align=center;fontSize=8;" value="放行 业务核处理" vertex="1">
           <mxGeometry height="50" width="100" x="650" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="cF-O8K4sHl9Q-5w55FuH-24" parent="cF-O8K4sHl9Q-5w55FuH-17" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=7;" value="流程: PTT/SOS 查询 VM 是否拦截 拦截则 VM 处理 不拦截透传业务核 业务核根据状态分发给各模块" vertex="1">
+        <mxCell id="cF-O8K4sHl9Q-5w55FuH-24" parent="cF-O8K4sHl9Q-5w55FuH-17" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=7;" value="流程:&amp;nbsp;&lt;div&gt;1、普通键与全局键 查询 VM 是否拦截 拦截则 VM 处理&amp;nbsp;&lt;/div&gt;&lt;div&gt;2、全局键不拦截透传业务核 业务核根据状态分发给各模块&lt;/div&gt;" vertex="1">
           <mxGeometry height="70" width="710" x="15" y="90" as="geometry" />
         </mxCell>
         <mxCell id="cF-O8K4sHl9Q-5w55FuH-25" parent="cF-O8K4sHl9Q-5w55FuH-2" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;fontStyle=1;fontSize=11;" value="输出" vertex="1">
