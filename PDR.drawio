@@ -450,10 +450,10 @@
         <mxCell id="xMycQW5vGxa5ZDI4QbMm-25" parent="xMycQW5vGxa5ZDI4QbMm-2" style="swimlane;fillColor=#e1d5e7;strokeColor=#9673a6;verticalAlign=top;fontStyle=1;fontSize=12;" value="数据与布局管理" vertex="1">
           <mxGeometry height="130" width="360" x="380" y="170" as="geometry" />
         </mxCell>
-        <mxCell id="xMycQW5vGxa5ZDI4QbMm-26" parent="xMycQW5vGxa5ZDI4QbMm-25" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;align=center;fontSize=9;" value="页面上下文存储" vertex="1">
+        <mxCell id="xMycQW5vGxa5ZDI4QbMm-26" parent="xMycQW5vGxa5ZDI4QbMm-25" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;align=center;fontSize=11;" value="页面上下文存储" vertex="1">
           <mxGeometry height="40" width="100" x="10" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="xMycQW5vGxa5ZDI4QbMm-27" parent="xMycQW5vGxa5ZDI4QbMm-25" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;align=center;fontSize=9;" value="Handler 注册表" vertex="1">
+        <mxCell id="xMycQW5vGxa5ZDI4QbMm-27" parent="xMycQW5vGxa5ZDI4QbMm-25" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;align=center;fontSize=11;" value="Handler 注册表" vertex="1">
           <mxGeometry height="40" width="100" x="120" y="30" as="geometry" />
         </mxCell>
         <mxCell id="xMycQW5vGxa5ZDI4QbMm-28" parent="xMycQW5vGxa5ZDI4QbMm-25" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=8;" value="• 存储页面数据&#xa;• 布局配置&#xa;• 状态标记" vertex="1">
@@ -462,7 +462,7 @@
         <mxCell id="xMycQW5vGxa5ZDI4QbMm-29" parent="xMycQW5vGxa5ZDI4QbMm-25" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=8;" value="• 菜单到 Handler&#xa;• O(1) 快速查找&#xa;• 启动注册" vertex="1">
           <mxGeometry height="40" width="100" x="120" y="80" as="geometry" />
         </mxCell>
-        <mxCell id="xMycQW5vGxa5ZDI4QbMm-30" parent="xMycQW5vGxa5ZDI4QbMm-25" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;align=center;fontSize=8;" value="布局配置管理" vertex="1">
+        <mxCell id="xMycQW5vGxa5ZDI4QbMm-30" parent="xMycQW5vGxa5ZDI4QbMm-25" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;align=center;fontSize=11;" value="布局配置管理" vertex="1">
           <mxGeometry height="40" width="100" x="230" y="30" as="geometry" />
         </mxCell>
         <mxCell id="xMycQW5vGxa5ZDI4QbMm-31" parent="xMycQW5vGxa5ZDI4QbMm-25" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=7;" value="• Handler 填充配置" vertex="1">
