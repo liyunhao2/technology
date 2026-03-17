@@ -503,7 +503,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="cF-O8K4sHl9Q-5w55FuH-1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=16;fontStyle=1" value="输入子系统 - 简化功能图" vertex="1">
+        <mxCell id="cF-O8K4sHl9Q-5w55FuH-1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=16;fontStyle=1" value="输入子系统 - 简化功能图（AI生成）" vertex="1">
           <mxGeometry height="30" width="400" x="40" y="40" as="geometry" />
         </mxCell>
         <mxCell id="cF-O8K4sHl9Q-5w55FuH-2" parent="1" style=" rounded=1;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#666666;" value="" vertex="1">
@@ -568,9 +568,6 @@
         </mxCell>
         <mxCell id="cF-O8K4sHl9Q-5w55FuH-28" parent="cF-O8K4sHl9Q-5w55FuH-25" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=8;" value="View 层无业务逻辑，仅做映射和仲裁 支持双芯片模式输入分离" vertex="1">
           <mxGeometry height="50" width="400" x="315" y="35" as="geometry" />
-        </mxCell>
-        <mxCell id="cF-O8K4sHl9Q-5w55FuH-29" parent="1" style=" rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6e6;strokeColor=#ef5350;align=left;fontSize=9;fontStyle=2;" value="核心特点：复用 GUI 引擎原生 HitTest，两级全局键仲裁，零业务判断逻辑" vertex="1">
-          <mxGeometry height="40" width="760" x="40" y="590" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
