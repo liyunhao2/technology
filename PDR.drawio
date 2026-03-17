@@ -545,20 +545,14 @@
         <mxCell id="cF-O8K4sHl9Q-5w55FuH-18" parent="cF-O8K4sHl9Q-5w55FuH-17" style=" rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#b85450;align=center;fontSize=9;" value="一级仲裁 显示核顶层 VM" vertex="1">
           <mxGeometry height="50" width="140" x="15" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="cF-O8K4sHl9Q-5w55FuH-19" parent="cF-O8K4sHl9Q-5w55FuH-17" style=" rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#b85450;align=center;fontSize=8;" value="拦截判断" vertex="1">
-          <mxGeometry height="50" width="100" x="165" y="30" as="geometry" />
-        </mxCell>
         <mxCell id="cF-O8K4sHl9Q-5w55FuH-20" parent="cF-O8K4sHl9Q-5w55FuH-17" style=" rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#b85450;align=center;fontSize=8;" value="拦截 VM 处理" vertex="1">
-          <mxGeometry height="50" width="100" x="275" y="30" as="geometry" />
+          <mxGeometry height="50" width="100" x="175" y="30" as="geometry" />
         </mxCell>
         <mxCell id="cF-O8K4sHl9Q-5w55FuH-21" parent="cF-O8K4sHl9Q-5w55FuH-17" style=" rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#b85450;align=center;fontSize=9;" value="二级仲裁 业务核 Dispatcher" vertex="1">
           <mxGeometry height="50" width="140" x="390" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="cF-O8K4sHl9Q-5w55FuH-22" parent="cF-O8K4sHl9Q-5w55FuH-17" style=" rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#b85450;align=center;fontSize=8;" value="业务状态判断" vertex="1">
-          <mxGeometry height="50" width="100" x="540" y="30" as="geometry" />
-        </mxCell>
         <mxCell id="cF-O8K4sHl9Q-5w55FuH-23" parent="cF-O8K4sHl9Q-5w55FuH-17" style=" rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#b85450;align=center;fontSize=8;" value="放行 业务核处理" vertex="1">
-          <mxGeometry height="50" width="100" x="650" y="30" as="geometry" />
+          <mxGeometry height="50" width="100" x="545" y="30" as="geometry" />
         </mxCell>
         <mxCell id="cF-O8K4sHl9Q-5w55FuH-24" parent="cF-O8K4sHl9Q-5w55FuH-17" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=7;" value="流程:&amp;nbsp;&lt;div&gt;1、普通键与全局键 查询 VM 是否拦截 拦截则 VM 处理&amp;nbsp;&lt;/div&gt;&lt;div&gt;2、全局键不拦截透传业务核 业务核根据状态分发给各模块&lt;/div&gt;" vertex="1">
           <mxGeometry height="70" width="710" x="15" y="90" as="geometry" />
