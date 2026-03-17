@@ -371,11 +371,11 @@
     </mxGraphModel>
   </diagram>
   <diagram id="z6wypewixLZmt6IgpepY" name="MenuViewModel 功能模块图">
-    <mxGraphModel dx="1188" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="xMycQW5vGxa5ZDI4QbMm-1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=16;fontStyle=1" value="MenuViewModel - 核心功能概览" vertex="1">
+        <mxCell id="xMycQW5vGxa5ZDI4QbMm-1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=16;fontStyle=1" value="MenuViewModel - 核心功能概览（AI生成）" vertex="1">
           <mxGeometry height="30" width="500" x="40" y="40" as="geometry" />
         </mxCell>
         <mxCell id="xMycQW5vGxa5ZDI4QbMm-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#666666;" value="" vertex="1">
