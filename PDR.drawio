@@ -471,19 +471,19 @@
         <mxCell id="xMycQW5vGxa5ZDI4QbMm-32" parent="xMycQW5vGxa5ZDI4QbMm-2" style="swimlane;fillColor=#fff2cc;strokeColor=#d79b00;verticalAlign=top;fontStyle=1;fontSize=11;" value="工作流程说明" vertex="1">
           <mxGeometry height="180" width="730" x="15" y="320" as="geometry" />
         </mxCell>
-        <mxCell id="xMycQW5vGxa5ZDI4QbMm-33" parent="xMycQW5vGxa5ZDI4QbMm-32" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d79b00;align=center;fontSize=9;strokeWidth=2;" value="步骤1" vertex="1">
+        <mxCell id="xMycQW5vGxa5ZDI4QbMm-33" parent="xMycQW5vGxa5ZDI4QbMm-32" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d79b00;align=center;fontSize=11;strokeWidth=2;" value="步骤1" vertex="1">
           <mxGeometry height="35" width="80" x="10" y="20" as="geometry" />
         </mxCell>
         <mxCell id="xMycQW5vGxa5ZDI4QbMm-34" parent="xMycQW5vGxa5ZDI4QbMm-32" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=11;" value="接收 View 上报的输入事件（触摸、手势、按键）" vertex="1">
           <mxGeometry height="35" width="150" x="100" y="20" as="geometry" />
         </mxCell>
-        <mxCell id="xMycQW5vGxa5ZDI4QbMm-35" parent="xMycQW5vGxa5ZDI4QbMm-32" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;align=center;fontSize=9;strokeWidth=2;" value="步骤2" vertex="1">
+        <mxCell id="xMycQW5vGxa5ZDI4QbMm-35" parent="xMycQW5vGxa5ZDI4QbMm-32" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;align=center;fontSize=11;strokeWidth=2;" value="步骤2" vertex="1">
           <mxGeometry height="35" width="80" x="10" y="65" as="geometry" />
         </mxCell>
         <mxCell id="xMycQW5vGxa5ZDI4QbMm-36" parent="xMycQW5vGxa5ZDI4QbMm-32" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=11;" value="如果是全局键，先进行仲裁判断（查看 Handler 声明）" vertex="1">
           <mxGeometry height="35" width="150" x="100" y="65" as="geometry" />
         </mxCell>
-        <mxCell id="xMycQW5vGxa5ZDI4QbMm-37" parent="xMycQW5vGxa5ZDI4QbMm-32" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;align=center;fontSize=9;strokeWidth=2;" value="步骤3" vertex="1">
+        <mxCell id="xMycQW5vGxa5ZDI4QbMm-37" parent="xMycQW5vGxa5ZDI4QbMm-32" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;align=center;fontSize=11;strokeWidth=2;" value="步骤3" vertex="1">
           <mxGeometry height="35" width="80" x="10" y="110" as="geometry" />
         </mxCell>
         <mxCell id="xMycQW5vGxa5ZDI4QbMm-38" parent="xMycQW5vGxa5ZDI4QbMm-32" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=11;" value="根据 Handler 决策：拦截则分发业务处理，不拦截则透传业务核" vertex="1">
@@ -492,7 +492,7 @@
         <mxCell id="xMycQW5vGxa5ZDI4QbMm-39" parent="xMycQW5vGxa5ZDI4QbMm-32" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=11;fontStyle=2;" value="结果：Handler 处理业务逻辑 → 更新页面数据 → 通知 View 重新渲染" vertex="1">
           <mxGeometry height="35" width="580" x="375" y="65" as="geometry" />
         </mxCell>
-        <mxCell id="xMycQW5vGxa5ZDI4QbMm-40" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6e6;strokeColor=#ef5350;align=left;fontSize=9;fontStyle=2;" value="核心职责：管理菜单导航栈、调度 Handler 生命周期、全局键一级仲裁、深层状态访问" vertex="1">
+        <mxCell id="xMycQW5vGxa5ZDI4QbMm-40" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6e6;strokeColor=#ef5350;align=left;fontSize=11;fontStyle=2;" value="核心职责：管理菜单导航栈、调度 Handler 生命周期、全局键一级仲裁、深层状态访问" vertex="1">
           <mxGeometry height="40" width="760" x="40" y="630" as="geometry" />
         </mxCell>
       </root>
