@@ -405,10 +405,10 @@
         <mxCell id="xMycQW5vGxa5ZDI4QbMm-10" parent="xMycQW5vGxa5ZDI4QbMm-8" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;align=center;fontSize=11;" value="页面退出" vertex="1">
           <mxGeometry height="40" width="90" x="110" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="xMycQW5vGxa5ZDI4QbMm-11" parent="xMycQW5vGxa5ZDI4QbMm-8" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=8;" value="• 首次进入初始化&#xa;• 填充页面数据" vertex="1">
+        <mxCell id="xMycQW5vGxa5ZDI4QbMm-11" parent="xMycQW5vGxa5ZDI4QbMm-8" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=11;" value="• 首次进入初始化&#xa;• 填充页面数据" vertex="1">
           <mxGeometry height="40" width="65" x="10" y="80" as="geometry" />
         </mxCell>
-        <mxCell id="xMycQW5vGxa5ZDI4QbMm-12" parent="xMycQW5vGxa5ZDI4QbMm-8" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=8;" value="• 保存状态&#xa;• 释放资源&#xa;• 恢复时重绘" vertex="1">
+        <mxCell id="xMycQW5vGxa5ZDI4QbMm-12" parent="xMycQW5vGxa5ZDI4QbMm-8" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=11;" value="• 保存状态&#xa;• 释放资源&#xa;• 恢复时重绘" vertex="1">
           <mxGeometry height="40" width="100" x="110" y="80" as="geometry" />
         </mxCell>
         <mxCell id="xMycQW5vGxa5ZDI4QbMm-13" parent="xMycQW5vGxa5ZDI4QbMm-2" style="swimlane;fillColor=#f8cecc;strokeColor=#b85450;verticalAlign=top;fontStyle=1;fontSize=12;" value="全局键仲裁" vertex="1">
@@ -420,31 +420,31 @@
         <mxCell id="xMycQW5vGxa5ZDI4QbMm-15" parent="xMycQW5vGxa5ZDI4QbMm-13" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#b85450;align=center;fontSize=11;" value="拦截掩码" vertex="1">
           <mxGeometry height="40" width="90" x="110" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="xMycQW5vGxa5ZDI4QbMm-16" parent="xMycQW5vGxa5ZDI4QbMm-13" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=8;" value="• 查询 Handler 声明&#xa;• 返回 是否拦截" vertex="1">
+        <mxCell id="xMycQW5vGxa5ZDI4QbMm-16" parent="xMycQW5vGxa5ZDI4QbMm-13" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=11;" value="• 查询 Handler 声明&#xa;• 返回 是否拦截" vertex="1">
           <mxGeometry height="40" width="65" x="10" y="80" as="geometry" />
         </mxCell>
-        <mxCell id="xMycQW5vGxa5ZDI4QbMm-17" parent="xMycQW5vGxa5ZDI4QbMm-13" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=8;" value="• 快捷键拦截处理&#xa;• 不拦截则透传业务核" vertex="1">
+        <mxCell id="xMycQW5vGxa5ZDI4QbMm-17" parent="xMycQW5vGxa5ZDI4QbMm-13" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=11;" value="• 快捷键拦截处理&#xa;• 不拦截则透传业务核" vertex="1">
           <mxGeometry height="40" width="100" x="110" y="80" as="geometry" />
         </mxCell>
         <mxCell id="xMycQW5vGxa5ZDI4QbMm-18" parent="xMycQW5vGxa5ZDI4QbMm-2" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;fontStyle=1;fontSize=12;" value="深层状态管理" vertex="1">
           <mxGeometry height="130" width="350" x="15" y="170" as="geometry" />
         </mxCell>
-        <mxCell id="xMycQW5vGxa5ZDI4QbMm-19" parent="xMycQW5vGxa5ZDI4QbMm-18" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;align=center;fontSize=9;" value="跨页数据访问" vertex="1">
+        <mxCell id="xMycQW5vGxa5ZDI4QbMm-19" parent="xMycQW5vGxa5ZDI4QbMm-18" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;align=center;fontSize=11;" value="跨页数据访问" vertex="1">
           <mxGeometry height="40" width="100" x="10" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="xMycQW5vGxa5ZDI4QbMm-20" parent="xMycQW5vGxa5ZDI4QbMm-18" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;align=center;fontSize=9;" value="数据修改" vertex="1">
+        <mxCell id="xMycQW5vGxa5ZDI4QbMm-20" parent="xMycQW5vGxa5ZDI4QbMm-18" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;align=center;fontSize=11;" value="数据修改" vertex="1">
           <mxGeometry height="40" width="100" x="120" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="xMycQW5vGxa5ZDI4QbMm-21" parent="xMycQW5vGxa5ZDI4QbMm-18" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=8;" value="• 遍历导航栈找到历史页&#xa;• 直接访问页面数据" vertex="1">
+        <mxCell id="xMycQW5vGxa5ZDI4QbMm-21" parent="xMycQW5vGxa5ZDI4QbMm-18" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=11;" value="• 遍历导航栈找到&lt;div&gt;历史页&lt;br&gt;• 直接访问页面数据&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="65" x="10" y="80" as="geometry" />
         </mxCell>
-        <mxCell id="xMycQW5vGxa5ZDI4QbMm-22" parent="xMycQW5vGxa5ZDI4QbMm-18" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=8;" value="• 设置 dirty 标记&#xa;• 返回时检查重绘" vertex="1">
-          <mxGeometry height="40" width="100" x="120" y="80" as="geometry" />
+        <mxCell id="xMycQW5vGxa5ZDI4QbMm-22" parent="xMycQW5vGxa5ZDI4QbMm-18" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=11;" value="• 设置 dirty 标记&#xa;• 返回时检查重绘" vertex="1">
+          <mxGeometry height="40" width="100" x="125" y="80" as="geometry" />
         </mxCell>
-        <mxCell id="xMycQW5vGxa5ZDI4QbMm-23" parent="xMycQW5vGxa5ZDI4QbMm-18" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;align=center;fontSize=8;" value="惰性渲染" vertex="1">
+        <mxCell id="xMycQW5vGxa5ZDI4QbMm-23" parent="xMycQW5vGxa5ZDI4QbMm-18" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;align=center;fontSize=11;" value="惰性渲染" vertex="1">
           <mxGeometry height="40" width="100" x="230" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="xMycQW5vGxa5ZDI4QbMm-24" parent="xMycQW5vGxa5ZDI4QbMm-18" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=7;" value="• 跳过未修改页面" vertex="1">
+        <mxCell id="xMycQW5vGxa5ZDI4QbMm-24" parent="xMycQW5vGxa5ZDI4QbMm-18" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=11;" value="• 跳过未修改页面" vertex="1">
           <mxGeometry height="40" width="100" x="230" y="80" as="geometry" />
         </mxCell>
         <mxCell id="xMycQW5vGxa5ZDI4QbMm-25" parent="xMycQW5vGxa5ZDI4QbMm-2" style="swimlane;fillColor=#e1d5e7;strokeColor=#9673a6;verticalAlign=top;fontStyle=1;fontSize=12;" value="数据与布局管理" vertex="1">
