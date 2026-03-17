@@ -371,7 +371,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="z6wypewixLZmt6IgpepY" name="MenuViewModel 功能模块图">
-    <mxGraphModel dx="1426" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="815" dy="449" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -384,16 +384,16 @@
         <mxCell id="xMycQW5vGxa5ZDI4QbMm-3" parent="xMycQW5vGxa5ZDI4QbMm-2" style="swimlane;fillColor=#ffe6cc;strokeColor=#d79b00;verticalAlign=top;fontStyle=1;fontSize=12;" value="导航管理" vertex="1">
           <mxGeometry height="130" width="230" x="15" y="20" as="geometry" />
         </mxCell>
-        <mxCell id="xMycQW5vGxa5ZDI4QbMm-4" parent="xMycQW5vGxa5ZDI4QbMm-3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d79b00;align=center;fontSize=9;" value="导航栈管理" vertex="1">
+        <mxCell id="xMycQW5vGxa5ZDI4QbMm-4" parent="xMycQW5vGxa5ZDI4QbMm-3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d79b00;align=center;fontSize=11;" value="导航栈管理" vertex="1">
           <mxGeometry height="40" width="100" x="10" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="xMycQW5vGxa5ZDI4QbMm-5" parent="xMycQW5vGxa5ZDI4QbMm-3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d79b00;align=center;fontSize=9;" value="页面跳转控制" vertex="1">
+        <mxCell id="xMycQW5vGxa5ZDI4QbMm-5" parent="xMycQW5vGxa5ZDI4QbMm-3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d79b00;align=center;fontSize=11;" value="页面跳转控制" vertex="1">
           <mxGeometry height="40" width="100" x="120" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="xMycQW5vGxa5ZDI4QbMm-6" parent="xMycQW5vGxa5ZDI4QbMm-3" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=8;" value="• 管理页面访问历史栈&#xa;• 支持跨页直接跳转" vertex="1">
+        <mxCell id="xMycQW5vGxa5ZDI4QbMm-6" parent="xMycQW5vGxa5ZDI4QbMm-3" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=11;" value="• 管理页面访问历史栈&#xa;• 支持跨页直接跳转" vertex="1">
           <mxGeometry height="40" width="65" x="10" y="80" as="geometry" />
         </mxCell>
-        <mxCell id="xMycQW5vGxa5ZDI4QbMm-7" parent="xMycQW5vGxa5ZDI4QbMm-3" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=8;" value="• 返回上一页&#xa;• 返回指定页&#xa;• 清空导航栈" vertex="1">
+        <mxCell id="xMycQW5vGxa5ZDI4QbMm-7" parent="xMycQW5vGxa5ZDI4QbMm-3" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=11;" value="• 返回上一页&#xa;• 返回指定页&#xa;• 清空导航栈" vertex="1">
           <mxGeometry height="40" width="100" x="120" y="80" as="geometry" />
         </mxCell>
         <mxCell id="xMycQW5vGxa5ZDI4QbMm-8" parent="xMycQW5vGxa5ZDI4QbMm-2" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;verticalAlign=top;fontStyle=1;fontSize=12;" value="生命周期管理" vertex="1">
