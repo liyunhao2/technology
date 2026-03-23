@@ -1061,9 +1061,6 @@
         <mxCell id="eV-MQ3BV7uAVKAmWuhbX-22" edge="1" parent="1" source="eV-MQ3BV7uAVKAmWuhbX-4" style="edgeStyle=orthogonalEdgeStyle;html=1;curved=1;strokeColor=#b85450;endArrow=classic;endFill=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="eV-MQ3BV7uAVKAmWuhbX-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eV-MQ3BV7uAVKAmWuhbX-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;fontStyle=1;align=center;" value="模块四：数据流向" vertex="1">
-          <mxGeometry height="40" width="180" x="310" y="660" as="geometry" />
-        </mxCell>
         <mxCell id="eV-MQ3BV7uAVKAmWuhbX-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;align=center;" value="Input 原始 JSON 配置文件" vertex="1">
           <mxGeometry height="50" width="160" x="110" y="265" as="geometry" />
         </mxCell>
