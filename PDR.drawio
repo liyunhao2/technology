@@ -1169,13 +1169,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uYR65Uj_IREhuMH72PGu-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="秘密报警:&#xa;直接返回" vertex="1">
-          <mxGeometry height="50" width="120" x="560" y="750" as="geometry" />
+          <mxGeometry height="50" width="120" x="560" y="760" as="geometry" />
         </mxCell>
         <mxCell id="uYR65Uj_IREhuMH72PGu-26" edge="1" parent="1" source="uYR65Uj_IREhuMH72PGu-21" style="edgeStyle=orthogonalEdgeStyle;endArrow=classic;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="uYR65Uj_IREhuMH72PGu-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uYR65Uj_IREhuMH72PGu-27" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;horizontal=0;" value="回调函数处理&#xa;(ledHandleList)" vertex="1">
-          <mxGeometry height="260" width="300" x="260" y="840" as="geometry" />
+          <mxGeometry height="260" width="300" x="260" y="860" as="geometry" />
         </mxCell>
         <mxCell id="uYR65Uj_IREhuMH72PGu-28" parent="uYR65Uj_IREhuMH72PGu-27" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;align=left;fontSize=10;" value="TX_CARRIER_LED&#xa;→ dealLedTransmitCarrier" vertex="1">
           <mxGeometry height="35" width="260" x="20" y="30" as="geometry" />
@@ -1215,6 +1215,17 @@
         </mxCell>
         <mxCell id="uYR65Uj_IREhuMH72PGu-40" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="返回 req_success" vertex="1">
           <mxGeometry height="50" width="140" x="340" y="1320" as="geometry" />
+        </mxCell>
+        <mxCell id="uYR65Uj_IREhuMH72PGu-41" edge="1" parent="1" source="uYR65Uj_IREhuMH72PGu-21" style="endArrow=classic;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitDx=0;exitDy=0;" target="uYR65Uj_IREhuMH72PGu-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="413" y="810" as="sourcePoint" />
+            <mxPoint x="413" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uYR65Uj_IREhuMH72PGu-42" connectable="0" parent="uYR65Uj_IREhuMH72PGu-41" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="正常状态" vertex="1">
+          <mxGeometry relative="1" x="-0.3267" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
