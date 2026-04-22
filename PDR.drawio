@@ -1138,7 +1138,7 @@
         <mxCell id="uYR65Uj_IREhuMH72PGu-14" edge="1" parent="1" source="uYR65Uj_IREhuMH72PGu-11" style="edgeStyle=orthogonalEdgeStyle;endArrow=classic;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="uYR65Uj_IREhuMH72PGu-15" value="是">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="uYR65Uj_IREhuMH72PGu-15" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;horizontal=0;" value="特殊LED处理" vertex="1">
+        <mxCell id="uYR65Uj_IREhuMH72PGu-15" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;horizontal=0;" value="差异性LED处理" vertex="1">
           <mxGeometry height="170" width="300" x="260" y="460" as="geometry" />
         </mxCell>
         <mxCell id="uYR65Uj_IREhuMH72PGu-16" parent="uYR65Uj_IREhuMH72PGu-15" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;align=left;" value="DISABLE_LED&#xa;← stopAllLeds()&#xa;← uiKeyBackLightControl(0)&#xa;← s_g_isLedEnable=false" vertex="1">
