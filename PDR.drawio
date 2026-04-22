@@ -1139,31 +1139,31 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uYR65Uj_IREhuMH72PGu-15" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;horizontal=0;" value="差异性LED处理" vertex="1">
-          <mxGeometry height="170" width="300" x="260" y="460" as="geometry" />
+          <mxGeometry height="260" width="300" x="260" y="460" as="geometry" />
         </mxCell>
         <mxCell id="uYR65Uj_IREhuMH72PGu-16" parent="uYR65Uj_IREhuMH72PGu-15" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;align=left;" value="DISABLE_LED&#xa;← stopAllLeds()&#xa;← uiKeyBackLightControl(0)&#xa;← s_g_isLedEnable=false" vertex="1">
-          <mxGeometry height="70" width="260" x="20" y="30" as="geometry" />
+          <mxGeometry height="70" width="260" x="24" y="10" as="geometry" />
         </mxCell>
         <mxCell id="uYR65Uj_IREhuMH72PGu-17" parent="uYR65Uj_IREhuMH72PGu-15" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;align=left;" value="EMERGENCY_SLT_LED&#xa;← s_g_emergencyLedCtrl&#xa;  =MUTE_LED_ENABLE_EMERGENCY" vertex="1">
-          <mxGeometry height="50" width="260" x="20" y="110" as="geometry" />
+          <mxGeometry height="50" width="260" x="24" y="80" as="geometry" />
         </mxCell>
         <mxCell id="uYR65Uj_IREhuMH72PGu-18" parent="uYR65Uj_IREhuMH72PGu-15" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;align=left;fontSize=10;" value="STANDBY_LED&#xa;← stopAllLeds()" vertex="1">
-          <mxGeometry height="50" width="260" x="165" y="110" as="geometry" />
+          <mxGeometry height="50" width="260" x="24" y="130" as="geometry" />
         </mxCell>
         <mxCell id="uYR65Uj_IREhuMH72PGu-19" parent="uYR65Uj_IREhuMH72PGu-15" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;align=left;fontSize=10;" value="EMERGENCY_SLT_VC_LED&#xa;← s_g_emergencyLedCtrl&#xa;  =MUTE_WITH_VOICE..." vertex="1">
-          <mxGeometry height="50" width="260" x="310" y="110" as="geometry" />
+          <mxGeometry height="50" width="260" x="24" y="190" as="geometry" />
         </mxCell>
         <mxCell id="uYR65Uj_IREhuMH72PGu-20" edge="1" parent="1" source="uYR65Uj_IREhuMH72PGu-11" style="endArrow=classic;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="uYR65Uj_IREhuMH72PGu-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uYR65Uj_IREhuMH72PGu-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="紧急状态检查" vertex="1">
-          <mxGeometry height="50" width="180" x="320" y="670" as="geometry" />
+          <mxGeometry height="50" width="180" x="320" y="760" as="geometry" />
         </mxCell>
         <mxCell id="uYR65Uj_IREhuMH72PGu-22" edge="1" parent="1" source="uYR65Uj_IREhuMH72PGu-15" style="endArrow=classic;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="uYR65Uj_IREhuMH72PGu-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uYR65Uj_IREhuMH72PGu-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff4cc;strokeColor=#d79b00;" value="秘密有语音:&#xa;只亮RX灯" vertex="1">
-          <mxGeometry height="50" width="120" x="140" y="750" as="geometry" />
+          <mxGeometry height="50" width="120" x="140" y="760" as="geometry" />
         </mxCell>
         <mxCell id="uYR65Uj_IREhuMH72PGu-24" edge="1" parent="1" source="uYR65Uj_IREhuMH72PGu-21" style="edgeStyle=orthogonalEdgeStyle;endArrow=classic;html=1;exitX=0;exitY=0.5;entryX=1;entryY=0.5;" target="uYR65Uj_IREhuMH72PGu-23">
           <mxGeometry relative="1" as="geometry" />
@@ -1199,22 +1199,22 @@
           <mxGeometry height="25" width="260" x="155" y="230" as="geometry" />
         </mxCell>
         <mxCell id="uYR65Uj_IREhuMH72PGu-35" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff4cc;strokeColor=#d79b00;" value="idx == total?" vertex="1">
-          <mxGeometry height="80" width="180" x="320" y="1140" as="geometry" />
+          <mxGeometry height="80" width="180" x="320" y="1169" as="geometry" />
         </mxCell>
         <mxCell id="uYR65Uj_IREhuMH72PGu-36" edge="1" parent="1" source="uYR65Uj_IREhuMH72PGu-27" style="endArrow=classic;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="uYR65Uj_IREhuMH72PGu-35">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="uYR65Uj_IREhuMH72PGu-37" edge="1" parent="1" source="uYR65Uj_IREhuMH72PGu-35" style="edgeStyle=orthogonalEdgeStyle;endArrow=classic;html=1;exitX=1;exitY=0;entryX=0;entryY=0.5;" target="uYR65Uj_IREhuMH72PGu-38" value="是">
+        <mxCell id="uYR65Uj_IREhuMH72PGu-37" edge="1" parent="1" source="uYR65Uj_IREhuMH72PGu-35" style="edgeStyle=orthogonalEdgeStyle;endArrow=classic;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;exitDx=0;exitDy=0;" target="uYR65Uj_IREhuMH72PGu-38" value="是">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uYR65Uj_IREhuMH72PGu-38" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff4cc;strokeColor=#d79b00;" value="ledNeedOnProcess&#xa;(ledCode)" vertex="1">
-          <mxGeometry height="50" width="140" x="550" y="1155" as="geometry" />
+          <mxGeometry height="50" width="140" x="560" y="1184" as="geometry" />
         </mxCell>
         <mxCell id="uYR65Uj_IREhuMH72PGu-39" edge="1" parent="1" source="uYR65Uj_IREhuMH72PGu-35" style="edgeStyle=orthogonalEdgeStyle;endArrow=classic;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="uYR65Uj_IREhuMH72PGu-40" value="否">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uYR65Uj_IREhuMH72PGu-40" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="返回 req_success" vertex="1">
-          <mxGeometry height="50" width="140" x="340" y="1260" as="geometry" />
+          <mxGeometry height="50" width="140" x="340" y="1320" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
