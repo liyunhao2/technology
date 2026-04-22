@@ -1086,7 +1086,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="6z_0buiO-pgf1lXmwwN9" name="LED">
-    <mxGraphModel dx="1178" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1802" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1162,11 +1162,15 @@
         <mxCell id="uYR65Uj_IREhuMH72PGu-22" edge="1" parent="1" source="uYR65Uj_IREhuMH72PGu-15" style="endArrow=classic;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="uYR65Uj_IREhuMH72PGu-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="uYR65Uj_IREhuMH72PGu-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff4cc;strokeColor=#d79b00;" value="秘密有语音:&#xa;只亮RX灯" vertex="1">
-          <mxGeometry height="50" width="120" x="140" y="760" as="geometry" />
+        <mxCell id="uYR65Uj_IREhuMH72PGu-24" edge="1" parent="1" source="uYR65Uj_IREhuMH72PGu-21" style="edgeStyle=orthogonalEdgeStyle;endArrow=classic;html=1;exitX=0;exitY=0.5;entryX=1;entryY=0.5;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="785" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="uYR65Uj_IREhuMH72PGu-24" edge="1" parent="1" source="uYR65Uj_IREhuMH72PGu-21" style="edgeStyle=orthogonalEdgeStyle;endArrow=classic;html=1;exitX=0;exitY=0.5;entryX=1;entryY=0.5;" target="uYR65Uj_IREhuMH72PGu-23">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="uYR65Uj_IREhuMH72PGu-46" connectable="0" parent="uYR65Uj_IREhuMH72PGu-24" style="edgeLabel;align=center;verticalAlign=middle;resizable=0;points=[];" value="秘密有语音" vertex="1">
+          <mxGeometry relative="1" x="0.0556" y="-2" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="uYR65Uj_IREhuMH72PGu-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="秘密报警:&#xa;直接返回" vertex="1">
           <mxGeometry height="50" width="120" x="560" y="760" as="geometry" />
@@ -1175,28 +1179,28 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uYR65Uj_IREhuMH72PGu-27" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;horizontal=0;" value="回调函数处理&#xa;(ledHandleList)" vertex="1">
-          <mxGeometry height="260" width="300" x="260" y="860" as="geometry" />
+          <mxGeometry height="280" width="330" x="245" y="870" as="geometry" />
         </mxCell>
         <mxCell id="uYR65Uj_IREhuMH72PGu-28" parent="uYR65Uj_IREhuMH72PGu-27" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;align=left;fontSize=10;" value="TX_CARRIER_LED&#xa;→ dealLedTransmitCarrier" vertex="1">
-          <mxGeometry height="35" width="260" x="20" y="30" as="geometry" />
+          <mxGeometry height="35" width="260" x="35" y="10" as="geometry" />
         </mxCell>
         <mxCell id="uYR65Uj_IREhuMH72PGu-29" parent="uYR65Uj_IREhuMH72PGu-27" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;align=left;fontSize=10;" value="TX_ENCRYPT_LED&#xa;→ dealLedEncrypt" vertex="1">
-          <mxGeometry height="35" width="260" x="20" y="70" as="geometry" />
+          <mxGeometry height="35" width="260" x="35" y="50" as="geometry" />
         </mxCell>
         <mxCell id="uYR65Uj_IREhuMH72PGu-30" parent="uYR65Uj_IREhuMH72PGu-27" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;align=left;fontSize=10;" value="RX_ENCRYPT_LED&#xa;→ dealLedEncrypt" vertex="1">
-          <mxGeometry height="35" width="260" x="20" y="110" as="geometry" />
+          <mxGeometry height="35" width="260" x="35" y="90" as="geometry" />
         </mxCell>
         <mxCell id="uYR65Uj_IREhuMH72PGu-31" parent="uYR65Uj_IREhuMH72PGu-27" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;align=left;fontSize=10;" value="RX_CARRIER_LED&#xa;→ dealLedRecvInform" vertex="1">
-          <mxGeometry height="35" width="260" x="20" y="150" as="geometry" />
+          <mxGeometry height="35" width="260" x="35" y="130" as="geometry" />
         </mxCell>
         <mxCell id="uYR65Uj_IREhuMH72PGu-32" parent="uYR65Uj_IREhuMH72PGu-27" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;align=left;fontSize=10;" value="SCAN_LED&#xa;→ dealLedScan" vertex="1">
-          <mxGeometry height="35" width="260" x="20" y="190" as="geometry" />
+          <mxGeometry height="35" width="260" x="35" y="170" as="geometry" />
         </mxCell>
         <mxCell id="uYR65Uj_IREhuMH72PGu-33" parent="uYR65Uj_IREhuMH72PGu-27" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;align=left;fontSize=10;" value="LOW_POWER_LED&#xa;→ dealLedLowPower" vertex="1">
-          <mxGeometry height="25" width="125" x="20" y="230" as="geometry" />
+          <mxGeometry height="25" width="125" x="35" y="210" as="geometry" />
         </mxCell>
         <mxCell id="uYR65Uj_IREhuMH72PGu-34" parent="uYR65Uj_IREhuMH72PGu-27" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;align=left;fontSize=10;" value="INCOMING_CALL_LED&#xa;→ dealLedIncomeCall" vertex="1">
-          <mxGeometry height="25" width="260" x="155" y="230" as="geometry" />
+          <mxGeometry height="25" width="260" x="35" y="245" as="geometry" />
         </mxCell>
         <mxCell id="uYR65Uj_IREhuMH72PGu-35" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff4cc;strokeColor=#d79b00;" value="idx == total?" vertex="1">
           <mxGeometry height="80" width="180" x="320" y="1169" as="geometry" />
@@ -1225,6 +1229,23 @@
         <mxCell id="uYR65Uj_IREhuMH72PGu-42" connectable="0" parent="uYR65Uj_IREhuMH72PGu-41" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="正常状态" vertex="1">
           <mxGeometry relative="1" x="-0.3267" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uYR65Uj_IREhuMH72PGu-47" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff4cc;strokeColor=#d79b00;" value="RX_CARRIER_LED？" vertex="1">
+          <mxGeometry height="80" width="180" x="30" y="745" as="geometry" />
+        </mxCell>
+        <mxCell id="uYR65Uj_IREhuMH72PGu-48" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="返回 req_success" vertex="1">
+          <mxGeometry height="50" width="140" x="-160" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="uYR65Uj_IREhuMH72PGu-50" edge="1" parent="1" source="uYR65Uj_IREhuMH72PGu-47" style="edgeStyle=orthogonalEdgeStyle;endArrow=classic;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="uYR65Uj_IREhuMH72PGu-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="860" as="sourcePoint" />
+            <mxPoint x="-40" y="785" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uYR65Uj_IREhuMH72PGu-51" connectable="0" parent="uYR65Uj_IREhuMH72PGu-50" style="edgeLabel;align=center;verticalAlign=middle;resizable=0;points=[];" value="否" vertex="1">
+          <mxGeometry relative="1" x="0.0556" y="-2" as="geometry">
+            <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
