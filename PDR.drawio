@@ -1420,6 +1420,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="8IVmLqfiOi2j2swuIJow-150" connectable="0" parent="8IVmLqfiOi2j2swuIJow-133" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="是" vertex="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1" y="-19" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="8IVmLqfiOi2j2swuIJow-134" edge="1" parent="1" source="8IVmLqfiOi2j2swuIJow-113" style="endArrow=classic;html=1;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;entryX=0.5;entryY=0;strokeWidth=2;" target="8IVmLqfiOi2j2swuIJow-114">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -1466,6 +1471,12 @@
         </mxCell>
         <mxCell id="8IVmLqfiOi2j2swuIJow-146" parent="1" style="rounded=0;fillColor=#E8F4FD;strokeColor=#4A90E2;fontSize=10;whiteSpace=wrap;html=1;align=left;dashed=1;" value="业务通过注册，拦截按键并处理" vertex="1">
           <mxGeometry height="35" width="180" x="460" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="8IVmLqfiOi2j2swuIJow-148" parent="1" style="rounded=0;fillColor=#E8F4FD;strokeColor=#4A90E2;fontSize=10;whiteSpace=wrap;html=1;align=left;dashed=1;" value="事件总入口" vertex="1">
+          <mxGeometry height="35" width="60" x="220" y="400.5" as="geometry" />
+        </mxCell>
+        <mxCell id="8IVmLqfiOi2j2swuIJow-149" parent="1" style="rounded=0;fillColor=#E8F4FD;strokeColor=#4A90E2;fontSize=10;whiteSpace=wrap;html=1;align=left;dashed=1;" value="事件子入口" vertex="1">
+          <mxGeometry height="35" width="60" x="220" y="458" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
