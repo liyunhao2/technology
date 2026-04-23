@@ -1464,7 +1464,7 @@
         <mxCell id="8IVmLqfiOi2j2swuIJow-143" edge="1" parent="1" source="8IVmLqfiOi2j2swuIJow-115" style="endArrow=none;html=1;exitX=0.5;exitY=0;entryX=0.5;entryY=1;strokeColor=#CCCCCC;strokeWidth=1;dashed=1;" target="8IVmLqfiOi2j2swuIJow-122">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8IVmLqfiOi2j2swuIJow-146" parent="1" style="rounded=0;fillColor=#E8F4FD;strokeColor=#4A90E2;fontSize=10;whiteSpace=wrap;html=1;align=left;dashed=1;" value="1.业务通过注册，拦截按键并处理&lt;div&gt;2.不同业务，先注册先处理（FIFO）&lt;/div&gt;&lt;div&gt;3.相同业务可以注册多个过滤器，后注册先处理（LIFO）&lt;/div&gt;" vertex="1">
+        <mxCell id="8IVmLqfiOi2j2swuIJow-146" parent="1" style="rounded=0;fillColor=#E8F4FD;strokeColor=#4A90E2;fontSize=10;whiteSpace=wrap;html=1;align=left;dashed=1;" value="1.业务通过注册，拦截按键并处理&lt;div&gt;2.不同业务QObject，后注册先处理（LIFO）&lt;/div&gt;&lt;div&gt;3.相同业务可以注册多个过滤器，也是后注册先处理（LIFO）&lt;/div&gt;" vertex="1">
           <mxGeometry height="75" width="180" x="480" y="200" as="geometry" />
         </mxCell>
         <mxCell id="8IVmLqfiOi2j2swuIJow-148" parent="1" style="rounded=0;fillColor=#E8F4FD;strokeColor=#4A90E2;fontSize=10;whiteSpace=wrap;html=1;align=left;dashed=1;" value="事件总入口" vertex="1">
