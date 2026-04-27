@@ -1477,7 +1477,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="QbId_nYhr9gLa7zKp3ba" name="按键分发应用">
-    <mxGraphModel dx="1414" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="808" dy="449" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1490,20 +1490,42 @@
         <mxCell id="7gc13BZCewMnmX1fS9-D-3" parent="1" style="swimlane;fillColor=#E8F5E9;strokeColor=#388E3C;fontColor=#2E7D32;fontSize=14;fontStyle=1;whiteSpace=wrap;html=1;" value="应用层 - 按键分发系统" vertex="1">
           <mxGeometry height="340" width="760" x="20" y="179" as="geometry" />
         </mxCell>
-        <mxCell id="7gc13BZCewMnmX1fS9-D-4" parent="1" style="rounded=1;fillColor=#4CAF50;strokeColor=#1B5E20;fontColor=#FFFFFF;fontSize=10;whiteSpace=wrap;html=1;align=left;" value="按键事件接收模块&#xa;&#xa;- 接收平台层按键事件&#xa;- 实时接收&#xa;- 无事件丢失&#xa;- 线程安全" vertex="1">
-          <mxGeometry height="85" width="115" x="40" y="204" as="geometry" />
+        <mxCell id="7gc13BZCewMnmX1fS9-D-7" parent="7gc13BZCewMnmX1fS9-D-3" style="rounded=1;fillColor=#4CAF50;strokeColor=#1B5E20;fontColor=#FFFFFF;fontSize=10;whiteSpace=wrap;html=1;align=left;" value="事件分发模块&#xa;&#xa;- 分发给业务模块&#xa;- 多业务订阅&#xa;- 智能过滤&#xa;- 事件消费机制&#xa;- 优先级分发" vertex="1">
+          <mxGeometry height="85" width="115" x="530" y="141" as="geometry" />
         </mxCell>
-        <mxCell id="7gc13BZCewMnmX1fS9-D-5" parent="1" style="rounded=1;fillColor=#4CAF50;strokeColor=#1B5E20;fontColor=#FFFFFF;fontSize=10;whiteSpace=wrap;html=1;align=left;" value="组合键识别模块&#xa;&#xa;- 识别组合键&#xa;- 最多3键组合&#xa;- 时间窗口500ms&#xa;- 组合键优先级高" vertex="1">
-          <mxGeometry height="85" width="115" x="165" y="204" as="geometry" />
+        <mxCell id="7gc13BZCewMnmX1fS9-D-5" parent="7gc13BZCewMnmX1fS9-D-3" style="rounded=1;fillColor=#4CAF50;strokeColor=#1B5E20;fontColor=#FFFFFF;fontSize=10;whiteSpace=wrap;html=1;align=left;" value="组合键识别模块&#xa;&#xa;- 识别组合键&#xa;- 最多3键组合&#xa;- 时间窗口500ms&#xa;- 组合键优先级高" vertex="1">
+          <mxGeometry height="85" width="115" x="110" y="136" as="geometry" />
         </mxCell>
-        <mxCell id="7gc13BZCewMnmX1fS9-D-6" parent="1" style="rounded=1;fillColor=#4CAF50;strokeColor=#1B5E20;fontColor=#FFFFFF;fontSize=10;whiteSpace=wrap;html=1;align=left;" value="功能映射模块&#xa;&#xa;- 映射到业务功能&#xa;- 基于状态的动态映射&#xa;- 统一功能ID&#xa;- 用户自定义映射" vertex="1">
-          <mxGeometry height="85" width="115" x="290" y="204" as="geometry" />
+        <mxCell id="7gc13BZCewMnmX1fS9-D-6" parent="7gc13BZCewMnmX1fS9-D-3" style="rounded=1;fillColor=#4CAF50;strokeColor=#1B5E20;fontColor=#FFFFFF;fontSize=10;whiteSpace=wrap;html=1;align=left;" value="功能映射模块&#xa;&#xa;- 映射到业务功能&#xa;- 基于状态的动态映射&#xa;- 统一功能ID&#xa;- 用户自定义映射" vertex="1">
+          <mxGeometry height="85" width="115" x="310" y="136" as="geometry" />
         </mxCell>
-        <mxCell id="7gc13BZCewMnmX1fS9-D-7" parent="1" style="rounded=1;fillColor=#4CAF50;strokeColor=#1B5E20;fontColor=#FFFFFF;fontSize=10;whiteSpace=wrap;html=1;align=left;" value="事件分发模块&#xa;&#xa;- 分发给业务模块&#xa;- 多业务订阅&#xa;- 智能过滤&#xa;- 事件消费机制&#xa;- 优先级分发" vertex="1">
-          <mxGeometry height="85" width="115" x="415" y="204" as="geometry" />
+        <mxCell id="7gc13BZCewMnmX1fS9-D-25" edge="1" parent="7gc13BZCewMnmX1fS9-D-3" source="7gc13BZCewMnmX1fS9-D-5" style="endArrow=classic;html=1;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;entryX=0;entryY=0.5;strokeWidth=2;strokeColor=#388E3C;flowAnimation=1;" target="7gc13BZCewMnmX1fS9-D-6">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7gc13BZCewMnmX1fS9-D-8" parent="1" style="rounded=1;fillColor=#66BB6A;strokeColor=#1B5E20;fontColor=#FFFFFF;fontSize=10;whiteSpace=wrap;html=1;align=left;" value="配置管理模块&#xa;&#xa;- 配置组合键&#xa;- 功能映射规则&#xa;- 业务订阅关系&#xa;- 过滤条件&#xa;- 优先级配置" vertex="1">
-          <mxGeometry height="95" width="115" x="540" y="204" as="geometry" />
+        <mxCell id="7gc13BZCewMnmX1fS9-D-26" edge="1" parent="7gc13BZCewMnmX1fS9-D-3" source="7gc13BZCewMnmX1fS9-D-6" style="endArrow=classic;html=1;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;entryX=0;entryY=0.5;strokeWidth=2;strokeColor=#388E3C;flowAnimation=1;" target="7gc13BZCewMnmX1fS9-D-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7gc13BZCewMnmX1fS9-D-8" parent="7gc13BZCewMnmX1fS9-D-3" style="rounded=1;fillColor=#66BB6A;strokeColor=#1B5E20;fontColor=#FFFFFF;fontSize=10;whiteSpace=wrap;html=1;align=left;" value="配置管理模块&#xa;&#xa;- 配置组合键&#xa;- 功能映射规则&#xa;- 业务订阅关系&#xa;- 过滤条件&#xa;- 优先级配置" vertex="1">
+          <mxGeometry height="95" width="115" x="10" y="41" as="geometry" />
+        </mxCell>
+        <mxCell id="7gc13BZCewMnmX1fS9-D-33" edge="1" parent="7gc13BZCewMnmX1fS9-D-3" source="7gc13BZCewMnmX1fS9-D-8" style="endArrow=classic;html=1;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.25;entryX=1;entryY=0.75;strokeWidth=1.5;strokeColor=#66BB6A;dashed=1;" target="7gc13BZCewMnmX1fS9-D-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7gc13BZCewMnmX1fS9-D-34" edge="1" parent="7gc13BZCewMnmX1fS9-D-3" source="7gc13BZCewMnmX1fS9-D-8" style="endArrow=classic;html=1;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.75;entryX=1;entryY=0.75;strokeWidth=1.5;strokeColor=#66BB6A;dashed=1;" target="7gc13BZCewMnmX1fS9-D-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7gc13BZCewMnmX1fS9-D-4" parent="7gc13BZCewMnmX1fS9-D-3" style="rounded=1;fillColor=#4CAF50;strokeColor=#1B5E20;fontColor=#FFFFFF;fontSize=10;whiteSpace=wrap;html=1;align=left;" value="按键事件接收模块&#xa;&#xa;- 接收平台层按键事件&#xa;- 实时接收&#xa;- 无事件丢失&#xa;- 线程安全" vertex="1">
+          <mxGeometry height="85" width="115" x="150" y="31" as="geometry" />
+        </mxCell>
+        <mxCell id="7gc13BZCewMnmX1fS9-D-24" edge="1" parent="7gc13BZCewMnmX1fS9-D-3" source="7gc13BZCewMnmX1fS9-D-4" style="endArrow=classic;html=1;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;entryX=0;entryY=0.5;strokeWidth=2;strokeColor=#388E3C;flowAnimation=1;" target="7gc13BZCewMnmX1fS9-D-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7gc13BZCewMnmX1fS9-D-32" edge="1" parent="7gc13BZCewMnmX1fS9-D-3" source="7gc13BZCewMnmX1fS9-D-8" style="endArrow=classic;html=1;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;entryX=1;entryY=0.5;strokeWidth=1.5;strokeColor=#66BB6A;dashed=1;" target="7gc13BZCewMnmX1fS9-D-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="67" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="7gc13BZCewMnmX1fS9-D-9" parent="1" style="rounded=1;fillColor=#66BB6A;strokeColor=#1B5E20;fontColor=#FFFFFF;fontSize=10;whiteSpace=wrap;html=1;align=left;" value="状态管理模块&#xa;&#xa;- 业务状态管理&#xa;- 设备状态管理&#xa;- 用户配置状态&#xa;- 实时状态通知" vertex="1">
           <mxGeometry height="95" width="115" x="665" y="204" as="geometry" />
@@ -1550,15 +1572,6 @@
         <mxCell id="7gc13BZCewMnmX1fS9-D-23" edge="1" parent="1" source="7gc13BZCewMnmX1fS9-D-2" style="endArrow=classic;html=1;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;entryX=0.5;entryY=0;strokeWidth=2;strokeColor=#1976D2;flowAnimation=1;" target="7gc13BZCewMnmX1fS9-D-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7gc13BZCewMnmX1fS9-D-24" edge="1" parent="1" source="7gc13BZCewMnmX1fS9-D-4" style="endArrow=classic;html=1;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;entryX=0;entryY=0.5;strokeWidth=2;strokeColor=#388E3C;flowAnimation=1;" target="7gc13BZCewMnmX1fS9-D-5">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="7gc13BZCewMnmX1fS9-D-25" edge="1" parent="1" source="7gc13BZCewMnmX1fS9-D-5" style="endArrow=classic;html=1;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;entryX=0;entryY=0.5;strokeWidth=2;strokeColor=#388E3C;flowAnimation=1;" target="7gc13BZCewMnmX1fS9-D-6">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="7gc13BZCewMnmX1fS9-D-26" edge="1" parent="1" source="7gc13BZCewMnmX1fS9-D-6" style="endArrow=classic;html=1;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;entryX=0;entryY=0.5;strokeWidth=2;strokeColor=#388E3C;flowAnimation=1;" target="7gc13BZCewMnmX1fS9-D-7">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="7gc13BZCewMnmX1fS9-D-27" edge="1" parent="1" source="7gc13BZCewMnmX1fS9-D-7" style="endArrow=classic;html=1;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;entryX=0.5;entryY=0;strokeWidth=2;strokeColor=#E65100;flowAnimation=1;" target="7gc13BZCewMnmX1fS9-D-14">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -1589,19 +1602,6 @@
               <mxPoint x="597" y="420" />
             </Array>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="7gc13BZCewMnmX1fS9-D-32" edge="1" parent="1" source="7gc13BZCewMnmX1fS9-D-8" style="endArrow=classic;html=1;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;entryX=1;entryY=0.5;strokeWidth=1.5;strokeColor=#66BB6A;dashed=1;" target="7gc13BZCewMnmX1fS9-D-4">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="540" y="246" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="7gc13BZCewMnmX1fS9-D-33" edge="1" parent="1" source="7gc13BZCewMnmX1fS9-D-8" style="endArrow=classic;html=1;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.25;entryX=1;entryY=0.75;strokeWidth=1.5;strokeColor=#66BB6A;dashed=1;" target="7gc13BZCewMnmX1fS9-D-6">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="7gc13BZCewMnmX1fS9-D-34" edge="1" parent="1" source="7gc13BZCewMnmX1fS9-D-8" style="endArrow=classic;html=1;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.75;entryX=1;entryY=0.75;strokeWidth=1.5;strokeColor=#66BB6A;dashed=1;" target="7gc13BZCewMnmX1fS9-D-7">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7gc13BZCewMnmX1fS9-D-35" edge="1" parent="1" source="7gc13BZCewMnmX1fS9-D-9" style="endArrow=classic;html=1;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.25;entryX=0;entryY=0.25;strokeWidth=1.5;strokeColor=#66BB6A;dashed=1;" target="7gc13BZCewMnmX1fS9-D-6">
           <mxGeometry relative="1" as="geometry" />
