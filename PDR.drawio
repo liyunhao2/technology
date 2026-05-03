@@ -1882,7 +1882,7 @@
         <mxCell id="MFZ5kP06NLj4yKUy6rD6-44" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#1E8449;fontStyle=1;" value="基础组件层（全局通用）" vertex="1">
           <mxGeometry height="20" width="140" x="290" as="geometry" />
         </mxCell>
-        <mxCell id="MFZ5kP06NLj4yKUy6rD6-48" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1948A;strokeColor=#C0392B;fontSize=12;fontStyle=1;verticalAlign=top;" value="View" vertex="1">
+        <mxCell id="MFZ5kP06NLj4yKUy6rD6-48" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1948A;strokeColor=#C0392B;fontSize=12;fontStyle=1;verticalAlign=top;" value="MenuView" vertex="1">
           <mxGeometry height="60" width="180" x="500" y="600" as="geometry" />
         </mxCell>
         <mxCell id="MFZ5kP06NLj4yKUy6rD6-49" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7FB3D5;strokeColor=#2980B9;fontSize=12;fontStyle=1;verticalAlign=top;" value="BluetoothHandler" vertex="1">
@@ -1894,10 +1894,10 @@
         <mxCell id="MFZ5kP06NLj4yKUy6rD6-51" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7FB3D5;strokeColor=#2980B9;fontSize=12;fontStyle=1;verticalAlign=top;" value="..." vertex="1">
           <mxGeometry height="30" width="50" x="630" y="520" as="geometry" />
         </mxCell>
-        <mxCell id="MFZ5kP06NLj4yKUy6rD6-52" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1948A;strokeColor=#C0392B;fontSize=12;fontStyle=1;verticalAlign=middle;" value="SettingsPage" vertex="1">
+        <mxCell id="MFZ5kP06NLj4yKUy6rD6-52" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1948A;strokeColor=#C0392B;fontSize=12;fontStyle=1;verticalAlign=middle;" value="SettingsMenu" vertex="1">
           <mxGeometry height="30" width="80" x="500" y="630" as="geometry" />
         </mxCell>
-        <mxCell id="MFZ5kP06NLj4yKUy6rD6-53" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1948A;strokeColor=#C0392B;fontSize=12;fontStyle=1;verticalAlign=middle;" value="MainPage" vertex="1">
+        <mxCell id="MFZ5kP06NLj4yKUy6rD6-53" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1948A;strokeColor=#C0392B;fontSize=12;fontStyle=1;verticalAlign=middle;" value="MainMenu" vertex="1">
           <mxGeometry height="30" width="70" x="580" y="630" as="geometry" />
         </mxCell>
         <mxCell id="MFZ5kP06NLj4yKUy6rD6-54" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1948A;strokeColor=#C0392B;fontSize=12;fontStyle=1;verticalAlign=middle;" value="..." vertex="1">
