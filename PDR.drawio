@@ -1893,6 +1893,11 @@
             <mxPoint x="450" y="289.97" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="jOEnAYEElQIfl5j76EUN-1" connectable="0" parent="MFZ5kP06NLj4yKUy6rD6-59" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="获取菜单数据" vertex="1">
+          <mxGeometry relative="1" x="0.1289" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
