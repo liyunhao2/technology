@@ -1702,7 +1702,7 @@
           <mxGeometry height="75" width="190" x="569" y="210" as="geometry" />
         </mxCell>
         <mxCell id="pHx-a6iAzRHuobCVbLE4-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#82E0AA;strokeColor=#229954;fontSize=12;" value="ViewModel层&lt;br&gt;(业务逻辑处理)" vertex="1">
-          <mxGeometry height="65" width="190" x="280" y="210" as="geometry" />
+          <mxGeometry height="65" width="190" x="249" y="210" as="geometry" />
         </mxCell>
         <mxCell id="pHx-a6iAzRHuobCVbLE4-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5F5E3;strokeColor=#27AE60;fontSize=12;fontStyle=1;" value="View层更新&lt;br&gt;(界面刷新)" vertex="1">
           <mxGeometry height="65" width="190" x="-40" y="210" as="geometry" />
@@ -1731,7 +1731,7 @@
         <mxCell id="pHx-a6iAzRHuobCVbLE4-14" edge="1" parent="1" source="pHx-a6iAzRHuobCVbLE4-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0;exitY=0.5;entryX=1;entryY=0.5;endArrow=classic;strokeColor=#27AE60;strokeWidth=2;" target="pHx-a6iAzRHuobCVbLE4-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pHx-a6iAzRHuobCVbLE4-15" connectable="0" parent="pHx-a6iAzRHuobCVbLE4-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontColor=#27AE60;" value="控件事件/命令绑定" vertex="1">
+        <mxCell id="pHx-a6iAzRHuobCVbLE4-15" connectable="0" parent="pHx-a6iAzRHuobCVbLE4-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontColor=#27AE60;" value="控件事件+焦点/命令绑定" vertex="1">
           <mxGeometry relative="1" x="-0.2" y="2" as="geometry" />
         </mxCell>
         <mxCell id="pHx-a6iAzRHuobCVbLE4-16" edge="1" parent="1" source="pHx-a6iAzRHuobCVbLE4-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0;exitY=0.5;entryX=1;entryY=0.5;endArrow=classic;strokeColor=#27AE60;strokeWidth=2;" target="pHx-a6iAzRHuobCVbLE4-6">
