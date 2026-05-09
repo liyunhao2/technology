@@ -1702,13 +1702,13 @@
           <mxGeometry height="75" width="190" x="569" y="210" as="geometry" />
         </mxCell>
         <mxCell id="pHx-a6iAzRHuobCVbLE4-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#82E0AA;strokeColor=#229954;fontSize=12;" value="ViewModel层&lt;br&gt;(业务逻辑处理)" vertex="1">
-          <mxGeometry height="65" width="190" x="249" y="210" as="geometry" />
+          <mxGeometry height="65" width="190" x="230" y="210" as="geometry" />
         </mxCell>
         <mxCell id="pHx-a6iAzRHuobCVbLE4-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5F5E3;strokeColor=#27AE60;fontSize=12;fontStyle=1;" value="View层更新&lt;br&gt;(界面刷新)" vertex="1">
           <mxGeometry height="65" width="190" x="-40" y="210" as="geometry" />
         </mxCell>
         <mxCell id="pHx-a6iAzRHuobCVbLE4-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D4E6F1;strokeColor=#1A5276;fontSize=12;fontStyle=1;" value="状态管理模块&lt;br&gt;(Model层)" vertex="1">
-          <mxGeometry height="65" width="220" x="265" y="370" as="geometry" />
+          <mxGeometry height="65" width="220" x="215" y="370" as="geometry" />
         </mxCell>
         <mxCell id="pHx-a6iAzRHuobCVbLE4-8" edge="1" parent="1" source="pHx-a6iAzRHuobCVbLE4-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;endArrow=classic;strokeColor=#27AE60;strokeWidth=2;" target="pHx-a6iAzRHuobCVbLE4-2">
           <mxGeometry relative="1" as="geometry" />
