@@ -1724,7 +1724,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="_XX6st77lgQINC6xoaVJ" name="菜单分层图">
-    <mxGraphModel dx="2005" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1178" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1744,7 +1744,7 @@
           <mxGeometry height="60" width="110" x="175" y="500" as="geometry" />
         </mxCell>
         <mxCell id="MFZ5kP06NLj4yKUy6rD6-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;dashed=1;dashPattern=5 5;fontSize=12;fontStyle=0;verticalAlign=top;" value="输入层&lt;br&gt;(按键分发系统)" vertex="1">
-          <mxGeometry height="50" width="200" x="-90" y="165" as="geometry" />
+          <mxGeometry height="50" width="110" y="165" as="geometry" />
         </mxCell>
         <mxCell id="MFZ5kP06NLj4yKUy6rD6-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontSize=12;fontStyle=0;" value="MenuSysterm&lt;br&gt;事件接收与协调" vertex="1">
           <mxGeometry height="60" width="180" x="190" y="156" as="geometry" />
@@ -1838,13 +1838,13 @@
         <mxCell id="MFZ5kP06NLj4yKUy6rD6-54" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontSize=12;fontStyle=1;verticalAlign=middle;" value="..." vertex="1">
           <mxGeometry height="30" width="30" x="600" y="445" as="geometry" />
         </mxCell>
-        <mxCell id="B4smBcHTNd6BgvETQTfl-2" edge="1" parent="1" source="MFZ5kP06NLj4yKUy6rD6-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=classic;strokeColor=#2E86C1;strokeWidth=2;exitX=0.827;exitY=0.999;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.487;entryY=0.047;entryDx=0;entryDy=0;entryPerimeter=0;" target="MFZ5kP06NLj4yKUy6rD6-13">
+        <mxCell id="B4smBcHTNd6BgvETQTfl-2" edge="1" parent="1" source="MFZ5kP06NLj4yKUy6rD6-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=classic;strokeColor=#2E86C1;strokeWidth=2;entryX=0.835;entryY=1.003;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="MFZ5kP06NLj4yKUy6rD6-10">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="620.5" y="218.5" as="sourcePoint" />
+            <mxPoint x="760" y="250" as="sourcePoint" />
             <mxPoint x="619.5" y="270.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="B4smBcHTNd6BgvETQTfl-3" connectable="0" parent="B4smBcHTNd6BgvETQTfl-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontColor=#2E86C1;" value="获取菜单数据" vertex="1">
+        <mxCell id="B4smBcHTNd6BgvETQTfl-3" connectable="0" parent="B4smBcHTNd6BgvETQTfl-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontColor=#2E86C1;" value="菜单数据" vertex="1">
           <mxGeometry relative="1" x="-0.2" y="2" as="geometry" />
         </mxCell>
       </root>
