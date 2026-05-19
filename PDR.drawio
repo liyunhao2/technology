@@ -1749,7 +1749,7 @@
         <mxCell id="MFZ5kP06NLj4yKUy6rD6-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7FB3D5;strokeColor=#2980B9;fontSize=12;fontStyle=1;" value="MenuSysterm&lt;br&gt;事件接收与协调" vertex="1">
           <mxGeometry height="60" width="180" x="190" y="156" as="geometry" />
         </mxCell>
-        <mxCell id="MFZ5kP06NLj4yKUy6rD6-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7FB3D5;strokeColor=#2980B9;fontSize=12;fontStyle=1;verticalAlign=top;" value="IBusinessHandler&lt;br&gt;规则评估/数据提供/动作处理" vertex="1">
+        <mxCell id="MFZ5kP06NLj4yKUy6rD6-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7FB3D5;strokeColor=#2980B9;fontSize=12;fontStyle=1;verticalAlign=top;" value="IMenuViewModel&lt;br&gt;规则评估/数据提供/动作处理" vertex="1">
           <mxGeometry height="100" width="240" x="440" y="470" as="geometry" />
         </mxCell>
         <mxCell id="MFZ5kP06NLj4yKUy6rD6-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#5DADE2;strokeColor=#2E86C1;fontSize=12;" value="NavigationController&lt;br&gt;导航控制" vertex="1">
