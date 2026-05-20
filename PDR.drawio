@@ -1577,7 +1577,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="LdKGyjTgG9GF4L0qHzOk" name="按键分发">
-    <mxGraphModel dx="1414" dy="1954" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1178" dy="1823" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1640,19 +1640,17 @@
         <mxCell id="Qhw40NzX-HyWoS5jrx3P-19" connectable="0" parent="Qhw40NzX-HyWoS5jrx3P-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontColor=#2E86C1;" value="回调分发" vertex="1">
           <mxGeometry relative="1" x="-0.2" y="2" as="geometry" />
         </mxCell>
-        <mxCell id="Qhw40NzX-HyWoS5jrx3P-26" edge="1" parent="1" source="Qhw40NzX-HyWoS5jrx3P-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;dashed=1;dashPattern=5 5;endArrow=classic;strokeColor=#8E44AD;strokeWidth=2;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Qhw40NzX-HyWoS5jrx3P-8">
+        <mxCell id="Qhw40NzX-HyWoS5jrx3P-26" edge="1" parent="1" source="Qhw40NzX-HyWoS5jrx3P-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;dashPattern=5 5;endArrow=classic;strokeColor=#8E44AD;strokeWidth=2;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="Qhw40NzX-HyWoS5jrx3P-4">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="600" y="320" />
-              <mxPoint x="600" y="320" />
-            </Array>
+            <Array as="points" />
+            <mxPoint x="730" y="330" as="sourcePoint" />
             <mxPoint x="740" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Qhw40NzX-HyWoS5jrx3P-27" connectable="0" parent="Qhw40NzX-HyWoS5jrx3P-26" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontColor=#8E44AD;" value="查询映射数据" vertex="1">
+        <mxCell id="Qhw40NzX-HyWoS5jrx3P-27" connectable="0" parent="Qhw40NzX-HyWoS5jrx3P-26" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontColor=#8E44AD;" value="按键映射数据" vertex="1">
           <mxGeometry relative="1" x="-0.1" y="2" as="geometry" />
         </mxCell>
-        <mxCell id="4dNFWnYxPu4PejONlcJr-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;align=left;" value="&lt;div&gt;&lt;span style=&quot;color: rgb(16, 20, 26); font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, 黑体, 宋体, sans-serif, TdocsUncommon; font-size: 14px; white-space: pre-line; background-color: rgba(255, 255, 255, 0.92);&quot;&gt;评审结论说明：&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;color: rgb(16, 20, 26); font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, 黑体, 宋体, sans-serif, TdocsUncommon; font-size: 14px; white-space: pre-line; background-color: rgba(255, 255, 255, 0.92);&quot;&gt;1、注册全局拦截器，进行修改后分发&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(16, 20, 26); font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, 黑体, 宋体, sans-serif, TdocsUncommon; font-size: 14px; white-space: pre-line; background-color: rgba(255, 255, 255, 0.92);&quot;&gt;2、&lt;/span&gt;&lt;span style=&quot;background-color: rgba(255, 255, 255, 0.92); color: rgb(16, 20, 26); font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, 黑体, 宋体, sans-serif, TdocsUncommon; font-size: 14px; white-space: pre-line;&quot;&gt;整个按键放在Usecase，作为常驻业务。&lt;/span&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="4dNFWnYxPu4PejONlcJr-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;align=left;" value="&lt;div&gt;&lt;span style=&quot;color: rgb(16, 20, 26); font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, 黑体, 宋体, sans-serif, TdocsUncommon; font-size: 14px; white-space: pre-line; background-color: rgba(255, 255, 255, 0.92);&quot;&gt;评审结论说明：&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;color: rgb(16, 20, 26); font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, 黑体, 宋体, sans-serif, TdocsUncommon; font-size: 14px; white-space: pre-line; background-color: rgba(255, 255, 255, 0.92);&quot;&gt;1、注册全局拦截器，进行修改后分发&lt;/span&gt;" vertex="1">
           <mxGeometry height="60" width="290" x="340" y="-30" as="geometry" />
         </mxCell>
       </root>
