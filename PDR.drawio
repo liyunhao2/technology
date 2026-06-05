@@ -2258,10 +2258,10 @@
             <mxPoint x="700" y="20" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bSjE-4jhU5x6dyx9ZHPm-3" edge="1" parent="1" source="J5x5-f41ZbAgv_Y6v5Yi-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="J5x5-f41ZbAgv_Y6v5Yi-9">
+        <mxCell id="bSjE-4jhU5x6dyx9ZHPm-3" edge="1" parent="1" source="J5x5-f41ZbAgv_Y6v5Yi-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="J5x5-f41ZbAgv_Y6v5Yi-11">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="650" y="120" as="sourcePoint" />
-            <mxPoint x="651" y="160" as="targetPoint" />
+            <mxPoint x="740" y="196" as="sourcePoint" />
+            <mxPoint x="740" y="156.00000000000023" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="bSjE-4jhU5x6dyx9ZHPm-5" connectable="0" parent="bSjE-4jhU5x6dyx9ZHPm-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="菜单数据" vertex="1">
