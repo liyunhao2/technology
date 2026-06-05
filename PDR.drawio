@@ -2224,12 +2224,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="JqzZT5xPWNd9mHgRjPoS" name="新菜单">
-    <mxGraphModel dx="975" dy="1710" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="808" dy="1618" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="J5x5-f41ZbAgv_Y6v5Yi-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fontStyle=0;verticalAlign=top;" value="View层" vertex="1">
-          <mxGeometry height="40" width="210" x="478" y="306" as="geometry" />
+          <mxGeometry height="40" width="210" x="479" y="306" as="geometry" />
         </mxCell>
         <mxCell id="J5x5-f41ZbAgv_Y6v5Yi-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;verticalAlign=top;" value="菜单管理" vertex="1">
           <mxGeometry height="168" width="220" x="474" y="92" as="geometry" />
