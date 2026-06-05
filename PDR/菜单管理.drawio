@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="O9LJ6w_Ox6_3WO0_kdH-">
-    <mxGraphModel dx="1414" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="808" dy="449" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -19,7 +19,7 @@
         <mxCell id="BPGt-FlPWhrBr0EjRxr--5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fontStyle=0;" value="菜单树管理" vertex="1">
           <mxGeometry height="40" width="100" x="171" y="290" as="geometry" />
         </mxCell>
-        <mxCell id="BPGt-FlPWhrBr0EjRxr--6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fontStyle=0;verticalAlign=top;" value="前台菜单VM" vertex="1">
+        <mxCell id="BPGt-FlPWhrBr0EjRxr--6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fontStyle=0;verticalAlign=top;" value="菜单VM" vertex="1">
           <mxGeometry height="30" width="110" x="161" y="110" as="geometry" />
         </mxCell>
         <mxCell id="BPGt-FlPWhrBr0EjRxr--7" edge="1" parent="1" source="BPGt-FlPWhrBr0EjRxr--3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="BPGt-FlPWhrBr0EjRxr--6">
