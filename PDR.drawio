@@ -2282,7 +2282,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="L9ZHfRo5t4X5nJASA8vo" name="第 17 页">
-    <mxGraphModel dx="975" dy="1710" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1178" dy="1823" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2351,9 +2351,6 @@
           <mxGeometry relative="1" x="0.6992" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="KRl2pbbkgkYK4o5Wy0Us-33" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="说明：&lt;br&gt;1、通过设置属性，可以创建POP，有模态与非模态之分。&lt;br&gt;2、非模态POP：&lt;div&gt;（1）创建View，不依赖于焦点View，防止焦点不在，POP会消失。&lt;br&gt;（2）既可以通过业务VM调用，也可以通过popVM调用。即：有VM的，在VM处理，没有VM的，在通用POP处理。&lt;br&gt;（3）销毁方式1：启动定时器，定时销毁。&lt;br&gt;（4）销毁方式2：按键处理时也销毁View。&lt;br&gt;3、模态POP：&lt;br&gt;（1）通过业务VM设置属性创建，模态POP依附在业务本身的vm，是View的一个Page，按键都会分发到该VM。&lt;br&gt;（2）业务可通过设置属性销毁模态POP。&lt;br&gt;（3）业务没有VM的，可以通公共popVM设置属性创建，公共popVM设置焦点，创建模态PopView。&lt;br&gt;（4）业务可通过&lt;/div&gt;" vertex="1">
-          <mxGeometry height="270" width="340" x="940" y="-30" as="geometry" />
         </mxCell>
         <mxCell id="KRl2pbbkgkYK4o5Wy0Us-34" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;verticalAlign=top;" value="焦点View" vertex="1">
           <mxGeometry height="180" width="180" x="470" y="-40" as="geometry" />
@@ -2425,6 +2422,12 @@
         </mxCell>
         <mxCell id="KRl2pbbkgkYK4o5Wy0Us-48" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;align=center;verticalAlign=middle;" value="创建模态PopView（&lt;span style=&quot;color: rgb(204, 0, 0);&quot;&gt;变成焦点&lt;/span&gt;）" vertex="1">
           <mxGeometry height="115" width="115" x="710" y="-5" as="geometry" />
+        </mxCell>
+        <mxCell id="KRl2pbbkgkYK4o5Wy0Us-50" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;span style=&quot;&quot;&gt;说明：&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;1、通过设置属性，可以创建POP，有模态与非模态之分。&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;2、非模态POP：&lt;/span&gt;&lt;div style=&quot;&quot;&gt;（1）创建View，不依赖于焦点View，防止焦点不在，POP会消失。&lt;br&gt;（2）既可以通过业务VM调用，也可以通过popVM调用。即：有VM的，在VM处理，没有VM的，在通用POP处理。&lt;br&gt;（3）销毁方式1：启动定时器，定时销毁。&lt;br&gt;（4）销毁方式2：按键处理时也销毁View。&lt;br&gt;3、模态POP：&lt;br&gt;（1）通过业务VM设置属性创建，模态POP依附在业务本身的vm，是View的一个Page，按键都会分发到该VM。&lt;br&gt;（2）业务可通过设置属性销毁模态POP。&lt;br&gt;（3）业务没有VM的，可以通公共popVM，处理事件，设置属性创建，公共popVM设置焦点，创建模态PopView。&lt;br&gt;（4）&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;popVM创建出来的模态PopView，通过处理业务事件，进行销毁。&lt;br&gt;（5）建议popVM，给每个模态pop一个唯一ID，能够支持，多个模态pop，并且互不干扰。&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="320" width="360" x="900" as="geometry" />
+        </mxCell>
+        <mxCell id="KRl2pbbkgkYK4o5Wy0Us-51" connectable="0" parent="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="设置属性（&lt;span style=&quot;color: rgb(204, 0, 0);&quot;&gt;POP，模态&lt;/span&gt;）" vertex="1">
+          <mxGeometry x="560" y="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
